@@ -95,7 +95,7 @@ def charts(res):
     ax.set_yticks(range(len(rows))); ax.set_yticklabels([r[0] for r in rows]); ax.invert_yaxis()
     ax.set_xlabel("Specific energy (Wh/kg, log scale)")
     handles = [plt.Line2D([], [], marker=mk[lv], color=ps.TEXT2, lw=0, markersize=6) for lv in levels]
-    ax.legend(handles, ["cell", "module / 12 V block", "rack / cabinet"], loc="lower right", ncol=3)
+    ax.legend(handles, ["cell", "module / 12 V block", "rack / cabinet"], loc="upper center", bbox_to_anchor=(0.45, -0.16), ncol=3)
     ax.set_title("Where a water-based sodium battery sits")
     ax.axvline(res["R1_nominal"]["monobloc_Wh_kg"], color=ps.DEEMPH, lw=0.8)
     ps.save(fig, OUT / "s07_energy_density_comparison",
