@@ -1,0 +1,23 @@
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:77: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:99: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+00:00.233  io.stl           | WARNING Removed 36 duplicate triangles during import
+00:00.855  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/previews/preview_r1_monobloc_cut.png'
+PREVIEW r1_monobloc cut -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/previews/preview_r1_monobloc_cut.png
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
+Timer 'STL Import' took 0.45 ms
+Timer 'STL Import' took 0.17 ms
+Timer 'STL Import' took 0.37 ms
+Timer 'STL Import' took 0.10 ms
+Timer 'STL Import' took 0.39 ms
+Timer 'STL Import' took 49916 ns
+Timer 'STL Import' took 48041 ns
+Timer 'STL Import' took 0.62 ms
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 0.61 ms
+Timer 'STL Import' took 0.71 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 0.41 ms
+
+Blender quit
