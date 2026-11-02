@@ -164,6 +164,12 @@
       "n_scf": 8,
       "wall_s": "177",
       "total_mag": "5.00"
+    },
+    "NaTi2PO43": {
+      "status": "DONE",
+      "n_scf": 1,
+      "wall_s": "524",
+      "total_mag": "-0.00"
     }
   }
 }
