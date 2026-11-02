@@ -1,0 +1,18 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+chgnet FePO4_olivine            E=   -189.6460 eV  steps= 137  fmax=0.009  V=  285.52     8.0s
+chgnet LiFePO4                  E=   -210.8542 eV  steps=  54  fmax=0.013  V=  300.77     3.7s
+chgnet LiMn2O4                  E=   -108.6317 eV  steps=   2  fmax=0.030  V=  148.66     0.1s
+chgnet Li_bcc                   E=     -1.8802 eV  steps=   4  fmax=0.000  V=   20.08     0.1s
+chgnet MnFeCN6                  E=   -119.9053 eV  steps=  53  fmax=0.019  V=  285.08     1.2s
+chgnet MnO2_layer_dry           E=   -218.7288 eV  steps=  38  fmax=0.001  V=  485.89     2.9s
+chgnet MnO_rocksalt             E=    -17.9597 eV  steps=   4  fmax=0.000  V=   22.84     0.1s
+chgnet Na2MnFeCN6               E=   -126.9342 eV  steps=  27  fmax=0.016  V=  289.18     0.7s
+chgnet Na3Ti2PO43               E=   -303.9649 eV  steps= 152  fmax=0.023  V=  519.42    12.2s
+chgnet NaFePO4_olivine          E=   -207.0694 eV  steps= 138  fmax=0.015  V=  334.70     8.6s
+chgnet NaTi2PO43                E=   -293.4142 eV  steps=   4  fmax=0.024  V=  471.98     0.3s
+chgnet Na_bcc                   E=     -1.2889 eV  steps=   0  fmax=0.000  V=   37.84     0.0s
+chgnet birnessite_Na1_9         E=   -316.3087 eV  steps= 600  fmax=0.028  V=  521.62    74.7s
+chgnet birnessite_Na3_9         E=   -325.8061 eV  steps= 183  fmax=0.019  V=  493.86    25.9s
+chgnet birnessite_Na5_9         E=   -333.3764 eV  steps= 286  fmax=0.017  V=  504.75    45.9s
+chgnet lambda_MnO2              E=    -96.8285 eV  steps=  47  fmax=0.025  V=  141.72     2.3s

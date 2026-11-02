@@ -1,0 +1,19 @@
+Matplotlib is building the font cache; this may take a moment.
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+mace_mp0b3 FePO4_olivine            E=   -169.6635 eV  steps= 108  fmax=0.010  V=  285.22    12.9s
+mace_mp0b3 LiFePO4                  E=   -191.0656 eV  steps=  43  fmax=0.024  V=  300.32     6.3s
+mace_mp0b3 LiMn2O4                  E=    -96.6646 eV  steps=   2  fmax=0.019  V=  148.67     0.2s
+mace_mp0b3 Li_bcc                   E=     -1.9005 eV  steps=   2  fmax=0.000  V=   20.29     0.0s
+mace_mp0b3 MnFeCN6                  E=   -117.7104 eV  steps=  93  fmax=0.028  V=  240.65     5.1s
+mace_mp0b3 MnO2_layer_dry           E=   -191.5734 eV  steps=  37  fmax=0.014  V=  489.75     3.6s
+mace_mp0b3 MnO_rocksalt             E=    -15.5644 eV  steps=   4  fmax=0.000  V=   22.85     0.1s
+mace_mp0b3 Na2MnFeCN6               E=   -125.8851 eV  steps=  80  fmax=0.010  V=  248.41     5.2s
+mace_mp0b3 Na3Ti2PO43               E=   -288.0281 eV  steps=  20  fmax=0.025  V=  518.68     3.9s
+mace_mp0b3 NaFePO4_olivine          E=   -186.9985 eV  steps= 142  fmax=0.004  V=  335.01    22.1s
+mace_mp0b3 NaTi2PO43                E=   -277.0403 eV  steps=   0  fmax=0.023  V=  472.00     0.2s
+mace_mp0b3 Na_bcc                   E=     -1.3117 eV  steps=   5  fmax=0.000  V=   39.09     0.1s
+mace_mp0b3 birnessite_Na1_9         E=   -284.5707 eV  steps= 600  fmax=0.009  V=  524.63   162.4s
+mace_mp0b3 birnessite_Na3_9         E=   -294.6496 eV  steps= 600  fmax=0.014  V=  495.97   162.7s
+mace_mp0b3 birnessite_Na5_9         E=   -301.6879 eV  steps= 188  fmax=0.020  V=  508.09    56.0s
+mace_mp0b3 lambda_MnO2              E=    -84.7320 eV  steps=  58  fmax=0.005  V=  140.03     5.2s
