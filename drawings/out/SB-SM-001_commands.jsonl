@@ -1,0 +1,466 @@
+linetype {"load": "*"}
+layer.new {"name": "OUTLINE", "color": 7, "linetype": "Continuous", "lineweight": 0.5}
+layer.new {"name": "THIN", "color": 7, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "HIDDEN", "color": 8, "linetype": "HIDDEN", "lineweight": 0.25}
+layer.new {"name": "CENTER", "color": 1, "linetype": "CENTER", "lineweight": 0.18}
+layer.new {"name": "PHANTOM", "color": 6, "linetype": "PHANTOM", "lineweight": 0.25}
+layer.new {"name": "HATCH", "color": 8, "linetype": "Continuous", "lineweight": 0.13}
+layer.new {"name": "DIM", "color": 5, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "TEXT", "color": 7, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BALLOON", "color": 3, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BORDER", "color": 7, "linetype": "Continuous", "lineweight": 0.7}
+layer.new {"name": "FLOW", "color": 4, "linetype": "Continuous", "lineweight": 0.35}
+ltscale {"scale": 2.4}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 4.0, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 2, "DIMLFAC": 1.0}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 4.0, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 0, "DIMLFAC": 1.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [278.7, 900.0], "p2": [761.3, 1210.35]}
+layer.current {"name": "THIN"}
+rectang {"p1": [283.35, 917.2], "p2": [289.85, 927.2]}
+layer.current {"name": "THIN"}
+rectang {"p1": [283.35, 1050.175], "p2": [289.85, 1060.175]}
+layer.current {"name": "THIN"}
+rectang {"p1": [283.35, 1183.15], "p2": [289.85, 1193.15]}
+layer.current {"name": "THIN"}
+rectang {"p1": [750.15, 917.2], "p2": [756.65, 927.2]}
+layer.current {"name": "THIN"}
+rectang {"p1": [750.15, 1050.175], "p2": [756.65, 1060.175]}
+layer.current {"name": "THIN"}
+rectang {"p1": [750.15, 1183.15], "p2": [756.65, 1193.15]}
+layer.current {"name": "OUTLINE"}
+circle {"center": [370.0, 990.0], "radius": 13}
+layer.current {"name": "OUTLINE"}
+circle {"center": [370.0, 950.0], "radius": 13}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [600.0, 940.0], "p2": [660.0, 1000.0]}
+layer.current {"name": "OUTLINE"}
+circle {"center": [630.0, 970.0], "radius": 12}
+layer.current {"name": "THIN"}
+rectang {"p1": [300.7, 970.0], "p2": [316.7, 1140.35]}
+layer.current {"name": "THIN"}
+rectang {"p1": [723.3, 970.0], "p2": [739.3, 1140.35]}
+layer.current {"name": "THIN"}
+rectang {"p1": [460.0, 1120.0], "p2": [500.0, 1136.0]}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [278.7, 870.0], "p2": [761.3, 870.0], "at": [520.0, 830.0], "text": "482.6 (19 IN)", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [248.7, 900.0], "p2": [248.7, 1210.35], "at": [198.7, 1055.175], "text": "310.4 (7U)", "rotation": 90}
+layer.current {"name": "TEXT"}
+text {"at": [278.7, 1250.35], "text": "FRONT VIEW", "height": 16.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[226.96897484966848, 1285.5974519773517], [370.0, 990.0]]}
+circle {"center": [220.0, 1300.0], "radius": 16.0}
+circle {"center": [370.0, 990.0], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [220.0, 1300.0], "text": "52", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[168.97357032271225, 1246.7533009521867], [370.0, 950.0]]}
+circle {"center": [160.0, 1260.0], "radius": 16.0}
+circle {"center": [370.0, 950.0], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [160.0, 1260.0], "text": "53", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[812.0165688821289, 1286.1340406900133], [630.0, 970.0]]}
+circle {"center": [820.0, 1300.0], "radius": 16.0}
+circle {"center": [630.0, 970.0], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [820.0, 1300.0], "text": "54", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[841.2694486123485, 1366.5918878111952], [720.0, 1180.35]]}
+circle {"center": [850.0, 1380.0], "radius": 16.0}
+circle {"center": [720.0, 1180.35], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [850.0, 1380.0], "text": "50", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[405.42431319362964, 1334.9475308876777], [480.0, 1128.0]]}
+circle {"center": [400.0, 1350.0], "radius": 16.0}
+circle {"center": [480.0, 1128.0], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [400.0, 1350.0], "text": "55", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1050.0, 900.0], "p2": [1610.4, 1209.4]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1047.0, 900.0], "p2": [1050.0, 1210.35]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1121.2, 901.2], "p2": [1557.2, 1208.2]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 4.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1161.2, 941.2], "p2": [1517.2, 1168.2]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1162.2, 942.2], "p2": [1516.2, 1167.2]}
+layer.current {"name": "THIN"}
+rectang {"p1": [1162.21, 942.21], "p2": [1516.19, 1167.19]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 1.5, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1172.2, 947.2], "p2": [1333.2, 1157.2]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 3.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1345.2, 947.2], "p2": [1506.2, 1157.2]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 3.0, "angle": 0.0}
+layer.current {"name": "THIN"}
+rectang {"p1": [1120.0, 901.2], "p2": [1121.2, 1208.2]}
+layer.current {"name": "THIN"}
+rectang {"p1": [1068.0, 1050.0], "p2": [1070.0, 1170.0]}
+layer.current {"name": "TEXT"}
+text {"at": [1074.0, 1180.0], "text": "BMS", "height": 10.0, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1050.0, 870.0], "p2": [1610.4, 870.0], "at": [1330.2, 830.0], "text": "560", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1050.0, 800.0], "p2": [1120.0, 800.0], "at": [1145.0, 765.0], "text": "70 COLD BAY", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1121.2, 1239.4], "p2": [1161.2, 1239.4], "at": [1241.2, 1274.4], "text": "40 INSUL.", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1640.4, 947.2], "p2": [1640.4, 1157.2], "at": [1690.4, 1052.2], "text": "210 (21 CELLS)", "rotation": 90}
+layer.current {"name": "BALLOON"}
+line {"points": [[1060.5547933940643, 1343.4096215088605], [1069.0, 1100.0]]}
+circle {"center": [1060.0, 1359.4], "radius": 16.0}
+circle {"center": [1069.0, 1100.0], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [1060.0, 1359.4], "text": "57", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[1176.463517870652, 1343.7957283364844], [1141.2, 1188.2]]}
+circle {"center": [1180.0, 1359.4], "radius": 16.0}
+circle {"center": [1141.2, 1188.2], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [1180.0, 1359.4], "text": "3", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[1292.1490586609416, 1345.4585969109755], [1162.2, 1114.7]]}
+circle {"center": [1300.0, 1359.4], "radius": 16.0}
+circle {"center": [1162.2, 1114.7], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [1300.0, 1359.4], "text": "4", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[1412.4427025052923, 1345.2972607420938], [1252.7, 1047.2]]}
+circle {"center": [1420.0, 1359.4], "radius": 16.0}
+circle {"center": [1252.7, 1047.2], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [1420.0, 1359.4], "text": "20", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[1691.1001889004945, 1306.3802644606924], [1570.4, 1137.4]]}
+circle {"center": [1700.4, 1319.4], "radius": 16.0}
+circle {"center": [1570.4, 1137.4], "radius": 2.4}
+layer.current {"name": "BALLOON"}
+text {"at": [1700.4, 1319.4], "text": "6", "height": 12.8, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1050.0, 690.0], "text": "SECTION A-A (THROUGH COLUMN CENTRES)", "height": 16.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 730.0], "text": "ITEM LIST (cad/out/smodule/sm48t_partlist.csv)", "height": 12.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[60.0, 720.0], [1060.0, 720.0]]}
+line {"points": [[60.0, 703.2], [1060.0, 703.2]]}
+line {"points": [[60.0, 686.4], [1060.0, 686.4]]}
+line {"points": [[60.0, 669.6], [1060.0, 669.6]]}
+line {"points": [[60.0, 652.8], [1060.0, 652.8]]}
+line {"points": [[60.0, 636.0], [1060.0, 636.0]]}
+line {"points": [[60.0, 619.2], [1060.0, 619.2]]}
+line {"points": [[60.0, 602.4], [1060.0, 602.4]]}
+line {"points": [[60.0, 585.6], [1060.0, 585.6]]}
+line {"points": [[60.0, 568.8], [1060.0, 568.8]]}
+line {"points": [[60.0, 552.0], [1060.0, 552.0]]}
+line {"points": [[60.0, 535.2], [1060.0, 535.2]]}
+line {"points": [[60.0, 518.4], [1060.0, 518.4]]}
+line {"points": [[60.0, 501.6], [1060.0, 501.6]]}
+line {"points": [[60.0, 484.79999999999995], [1060.0, 484.79999999999995]]}
+line {"points": [[60.0, 468.0], [1060.0, 468.0]]}
+line {"points": [[60.0, 451.2], [1060.0, 451.2]]}
+line {"points": [[60.0, 434.4], [1060.0, 434.4]]}
+line {"points": [[60.0, 417.59999999999997], [1060.0, 417.59999999999997]]}
+line {"points": [[60.0, 400.8], [1060.0, 400.8]]}
+line {"points": [[60.0, 384.0], [1060.0, 384.0]]}
+line {"points": [[60.0, 367.2], [1060.0, 367.2]]}
+line {"points": [[60.0, 350.4], [1060.0, 350.4]]}
+line {"points": [[60.0, 333.59999999999997], [1060.0, 333.59999999999997]]}
+line {"points": [[60.0, 720.0], [60.0, 333.59999999999997]]}
+line {"points": [[108.0, 720.0], [108.0, 333.59999999999997]]}
+line {"points": [[452.0, 720.0], [452.0, 333.59999999999997]]}
+line {"points": [[500.0, 720.0], [500.0, 333.59999999999997]]}
+line {"points": [[1060.0, 720.0], [1060.0, 333.59999999999997]]}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 711.6], "text": "ITEM", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 711.6], "text": "PART", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 711.6], "text": "QTY", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 711.6], "text": "MATERIAL / SPEC", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 694.8], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 694.8], "text": "outer case (steel, powder coat)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 694.8], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 694.8], "text": "DC01 steel 1.2 mm, zinc + powder coat RAL 7016", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 678.0], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 678.0], "text": "bay/hot-box bulkhead", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 678.0], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 678.0], "text": "DC01 steel 1.2 mm, zinc + powder coat RAL 7016", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 661.2], "text": "3", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 661.2], "text": "evacuated insulation shell 40 mm (D4)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 661.2], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 661.2], "text": "evacuated SS double-wall panel, microporous silica core, k_eff 0.005 W", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 644.4], "text": "4", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 644.4], "text": "inner hot can SS 304 (welded, He-tight)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 644.4], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 644.4], "text": "SS 304 1.0 mm welded inner can", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 627.6], "text": "5", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 627.6], "text": "mica plate heater 150 W (D4)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 627.6], "text": "4", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 627.6], "text": "mica-insulated plate heater 150 W, 48 V DC, 260 C max", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 610.8], "text": "6", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 610.8], "text": "cooling-bypass duct (rear, through insulatio", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 610.8], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 610.8], "text": "SS 304 1.0 mm welded inner can", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 594.0], "text": "7", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 594.0], "text": "rear fan 80 mm + motorised damper (D4)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 594.0], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 594.0], "text": "80 mm 48 V fan + motorised damper (cooling bypass)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 577.2], "text": "20", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 577.2], "text": "P1 anode can (Na reservoir + SS wick), SS 31", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 577.2], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 577.2], "text": "SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 560.4], "text": "21", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 560.4], "text": "P1 beta''-alumina plate 150 x 150 x 1.0", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 560.4], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 560.4], "text": "beta''-alumina plate, Li/Mg-stabilised, >=98 % dense, both faces lappe", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 543.6], "text": "22", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 543.6], "text": "P1 alpha-alumina seal frame (glass-sealed to", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 543.6], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 543.6], "text": "alpha-alumina 99.5 %, glass-sealed frame/feedthrough", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 526.8], "text": "23", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 526.8], "text": "P1 cathode can (granule bed + Mo collector),", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 526.8], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 526.8], "text": "Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 510.0], "text": "24", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 510.0], "text": "P1 + tab (Ni 201)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 510.0], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 510.0], "text": "Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 493.2], "text": "25", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 493.2], "text": "P1 - tab (SS 316L)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 493.2], "text": "84", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 493.2], "text": "SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 476.4], "text": "30", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 476.4], "text": "mica spacer 2 mm", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 476.4], "text": "80", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 476.4], "text": "phlogopite mica sheet 2 mm (cell spacer, 250 C rated)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 459.6], "text": "31", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 459.6], "text": "series strap Ni 201 0.5 mm", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 459.6], "text": "80", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 459.6], "text": "Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 442.8], "text": "40", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 442.8], "text": "+ busbar (Cu, Ni-plated) 30 x 5", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 442.8], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 442.8], "text": "C110 copper bar, Ni-plated 10 um", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 426.0], "text": "41", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 426.0], "text": "- busbar (Cu, Ni-plated) 30 x 5", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 426.0], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 426.0], "text": "C110 copper bar, Ni-plated 10 um", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 409.2], "text": "42", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 409.2], "text": "ceramic power feedthrough (alpha-alumina, br", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 409.2], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 409.2], "text": "alpha-alumina 99.5 %, glass-sealed frame/feedthrough", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 392.4], "text": "50", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 392.4], "text": "front panel 19 in 7U (AL 5052, black)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 392.4], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 392.4], "text": "AL 5052-H32 3 mm front panel, anodised black", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 375.6], "text": "51", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 375.6], "text": "front handle", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 375.6], "text": "2", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 375.6], "text": "AL handle, anodised", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 358.8], "text": "52", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 358.8], "text": "power connector + (120 A)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 358.8], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 358.8], "text": "panel power connector, 120 A, red (+)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [64.8, 342.0], "text": "53", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [112.8, 342.0], "text": "power connector - (120 A)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [456.8, 342.0], "text": "1", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [504.8, 342.0], "text": "panel power connector, 120 A, black (-)", "height": 8.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1150.0, 730.0], "text": "RATING [CALCULATED FROM ASSUMPTIONS]", "height": 12.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[1150.0, 720.0], [1598.0, 720.0]]}
+line {"points": [[1150.0, 701.6], [1598.0, 701.6]]}
+line {"points": [[1150.0, 683.2], [1598.0, 683.2]]}
+line {"points": [[1150.0, 664.8], [1598.0, 664.8]]}
+line {"points": [[1150.0, 646.4], [1598.0, 646.4]]}
+line {"points": [[1150.0, 628.0], [1598.0, 628.0]]}
+line {"points": [[1150.0, 609.6], [1598.0, 609.6]]}
+line {"points": [[1150.0, 591.2], [1598.0, 591.2]]}
+line {"points": [[1150.0, 572.8], [1598.0, 572.8]]}
+line {"points": [[1150.0, 554.4], [1598.0, 554.4]]}
+line {"points": [[1150.0, 720.0], [1150.0, 554.4]]}
+line {"points": [[1318.0, 720.0], [1318.0, 554.4]]}
+line {"points": [[1598.0, 720.0], [1598.0, 554.4]]}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 710.8], "text": "PARAMETER", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 710.8], "text": "VALUE", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 692.4], "text": "CONFIG", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 692.4], "text": "21S4P = 84 P1 CELLS", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 674.0], "text": "V NOM / MAX / MIN", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 674.0], "text": "48.3 / 57.75 / 42.0 V", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 655.6], "text": "CAPACITY / ENERGY", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 655.6], "text": "47.0 Ah / 2.27 kWh", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 637.2], "text": "MAX CONT. POWER", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 637.2], "text": "1.32 kW (C/1.7)", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 618.8], "text": "OPERATING T", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 618.8], "text": "190 C (180-260)", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 600.4], "text": "STANDBY LOSS", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 600.4], "text": "20 W @ 25 C", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 582.0], "text": "MASS (CALC.)", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 582.0], "text": "80.4 kg", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1154.8, 563.6], "text": "Wh/kg / Wh/L", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1322.8, 563.6], "text": "28 / 27", "height": 8.8, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 260.0], "text": "NOTES", "height": 12.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 243.2], "text": "1. CONCEPT. P1 CELL (150 MM PLATE) NOT YET MADE; R0 GATES G1-G5 MUST PASS FIRST.", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 226.4], "text": "2. HOT BOX 190 C; COLD BAY < 60 C. ONLY ITEMS 40-42 CROSS THE INSULATION.", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 209.6], "text": "3. 21S: 57.75 V MAX < 60 V SELV. 15-MIN UPS NOT POSSIBLE (40 MA/CM2 LIMIT = C/1.5).", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 192.8], "text": "4. HEATERS 4 X 150 W ON INDEPENDENT 270 C THERMAL CUT-OUTS (HW, NOT FIRMWARE).", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [60.0, 176.0], "text": "5. COOLING BYPASS (ITEMS 6-7) OPENS ONLY ABOVE 260 C OR ON BMS FAULT.", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "BORDER"}
+rectang {"p1": [0, 0], "p2": [2376.0, 1680.0]}
+rectang {"p1": [40.0, 40.0], "p2": [2336.0, 1640.0]}
+rectang {"p1": [1576.0, 40.0], "p2": [2336.0, 288.0]}
+line {"points": [[1576.0, 96.0], [2336.0, 96.0]]}
+line {"points": [[1576.0, 144.0], [2336.0, 144.0]]}
+line {"points": [[1576.0, 192.0], [2336.0, 192.0]]}
+line {"points": [[1576.0, 240.0], [2336.0, 240.0]]}
+line {"points": [[2056.0, 40.0], [2056.0, 192.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [1588.0, 264.0], "text": "SALT-BATTERY-LAB  |  SM-48T 48 V SALT-IRON MODULE - GA", "height": 13.6, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1588.0, 216.0], "text": "CONCEPT \u2014 NOT FOR FABRICATION", "height": 14.4, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1588.0, 168.0], "text": "DWG SB-SM-001     REV A     SHEET 1/1", "height": 12.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1588.0, 120.0], "text": "SCALE 1:4 (A2)  UNITS mm  2026-11-02", "height": 10.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1588.0, 64.0], "text": "TOLERANCES: CONCEPT   PROJECTION: 1ST ANGLE", "height": 10.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [2068.0, 168.0], "text": "CAD: CADCraft (headless CLI)", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [2068.0, 120.0], "text": "3D: build123d / OpenCascade", "height": 8.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [2068.0, 64.0], "text": "SOURCE: params/smodule_params.py, cad/make_smodule.py", "height": 8.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+circle {"center": [2036.0, 168.0], "radius": 10.0}
+circle {"center": [2036.0, 168.0], "radius": 4.8}
+line {"points": [[1992.0, 158.0], [1992.0, 178.0], [2016.0, 174.0], [2016.0, 162.0]], "closed": true}

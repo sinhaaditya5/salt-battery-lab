@@ -1,0 +1,7 @@
+item,part,material,qty,unit_mass_g,total_mass_g,tolerance_spec,qualification_test,bom_item
+1,"P1 anode can (Na reservoir + SS wick), SS 316L","SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)",1,111.25,111.2,"drawn can, flange flat 0.05",QT-07 Na compat.,PM-01
+2,P1 beta''-alumina plate 150 x 150 x 1.0,"beta''-alumina plate, Li/Mg-stabilised, >=98 % dense, both faces lapped",1,73.35,73.3,150 +0/-0.2; t 1.0 +/-0.05; flat 0.05,"QT-01, QT-02, G5 (scale-up)",PM-02
+3,P1 alpha-alumina seal frame (glass-sealed to plate),"alpha-alumina 99.5 %, glass-sealed frame/feedthrough",1,13.51,13.5,frame flat 0.03,"QT-02, QT-03",PM-03
+4,"P1 cathode can (granule bed + Mo collector), Ni 201","Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)",1,123.78,123.8,"drawn can, flange flat 0.05","QT-04, QT-05",PM-04
+5,P1 + tab (Ni 201),"Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)",1,0.89,0.9,-,-,PM-04
+6,P1 - tab (SS 316L),"SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)",1,0.8,0.8,-,-,PM-01

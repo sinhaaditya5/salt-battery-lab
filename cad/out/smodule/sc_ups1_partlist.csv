@@ -1,0 +1,25 @@
+item,part,material,qty,unit_mass_g,total_mass_g,tolerance_spec,qualification_test,bom_item
+1,plinth 100 mm,"steel plinth 100 mm, RAL 9005",1,28779.8,28779.8,-,-,PC-01
+2,frame post 40 x 40,"steel 40x40 frame section, powder coat RAL 9005",4,16328.0,65312.0,-,-,PC-02
+3,frame rail (front/rear),"steel 40x40 frame section, powder coat RAL 9005",4,7536.0,30144.0,-,-,PC-02
+4,side panel L,"steel 1.5 mm, powder coat RAL 7035",2,11021.4,22042.8,-,-,PC-03
+5,rear panel (louvred),"steel 1.5 mm, powder coat RAL 7035",1,7959.9,7959.9,-,-,PC-03
+6,roof with vent,"steel 1.5 mm, powder coat RAL 7035",2,4239.0,5086.8,-,-,PC-04
+7,19-in mounting rail (EIA-310),"telescopic slide rail, zinc steel",4,386.22,1544.8,-,-,PC-05
+8,vent panel 1U,"perforated steel door 1.5 mm, 63 % open area",1,496.09,496.1,-,-,PC-06
+10,SM-48T module (#1),"DC01 steel 1.2 mm, zinc + powder coat RAL 7016",3,596703.57,1790110.8,-,-,SM-48T
+11,SM-48T front panel (#1),"AL 5052-H32 3 mm front panel, anodised black",3,1204.19,3612.6,-,-,SM-48T
+12,module handle,"AL handle, anodised",6,95.19,571.2,-,-,SM-48T
+13,module + connector,"panel power connector, 120 A, red (+)",6,31.86,191.4,-,-,SM-48T
+14,module isolator,"DC isolator 160 A, rotary",3,99.97,300.0,-,-,SM-48T
+15,module LED,status light-pipe,12,0.2,2.4,-,-,SM-48T
+20,"controller 2U (HMI, CAN master, SNMP)","DC01 steel 1.2 mm, zinc + powder coat RAL 7016",1,121154.49,121154.5,-,-,PC-10
+21,controller HMI glass,controller HMI glass,1,76.8,76.8,-,-,PC-10
+22,DC breaker panel 2U,"DC01 steel 1.2 mm, zinc + powder coat RAL 7016",1,54402.7,54402.7,-,-,PC-11
+23,DC MCCB 160 A 2P,DC MCCB 160 A 2-pole,4,122.4,489.6,-,-,PC-11
+30,DC cable + (35 mm2),"35 mm2 DC cable, red",3,560.07,1142.6,-,-,PC-12
+31,DC cable - (35 mm2),"35 mm2 DC cable, black",3,583.11,1211.7,-,-,PC-12
+32,earth bar,"C110 copper bar, Ni-plated 10 um",1,536.4,536.4,-,-,PC-13
+40,door frame,"steel 1.5 mm, powder coat RAL 7035",1,31086.0,31086.0,-,-,PC-14
+41,door perforated sheet,"perforated steel door 1.5 mm, 63 % open area",1,7065.0,7065.0,-,-,PC-14
+42,door handle,"AL handle, anodised",1,149.04,149.0,-,-,PC-14

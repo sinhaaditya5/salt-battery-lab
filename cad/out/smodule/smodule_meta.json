@@ -1,0 +1,91 @@
+{
+ "p1": {
+  "Ah": 11.76,
+  "Wh": 27.05,
+  "thickness_mm": 8.0,
+  "outer_mm": 161.0,
+  "hardware_g": 323.5,
+  "mass_g": 408.8,
+  "Wh_kg": 66.2,
+  "Wh_L": 130.4
+ },
+ "sm48t": {
+  "ix": 354.0,
+  "iy": 354.0,
+  "iz": 225.0,
+  "ox": 438.4,
+  "oy": 438.4,
+  "oz": 309.4,
+  "bay": 70.0,
+  "yc": 289.2,
+  "zc": 154.7,
+  "depth": 560.4,
+  "col": 86.5,
+  "z0": 47.19999999999999,
+  "stack_h": 210.0,
+  "cells_modelled": 84,
+  "ztop": 258.1885115728203,
+  "panel_w": 482.6,
+  "panel_h": 310.35,
+  "partlist": null,
+  "render_groups": [
+   "accent",
+   "alpha",
+   "beta",
+   "black",
+   "busbar",
+   "case",
+   "fuse",
+   "handle",
+   "heater",
+   "insulation",
+   "led",
+   "mica",
+   "nickel",
+   "panel",
+   "pcb",
+   "red",
+   "stainless",
+   "stainless_dark"
+  ],
+  "hardware_kg": 73.19,
+  "cathode_kg": 7.16,
+  "mass_kg": 80.35,
+  "kWh": 2.272,
+  "Wh_kg": 28.3,
+  "Wh_L": 27.1,
+  "envelope_L": 83.9
+ },
+ "cabinet": {
+  "z_modules": [
+   184.45,
+   495.6,
+   806.75
+  ],
+  "z_controller": 1117.9,
+  "z_breakers": 1206.8000000000002,
+  "z_top_used": 1295.7000000000003,
+  "X": 300.0,
+  "Y": 800.0,
+  "Z": 1400.0,
+  "kWh": 6.82,
+  "modules": 3
+ },
+ "drawings": {
+  "SB-SM-001": {
+   "tool": "CADCraft",
+   "commands": 466,
+   "errors": []
+  },
+  "SB-TM-001": {
+   "tool": "CADCraft",
+   "commands": 175,
+   "errors": []
+  },
+  "SB-UPS-001": {
+   "tool": "CADCraft",
+   "commands": 149,
+   "errors": []
+  }
+ }
+}

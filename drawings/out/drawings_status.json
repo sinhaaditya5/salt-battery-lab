@@ -1,0 +1,20 @@
+{
+ "SB-GA-001": {
+  "tool": "CADCraft",
+  "commands": 1161,
+  "errors": [],
+  "paper_png": "/Volumes/Aditya ssd/Salt-Battery-Lab/drawings/out/SB-GA-001_paper.png"
+ },
+ "SB-GA-002": {
+  "tool": "CADCraft",
+  "commands": 355,
+  "errors": [],
+  "paper_png": "/Volumes/Aditya ssd/Salt-Battery-Lab/drawings/out/SB-GA-002_paper.png"
+ },
+ "SB-GA-003": {
+  "tool": "CADCraft",
+  "commands": 731,
+  "errors": [],
+  "paper_png": "/Volumes/Aditya ssd/Salt-Battery-Lab/drawings/out/SB-GA-003_paper.png"
+ }
+}
