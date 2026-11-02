@@ -1,0 +1,1 @@
+Bottom-up cost of one R1 12 V monobloc (UPS design, 40 mg/cm²) per nominal kWh at a 0.5 GWh/yr plant. [CALC] from [ASSUMPTION] material prices and process inputs (params COST); no supplier quotation

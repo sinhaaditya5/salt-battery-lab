@@ -1,0 +1,1 @@
+Energy balance for one R1 monobloc: even if all stored electrical energy became heat, the water's sensible and latent heat absorb it; the plastic case is the main combustible. [CALC] handbook heat capacities, latent heat and PP heat of combustion [LIT]; design masses [CALC]

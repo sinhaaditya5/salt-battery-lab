@@ -1,0 +1,1 @@
+Specific energy at cell, module and rack level: R1 bottom-up (P10–P90 over material assumptions) vs Aquion's last module, a VRLA block, sodium-ion claims and LFP. R1 [CALC]; Aquion [CALC from VENDOR datasheet]; VRLA [CALC]; Na-ion [VENDOR]; LFP [ASSUMPTION typical ranges]

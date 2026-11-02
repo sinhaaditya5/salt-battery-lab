@@ -1,0 +1,1 @@
+Break-even between R1 and Li-ion for indoor UPS backup as a function of Li-ion fire-protection cost and R1 price; black line = parity. [CALC] from params COST ranges; fire-protection cost is the least-known input [ASSUMPTION]

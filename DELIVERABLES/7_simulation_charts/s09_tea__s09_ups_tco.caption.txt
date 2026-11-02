@@ -1,0 +1,1 @@
+15-year cost of providing 1 kWh of 15-minute UPS backup indoors: purchase, replacements, floor area and (for Li-ion) fire protection. [CALC] R1 from bottom-up cost + [TARGET] life; LFP/VRLA prices, lives, floor and fire-protection costs are [ASSUMPTION] ranges (params COST)
