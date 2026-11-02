@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Li_bcc",
+    "calc": "vc-relax",
+    "natoms": 1,
+    "formula": "Li1",
+    "kpts": [
+      22,
+      22,
+      22
+    ],
+    "spin": false,
+    "hubbard": false,
+    "vdw": null,
+    "lane": "A",
+    "note": "alkali metal reference for voltages"
+  },
+  {
+    "name": "Na_bcc",
+    "calc": "vc-relax",
+    "natoms": 1,
+    "formula": "Na1",
+    "kpts": [
+      18,
+      18,
+      18
+    ],
+    "spin": false,
+    "hubbard": false,
+    "vdw": null,
+    "lane": "A",
+    "note": "alkali metal reference for voltages"
+  },
+  {
+    "name": "lambda_MnO2",
+    "calc": "vc-relax",
+    "natoms": 12,
+    "formula": "Mn4 O8",
+    "kpts": [
+      3,
+      3,
+      4
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "LiMn2O4",
+    "calc": "vc-relax",
+    "natoms": 14,
+    "formula": "Li2 Mn4 O8",
+    "kpts": [
+      3,
+      3,
+      4
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "FePO4_olivine",
+    "calc": "vc-relax",
+    "natoms": 24,
+    "formula": "Fe4 P4 O16",
+    "kpts": [
+      2,
+      3,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "LiFePO4",
+    "calc": "vc-relax",
+    "natoms": 28,
+    "formula": "Li4 Fe4 P4 O16",
+    "kpts": [
+      2,
+      3,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "NaFePO4_olivine",
+    "calc": "vc-relax",
+    "natoms": 28,
+    "formula": "Na4 Fe4 P4 O16",
+    "kpts": [
+      2,
+      3,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "NaTi2PO43",
+    "calc": "vc-relax",
+    "natoms": 36,
+    "formula": "Na2 Ti4 P6 O24",
+    "kpts": [
+      2,
+      2,
+      2
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "Na3Ti2PO43",
+    "calc": "vc-relax",
+    "natoms": 40,
+    "formula": "Na6 Ti4 P6 O24",
+    "kpts": [
+      2,
+      2,
+      2
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "validation voltage end member"
+  },
+  {
+    "name": "MnFeCN6",
+    "calc": "vc-relax",
+    "natoms": 14,
+    "formula": "Mn1 Fe1 C6 N6",
+    "kpts": [
+      3,
+      3,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "candidate-C cathode end member (cubic prototype)"
+  },
+  {
+    "name": "Na2MnFeCN6",
+    "calc": "vc-relax",
+    "natoms": 16,
+    "formula": "Na2 Mn1 Fe1 C6 N6",
+    "kpts": [
+      3,
+      3,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "candidate-C cathode end member (cubic prototype)"
+  },
+  {
+    "name": "birnessite_Na3_9",
+    "calc": "vc-relax",
+    "natoms": 48,
+    "formula": "Na3 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "birnessite interlayer + voltage (PBE+U+D3)"
+  },
+  {
+    "name": "birnessite_Na5_9",
+    "calc": "vc-relax",
+    "natoms": 50,
+    "formula": "Na5 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "D",
+    "note": "birnessite interlayer + voltage (PBE+U+D3)"
+  },
+  {
+    "name": "birnessite_Na1_9",
+    "calc": "vc-relax",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "birnessite interlayer + voltage (PBE+U+D3)"
+  },
+  {
+    "name": "birnessite_Na3_9_fixcell",
+    "calc": "relax",
+    "natoms": 48,
+    "formula": "Na3 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "D",
+    "note": "pristine at fixed uMLIP cell (vacancy reference)"
+  },
+  {
+    "name": "birnessite_Na3_9_VMn",
+    "calc": "relax",
+    "natoms": 47,
+    "formula": "Na3 Mn8 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "D",
+    "note": "Mn vacancy at fixed uMLIP cell (dissolution proxy)"
+  }
+]

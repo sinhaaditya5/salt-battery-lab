@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Push pseudopotentials, queue runner and job folders to the instance (only jobs not already there).
+set -euo pipefail
+LAB="/Volumes/Aditya ssd/Salt-Battery-Lab"; HERE="$LAB/sim/s06_dft_ec2"
+IP=$(cat "$HERE/.instance_ip"); KEYF="$LAB/tools/aws/saltlab-dft.pem"
+SSH="ssh -i '$KEYF' -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20"
+rsync -az -e "$SSH" "$LAB/tools/pseudo/gbrv/"{li_pbe_v1.4,na_pbe_v1.5,mn_pbe_v1.5,fe_pbe_v1.5,ti_pbe_v1.4,p_pbe_v1.5,o_pbe_v1.2,h_pbe_v1.4,c_pbe_v1.2,n_pbe_v1.2}.uspp.F.UPF ubuntu@$IP:/work/pseudo/
+rsync -az -e "$SSH" "$HERE/run_queue.sh" ubuntu@$IP:/work/
+rsync -az --ignore-existing -e "$SSH" "$HERE/jobs/" ubuntu@$IP:/work/jobs/
+echo "synced to $IP"
