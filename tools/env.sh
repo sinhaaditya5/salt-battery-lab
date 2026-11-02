@@ -29,3 +29,14 @@ export PATH="$LAB/.venv/bin:$PARC/tools/rust/cargo/bin:$PATH"
 export PYTHONPATH="$LAB${PYTHONPATH:+:$PYTHONPATH}"
 export SOFFICE="$SSD/Applications/LibreOffice.app/Contents/MacOS/soffice"
 export LO_PROFILE="-env:UserInstallation=file:///Volumes/Aditya%20ssd/Salt-Battery-Lab/tools/lo_profile"
+# ---- Linux build host (EC2, tools/ec2_build): same lab path via symlink; tool locations differ
+if [ "$(uname)" = "Linux" ]; then
+  export BLENDER=/opt/blender/blender
+  export KICAD_CLI="$(command -v kicad-cli)"
+  export SOFFICE="$(command -v soffice)"
+  export CADCRAFT=/usr/local/bin/cadcraft-cli
+  export FREEROUTING_JAR=/opt/freerouting/freerouting.jar
+  export LO_PROFILE="-env:UserInstallation=file:///work/lo_profile"
+  unset UV_PYTHON_INSTALL_DIR NODE_PATH
+  export PATH="$LAB/.venv/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/local/bin:/usr/bin:/bin"
+fi
