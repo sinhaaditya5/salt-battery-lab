@@ -1,0 +1,126 @@
+{
+ "label": "[CALC] bottom-up from params; Monte Carlo over material assumptions; comparators tagged individually",
+ "R1_nominal": {
+  "stack_Wh_kg": 24.508085646173686,
+  "monobloc_Wh_kg": 20.155603728210515,
+  "monobloc_Wh_L": 31.56570964505805,
+  "monobloc_Wh": 396.45900000000006,
+  "monobloc_kg": 19.66991439929441,
+  "module48_Wh_kg": 17.644723120016018,
+  "module48_kWh": 1.5382609200000001,
+  "cabinet_Wh_kg": 16.96450373014503,
+  "cabinet_kWh": 15.858360000000003,
+  "cabinet_Wh_L": 16.519125000000003,
+  "fraction_at_15min_p50": 0.8127781215309302
+ },
+ "R1_mc": {
+  "stack_Wh_kg": {
+   "p10": 16.722963834715618,
+   "p50": 21.52631758333382,
+   "p90": 26.911849466017795
+  },
+  "monobloc_Wh_kg": {
+   "p10": 13.676752823452528,
+   "p50": 17.551144856712455,
+   "p90": 22.09319285556692
+  },
+  "monobloc_Wh_L": {
+   "p10": 21.040172230714795,
+   "p50": 27.303619029612854,
+   "p90": 34.537173534970094
+  },
+  "monobloc_Wh": {
+   "p10": 264.2603551833317,
+   "p50": 342.9279942881315,
+   "p90": 433.7799921645174
+  },
+  "module48_Wh_kg": {
+   "p10": 11.972973868947095,
+   "p50": 15.364714230938066,
+   "p90": 19.340937440041873
+  },
+  "cabinet_Wh_kg": {
+   "p10": 11.51140533513215,
+   "p50": 14.772391162527043,
+   "p90": 18.595327516014553
+  }
+ },
+ "mass_breakdown_monobloc_kg": {
+  "electrode stack": 16.17666127512889,
+  "case": 2.29123125,
+  "hardware": 0.75,
+  "free electrolyte": 0.4520218741655206
+ },
+ "comparators": {
+  "LFP (stationary)": {
+   "cell": [
+    160,
+    180
+   ],
+   "module": [
+    120,
+    150
+   ],
+   "system": [
+    90,
+    130
+   ],
+   "Wh_L_block": [
+    250,
+    350
+   ],
+   "tag": "ASSUMPTION",
+   "src": "typical 280-314 Ah LFP storage cells and racks (datasheet ranges; not individually sourced)"
+  },
+  "Na-ion (CATL Naxtra)": {
+   "cell": [
+    175,
+    175
+   ],
+   "tag": "VENDOR",
+   "src": "SRC-021 electrek 2026-04-22"
+  },
+  "Na-ion (Alsym NFPP+)": {
+   "cell": [
+    135,
+    135
+   ],
+   "Wh_L_cell": 250,
+   "tag": "VENDOR",
+   "src": "SRC-011 ESS News 2025-10-22"
+  },
+  "VRLA 12 V 100 Ah": {
+   "module": [
+    37.5,
+    42.9
+   ],
+   "module_15min": [
+    17,
+    26
+   ],
+   "Wh_L_block": [
+    92,
+    100
+   ],
+   "tag": "CALC",
+   "src": "1.2 kWh / 28-32 kg, 12.6 L block; 15-min fraction 0.45-0.60 [ASSUMPTION]"
+  },
+  "Aquion Aspen 48S-2.2": {
+   "module": [
+    18.6,
+    18.6
+   ],
+   "Wh_L_block": [
+    23.3,
+    23.3
+   ],
+   "system": [
+    17.3,
+    17.3
+   ],
+   "tag": "CALC",
+   "src": "SRC-035/036 datasheet; system 26 kWh/1,504 kg incl. rack (mission brief)"
+  }
+ },
+ "N": 600
+}

@@ -1,0 +1,1 @@
+Mass breakdown of one R1 12 V monobloc at the design point. [CALC] params/design.py
