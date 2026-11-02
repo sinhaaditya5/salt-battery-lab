@@ -41,6 +41,8 @@ for name in ("SaltBattery_Investor_Deck", "SaltBattery_Technical_and_Business_Re
     for i in range(len(pdf)):
         pdf[i].render(scale=1.0).to_pil().save(out / f"{name}_p{i+1:02d}.png")
 PY
+step "video";                    python video/make_video.py > "$LOG/video.txt" 2>&1 || echo "video step failed"
+mkdir -p DELIVERABLES/2_video; cp video/out/SaltBattery_explainer.* DELIVERABLES/2_video/ 2>/dev/null || true
 step "lint";                     python docs/lint.py DELIVERABLES/1_investor_docs/*.pptx DELIVERABLES/1_investor_docs/*.docx > "$LOG/lint.txt" 2>&1 || true; snap "$LOG/lint.txt" 07_documents_qa lint "claims linter"
 step "tests";                    python -m pytest tests -q --junitxml=work/junit.xml > "$LOG/pytest.txt" 2>&1 || true
 python tools/make_test_report.py work/junit.xml > /dev/null; snap "$LOG/pytest.txt" 02_tests pytest "pytest tests/"
