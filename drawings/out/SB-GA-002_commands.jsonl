@@ -1,0 +1,355 @@
+linetype {"load": "*"}
+layer.new {"name": "OUTLINE", "color": 7, "linetype": "Continuous", "lineweight": 0.5}
+layer.new {"name": "THIN", "color": 7, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "HIDDEN", "color": 8, "linetype": "HIDDEN", "lineweight": 0.25}
+layer.new {"name": "CENTER", "color": 1, "linetype": "CENTER", "lineweight": 0.18}
+layer.new {"name": "PHANTOM", "color": 6, "linetype": "PHANTOM", "lineweight": 0.25}
+layer.new {"name": "HATCH", "color": 8, "linetype": "Continuous", "lineweight": 0.13}
+layer.new {"name": "DIM", "color": 5, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "TEXT", "color": 7, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BALLOON", "color": 3, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BORDER", "color": 7, "linetype": "Continuous", "lineweight": 0.7}
+layer.new {"name": "FLOW", "color": 4, "linetype": "Continuous", "lineweight": 0.35}
+ltscale {"scale": 0.6}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 1.0, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 2, "DIMLFAC": 1.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [45.0, 172.0], "p2": [200.0, 347.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [69.5, 347.0], "p2": [85.5, 357.0]}
+layer.current {"name": "PHANTOM"}
+rectang {"p1": [159.5, 347.0], "p2": [175.5, 357.0]}
+layer.current {"name": "PHANTOM"}
+rectang {"p1": [43.0, 170.0], "p2": [202.0, 349.0]}
+layer.current {"name": "CENTER"}
+line {"points": [[122.5, 164.0], [122.5, 365.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [45.0, 375.0], "text": "VIEW 1 - ELECTRODE PLATE (CATHODE SHOWN), 1:1", "height": 3.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [122.5, 269.5], "text": "COATED BOTH SIDES", "height": 3.0, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [122.5, 257.5], "text": "271.25 cm\u00b2 PER FACE [CALC]", "height": 2.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [122.5, 247.5], "text": "CATHODE 40 mg/cm\u00b2 PER SIDE [TARGET]", "height": 2.4, "justify": "MC", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [45.0, 172.0], "p2": [200.0, 172.0], "at": [122.5, 158.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [200.0, 172.0], "p2": [200.0, 347.0], "at": [214.0, 259.5], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [69.5, 357.0], "p2": [85.5, 357.0], "at": [77.5, 364.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [85.5, 347.0], "p2": [85.5, 357.0], "at": [93.5, 352.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [77.5, 357.0], "p2": [122.5, 357.0], "at": [100.0, 369.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [43.0, 170.0], "p2": [45.0, 170.0], "at": [39.0, 150.0], "rotation": 0}
+layer.current {"name": "TEXT"}
+text {"at": [67.5, 352.0], "text": "CATHODE TAB (BARE 316L)", "height": 2.0, "justify": "MR", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [167.5, 361.0], "text": "ANODE TAB (NEXT PLATE)", "height": 2.0, "justify": "BC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [122.5, 186.0], "text": "PHANTOM: SEPARATOR OUTLINE, +2 ALL ROUND", "height": 2.2, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [247.025, 169.0], "p2": [244.525, 379.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.3, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [276.975, 169.0], "p2": [279.475, 379.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.3, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [244.525, 165.0], "p2": [279.475, 169.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.3, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [244.525, 379.0], "p2": [279.475, 385.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.3, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [248.224, 174.0], "p2": [275.776, 349.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 0.2, "angle": 0.0}
+layer.current {"name": "THIN"}
+rectang {"p1": [248.224, 349.0], "p2": [275.776, 359.0]}
+layer.current {"name": "THIN"}
+line {"points": [[248.88, 349.0], [248.88, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[251.504, 349.0], [251.504, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[254.128, 349.0], [254.128, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[256.752, 349.0], [256.752, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[259.376, 349.0], [259.376, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[262.0, 349.0], [262.0, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[264.624, 349.0], [264.624, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[267.248, 349.0], [267.248, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[269.872, 349.0], [269.872, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[272.496, 349.0], [272.496, 359.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[275.12, 349.0], [275.12, 359.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [248.224, 359.0], "p2": [275.776, 365.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.15, "angle": 90}
+layer.current {"name": "PHANTOM"}
+line {"points": [[247.025, 221.6], [276.975, 221.6]]}
+layer.current {"name": "TEXT"}
+text {"at": [217.025, 403.0], "text": "VIEW 2 - CELL SECTION AT TABS, 1:1", "height": 3.2, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [247.025, 170.0], "p2": [276.975, 170.0], "at": [262.0, 151.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [248.224, 349.0], "p2": [275.776, 349.0], "at": [262.0, 393.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [279.475, 174.0], "p2": [279.475, 349.0], "at": [292.975, 261.5], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [279.475, 349.0], "p2": [279.475, 379.0], "at": [292.975, 364.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [279.475, 169.0], "p2": [279.475, 174.0], "at": [304.975, 165.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [248.224, 349.0], "p2": [248.224, 359.0], "at": [235.025, 354.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [248.224, 359.0], "p2": [248.224, 365.0], "at": [223.025, 366.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [247.025, 221.6], "p2": [247.025, 169.0], "at": [235.025, 195.3], "rotation": 90}
+layer.current {"name": "TEXT"}
+line {"points": [[273.776, 362.0], [306.975, 379.0], [310.975, 379.0]]}
+solid {"points": [[273.776, 362.0], [275.666, 362.26], [275.091, 363.381]]}
+layer.current {"name": "TEXT"}
+text {"at": [311.975, 379.0], "text": "PLATE-GROUP STRAP (316L)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[262.0, 265.0], [306.975, 293.0], [310.975, 293.0]]}
+solid {"points": [[262.0, 265.0], [263.861, 265.417], [263.195, 266.486]]}
+layer.current {"name": "TEXT"}
+text {"at": [311.975, 293.0], "text": "STACK: 21 REPEAT UNITS", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[276.375, 217.6], [306.975, 243.6], [310.975, 243.6]]}
+solid {"points": [[276.375, 217.6], [278.155, 218.285], [277.339, 219.246]]}
+layer.current {"name": "TEXT"}
+text {"at": [311.975, 243.6], "text": "FREE ELECTROLYTE LEVEL [CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+dimstyle {"name": "SBum", "current": true, "DIMSCALE": 1.0, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 0, "DIMLFAC": 20.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [382.0, 262.0], "p2": [395.664, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 0.4, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [395.664, 262.0], "p2": [396.914, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [396.914, 262.0], "p2": [410.578, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 0.4, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [410.578, 262.0], "p2": [418.078, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.5, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [418.078, 262.0], "p2": [428.465, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.5, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [428.465, 262.0], "p2": [429.715, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [429.715, 262.0], "p2": [440.102, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.5, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [440.102, 262.0], "p2": [447.602, 324.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.5, "angle": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[379.0, 324.0], [450.602, 324.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[379.0, 262.0], [450.602, 262.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [382.0, 370.0], "text": "DETAIL C - REPEAT UNIT, 50:1 (DIMENSIONS IN \u00b5m)", "height": 3.2, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [382.0, 324.0], "p2": [395.664, 324.0], "at": [388.832, 332.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [395.664, 324.0], "p2": [396.914, 324.0], "at": [396.289, 346.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [396.914, 324.0], "p2": [410.578, 324.0], "at": [403.746, 332.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [410.578, 324.0], "p2": [418.078, 324.0], "at": [414.328, 339.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [418.078, 324.0], "p2": [428.465, 324.0], "at": [423.271, 332.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [428.465, 324.0], "p2": [429.715, 324.0], "at": [429.09, 346.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [429.715, 324.0], "p2": [440.102, 324.0], "at": [434.908, 332.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [440.102, 324.0], "p2": [447.602, 324.0], "at": [443.852, 339.0], "rotation": 0}
+dimstyle {"name": "SBum", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [382.0, 324.0], "p2": [447.602, 324.0], "at": [414.801, 356.0], "text": "<> REPEAT UNIT", "rotation": 0}
+layer.current {"name": "TEXT"}
+line {"points": [[388.832, 265.0], [388.832, 228.0], [455.602, 228.0]]}
+layer.current {"name": "TEXT"}
+solid {"points": [[388.832, 265.0], [388.272, 263.4], [389.392, 263.4]]}
+layer.current {"name": "TEXT"}
+text {"at": [457.102, 228.0], "text": "CATHODE COATING (x2 PER UNIT)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[396.289, 265.0], [396.289, 236.0], [455.602, 236.0]]}
+layer.current {"name": "TEXT"}
+solid {"points": [[396.289, 265.0], [395.729, 263.4], [396.849, 263.4]]}
+layer.current {"name": "TEXT"}
+text {"at": [457.102, 236.0], "text": "316L FOIL CURRENT COLLECTOR (x2)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[414.328, 265.0], [414.328, 244.0], [455.602, 244.0]]}
+layer.current {"name": "TEXT"}
+solid {"points": [[414.328, 265.0], [413.768, 263.4], [414.888, 263.4]]}
+layer.current {"name": "TEXT"}
+text {"at": [457.102, 244.0], "text": "SEPARATOR (x2 PER UNIT)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[423.271, 265.0], [423.271, 252.0], [455.602, 252.0]]}
+layer.current {"name": "TEXT"}
+solid {"points": [[423.271, 265.0], [422.711, 263.4], [423.831, 263.4]]}
+layer.current {"name": "TEXT"}
+text {"at": [457.102, 252.0], "text": "ANODE COATING (x2 PER UNIT)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [322, 184.5], "text": "REPEAT UNIT - FROM params/design.py electrode_stack()", "height": 3.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[322, 182.0], [508.0, 182.0]]}
+line {"points": [[322, 176.4], [508.0, 176.4]]}
+line {"points": [[322, 170.8], [508.0, 170.8]]}
+line {"points": [[322, 165.2], [508.0, 165.2]]}
+line {"points": [[322, 159.6], [508.0, 159.6]]}
+line {"points": [[322, 154.0], [508.0, 154.0]]}
+line {"points": [[322, 148.4], [508.0, 148.4]]}
+line {"points": [[322, 142.8], [508.0, 142.8]]}
+line {"points": [[322, 137.2], [508.0, 137.2]]}
+line {"points": [[322, 131.6], [508.0, 131.6]]}
+line {"points": [[322, 182], [322, 131.6]]}
+line {"points": [[408.0, 182], [408.0, 131.6]]}
+line {"points": [[438.0, 182], [438.0, 131.6]]}
+line {"points": [[508.0, 182], [508.0, 131.6]]}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 179.2], "text": "LAYER (PER REPEAT UNIT)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 179.2], "text": "\u00b5m", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 179.2], "text": "BASIS / TAG", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 173.6], "text": "cathode coating x2 (Na-birnessite 80:10:10)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 173.6], "text": "273.3", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 173.6], "text": "40 mg/cm2/side [TARGET]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 168.0], "text": "anode coating x2 (NaTi2(PO4)3/C)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 168.0], "text": "207.7", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 168.0], "text": "28.7 mg/cm2/side, N/P 1.1 [CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 162.4], "text": "current collector x2 (C-coated 316L)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 162.4], "text": "25", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 162.4], "text": "[ASSUMPTION]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 156.8], "text": "separator x2 (nonwoven PP / AGM)", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 156.8], "text": "150", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 156.8], "text": "[ASSUMPTION]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 151.2], "text": "REPEAT UNIT", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 151.2], "text": "1312", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 151.2], "text": "[CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 145.6], "text": "repeats per cell / stack", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 145.6], "text": "21 / 27.55 mm", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 145.6], "text": "in 29.95 mm compartment [CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 140.0], "text": "porosity / electrolyte in pores", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 140.0], "text": "0.35", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 140.0], "text": "60.2 mg/cm2 [CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [323.2, 134.4], "text": "areal capacity / cell capacity", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [409.2, 134.4], "text": "6.0 mAh/cm2", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [439.2, 134.4], "text": "34.2 Ah [CALC]", "height": 2.2, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 120.0], "text": "NOTES", "height": 3.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 116.0], "text": "1. CONCEPT \u2014 NOT FOR FABRICATION. DIMENSIONS mm (DETAIL C IN \u00b5m). TOLERANCES: CONCEPT (NONE SPECIFIED).", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 112.0], "text": "2. LAYER THICKNESSES ARE CALCULATED FROM LOADING, DENSITY AND POROSITY", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 108.0], "text": "    ASSUMPTIONS IN params/product_params.py (MAT); NOT MEASURED.", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 104.0], "text": "3. STACK ORDER: CATHODE | SEPARATOR | ANODE | SEPARATOR, REPEATED;", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 100.0], "text": "    CATHODE TABS ONE SIDE, ANODE TABS OTHER SIDE, ALTERNATING CELL TO CELL", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 96.0], "text": "    SO INTERCELL CONNECTORS RUN STRAIGHT THROUGH THE PARTITIONS.", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 92.0], "text": "4. ELECTROLYTE 0.5 M Na2SO4, WATER-BASED; NO DRY ROOM, NO NMP (AQUEOUS BINDER).", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [20, 88.0], "text": "5. TABS DRAWN AT PLATE THICKNESS FOR CLARITY; REAL TABS ARE THE BARE 25 \u00b5m FOIL, WELDED IN A BUNDLE.", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "BORDER"}
+rectang {"p1": [0, 0], "p2": [594.0, 420.0]}
+rectang {"p1": [10.0, 10.0], "p2": [584.0, 410.0]}
+rectang {"p1": [394.0, 10.0], "p2": [584.0, 72.0]}
+line {"points": [[394.0, 24.0], [584.0, 24.0]]}
+line {"points": [[394.0, 36.0], [584.0, 36.0]]}
+line {"points": [[394.0, 48.0], [584.0, 48.0]]}
+line {"points": [[394.0, 60.0], [584.0, 60.0]]}
+line {"points": [[514.0, 10.0], [514.0, 48.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [397.0, 66.0], "text": "SALT-BATTERY-LAB  |  R1 CELL / ELECTRODE STACK DETAIL", "height": 3.4, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [397.0, 54.0], "text": "CONCEPT \u2014 NOT FOR FABRICATION", "height": 3.6, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [397.0, 42.0], "text": "DWG SB-GA-002     REV A     SHEET 1/1", "height": 3.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [397.0, 30.0], "text": "SCALE 1:1 + 50:1 (A2)  UNITS mm  2026-11-02", "height": 2.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [397.0, 16.0], "text": "TOLERANCES: CONCEPT   PROJECTION: 1ST ANGLE", "height": 2.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [517.0, 42.0], "text": "CAD: CADCraft (headless CLI)", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [517.0, 30.0], "text": "3D: build123d / OpenCascade", "height": 2.2, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [517.0, 16.0], "text": "SOURCE: params/design.py", "height": 2.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+circle {"center": [509.0, 42.0], "radius": 2.5}
+circle {"center": [509.0, 42.0], "radius": 1.2}
+line {"points": [[498.0, 39.5], [498.0, 44.5], [504.0, 43.5], [504.0, 40.5]], "closed": true}

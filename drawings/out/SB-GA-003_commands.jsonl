@@ -1,0 +1,731 @@
+linetype {"load": "*"}
+layer.new {"name": "OUTLINE", "color": 7, "linetype": "Continuous", "lineweight": 0.5}
+layer.new {"name": "THIN", "color": 7, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "HIDDEN", "color": 8, "linetype": "HIDDEN", "lineweight": 0.25}
+layer.new {"name": "CENTER", "color": 1, "linetype": "CENTER", "lineweight": 0.18}
+layer.new {"name": "PHANTOM", "color": 6, "linetype": "PHANTOM", "lineweight": 0.25}
+layer.new {"name": "HATCH", "color": 8, "linetype": "Continuous", "lineweight": 0.13}
+layer.new {"name": "DIM", "color": 5, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "TEXT", "color": 7, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BALLOON", "color": 3, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BORDER", "color": 7, "linetype": "Continuous", "lineweight": 0.7}
+layer.new {"name": "FLOW", "color": 4, "linetype": "Continuous", "lineweight": 0.35}
+ltscale {"scale": 6.0}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 10.0, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 2, "DIMLFAC": 1.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [750.0, 1250.0], "p2": [1350.0, 3250.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [775.0, 1275.0], "p2": [1325.0, 3225.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1360.0], "p2": [950.0, 1370.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1360.0], "p2": [1120.0, 1370.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1360.0], "p2": [1290.0, 1370.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1384.0], "p2": [950.0, 1394.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1384.0], "p2": [1120.0, 1394.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1384.0], "p2": [1290.0, 1394.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1408.0], "p2": [950.0, 1418.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1408.0], "p2": [1120.0, 1418.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1408.0], "p2": [1290.0, 1418.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1432.0], "p2": [950.0, 1442.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1432.0], "p2": [1120.0, 1442.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1432.0], "p2": [1290.0, 1442.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1456.0], "p2": [950.0, 1466.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1456.0], "p2": [1120.0, 1466.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1456.0], "p2": [1290.0, 1466.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 1480.0], "p2": [950.0, 1490.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 1480.0], "p2": [1120.0, 1490.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 1480.0], "p2": [1290.0, 1490.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3020.0], "p2": [950.0, 3030.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3020.0], "p2": [1120.0, 3030.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3020.0], "p2": [1290.0, 3030.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3044.0], "p2": [950.0, 3054.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3044.0], "p2": [1120.0, 3054.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3044.0], "p2": [1290.0, 3054.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3068.0], "p2": [950.0, 3078.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3068.0], "p2": [1120.0, 3078.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3068.0], "p2": [1290.0, 3078.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3092.0], "p2": [950.0, 3102.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3092.0], "p2": [1120.0, 3102.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3092.0], "p2": [1290.0, 3102.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3116.0], "p2": [950.0, 3126.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3116.0], "p2": [1120.0, 3126.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3116.0], "p2": [1290.0, 3126.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [810.0, 3140.0], "p2": [950.0, 3150.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [980.0, 3140.0], "p2": [1120.0, 3150.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1150.0, 3140.0], "p2": [1290.0, 3150.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1272.0, 2210.0], "p2": [1308.0, 2370.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [1280.0, 2220.0], "p2": [1300.0, 2360.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [744.0, 1460.0], "p2": [750.0, 1540.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [744.0, 2210.0], "p2": [750.0, 2290.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [744.0, 2960.0], "p2": [750.0, 3040.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [970.0, 2870.0], "p2": [1130.0, 2930.0]}
+layer.current {"name": "TEXT"}
+text {"at": [1050.0, 2900.0], "text": "RATING PLATE (TBD)", "height": 20.0, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [750.0, 3370.0], "text": "VIEW 1 - FRONT, DOOR CLOSED", "height": 35.0, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [750.0, 1250.0], "p2": [1350.0, 1250.0], "at": [1050.0, 1130.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [750.0, 1250.0], "p2": [750.0, 3250.0], "at": [600.0, 2250.0], "rotation": 90}
+layer.current {"name": "TEXT"}
+line {"points": [[880.0, 3090.0], [690.0, 3290.0], [650.0, 3290.0]]}
+solid {"points": [[880.0, 3090.0], [872.17, 3107.389], [863.035, 3098.711]]}
+layer.current {"name": "TEXT"}
+text {"at": [640.0, 3290.0], "text": "H2 OUTLET LOUVRES (HIGH)", "height": 24.0, "justify": "MR", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[880.0, 1410.0], [690.0, 1190.0], [650.0, 1190.0]]}
+solid {"points": [[880.0, 1410.0], [863.467, 1400.495], [873.003, 1392.259]]}
+layer.current {"name": "TEXT"}
+text {"at": [640.0, 1190.0], "text": "AIR INLET LOUVRES (LOW)", "height": 24.0, "justify": "MR", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1800.0, 1250.0], "p2": [2400.0, 3250.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [1800.0, 1250.0], "p2": [1830.0, 3250.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2400.0, 1250.0], "p2": [2370.0, 3250.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 1250.0], "p2": [2370.0, 1310.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 8, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 3210.0], "p2": [2370.0, 3250.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 8, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 1285.0], "p2": [2370.0, 1312.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 1312.5], "p2": [2007.5, 1532.5]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 1526.5], [2007.5, 1526.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 1312.5], "p2": [2186.5, 1532.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 1526.5], [2186.5, 1526.5]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 1312.5], "p2": [2309.0, 1522.5]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 1312.5], "p2": [2365.5, 1532.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 1522.5], "p2": [2370.0, 1550.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 1550.0], "p2": [2007.5, 1770.0]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 1764.0], [2007.5, 1764.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 1550.0], "p2": [2186.5, 1770.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 1764.0], [2186.5, 1764.0]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 1550.0], "p2": [2309.0, 1760.0]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 1550.0], "p2": [2365.5, 1770.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 1760.0], "p2": [2370.0, 1787.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 1787.5], "p2": [2007.5, 2007.5]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 2001.5], [2007.5, 2001.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 1787.5], "p2": [2186.5, 2007.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 2001.5], [2186.5, 2001.5]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 1787.5], "p2": [2309.0, 1997.5]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 1787.5], "p2": [2365.5, 2007.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 1997.5], "p2": [2370.0, 2025.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 2025.0], "p2": [2007.5, 2245.0]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 2239.0], [2007.5, 2239.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 2025.0], "p2": [2186.5, 2245.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 2239.0], [2186.5, 2239.0]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 2025.0], "p2": [2309.0, 2235.0]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 2025.0], "p2": [2365.5, 2245.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 2235.0], "p2": [2370.0, 2262.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 2262.5], "p2": [2007.5, 2482.5]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 2476.5], [2007.5, 2476.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 2262.5], "p2": [2186.5, 2482.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 2476.5], [2186.5, 2476.5]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 2262.5], "p2": [2309.0, 2472.5]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 2262.5], "p2": [2365.5, 2482.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 2472.5], "p2": [2370.0, 2500.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 2500.0], "p2": [2007.5, 2720.0]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 2714.0], [2007.5, 2714.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 2500.0], "p2": [2186.5, 2720.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 2714.0], [2186.5, 2714.0]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 2500.0], "p2": [2309.0, 2710.0]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 2500.0], "p2": [2365.5, 2720.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 2710.0], "p2": [2370.0, 2737.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 2737.5], "p2": [2007.5, 2957.5]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 2951.5], [2007.5, 2951.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 2737.5], "p2": [2186.5, 2957.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 2951.5], [2186.5, 2951.5]]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2249.0, 2737.5], "p2": [2309.0, 2947.5]}
+layer.current {"name": "HIDDEN"}
+rectang {"p1": [2192.5, 2737.5], "p2": [2365.5, 2957.5]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1830.0, 2947.5], "p2": [2370.0, 2975.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [1834.5, 2975.0], "p2": [2007.5, 3195.0]}
+layer.current {"name": "THIN"}
+line {"points": [[1834.5, 3189.0], [2007.5, 3189.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2013.5, 2975.0], "p2": [2186.5, 3195.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2013.5, 3189.0], [2186.5, 3189.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2226.5, 2975.0], "p2": [2331.5, 3140.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2271.0, 3049.25], "p2": [2287.0, 3077.3]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [1800.0, 3370.0], "text": "VIEW 2 - FRONT, DOOR REMOVED", "height": 35.0, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2400.0, 1785.0], "p2": [2400.0, 2022.5], "at": [2540.0, 1903.75], "text": "237.5 SHELF PITCH", "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1881.0, 2957.5], "p2": [1881.0, 2972.5], "at": [1690.0, 2997.5], "text": "<> CLEAR", "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2400.0, 1250.0], "p2": [2400.0, 1310.0], "at": [2540.0, 1220.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2400.0, 3210.0], "p2": [2400.0, 3250.0], "at": [2540.0, 3290.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [1834.5, 1312.5], "p2": [2007.5, 1312.5], "at": [1921.0, 1242.5], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2007.5, 1372.5], "p2": [2013.5, 1372.5], "at": [2010.5, 1242.5], "rotation": 0}
+layer.current {"name": "TEXT"}
+line {"points": [[2309.0, 3075.0], [2460.0, 2935.0], [2500.0, 2935.0]]}
+solid {"points": [[2309.0, 3075.0], [2317.916, 3058.142], [2326.483, 3067.382]]}
+layer.current {"name": "TEXT"}
+text {"at": [2510.0, 2935.0], "text": "DC BREAKER + BMS", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[2279.0, 2362.5], [2460.0, 2530.0], [2500.0, 2530.0]]}
+solid {"points": [[2279.0, 2362.5], [2296.49, 2370.102], [2287.932, 2379.35]]}
+layer.current {"name": "TEXT"}
+text {"at": [2510.0, 2530.0], "text": "VERTICAL CABLE DUCT", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[2100.0, 1650.0], [2460.0, 1610.0], [2500.0, 1610.0]]}
+solid {"points": [[2100.0, 1650.0], [2117.194, 1641.751], [2118.586, 1654.274]]}
+layer.current {"name": "TEXT"}
+text {"at": [2510.0, 1610.0], "text": "12 V MONOBLOC", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2900.0, 1250.0], "p2": [2920.0, 3250.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 8, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3698.5, 1310.0], "p2": [3700.0, 3210.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2920.0, 3210.0], "p2": [3700.0, 3250.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2920.0, 1250.0], "p2": [3700.0, 1310.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [2920.0, 1250.0], "p2": [2950.0, 3250.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [3670.0, 1250.0], "p2": [3700.0, 3250.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1310.0], "p2": [3625.0, 1312.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1285.0], "p2": [2942.5, 1310.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 1312.5], "p2": [3285.0, 1532.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 1312.5], [3285.0, 1532.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 1532.5], [3285.0, 1312.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 1312.5], "p2": [3621.0, 1532.5]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 1312.5], [3621.0, 1532.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 1532.5], [3621.0, 1312.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1547.5], "p2": [3625.0, 1550.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1522.5], "p2": [2942.5, 1547.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 1550.0], "p2": [3285.0, 1770.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 1550.0], [3285.0, 1770.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 1770.0], [3285.0, 1550.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 1550.0], "p2": [3621.0, 1770.0]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 1550.0], [3621.0, 1770.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 1770.0], [3621.0, 1550.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1785.0], "p2": [3625.0, 1787.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1760.0], "p2": [2942.5, 1785.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 1787.5], "p2": [3285.0, 2007.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 1787.5], [3285.0, 2007.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2007.5], [3285.0, 1787.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 1787.5], "p2": [3621.0, 2007.5]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 1787.5], [3621.0, 2007.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2007.5], [3621.0, 1787.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2022.5], "p2": [3625.0, 2025.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 1997.5], "p2": [2942.5, 2022.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 2025.0], "p2": [3285.0, 2245.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2025.0], [3285.0, 2245.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2245.0], [3285.0, 2025.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 2025.0], "p2": [3621.0, 2245.0]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2025.0], [3621.0, 2245.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2245.0], [3621.0, 2025.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2260.0], "p2": [3625.0, 2262.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2235.0], "p2": [2942.5, 2260.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 2262.5], "p2": [3285.0, 2482.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2262.5], [3285.0, 2482.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2482.5], [3285.0, 2262.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 2262.5], "p2": [3621.0, 2482.5]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2262.5], [3621.0, 2482.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2482.5], [3621.0, 2262.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2497.5], "p2": [3625.0, 2500.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2472.5], "p2": [2942.5, 2497.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 2500.0], "p2": [3285.0, 2720.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2500.0], [3285.0, 2720.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2720.0], [3285.0, 2500.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 2500.0], "p2": [3621.0, 2720.0]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2500.0], [3621.0, 2720.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2720.0], [3621.0, 2500.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2735.0], "p2": [3625.0, 2737.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2710.0], "p2": [2942.5, 2735.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 2737.5], "p2": [3285.0, 2957.5]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2737.5], [3285.0, 2957.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2957.5], [3285.0, 2737.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 2737.5], "p2": [3621.0, 2957.5]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2737.5], [3621.0, 2957.5]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2957.5], [3621.0, 2737.5]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2972.5], "p2": [3625.0, 2975.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2940.0, 2947.5], "p2": [2942.5, 2972.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [2955.0, 2975.0], "p2": [3285.0, 3195.0]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 2975.0], [3285.0, 3195.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[2955.0, 3195.0], [3285.0, 2975.0]]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [3291.0, 2975.0], "p2": [3621.0, 3195.0]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 2975.0], [3621.0, 3195.0]]}
+layer.current {"name": "THIN"}
+line {"points": [[3291.0, 3195.0], [3621.0, 2975.0]]}
+layer.current {"name": "FLOW"}
+line {"points": [[2740.0, 1420.0], [2932.0, 1420.0], [2932.0, 1539.5]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[2932.0, 1539.5], [2921.5, 1509.5], [2942.5, 1509.5]]}
+layer.current {"name": "FLOW"}
+line {"points": [[2932.0, 1539.5], [3644.75, 1539.5]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[3644.75, 1539.5], [3614.75, 1550.0], [3614.75, 1529.0]]}
+layer.current {"name": "FLOW"}
+line {"points": [[2932.0, 2252.0], [3644.75, 2252.0]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[3644.75, 2252.0], [3614.75, 2262.5], [3614.75, 2241.5]]}
+layer.current {"name": "FLOW"}
+line {"points": [[2932.0, 2964.5], [3644.75, 2964.5]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[3644.75, 2964.5], [3614.75, 2975.0], [3614.75, 2954.0]]}
+layer.current {"name": "FLOW"}
+line {"points": [[3659.75, 1532.5], [3659.75, 3180.0], [3659.75, 3400.0]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[3659.75, 3400.0], [3649.25, 3370.0], [3670.25, 3370.0]]}
+layer.current {"name": "FLOW"}
+line {"points": [[2932.0, 2950.0], [2932.0, 3090.0], [2740.0, 3090.0]]}
+layer.current {"name": "FLOW"}
+solid {"points": [[2740.0, 3090.0], [2770.0, 3079.5], [2770.0, 3100.5]]}
+layer.current {"name": "TEXT"}
+text {"at": [2900.0, 3370.0], "text": "SECTION B-B (X = 0) - VENTILATION PATH", "height": 35.0, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2900.0, 1250.0], "p2": [3700.0, 1250.0], "at": [3300.0, 1130.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2900.0, 3250.0], "p2": [2920.0, 3250.0], "at": [2840.0, 3290.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2920.0, 1536.5], "p2": [2955.0, 1536.5], "at": [2890.0, 1672.5], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [2955.0, 1550.0], "p2": [3285.0, 1550.0], "at": [3120.0, 1490.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [3285.0, 1787.5], "p2": [3291.0, 1787.5], "at": [3287.0, 1727.5], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [3621.0, 3050.0], "p2": [3698.5, 3050.0], "at": [3740.0, 2920.0], "text": "<> PLENUM", "rotation": 0}
+layer.current {"name": "TEXT"}
+line {"points": [[3659.75, 2690.0], [3780.0, 2750.0], [3820.0, 2750.0]]}
+solid {"points": [[3659.75, 2690.0], [3678.669, 2692.399], [3673.044, 2703.674]]}
+layer.current {"name": "TEXT"}
+text {"at": [3830.0, 2750.0], "text": "REAR PLENUM (AIR + H2 RISE)", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[3669.75, 3245.0], [3780.0, 3310.0], [3820.0, 3310.0]]}
+solid {"points": [[3669.75, 3245.0], [3688.455, 3248.715], [3682.056, 3259.569]]}
+layer.current {"name": "TEXT"}
+text {"at": [3830.0, 3310.0], "text": "ROOF SLOTS (OUT)", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+line {"points": [[2992.0, 2252.0], [3780.0, 2350.0], [3820.0, 2350.0]]}
+solid {"points": [[2992.0, 2252.0], [3010.64, 2247.97], [3009.085, 2260.473]]}
+layer.current {"name": "TEXT"}
+text {"at": [3830.0, 2350.0], "text": "15 mm OVER LIDS TO PLENUM", "height": 22.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4550.0, 2350.0], "p2": [5150.0, 3150.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4550.0, 2350.0], "p2": [5150.0, 2370.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 8, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4550.0, 2370.0], "p2": [4580.0, 2400.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4550.0, 3120.0], "p2": [4580.0, 3150.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [5150.0, 2370.0], "p2": [5120.0, 2400.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [5150.0, 3120.0], "p2": [5120.0, 3150.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 1.0, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4584.5, 2405.0], "p2": [4757.5, 2735.0]}
+layer.current {"name": "THIN"}
+circle {"center": [4733.5, 2445.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+circle {"center": [4733.5, 2695.0], "radius": 8.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4763.5, 2405.0], "p2": [4936.5, 2735.0]}
+layer.current {"name": "THIN"}
+circle {"center": [4912.5, 2445.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+circle {"center": [4912.5, 2695.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+rectang {"p1": [4999.0, 2425.0], "p2": [5059.0, 2485.0]}
+layer.current {"name": "TEXT"}
+text {"at": [5029.0, 2570.0], "text": "DUCT /", "height": 22.0, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5029.0, 2510.0], "text": "BMS SLOT", "height": 22.0, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4584.5, 2741.0], "p2": [4757.5, 3071.0]}
+layer.current {"name": "THIN"}
+circle {"center": [4733.5, 2781.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+circle {"center": [4733.5, 3031.0], "radius": 8.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4763.5, 2741.0], "p2": [4936.5, 3071.0]}
+layer.current {"name": "THIN"}
+circle {"center": [4912.5, 2781.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+circle {"center": [4912.5, 3031.0], "radius": 8.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [4942.5, 2741.0], "p2": [5115.5, 3071.0]}
+layer.current {"name": "THIN"}
+circle {"center": [5091.5, 2781.0], "radius": 8.0}
+layer.current {"name": "THIN"}
+circle {"center": [5091.5, 3031.0], "radius": 8.0}
+layer.current {"name": "TEXT"}
+text {"at": [4550.0, 3270.0], "text": "SECTION C-C (PLAN ON SHELF 1)", "height": 35.0, "justify": "L", "rotation": 0.0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [4550.0, 2350.0], "p2": [5150.0, 2350.0], "at": [4850.0, 2240.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [5150.0, 2350.0], "p2": [5150.0, 3150.0], "at": [5260.0, 2750.0], "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [4584.5, 3071.0], "p2": [4757.5, 3071.0], "at": [4671.0, 3200.0], "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [5150.0, 2405.0], "p2": [5150.0, 2735.0], "at": [5380.0, 2570.0], "rotation": 90}
+layer.current {"name": "TEXT"}
+text {"at": [4850.0, 2356.0], "text": "DOOR", "height": 22.0, "justify": "BC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3950, 1975.0], "text": "PARTS LIST", "height": 30.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[3950, 1950.0], [5730.0, 1950.0]]}
+line {"points": [[3950, 1900.0], [5730.0, 1900.0]]}
+line {"points": [[3950, 1850.0], [5730.0, 1850.0]]}
+line {"points": [[3950, 1800.0], [5730.0, 1800.0]]}
+line {"points": [[3950, 1750.0], [5730.0, 1750.0]]}
+line {"points": [[3950, 1700.0], [5730.0, 1700.0]]}
+line {"points": [[3950, 1650.0], [5730.0, 1650.0]]}
+line {"points": [[3950, 1600.0], [5730.0, 1600.0]]}
+line {"points": [[3950, 1550.0], [5730.0, 1550.0]]}
+line {"points": [[3950, 1500.0], [5730.0, 1500.0]]}
+line {"points": [[3950, 1950], [3950, 1500.0]]}
+line {"points": [[4040.0, 1950], [4040.0, 1500.0]]}
+line {"points": [[5220.0, 1950], [5220.0, 1500.0]]}
+line {"points": [[5620.0, 1950], [5620.0, 1500.0]]}
+line {"points": [[5730.0, 1950], [5730.0, 1500.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1925.0], "text": "NO", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1925.0], "text": "DESCRIPTION", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1925.0], "text": "MATERIAL", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1925.0], "text": "QTY", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1875.0], "text": "1", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1875.0], "text": "CABINET FRAME: POSTS, PLINTH, SLOTTED ROOF, SIDE + REAR PANELS", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1875.0], "text": "STEEL, POWDER-COATED", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1875.0], "text": "1", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1825.0], "text": "2", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1825.0], "text": "FRONT DOOR WITH LOW + HIGH LOUVRES, FLUSH HANDLE, 3 HINGES", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1825.0], "text": "STEEL, POWDER-COATED", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1825.0], "text": "1", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1775.0], "text": "3", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1775.0], "text": "SHELF WITH FRONT LIP + SIDE SUPPORTS", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1775.0], "text": "GALVANISED STEEL", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1775.0], "text": "8", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1725.0], "text": "4", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1725.0], "text": "R1 12 V MONOBLOC (SB-GA-001)", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1725.0], "text": "PP-GF20 CASE", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1725.0], "text": "40", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1675.0], "text": "5", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1675.0], "text": "MASTER BMS (CAN 2.0B / RS-485 Modbus RTU; H2 + PRESSURE INPUTS)", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1675.0], "text": "-", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1675.0], "text": "1", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1625.0], "text": "6", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1625.0], "text": "DC STRING BREAKER (MCCB-STYLE)", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1625.0], "text": "-", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1625.0], "text": "1", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1575.0], "text": "7", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1575.0], "text": "VERTICAL CABLE DUCT SEGMENT", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1575.0], "text": "PP", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1575.0], "text": "7", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3962.0, 1525.0], "text": "8", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [4052.0, 1525.0], "text": "INTER-BLOCK JUMPER, 25 mm2", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5232.0, 1525.0], "text": "Cu, INSULATED", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5632.0, 1525.0], "text": "32", "height": 21.0, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 1000.0], "text": "NOTES", "height": 30.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 956.0], "text": "1. CONCEPT \u2014 NOT FOR FABRICATION. ALL DIMENSIONS IN mm. TOLERANCES: CONCEPT (NONE SPECIFIED). FIRST-ANGLE PROJECTION.", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 912.0], "text": "2. CABINET 600 x 800 x 2000 (params CABINET); 8 SHELVES x 5 MONOBLOCS = 40 IN SERIES, 464 V NOM [CALC] (CABINET string_nominal_V 480 V).", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 868.0], "text": "3. OPEN ISSUE: SHELF PITCH 237.5 LEAVES ONLY 15 mm ABOVE THE BLOCK LIDS FOR LUGS + CABLES; CONSIDER 7 SHELVES OR A TALLER FRAME.", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 824.0], "text": "4. HYDROGEN: NATURAL VENTILATION - LOW DOOR INLET, REAR PLENUM, HIGH DOOR LOUVRES + ROOF SLOTS. DESIGN LIMIT 1 % H2 BY VOLUME [LIT];", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 780.0], "text": "    VENT AREA TO BE SIZED FROM THE S4 GAS RATES BEFORE ANY BUILD.", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 736.0], "text": "5. MASTER BMS + DC STRING BREAKER IN THE TOP-SHELF FRONT-RIGHT SLOT; CABLE DUCT IN THE SAME SLOT ON SHELVES 1-7.", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 692.0], "text": "6. ENERGY 15.9 kWh [CALC]; MASS 935 kg [CALC, design.cabinet] -> FLOOR LOAD ~1947 kg/m2 OVER THE FOOTPRINT (CHECK SITE).", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [300, 648.0], "text": "7. MONOBLOCS SHOWN AS ENVELOPES; GENERATED BY drawings/make_drawings.py FROM params/*.py.", "height": 23.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "BORDER"}
+rectang {"p1": [0, 0], "p2": [5940.0, 4200.0]}
+rectang {"p1": [100.0, 100.0], "p2": [5840.0, 4100.0]}
+rectang {"p1": [3940.0, 100.0], "p2": [5840.0, 720.0]}
+line {"points": [[3940.0, 240.0], [5840.0, 240.0]]}
+line {"points": [[3940.0, 360.0], [5840.0, 360.0]]}
+line {"points": [[3940.0, 480.0], [5840.0, 480.0]]}
+line {"points": [[3940.0, 600.0], [5840.0, 600.0]]}
+line {"points": [[5140.0, 100.0], [5140.0, 480.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [3970.0, 660.0], "text": "SALT-BATTERY-LAB  |  R1 UPS BATTERY CABINET - ARRANGEMENT", "height": 34.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3970.0, 540.0], "text": "CONCEPT \u2014 NOT FOR FABRICATION", "height": 36.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3970.0, 420.0], "text": "DWG SB-GA-003     REV A     SHEET 1/1", "height": 30.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3970.0, 300.0], "text": "SCALE 1:10 (A2)  UNITS mm  2026-11-02", "height": 25.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [3970.0, 160.0], "text": "TOLERANCES: CONCEPT   PROJECTION: 1ST ANGLE", "height": 25.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5170.0, 420.0], "text": "CAD: CADCraft (headless CLI)", "height": 22.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5170.0, 300.0], "text": "3D: build123d / OpenCascade", "height": 22.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [5170.0, 160.0], "text": "SOURCE: params/*.py", "height": 20.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+circle {"center": [5090.0, 420.0], "radius": 25.0}
+circle {"center": [5090.0, 420.0], "radius": 12.0}
+line {"points": [[4980.0, 395.0], [4980.0, 445.0], [5040.0, 435.0], [5040.0, 405.0]], "closed": true}
