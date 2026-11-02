@@ -4,3 +4,15 @@
 2026-11-02T09:37:47Z start D_1_birnessite_Na5_9_r2 lane D
 2026-11-02T09:46:31Z end B_1_NaTi2PO43_r2 DONE
 2026-11-02T09:46:31Z start B_neb_NaFePO4_b_img0 lane B
+2026-11-02T10:39:50Z end C_1_birnessite_Na3_9_r2 FAILED
+2026-11-02T10:39:50Z start C_2_birnessite_Na1_9 lane C
+2026-11-02T11:48:04Z end A_1_Na3Ti2PO43_r2 DONE
+2026-11-02T11:48:04Z start A_NaFePO4_olivine lane A
+2026-11-02T12:37:40Z end A_NaFePO4_olivine DONE
+2026-11-02T12:37:40Z start A_Na_bcc lane A
+2026-11-02T12:38:08Z end A_Na_bcc DONE
+2026-11-02T12:38:08Z start A_lambda_MnO2 lane A
+2026-11-02T12:46:50Z end A_lambda_MnO2 FAILED
+2026-11-02T12:46:50Z start A_neb_LiFePO4_b_img0 lane A
+2026-11-02T13:12:03Z end B_neb_NaFePO4_b_img0 DONE
+2026-11-02T13:12:03Z start B_neb_NaFePO4_b_img1 lane B

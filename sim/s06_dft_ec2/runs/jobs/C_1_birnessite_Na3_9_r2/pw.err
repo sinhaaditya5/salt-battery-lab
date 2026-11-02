@@ -1,0 +1,108 @@
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Backtrace for this error:
+#0  0xed2e2ad38a5f in ???
+#0  0xfafac1a0ca5f in ???
+#1  0xbf3712ee7550 in ???
+#2  0xbf37129ebcdf in ???
+#3  0xbf371298cc97 in ???
+#4  0xbf37128c022f in ???
+#5  0xbf37128bff13 in ???
+#6  0xfafabf2a84c3 in ???
+#7  0xfafabf2a8597 in ???
+#8  0xbf37128bff7b in ???
+#0  0xe8f6aeed1a5f in ???
+#1  0xbde981507550 in ???
+#2  0xbde98100bcdf in ???
+#3  0xbde980facc97 in ???
+#4  0xbde980ee022f in ???
+#5  0xbde980edff13 in ???
+#6  0xe8f6ac7784c3 in ???
+#7  0xe8f6ac778597 in ???
+#8  0xbde980edff7b in ???
+#1  0xc1b313267550 in ???
+#2  0xc1b312d6bcdf in ???
+#3  0xc1b312d0cc97 in ???
+#4  0xc1b312c4022f in ???
+#5  0xc1b312c3ff13 in ???
+#6  0xed2e285d84c3 in ???
+#7  0xed2e285d8597 in ???
+#8  0xc1b312c3ff7b in ???
+#0  0xe26d154e1a5f in ???
+#1  0xbbf11d237550 in ???
+#2  0xbbf11cd3bcdf in ???
+#3  0xbbf11ccdcc97 in ???
+#4  0xbbf11cc1022f in ???
+#5  0xbbf11cc0ff13 in ???
+#6  0xe26d12d884c3 in ???
+#7  0xe26d12d88597 in ???
+#8  0xbbf11cc0ff7b in ???
+#0  0xec7facd58a5f in ???
+#1  0xb349c8187550 in ???
+#2  0xb349c7c8bcdf in ???
+#3  0xb349c7c2cc97 in ???
+#4  0xb349c7b6022f in ???
+#5  0xb349c7b5ff13 in ???
+#6  0xec7faa5f84c3 in ???
+#7  0xec7faa5f8597 in ???
+#8  0xb349c7b5ff7b in ???
+#0  0xe1261e7e0a5f in ???
+#1  0xb306fbc27550 in ???
+#2  0xb306fb72bcdf in ???
+#3  0xb306fb6ccc97 in ???
+#4  0xb306fb60022f in ???
+#5  0xb306fb5fff13 in ???
+#6  0xe1261c0884c3 in ???
+#7  0xe1261c088597 in ???
+#8  0xb306fb5fff7b in ???
+#0  0xe5f028923a5f in ???
+#0  0xe7024fb41a5f in ???
+#1  0xbfab588d7550 in ???
+#2  0xbfab583dbcdf in ???
+#3  0xbfab5837cc97 in ???
+#4  0xbfab582b022f in ???
+#5  0xbfab582aff13 in ???
+#6  0xe7024d3e84c3 in ???
+#7  0xe7024d3e8597 in ???
+#8  0xbfab582aff7b in ???
+#1  0xb9ee145f7550 in ???
+#2  0xb9ee140fbcdf in ???
+#3  0xb9ee1409cc97 in ???
+#4  0xb9ee13fd022f in ???
+#5  0xb9ee13fcff13 in ???
+#6  0xe5f0261c84c3 in ???
+#7  0xe5f0261c8597 in ???
+#8  0xb9ee13fcff7b in ???
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 5362 on node ip-172-31-34-35 exited on
+signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
