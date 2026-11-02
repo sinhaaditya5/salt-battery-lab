@@ -19,7 +19,8 @@ Late applications are still read, but YC gives no timing guarantee.
 
 ## Company
 - [ ] Company name.
-- [ ] 50-character description: `Non-flammable sodium batteries for indoor backup` (48 chars).
+- [ ] 50-character description: `Water-based sodium batteries for indoor backup` (46 chars). If you lead with idea B, change it.
+- [ ] **Decide which idea leads (A battery / B fire-code software): see the end of `YC_W27_answers.md`.**
 - [ ] Product description, location, progress, idea, competitors and money answers pasted from `YC_W27_answers.md`.
 - [ ] Riskiest assumption, first experiment and kill criterion included somewhere visible.
 - [ ] Every `[[ FOUNDER: … ]]` placeholder replaced or the line deleted. Search the form for `[[` before submitting.
@@ -40,6 +41,7 @@ Late applications are still read, but YC gives no timing guarantee.
 - [ ] Demo: none. Do **not** upload renders or simulations as if they were a working product. If you mention them, label them "concept render" / "simulation".
 
 ## Final honesty pass (2 minutes)
+- [ ] The code threshold for an unlisted chemistry is 3 kWh (IFC 2024), not 10. v1 had the wrong number.
 - [ ] No "proven", "breakthrough", "zero risk", "cannot fail", "patented", "partnership", "LOI", "EV-ready".
 - [ ] No 5× / 1,500 km goal (mention them only as abandoned).
 - [ ] No "we measured" / "our results". No cell has been built.
