@@ -1,0 +1,27 @@
+item,component,supplier,catalogue_number,price,verification
+PS-C-01,Sodium chloride (cathode + melt),"Merck Life Science (Sigma-Aldrich), India",VERIFY (trace-metals-basis grade),QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-02,Iron powder,Merck / Thermo Fisher India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-03,Nickel powder (10 mol% of metal),Merck / Thermo Fisher India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-04,Iron(II) sulfide (S additive),Thermo Fisher India; TCI India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-05,Sodium fluoride,Merck India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-06,Sodium iodide,Merck India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-07,Aluminium powder (priming Na source),Merck / Thermo Fisher India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-08,"Aluminium chloride, anhydrous (for NaAlCl4)",Merck India; Thermo Fisher India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-09,Sodium tetrachloroaluminate (made in-house from C-01 + C-08),made in lab (step B-04),n/a,n/a,n/a
+PS-M-01,"beta''-alumina disc, OD 30.0 mm, t 1.0 mm (12) and 0.5 mm (4)",ARCI Hyderabad NBA programme (enquire; PS-031 unverified),QUOTE REQUIRED,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-02,"alpha-alumina insulating ring, OD 42 / ID 26 / t 4 mm, counterbore 30.4 x disc t",Technical-ceramic machinists (quote): e.g. Bangalore/Pune ceramic shops,custom drawing SB-SC-001 item 2,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-03,"Sealing glass (beta''-to-alpha alumina), CTE-matched ~7-8 ppm/K",quote via SCHOTT India / partner lab stock,VERIFY grade with supplier,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-04,"Graphite foil gasket, 0.5 mm, punched OD 42 / ID 27",Gasket makers (quote),VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-05,"Cathode housing, Ni 201, machined per SB-SC-001 item 5",Precision machinists (quote),custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-06,Mo mesh disc 23.8 mm (cathode current collector),Goodfellow India / Alfa Aesar India,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-07,Mo wave spring / Mo foil spring,custom (quote),custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-08,"Ni 201 tube 1/8 in OD x 0.024 in wall (fill tube, TC well)",Swagelok/Hylok India distributors,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-09,"Anode housing, SS 316L, machined per SB-SC-001 item 12",Precision machinists (quote),custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-10,SS 316L mesh 100 mesh + 0.1 mm shim (anode wick),Wire-mesh suppliers (quote),VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-11,Bolts M4x30 ISO 4762 A4-70 + nuts + Belleville washers,Local fastener suppliers,VERIFY,published (McMaster) - not checked,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-12,alpha-alumina sleeve OD 6 / ID 4.2 x 5 mm,Ceramic tube suppliers (quote),VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-13,"Mica washers 0.3 mm, ID 4.2 / OD 9",Local electrical insulation suppliers,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-01,"Type-K thermocouple, mineral-insulated, UNGROUNDED junction, 1.5 mm Inconel sheath, 300 mm",Tempsens Instruments (India) - quote,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-02,SCM-1 monitor PCB assembled (pcb/scell_monitor),PCB assembly houses in India (quote),fab files,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-03,"Zero-cross SSR (DC control, 25 A) + bimetal cut-out 300 C + E-stop with aux NC",Industrial electrical distributors,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-G-01,"Argon 5.0 (glovebox purge, furnace)",Linde India / Air Liquide India / INOX Air Products,n/a,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session

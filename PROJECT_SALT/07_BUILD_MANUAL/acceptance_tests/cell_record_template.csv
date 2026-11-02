@@ -1,0 +1,1 @@
+cell_id,date,operator_1,operator_2,qa_mAh_cm2,disc_t_mm,disc_lot,ring_lot,glass_lot,NaCl_lot,Fe_lot,Ni_lot,AlCl3_lot,granule_mass_g,melt_mass_g,bed_height_mm,leak_C03_mbarLs,leak_D08_mbarLs,insulation_MOhm,tp_e01,tp_e02,tp_e03,tp_e04,tp_e05,tp_e06,first_charge_mAh,F03_CE_cycle3,ASR_ohm_cm2_50SOC,G1,G2,G3,G4,G5,notes

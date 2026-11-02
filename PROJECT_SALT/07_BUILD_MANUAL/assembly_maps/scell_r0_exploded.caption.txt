@@ -1,0 +1,1 @@
+Exploded isometric view of the S-cell R0 test cell rendered from the build123d STL exports. [CAD] concept geometry from params/scell_params.py

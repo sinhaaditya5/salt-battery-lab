@@ -1,0 +1,17 @@
+tier,item,critical_spec,qty,acquire_how,price_source,alternative
+lab,"Ar glovebox with purifier, H2O/O2 < 1 ppm, with heated well/antechamber",integrated well furnace to 300 C or feed-through to adjacent furnace,1,PARTNER LAB (do not buy),QUOTE REQUIRED,Sealed-transfer to furnace in a dry room
+lab,"Battery cycler / potentiostat with EIS, 4+ channels, +/-1 A, 5 V",EIS 10 mHz-100 kHz on >=1 channel; aux T input,1,PARTNER LAB,QUOTE REQUIRED,Neware BTS4000 (cycling) + borrowed EIS
+lab,"Programmable box/tube furnace, 25-350 C, +/-1 C, inert atmosphere, ramp <=2 C/min",independent over-temperature controller,2,PARTNER LAB or buy,QUOTE REQUIRED,Lab oven + Ar purge box (only with QT-08 passed)
+lab,"Glass-sealing furnace to 1100 C, controlled atmosphere",for C-02 disc-to-ring seal,1,PARTNER LAB / ceramic vendor,QUOTE REQUIRED,Buy pre-sealed sub-assemblies
+lab,"Helium leak detector, <=1e-9 mbar.L/s",QT-02,1,PARTNER / service,QUOTE REQUIRED,Pressure-decay test (lower sensitivity)
+lab,"Planetary ball mill, ZrO2 jars, glovebox-compatible",B-03 mixing,1,PARTNER LAB,QUOTE REQUIRED,Agate mortar for <5 g batches
+lab,Hydraulic press 10 t + 13/25 mm dies; sieve set 125-425 um,granulation B-05,1,PARTNER LAB,QUOTE REQUIRED,-
+lab,Vacuum oven 250 C,salt drying B-02,1,PARTNER LAB,QUOTE REQUIRED,-
+lab,Karl Fischer coulometric titrator,QT-06 moisture,1,PARTNER LAB,QUOTE REQUIRED,-
+lab,Torque screwdriver 0.5-3 N.m; crimp tool for 1/8 in tube; micro-TIG or laser weld service,"D-08, D-10",1,buy small tools,QUOTE REQUIRED,-
+lab,"HCl gas detector (fixed + personal), Class D extinguisher, dry sand, face shield, Nitrile/Neoprene gloves",safety,1,BUY,QUOTE REQUIRED,-
+lab,"Characterisation access: XRD, SEM-EDS, ICP-OES, impedance","QT-01, failure analysis",1,PARTNER LAB,per-sample fees (quote),-
+pilot,"Beta''-alumina forming + sintering (isostatic press or tape cast, 1600 C kiln)",only if make-vs-buy favours make,1,DEFER until G4 passes,QUOTE REQUIRED,Buy discs from ceramic supplier
+pilot,"Dry room (dew point <= -40 C) 30-50 m2 with granulator, cell assembly, TIG/laser welding cells",Stage B,1,DEFER,QUOTE REQUIRED,-
+pilot,"Formation racks with heated enclosures (190-300 C), 50-100 channels",Stage B,1,DEFER,QUOTE REQUIRED,-
+industrial,"See 08_MANUFACTURING/industrial_line and 10_ECONOMICS/factory_capex (scenario model, not a plan)",-,0,DEFER,model,-

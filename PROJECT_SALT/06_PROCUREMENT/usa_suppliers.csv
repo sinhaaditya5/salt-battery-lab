@@ -1,0 +1,27 @@
+item,component,supplier,catalogue_number,price,verification
+PS-C-01,Sodium chloride (cathode + melt),"MilliporeSigma (Sigma-Aldrich), USA",VERIFY (trace-metals-basis grade),QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-02,Iron powder,MilliporeSigma; Thermo Fisher; American Elements,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-03,Nickel powder (10 mol% of metal),MilliporeSigma; Vale/Novamet distributors,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-04,Iron(II) sulfide (S additive),Thermo Fisher (Alfa Aesar); Strem/Ascensus,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-05,Sodium fluoride,MilliporeSigma,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-06,Sodium iodide,MilliporeSigma,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-07,Aluminium powder (priming Na source),MilliporeSigma; Thermo Fisher,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-08,"Aluminium chloride, anhydrous (for NaAlCl4)",MilliporeSigma; Thermo Fisher,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-C-09,Sodium tetrachloroaluminate (made in-house from C-01 + C-08),made in lab (step B-04),n/a,n/a,n/a
+PS-M-01,"beta''-alumina disc, OD 30.0 mm, t 1.0 mm (12) and 0.5 mm (4)",Ionotec Ltd (UK) - enquire; MSE Supplies powder PS-035 + partner sintering,QUOTE REQUIRED,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-02,"alpha-alumina insulating ring, OD 42 / ID 26 / t 4 mm, counterbore 30.4 x disc t",CoorsTek; Ceramco; McMaster-Carr blanks + machining,custom drawing SB-SC-001 item 2,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-03,"Sealing glass (beta''-to-alpha alumina), CTE-matched ~7-8 ppm/K",SCHOTT; Ferro/Vibrantz sealing glasses,VERIFY grade with supplier,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-04,"Graphite foil gasket, 0.5 mm, punched OD 42 / ID 27",McMaster-Carr flexible graphite sheet; Mersen,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-05,"Cathode housing, Ni 201, machined per SB-SC-001 item 5",Machined from McMaster-Carr Ni 200/201 bar (quote),custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-06,Mo mesh disc 23.8 mm (cathode current collector),Goodfellow; Thermo Fisher,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-07,Mo wave spring / Mo foil spring,custom (quote) / Smalley-type wave springs in Mo on request,custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-08,"Ni 201 tube 1/8 in OD x 0.024 in wall (fill tube, TC well)",McMaster-Carr; Swagelok,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-09,"Anode housing, SS 316L, machined per SB-SC-001 item 12",Machined (quote),custom,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-10,SS 316L mesh 100 mesh + 0.1 mm shim (anode wick),McMaster-Carr,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-11,Bolts M4x30 ISO 4762 A4-70 + nuts + Belleville washers,McMaster-Carr,VERIFY,published (McMaster) - not checked,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-12,alpha-alumina sleeve OD 6 / ID 4.2 x 5 mm,McMaster-Carr alumina tube + cut,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-M-13,"Mica washers 0.3 mm, ID 4.2 / OD 9",McMaster-Carr,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-01,"Type-K thermocouple, mineral-insulated, UNGROUNDED junction, 1.5 mm Inconel sheath, 300 mm",Omega Engineering; Watlow,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-02,SCM-1 monitor PCB assembled (pcb/scell_monitor),JLCPCB/PCBWay/MacroFab (quote),fab files,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-E-03,"Zero-cross SSR (DC control, 25 A) + bimetal cut-out 300 C + E-stop with aux NC",Grainger; McMaster-Carr,VERIFY,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
+PS-G-01,"Argon 5.0 (glovebox purge, furnace)",Airgas; Linde,n/a,QUOTE REQUIRED,named supplier exists; product/SKU/price NOT verified online this session
