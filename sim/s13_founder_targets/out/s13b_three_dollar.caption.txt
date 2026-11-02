@@ -1,0 +1,1 @@
+Theoretical minimum material cost, practical cell materials cost and cell cost at 1 GWh/yr versus the founder's $3/kWh target. [CALCULATED from ASSUMPTION prices]; target [TARGET]
