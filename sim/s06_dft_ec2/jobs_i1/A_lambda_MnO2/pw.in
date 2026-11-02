@@ -1,0 +1,64 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'lambda_MnO2'
+  outdir = './tmp'
+  pseudo_dir = '/work/pseudo'
+  tprnfor = .true.
+  tstress = .true.
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-4
+  nstep = 150
+  disk_io = 'low'
+  max_seconds = 160000
+/
+&SYSTEM
+  ibrav = 0
+  nat = 12
+  ntyp = 2
+  ecutwfc = 40.0
+  ecutrho = 240.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.6
+  starting_magnetization(2) = 0.0
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.3
+  electron_maxstep = 250
+  mixing_mode = 'plain'
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  press_conv_thr = 0.5
+  cell_dofree = 'all'
+/
+ATOMIC_SPECIES
+  Mn 54.938 mn_pbe_v1.5.uspp.F.UPF
+  O 15.999 o_pbe_v1.2.uspp.F.UPF
+CELL_PARAMETERS angstrom
+     -2.92400175     2.91565671     4.10636075
+      2.92400175    -2.91565671     4.10636075
+      2.92400175     2.91565671    -4.10636075
+ATOMIC_POSITIONS angstrom
+  Mn    -0.00000000    -0.00000000     4.10636075
+  Mn     4.38600263     1.45782835    -2.05318038
+  Mn     2.92400175    -0.00000000    -0.00000000
+  Mn     1.46200088     1.45782835    -2.05318038
+  O     2.92400175    -0.17592496     1.93636844
+  O     1.28366008     1.45782835     4.22336774
+  O     0.00000000     0.17592496     6.04272920
+  O    -1.28366008     1.45782835     4.22336774
+  O     0.00000000     3.09158167     2.16999231
+  O     1.64034167     1.45782835    -0.11700698
+  O     2.92400175     2.73973174    -1.93636844
+  O     4.20766184     1.45782835    -0.11700698
+K_POINTS automatic
+  3 3 4 0 0 0
+HUBBARD {atomic}
+  U Mn-3d 3.9

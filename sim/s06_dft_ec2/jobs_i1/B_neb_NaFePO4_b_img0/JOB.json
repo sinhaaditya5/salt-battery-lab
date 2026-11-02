@@ -1,0 +1,16 @@
+{
+  "name": "neb_NaFePO4_b_img0",
+  "calc": "scf",
+  "natoms": 55,
+  "formula": "Na7 Fe8 P8 O32",
+  "kpts": [
+    2,
+    2,
+    3
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "B",
+  "note": "static DFT+U on mace_mp0b3 NEB image 0 of NaFePO4_b"
+}

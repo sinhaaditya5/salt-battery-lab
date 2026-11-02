@@ -1,0 +1,16 @@
+{
+  "name": "Na3Ti2PO43",
+  "calc": "vc-relax",
+  "natoms": 40,
+  "formula": "Na6 Ti4 P6 O24",
+  "kpts": [
+    2,
+    2,
+    2
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "A",
+  "note": "validation voltage end member"
+}

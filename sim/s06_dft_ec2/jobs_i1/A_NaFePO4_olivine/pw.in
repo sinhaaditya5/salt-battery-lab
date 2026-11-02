@@ -1,0 +1,84 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'NaFePO4_olivine'
+  outdir = './tmp'
+  pseudo_dir = '/work/pseudo'
+  tprnfor = .true.
+  tstress = .true.
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-4
+  nstep = 150
+  disk_io = 'low'
+  max_seconds = 160000
+/
+&SYSTEM
+  ibrav = 0
+  nat = 28
+  ntyp = 4
+  ecutwfc = 40.0
+  ecutrho = 240.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.0
+  starting_magnetization(2) = 0.8
+  starting_magnetization(3) = 0.0
+  starting_magnetization(4) = 0.0
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.3
+  electron_maxstep = 250
+  mixing_mode = 'plain'
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+  press_conv_thr = 0.5
+  cell_dofree = 'all'
+/
+ATOMIC_SPECIES
+  Na 22.99 na_pbe_v1.5.uspp.F.UPF
+  Fe 55.845 fe_pbe_v1.5.uspp.F.UPF
+  P 30.974 p_pbe_v1.5.uspp.F.UPF
+  O 15.999 o_pbe_v1.2.uspp.F.UPF
+CELL_PARAMETERS angstrom
+     10.52779781     0.00000005     0.00000000
+      0.00000003     6.37959683    -0.00000003
+      0.00000000    -0.00000026     4.98804993
+ATOMIC_POSITIONS angstrom
+  Na     0.00000038     0.00000046     0.00000071
+  Na     5.26389929     3.18979877     2.49402566
+  Na     5.26389928     0.00000035     2.49402568
+  Na     0.00000039     3.18979887     0.00000070
+  Fe     8.28498132     1.59489959     2.55023700
+  Fe     7.50671619     4.78469810     0.05621202
+  Fe     3.02108241     1.59489943     4.93183931
+  Fe     2.24281728     4.78469794     2.43781433
+  P     1.14972848     1.59489952     2.20561165
+  P     4.11417119     4.78469784     4.69963662
+  P     6.41362741     1.59489969     0.28841468
+  P     9.37807011     4.78469801     2.78243966
+  O     1.22427277     1.59489949     3.74876920
+  O     8.66548147     3.54749379     3.43157524
+  O     8.66548164     6.02190230     3.43157524
+  O     9.30352584     4.78469804     1.23928213
+  O     0.33465120     4.78469783     3.26356072
+  O     4.03962691     4.78469804     1.25474422
+  O     1.86231696     0.35769523     1.55647609
+  O     7.12621592     2.83210395     0.93755030
+  O     3.40158268     3.54749357     4.05050103
+  O     3.40158259     6.02190209     4.05050106
+  O    10.19314741     1.59489969     1.72449062
+  O     4.92924850     1.59489960     0.76953576
+  O     5.59855009     4.78469793     4.21851557
+  O     6.48817168     1.59489949     3.73330712
+  O     7.12621600     0.35769544     0.93755026
+  O     1.86231713     2.83210374     1.55647608
+K_POINTS automatic
+  2 3 3 0 0 0
+HUBBARD {atomic}
+  U Fe-3d 5.3
