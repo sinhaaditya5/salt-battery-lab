@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="630.845344pt" height="317.046281pt" viewBox="0 0 630.845344 317.046281" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T11:36:57.286436</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 317.046281 
+L 630.845344 317.046281 
+L 630.845344 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.8475 73.450121 
+L 226.9125 73.450121 
+Q 235.701 73.450121 235.701 69.125801 
+L 235.701 51.828521 
+Q 235.701 47.504201 226.9125 47.504201 
+L 21.8475 47.504201 
+Q 13.059 47.504201 13.059 51.828521 
+L 13.059 69.125801 
+Q 13.059 73.450121 21.8475 73.450121 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 244.4895 73.450121 
+L 496.4265 73.450121 
+Q 505.215 73.450121 505.215 69.125801 
+L 505.215 51.828521 
+Q 505.215 47.504201 496.4265 47.504201 
+L 244.4895 47.504201 
+Q 235.701 47.504201 235.701 51.828521 
+L 235.701 69.125801 
+Q 235.701 73.450121 244.4895 73.450121 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 21.8475 97.089737 
+L 226.9125 97.089737 
+Q 235.701 97.089737 235.701 92.765417 
+L 235.701 75.468137 
+Q 235.701 71.143817 226.9125 71.143817 
+L 21.8475 71.143817 
+Q 13.059 71.143817 13.059 75.468137 
+L 13.059 92.765417 
+Q 13.059 97.089737 21.8475 97.089737 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 244.4895 97.089737 
+L 496.4265 97.089737 
+Q 505.215 97.089737 505.215 92.765417 
+L 505.215 75.468137 
+Q 505.215 71.143817 496.4265 71.143817 
+L 244.4895 71.143817 
+Q 235.701 71.143817 235.701 75.468137 
+L 235.701 92.765417 
+Q 235.701 97.089737 244.4895 97.089737 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 21.8475 120.729353 
+L 226.9125 120.729353 
+Q 235.701 120.729353 235.701 116.405033 
+L 235.701 99.107753 
+Q 235.701 94.783433 226.9125 94.783433 
+L 21.8475 94.783433 
+Q 13.059 94.783433 13.059 99.107753 
+L 13.059 116.405033 
+Q 13.059 120.729353 21.8475 120.729353 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 244.4895 120.729353 
+L 496.4265 120.729353 
+Q 505.215 120.729353 505.215 116.405033 
+L 505.215 99.107753 
+Q 505.215 94.783433 496.4265 94.783433 
+L 244.4895 94.783433 
+Q 235.701 94.783433 235.701 99.107753 
+L 235.701 116.405033 
+Q 235.701 120.729353 244.4895 120.729353 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 21.8475 144.368969 
+L 226.9125 144.368969 
+Q 235.701 144.368969 235.701 140.044649 
+L 235.701 122.747369 
+Q 235.701 118.423049 226.9125 118.423049 
+L 21.8475 118.423049 
+Q 13.059 118.423049 13.059 122.747369 
+L 13.059 140.044649 
+Q 13.059 144.368969 21.8475 144.368969 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 244.4895 144.368969 
+L 496.4265 144.368969 
+Q 505.215 144.368969 505.215 140.044649 
+L 505.215 122.747369 
+Q 505.215 118.423049 496.4265 118.423049 
+L 244.4895 118.423049 
+Q 235.701 118.423049 235.701 122.747369 
+L 235.701 140.044649 
+Q 235.701 144.368969 244.4895 144.368969 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 21.8475 168.008585 
+L 226.9125 168.008585 
+Q 235.701 168.008585 235.701 163.684265 
+L 235.701 146.386985 
+Q 235.701 142.062665 226.9125 142.062665 
+L 21.8475 142.062665 
+Q 13.059 142.062665 13.059 146.386985 
+L 13.059 163.684265 
+Q 13.059 168.008585 21.8475 168.008585 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 244.4895 168.008585 
+L 496.4265 168.008585 
+Q 505.215 168.008585 505.215 163.684265 
+L 505.215 146.386985 
+Q 505.215 142.062665 496.4265 142.062665 
+L 244.4895 142.062665 
+Q 235.701 142.062665 235.701 146.386985 
+L 235.701 163.684265 
+Q 235.701 168.008585 244.4895 168.008585 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 21.8475 191.648201 
+L 226.9125 191.648201 
+Q 235.701 191.648201 235.701 187.323881 
+L 235.701 170.026601 
+Q 235.701 165.702281 226.9125 165.702281 
+L 21.8475 165.702281 
+Q 13.059 165.702281 13.059 170.026601 
+L 13.059 187.323881 
+Q 13.059 191.648201 21.8475 191.648201 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 244.4895 191.648201 
+L 496.4265 191.648201 
+Q 505.215 191.648201 505.215 187.323881 
+L 505.215 170.026601 
+Q 505.215 165.702281 496.4265 165.702281 
+L 244.4895 165.702281 
+Q 235.701 165.702281 235.701 170.026601 
+L 235.701 187.323881 
+Q 235.701 191.648201 244.4895 191.648201 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #fbeaea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 21.8475 215.287817 
+L 226.9125 215.287817 
+Q 235.701 215.287817 235.701 210.963497 
+L 235.701 193.666217 
+Q 235.701 189.341897 226.9125 189.341897 
+L 21.8475 189.341897 
+Q 13.059 189.341897 13.059 193.666217 
+L 13.059 210.963497 
+Q 13.059 215.287817 21.8475 215.287817 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 244.4895 215.287817 
+L 496.4265 215.287817 
+Q 505.215 215.287817 505.215 210.963497 
+L 505.215 193.666217 
+Q 505.215 189.341897 496.4265 189.341897 
+L 244.4895 189.341897 
+Q 235.701 189.341897 235.701 193.666217 
+L 235.701 210.963497 
+Q 235.701 215.287817 244.4895 215.287817 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #fbeaea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 21.8475 238.927433 
+L 226.9125 238.927433 
+Q 235.701 238.927433 235.701 234.603113 
+L 235.701 217.305833 
+Q 235.701 212.981513 226.9125 212.981513 
+L 21.8475 212.981513 
+Q 13.059 212.981513 13.059 217.305833 
+L 13.059 234.603113 
+Q 13.059 238.927433 21.8475 238.927433 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 244.4895 238.927433 
+L 496.4265 238.927433 
+Q 505.215 238.927433 505.215 234.603113 
+L 505.215 217.305833 
+Q 505.215 212.981513 496.4265 212.981513 
+L 244.4895 212.981513 
+Q 235.701 212.981513 235.701 217.305833 
+L 235.701 234.603113 
+Q 235.701 238.927433 244.4895 238.927433 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #fbeaea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 21.8475 262.567049 
+L 226.9125 262.567049 
+Q 235.701 262.567049 235.701 258.242729 
+L 235.701 240.945449 
+Q 235.701 236.621129 226.9125 236.621129 
+L 21.8475 236.621129 
+Q 13.059 236.621129 13.059 240.945449 
+L 13.059 258.242729 
+Q 13.059 262.567049 21.8475 262.567049 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 244.4895 262.567049 
+L 496.4265 262.567049 
+Q 505.215 262.567049 505.215 258.242729 
+L 505.215 240.945449 
+Q 505.215 236.621129 496.4265 236.621129 
+L 244.4895 236.621129 
+Q 235.701 236.621129 235.701 240.945449 
+L 235.701 258.242729 
+Q 235.701 262.567049 244.4895 262.567049 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #fbeaea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 21.8475 286.206665 
+L 226.9125 286.206665 
+Q 235.701 286.206665 235.701 281.882345 
+L 235.701 264.585065 
+Q 235.701 260.260745 226.9125 260.260745 
+L 21.8475 260.260745 
+Q 13.059 260.260745 13.059 264.585065 
+L 13.059 281.882345 
+Q 13.059 286.206665 21.8475 286.206665 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #f4f3ef; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 244.4895 286.206665 
+L 496.4265 286.206665 
+Q 505.215 286.206665 505.215 281.882345 
+L 505.215 264.585065 
+Q 505.215 260.260745 496.4265 260.260745 
+L 244.4895 260.260745 
+Q 235.701 260.260745 235.701 264.585065 
+L 235.701 281.882345 
+Q 235.701 286.206665 244.4895 286.206665 
+z
+" clip-path="url(#p999e33ca04)" style="fill: #fbeaea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="18.918" y="44.621321" transform="rotate(-0 18.918 44.621321)">Li-ion step</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="241.56" y="44.621321" transform="rotate(-0 241.56 44.621321)">R1 aqueous cell</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="44.621321" transform="rotate(-0 511.074 44.621321)">Status</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="62.38113" transform="rotate(-0 124.38 62.38113)">SEI decomposition (~80-120 C)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="62.38113" transform="rotate(-0 370.458 62.38113)">No SEI in an aqueous Na2SO4 cell</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="62.269814" transform="rotate(-0 511.074 62.269814)">✓ removed</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="86.020746" transform="rotate(-0 124.38 86.020746)">Anode-electrolyte reaction, exothermic</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="86.020746" transform="rotate(-0 370.458 86.020746)">NTP is an oxide; no lithiated graphite + organic solvent</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="85.90943" transform="rotate(-0 511.074 85.90943)">✓ removed</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="109.660362" transform="rotate(-0 124.38 109.660362)">Separator melt -&gt; internal short (~130-165 C)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="109.660362" transform="rotate(-0 370.458 109.660362)">Water boils at ~101 C first and clamps temperature while liquid remains</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="109.549046" transform="rotate(-0 511.074 109.549046)">✓ mitigated</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="133.299978" transform="rotate(-0 124.38 133.299978)">Cathode O2 release (NMC ~200 C; LFP much higher)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="133.299978" transform="rotate(-0 370.458 133.299978)">MnO2-type oxides lose O2 only at ~500 C+, endothermically</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="133.188662" transform="rotate(-0 511.074 133.188662)">✓ removed in the credible range</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="156.939594" transform="rotate(-0 124.38 156.939594)">Electrolyte combustion (flammable carbonates)</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="156.939594" transform="rotate(-0 370.458 156.939594)">Electrolyte is water + Na2SO4: non-combustible</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="156.828278" transform="rotate(-0 511.074 156.828278)">✓ removed</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="180.57921" transform="rotate(-0 124.38 180.57921)">Remaining: hydrogen from side reactions or overcharge</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="180.841733" transform="rotate(-0 370.458 180.841733)">H2 is flammable (LFL 4 %); needs vent + ventilation (S4)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="180.467624" transform="rotate(-0 511.074 180.467624)">⚠ REMAINS</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="204.218826" transform="rotate(-0 124.38 204.218826)">Remaining: plastic case + binder/carbon in an external fire</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="204.218826" transform="rotate(-0 370.458 204.218826)">Case fire load is larger than the stored electrical energy</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="204.10724" transform="rotate(-0 511.074 204.10724)">⚠ REMAINS</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="227.858442" transform="rotate(-0 124.38 227.858442)">Remaining: electrolyte leakage (conductive, Mn2+ traces)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="227.858442" transform="rotate(-0 370.458 227.858442)">Short-circuit path on busbars/floor; wastewater handling</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="227.746856" transform="rotate(-0 511.074 227.746856)">⚠ REMAINS</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="251.498058" transform="rotate(-0 124.38 251.498058)">Remaining: Mn2+ dissolution / capacity fade</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="251.498058" transform="rotate(-0 370.458 251.498058)">Performance, not fire, hazard; water-quality limits on disposal</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="251.386472" transform="rotate(-0 511.074 251.386472)">⚠ REMAINS</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="124.38" y="275.137674" transform="rotate(-0 124.38 275.137674)">Remaining: freezing / salt crystallisation</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="370.458" y="275.454104" transform="rotate(-0 370.458 275.454104)">0.5 M Na2SO4 saturates near 5 C; water freezes below ~ -2 C</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="511.074" y="275.026088" transform="rotate(-0 511.074 275.026088)">⚠ REMAINS</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="7.2" y="15.558281" transform="rotate(-0 7.2 15.558281)">Safety: the Li-ion runaway chain vs the R1 aqueous cell</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p999e33ca04">
+   <rect x="7.2" y="21.558281" width="585.9" height="288.288"/>
+  </clipPath>
+ </defs>
+</svg>

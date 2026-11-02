@@ -1,0 +1,1 @@
+Step-by-step comparison of the Li-ion thermal-runaway chain with the R1 aqueous cell, including the hazards that remain (hydrogen, plastic case, leakage, Mn²⁺, freezing). [CALC] S8 energy balance; [LIT] general Li-ion runaway sequence; remaining hazards from S4/S8

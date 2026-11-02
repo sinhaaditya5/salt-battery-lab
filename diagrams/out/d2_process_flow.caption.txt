@@ -1,0 +1,1 @@
+Material and cell process flow from manganese precursor to formed 12 V monobloc, with typical equipment per step. Process steps [LIT] Shan 2019 for cathode synthesis; equipment [ASSUMPTION]
