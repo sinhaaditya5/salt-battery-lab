@@ -1,0 +1,16 @@
+{
+  "_note": "Literature reference values for the uMLIP / DFT validation set. Voltages vs the matching alkali metal.",
+  "voltages_V": {
+    "LiFePO4":  {"value": 3.45, "unc": 0.05, "tag": "LIT", "source": "Padhi, Nanjundaswamy, Goodenough, J. Electrochem. Soc. 144, 1188 (1997): ~3.4-3.5 V plateau vs Li"},
+    "LiMn2O4":  {"value": 4.10, "unc": 0.05, "tag": "LIT", "source": "Thackeray et al. / Ohzuku et al., J. Electrochem. Soc. 137, 769 (1990): 4 V region (two steps ~4.05/4.15 V) vs Li"},
+    "NaFePO4_olivine": {"value": 2.80, "unc": 0.10, "tag": "LIT", "source": "Moreau et al., Chem. Mater. 22, 4126 (2010): ~2.8 V vs Na (as cited by ECS 229 abstract 71201)"},
+    "Na3Ti2PO43": {"value": 2.10, "unc": 0.05, "tag": "CALC", "source": "NaTi2(PO4)3 -0.807 V vs Ag/AgCl (aqueous; RSC J. Mater. Chem. A 2019, C9TA08829F) converted: +0.197 V (Ag/AgCl vs SHE), Na+/Na -2.71 V vs SHE"},
+    "Na2MnFeCN6": {"value": 3.49, "unc": 0.05, "tag": "LIT", "source": "Song, Wang, Lu, ... Goodenough, J. Am. Chem. Soc. 137, 2658 (2015): dehydrated rhombohedral Na2-dMnFe(CN)6 plateau 3.53 V charge / 3.44 V discharge (mean 3.49 V)"}
+  },
+  "barriers_eV": {
+    "LiFePO4_b_axis": {"value": 0.27, "unc": 0.05, "tag": "LIT", "source": "Morgan, Van der Ven, Ceder, Electrochem. Solid-State Lett. 7, A30 (2004): GGA NEB, Li hop along [010], dilute vacancy"}
+  },
+  "structure": {
+    "birnessite_d001_A": {"value": 7.19, "range": [7.02, 7.33], "tag": "LIT", "source": "Shan et al. Nat. Commun. 10, 4975 (2019): pristine 7.19 A; in-situ 7.02-7.33 A"}
+  }
+}
