@@ -1,0 +1,1 @@
+Chemistry-specific 0-D model of the salt-iron planar cell: voltage curves and utilisation vs loading and current density. [SIMULATED] unvalidated model with [ASSUMPTION] literature-range parameters
