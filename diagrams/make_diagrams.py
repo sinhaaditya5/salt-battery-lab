@@ -57,16 +57,16 @@ def architecture():
 
 
 def process_flow():
-    fig, ax = canvas(11, 4.6, "Material and cell process flow (no dry room) — concept")
-    steps = [("Mn precursor\n(MnSO₄/MnCl₂ → Mn₃O₄)", "precipitation reactor,\ncentrifuge/filter"),
-             ("Na insertion\nNaOH, 270 °C, 6 h, air", "belt / rotary kiln"),
-             ("Wash, dry, mill\n(QC: XRD, ICP, TGA)", "filter press, dryer,\njet mill"),
-             ("Water-based slurry\n80:10:10", "planetary / twin-screw\nmixer"),
-             ("Coat + calender\non coated 316L foil", "slot-die coater,\ncalender"),
-             ("Cut plates,\nstack with separator", "die cutter,\nstacker"),
-             ("Case, intercell welds,\nfill 0.5 M Na₂SO₄", "ultrasonic / laser\nwelding, vacuum fill"),
-             ("Seal, vent,\nformation + test", "heat-seal, cyclers,\nleak & gas test")]
-    n = len(steps); w = 0.112; gap = (1 - n * w) / (n + 1)
+    fig, ax = canvas(13, 4.6, "Material and cell process flow (no dry room) — concept")
+    steps = [("Mn precursor\nMnSO₄/MnCl₂\n→ Mn₃O₄", "precipitation\nreactor,\ncentrifuge"),
+             ("Na insertion\nNaOH, 270 °C,\n6 h, air", "belt / rotary\nkiln"),
+             ("Wash, dry, mill\nQC: XRD,\nICP, TGA", "filter press,\ndryer,\njet mill"),
+             ("Water-based\nslurry\n80:10:10", "planetary /\ntwin-screw\nmixer"),
+             ("Coat +\ncalender on\n316L foil", "slot-die\ncoater,\ncalender"),
+             ("Cut plates,\nstack with\nseparator", "die cutter,\nstacker"),
+             ("Case, welds,\nfill 0.5 M\nNa₂SO₄", "ultrasonic /\nlaser welding,\nvacuum fill"),
+             ("Seal, vent,\nformation\n+ test", "heat-seal,\ncyclers, leak\n& gas test")]
+    n = len(steps); w = 0.098; gap = (1 - n * w) / (n + 1)
     for i, (s, eq) in enumerate(steps):
         x = gap + i * (w + gap)
         box(ax, x, 0.50, w, 0.28, s, fill=FILL, size=7.4)
@@ -148,11 +148,11 @@ def positioning():
         ax.scatter([x], [y], s=70, color=c, edgecolor=ps.SURFACE, linewidth=2, zorder=3)
         dy = -12 if name.startswith("LFP") or name.startswith("Aquion") else 5
         ax.annotate(name, (x, y), xytext=(7, dy), textcoords="offset points", fontsize=7.8, color=ps.TEXT)
+    ax.set_xscale("log"); ax.set_yscale("log"); ax.set_xlim(10, 300); ax.set_ylim(40, 600)
     from matplotlib.ticker import FixedLocator, FixedFormatter, NullLocator
     ax.xaxis.set_major_locator(FixedLocator([10, 20, 50, 100, 200])); ax.xaxis.set_major_formatter(FixedFormatter(["10", "20", "50", "100", "200"]))
     ax.yaxis.set_major_locator(FixedLocator([50, 100, 200, 400])); ax.yaxis.set_major_formatter(FixedFormatter(["50", "100", "200", "400"]))
     ax.xaxis.set_minor_locator(NullLocator()); ax.yaxis.set_minor_locator(NullLocator())
-    ax.set_xscale("log"); ax.set_yscale("log"); ax.set_xlim(10, 300); ax.set_ylim(40, 600)
     ax.set_xlabel("Specific energy (Wh/kg, block/module level, log)"); ax.set_ylabel("$ per kWh (price or cost, log)")
     ax.set_title("Competitive position: energy vs cost per kWh")
     ps.note(ax, "Mixed bases (price vs cost); indicative only. Tags in caption.", "lower left")
@@ -213,7 +213,7 @@ def use_of_funds():
     ax.barh([i[0] for i in items], [i[1] for i in items], color=ps.SERIES[0], height=0.5)
     for k, (_, v) in enumerate(items):
         ax.text(v + 2, k, f"${v}k", va="center", fontsize=8, color=ps.TEXT2)
-    ax.invert_yaxis(); ax.set_xlabel("$ thousand (of a $500k YC-standard investment)")
+    ax.invert_yaxis(); ax.set_xlabel("US\\$ thousand (of a \\$500k YC-standard investment)")
     ax.set_title("Use of funds (plan, if the battery path passes week-12 gates)")
     ax.set_xlim(0, 150)
     ps.save(fig, OUT / "d9_use_of_funds", "Indicative allocation of a $500k raise across 18 months; spending beyond the week-12 gates is conditional on passing them.",
