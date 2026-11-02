@@ -1,0 +1,16 @@
+{
+  "name": "neb_birnessite_Na_img1",
+  "calc": "scf",
+  "natoms": 46,
+  "formula": "Na1 Mn9 H12 O24",
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": "grimme-d3",
+  "lane": "C",
+  "note": "static DFT+U on mace_mp0b3 NEB image 1 of birnessite_Na"
+}

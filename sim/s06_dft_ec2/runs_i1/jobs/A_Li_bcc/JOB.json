@@ -1,0 +1,16 @@
+{
+  "name": "Li_bcc",
+  "calc": "vc-relax",
+  "natoms": 1,
+  "formula": "Li1",
+  "kpts": [
+    22,
+    22,
+    22
+  ],
+  "spin": false,
+  "hubbard": false,
+  "vdw": null,
+  "lane": "A",
+  "note": "alkali metal reference for voltages"
+}

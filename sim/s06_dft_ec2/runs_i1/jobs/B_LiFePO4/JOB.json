@@ -1,0 +1,16 @@
+{
+  "name": "LiFePO4",
+  "calc": "vc-relax",
+  "natoms": 28,
+  "formula": "Li4 Fe4 P4 O16",
+  "kpts": [
+    2,
+    3,
+    3
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "B",
+  "note": "validation voltage end member"
+}

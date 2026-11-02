@@ -1,0 +1,16 @@
+{
+  "name": "birnessite_Na1_9",
+  "calc": "vc-relax",
+  "natoms": 46,
+  "formula": "Na1 Mn9 H12 O24",
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": "grimme-d3",
+  "lane": "C",
+  "note": "birnessite interlayer + voltage (PBE+U+D3)"
+}
