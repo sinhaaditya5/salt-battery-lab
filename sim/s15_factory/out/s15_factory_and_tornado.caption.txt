@@ -1,0 +1,1 @@
+Factory scenario cell cost vs scale (India/USA) for the salt-iron and NFPP lines, and S03 materials-cost tornado. [CALCULATED] from [ASSUMPTION] inputs; Altech capex [VENDOR CLAIM]
