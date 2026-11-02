@@ -1,0 +1,62 @@
+2026-11-02T21:43:50Z s11 remote start
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+relax Cl2_box SKIP
+relax CoCl2_FM_U0 SKIP
+relax CoCl2_FM_U4 SKIP
+relax Co_hcp SKIP
+relax FeCl2_FM_U0 SKIP
+relax FeCl2_FM_U4 SKIP
+relax Fe_bcc SKIP
+relax NaCl_rs SKIP
+relax Na_bcc SKIP
+relax NiCl2_FM_U0 DONE
+relax NiCl2_FM_U4 DONE
+relax Ni_fcc SKIP
+written uscan 24
+uscan CoCl2_geomU0_U0 DONE
+uscan CoCl2_geomU0_U2 DONE
+uscan CoCl2_geomU0_U4 DONE
+uscan CoCl2_geomU0_U6 DONE
+uscan CoCl2_geomU4_U0 DONE
+uscan CoCl2_geomU4_U2 DONE
+uscan CoCl2_geomU4_U4 DONE
+uscan CoCl2_geomU4_U6 DONE
+uscan FeCl2_geomU0_U0 DONE
+uscan FeCl2_geomU0_U2 DONE
+uscan FeCl2_geomU0_U4 DONE
+uscan FeCl2_geomU0_U6 DONE
+uscan FeCl2_geomU4_U0 DONE
+uscan FeCl2_geomU4_U2 DONE
+uscan FeCl2_geomU4_U4 DONE
+uscan FeCl2_geomU4_U6 DONE
+uscan NiCl2_geomU0_U0 DONE
+uscan NiCl2_geomU0_U2 DONE
+uscan NiCl2_geomU0_U4 DONE
+uscan NiCl2_geomU0_U6 DONE
+uscan NiCl2_geomU4_U0 DONE
+uscan NiCl2_geomU4_U2 DONE
+uscan NiCl2_geomU4_U4 DONE
+uscan NiCl2_geomU4_U6 DONE
+written mag 12
+mag CoCl2_AFM_U0 DONE
+mag CoCl2_AFM_U4 DONE
+mag CoCl2_FMsup_U0 DONE
+mag CoCl2_FMsup_U4 DONE
+mag FeCl2_AFM_U0 DONE
+mag FeCl2_AFM_U4 DONE
+mag FeCl2_FMsup_U0 DONE
+mag FeCl2_FMsup_U4 DONE
+mag NiCl2_AFM_U0 DONE
+mag NiCl2_AFM_U4 DONE
+mag NiCl2_FMsup_U0 DONE
+mag NiCl2_FMsup_U4 DONE
+2026-11-02T21:58:35Z s11 remote finished
