@@ -14,3 +14,20 @@ sim/s06_dft_ec2/runs/**/*.wfc*
 tools/aws/*.pem
 sim/s06_dft_ec2/.user_data.rendered.sh
 sim/s06_dft_ec2/.instance_*
+rootkey.csv
+# regenerable Blender frame sequences (rebuild: python renders/run_renders.py, or ./run_all.sh); stills are kept
+renders/out/turntable/
+renders/out/turntable_captioned/
+renders/out/tests/
+# QE scratch
+sim/s11_dft_chlorides/runs/**/tmp/
+renders/out_salt/*_frames/
+renders/out_salt/test_*.png
+renders/out_salt/*.log
+# PROJECT_SALT duplicates of tracked artefacts (rebuilt by tools/project_salt/assemble.py); the package itself stays on disk
+PROJECT_SALT/**/*.step
+PROJECT_SALT/**/*.mp4
+PROJECT_SALT/12_YC/investor_deck/SaltBattery_Complete_*
+PROJECT_SALT/04_MECHANICAL_CAD/renders/
+PROJECT_SALT/13_RELEASE/final_build_kit/*.zip
+PROJECT_SALT/02_COMPUTATIONAL_CHEMISTRY/raw_results/
