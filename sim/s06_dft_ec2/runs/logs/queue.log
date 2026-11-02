@@ -2,3 +2,9 @@
 2026-11-02T05:17:41Z start A_FePO4_olivine lane A
 2026-11-02T05:17:41Z start C_1_birnessite_Na3_9 lane C
 2026-11-02T05:17:41Z start B_LiFePO4 lane B
+2026-11-02T05:29:58Z end A_FePO4_olivine FAILED
+2026-11-02T05:29:58Z start A_Li_bcc lane A
+2026-11-02T05:30:07Z end A_Li_bcc DONE
+2026-11-02T05:30:07Z start A_Na3Ti2PO43 lane A
+2026-11-02T05:46:16Z end B_LiFePO4 FAILED
+2026-11-02T05:46:16Z start B_LiMn2O4 lane B
