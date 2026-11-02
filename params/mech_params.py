@@ -199,7 +199,7 @@ def tray_fits_4_monoblocs(tray_mm=MODULE48["tray_mm"]):
 # (d) UPS cabinet (CABINET envelope from product_params)
 # ------------------------------------------------------------------------------------------------
 CAB_MECH = dict(
-    post_mm=40.0,             # ASSUMPTION: 40 x 40 mm corner posts (folded steel profile)
+    post_mm=30.0,             # ASSUMPTION: 30 x 30 mm corner tubes; 40 mm posts clashed with the 3-wide block row (CAD check)
     panel_t_mm=1.5,           # ASSUMPTION: side / rear / roof sheet
     plinth_h_mm=60.0,         # ASSUMPTION: base frame + bottom air inlet
     roof_h_mm=40.0,           # ASSUMPTION: roof frame with top air outlet slots
@@ -207,7 +207,7 @@ CAB_MECH = dict(
     shelf_t_mm=2.5,           # ASSUMPTION: steel shelf sheet
     shelf_lip_mm=25.0,        # ASSUMPTION: folded shelf edge / support angle
     block_gap_mm=6.0,         # ASSUMPTION: gap between monoblocs on a shelf
-    front_clear_mm=20.0,      # ASSUMPTION: gap between door inner face and front block row
+    front_clear_mm=35.0,      # ASSUMPTION: door inner face to front block row; clears the 30 mm front posts
     louvre_slot_mm=(140.0, 10.0),  # ASSUMPTION: door louvre slot (w x h)
     louvre_rows=6,            # ASSUMPTION: rows of louvres at door top and bottom (H2 natural ventilation: in low, out high)
     roof_slots=8,             # ASSUMPTION: roof outlet slots
