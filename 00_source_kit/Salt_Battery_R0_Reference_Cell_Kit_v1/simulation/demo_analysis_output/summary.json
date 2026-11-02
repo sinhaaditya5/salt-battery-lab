@@ -1,0 +1,28 @@
+{
+  "input_file": "/mnt/data/Salt_Battery_R0_Reference_Cell_Kit_v1/simulation/demo_synthetic_data.csv",
+  "cycles_analyzed": 1,
+  "positive_active_mass_mg": 5.0,
+  "negative_active_mass_mg": 5.0,
+  "total_active_mass_mg": 10.0,
+  "normalization_note": "Both total-active-mass and mean-single-electrode-mass bases are reported. State the selected denominator in every comparison.",
+  "last_cycle": {
+    "cycle": 1,
+    "source_data_status": "SYNTHETIC_TEST_ONLY",
+    "charge_capacity_mAh": 0.06944444444444445,
+    "discharge_capacity_mAh": 0.06944444444444445,
+    "charge_energy_mWh": 0.024999999999999998,
+    "discharge_energy_mWh": 0.024999999999999998,
+    "charge_duration_s": 30.0,
+    "discharge_duration_s": 30.0,
+    "coulombic_efficiency_fraction": 1.0,
+    "energy_efficiency_fraction": 1.0,
+    "discharge_mAh_g_total_active_mass": 6.944444444444445,
+    "discharge_mAh_g_mean_single_electrode_mass": 13.88888888888889,
+    "discharge_Wh_kg_total_active_mass": 2.4999999999999996,
+    "discharge_Wh_kg_mean_single_electrode_mass": 4.999999999999999
+  },
+  "data_status": "SYNTHETIC_TEST_ONLY",
+  "source_data_status_values": [
+    "SYNTHETIC_TEST_ONLY"
+  ]
+}
