@@ -21,8 +21,12 @@ MONEY_RE = re.compile(r"[$₹]\s?\d")
 SKIP_RE = re.compile(r"\b(19|20)\d{2}\b|\b[SKDC]-?\d{1,3}\b|SRC-\d+|page \d+|slide \d+|§\d|\bv\d\b|\d{1,2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", re.I)
 
 
+HEADING_RE = re.compile(r"^\s*(Appendix\s+)?[A-Z]?\d+(\.\d+)*\.?\s")
+
+
 def quantitative(text: str) -> bool:
-    t = SKIP_RE.sub(" ", text)
+    t = HEADING_RE.sub(" ", text)          # section numbering such as "3.1 " or "A5 " is not a quantity
+    t = SKIP_RE.sub(" ", t)
     return bool(NUM_RE.search(t) or MONEY_RE.search(t))
 
 
