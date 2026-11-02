@@ -451,10 +451,11 @@ def build_module48() -> Asm:
     zl = t + MONOBLOC["height_mm"]
     # hold-down bars
     for xb in (xs[0] - 80, xs[0] + 80, xs[1] - 80, xs[1] + 80):
-        hb = box(xb - m["holddown_w_mm"] / 2, xb + m["holddown_w_mm"] / 2, -Wt / 2 + t, ydiv, zl, zl + m["holddown_t_mm"])
-        for yy in (-Wt / 2 + t + 4, ydiv - 4):
-            hb = hb + cyl(3, t, zl, xb, yy)
-        A.add("Hold-down bar + 2 tie rods (steel)", "hold-down bar + tie rods", "galvanised steel", "tray", hb)
+        hw, ht_ = m["holddown_w_mm"] / 2, m["holddown_t_mm"]
+        hb = box(xb - hw, xb + hw, -Wt / 2 - 3, ydiv + t + 3, zl, zl + ht_)              # bar over the lids
+        hb = hb + box(xb - hw, xb + hw, -Wt / 2 - 3, -Wt / 2, 0, zl)                       # strap outside the side lip
+        hb = hb + box(xb - hw, xb + hw, ydiv + t, ydiv + t + 3, t, zl)                      # strap on the bay side of the divider
+        A.add("Hold-down bar + 2 straps (steel)", "hold-down bar + straps", "galvanised steel", "tray", hb)
     # electronics bay: fuse, DC/DC, BMS
     bayx0 = -Lt / 2 + t + 8
     fl, fw, fh = m["fuse_box_mm"]
@@ -779,6 +780,8 @@ def main(argv=None):
         "line1": f"R1  {MONOBLOC['cells_in_series']}-CELL AQUEOUS Na-ION  12 V BLOCK",
         "line2": f"{d['v_nom']:.1f} V nom  |  {d['energy_Wh']/1000:.2f} kWh [TARGET]  |  {MAT['electrolyte_molarity'].value} M Na2SO4 (water-based)",
         "line3": "CONCEPT PROTOTYPE - NOT FOR SALE",
+        "side": ["R1 AQUEOUS SODIUM-ION 12 V", f"{d['n_cells']} cells in series | {d['v_nom']:.1f} V nom | {d['energy_Wh']/1000:.2f} kWh [TARGET]",
+                 f"water-based {MAT['electrolyte_molarity'].value} M Na2SO4 electrolyte", "no lead | no lithium | concept"],
     }
     meta["mech"] = {"tab_y_mm": MB_MECH["tab_y_mm"], "m48_sheet_t": M48_MECH["sheet_t_mm"]}
     meta["scene"] = {"tile_m": SCENE["raised_floor_tile_mm"] / 1000.0}
