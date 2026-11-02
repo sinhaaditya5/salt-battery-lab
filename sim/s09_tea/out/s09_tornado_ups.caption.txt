@@ -1,0 +1,1 @@
+Sensitivity of the R1-minus-LFP indoor UPS cost gap to each input swept across its range (negative = R1 cheaper). [CALC] one-at-a-time sensitivity over [ASSUMPTION]/[TARGET] ranges

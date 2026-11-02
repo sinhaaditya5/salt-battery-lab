@@ -1,0 +1,1 @@
+R1 cost per kWh along an 18 % learning curve anchored at the bottom-up estimate for 0.5 GWh cumulative, vs the 2025 LFP stationary pack average. [CALC] learning rate [ASSUMPTION 12–22 %]; LFP price [LIT] BNEF 2025
