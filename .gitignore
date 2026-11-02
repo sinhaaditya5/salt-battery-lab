@@ -11,3 +11,6 @@ tools/aws/credentials_unused
 work/scratch/
 sim/s06_dft_ec2/runs/**/*.save/
 sim/s06_dft_ec2/runs/**/*.wfc*
+tools/aws/*.pem
+sim/s06_dft_ec2/.user_data.rendered.sh
+sim/s06_dft_ec2/.instance_*
