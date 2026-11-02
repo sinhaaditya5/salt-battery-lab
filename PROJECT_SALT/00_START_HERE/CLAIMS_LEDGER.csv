@@ -1,0 +1,82 @@
+id,claim,label,value,unit,source_or_evidence,where_used
+PSC-001,Founder target: cell specific energy,[TARGET],360,Wh/kg,brief §1,EXECUTIVE_VERDICT
+PSC-002,Founder target: range on one charge,[TARGET],1500,km,brief §1,EXECUTIVE_VERDICT
+PSC-003,Founder target: charge time,[TARGET],5,min,brief §1,EXECUTIVE_VERDICT
+PSC-004,Founder target: manufacturing cost (unit basis unresolved),[TARGET],3,USD,brief §1.1,EXECUTIVE_VERDICT
+PSC-005,N08 Anode-free Na solid-state: layered oxide|sulfide/halide SE|Al CC: practical cell specific energy P50 (P10-P90 228-292),[CALCULATED],259,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-006,N08: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,285,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-007,S04 RT Na|AlCl3-SOCl2|Cl2-in-carbon (Na-Cl2): practical cell specific energy P50 (P10-P90 153-231),[CALCULATED],188,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-008,S04: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,76,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-009,N01 Na-ion layered oxide|hard carbon (NaPF6 carbonate): practical cell specific energy P50 (P10-P90 168-186),[CALCULATED],177,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-010,N01: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,57,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-011,N02 Na-ion NFPP|hard carbon: practical cell specific energy P50 (P10-P90 138-152),[CALCULATED],145,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-012,N02: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,56,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-013,N03 Na-ion Prussian white|hard carbon: practical cell specific energy P50 (P10-P90 167-185),[CALCULATED],176,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-014,N03: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,51,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-015,"S01 ZEBRA Na|beta''-Al2O3|NaAlCl4|NiCl2 (tubular, 270-350 C): practical cell specific energy P50 (P10-P90 118-142)",[CALCULATED],130,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-016,S01: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,204,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-017,S02 IT planar Na|beta''-Al2O3|NaAlCl4|NiCl2 (190 C): practical cell specific energy P50 (P10-P90 122-163),[CALCULATED],143,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-018,S02: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,200,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-019,"S03 IT planar Na|beta''-Al2O3|NaAlCl4|FeCl2 (Fe + 10% Ni, 190 C): practical cell specific energy P50 (P10-P90 111-149)",[CALCULATED],131,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-020,S03: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,191,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-021,N05 Aqueous Na-ion birnessite|NaTi2(PO4)3 (0.5 M Na2SO4) - prior track B: practical cell specific energy P50 (P10-P90 17-21),[CALCULATED],19,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-022,N05: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,279,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-023,N06 Aqueous Na-ion MnFe-PBA|NaTi2(PO4)3 (perchlorate-free) - prior track C: practical cell specific energy P50 (P10-P90 23-29),[CALCULATED],26,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-024,N06: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,235,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-025,A01 Aqueous Zn-ion: Zn|ZnSO4|MnO2: practical cell specific energy P50 (P10-P90 47-62),[CALCULATED],54,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-026,A01: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,70,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-027,A03 Iron-air: Fe|KOH|air electrode (multi-day): practical cell specific energy P50 (P10-P90 48-80),[CALCULATED],61,Wh/kg,sim/s12_chemistry_matrix/out/s12_results.json,EXECUTIVE_VERDICT
+PSC-028,A03: cell materials cost P50,[CALCULATED] from [ASSUMPTION] prices,62,USD/kWh,s12_results.json,EXECUTIVE_VERDICT
+PSC-029,S01: theoretical specific energy of the balanced reaction,[THEORETICAL],788.0,Wh/kg,balanced_reactions.md,EXECUTIVE_VERDICT
+PSC-030,S04: theoretical specific energy of the balanced reaction,[THEORETICAL],1825.0,Wh/kg,balanced_reactions.md,EXECUTIVE_VERDICT
+PSC-031,N09: theoretical specific energy of the balanced reaction,[THEORETICAL],1271.0,Wh/kg,balanced_reactions.md,EXECUTIVE_VERDICT
+PSC-032,N10: theoretical specific energy of the balanced reaction,[THEORETICAL],735.0,Wh/kg,balanced_reactions.md,EXECUTIVE_VERDICT
+PSC-033,"Build-up calibration error vs published cell, B01",[CALCULATED],0.7,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-034,"Build-up calibration error vs published cell, B02",[CALCULATED],7.0,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-035,"Build-up calibration error vs published cell, B03",[CALCULATED],6.3,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-036,"Build-up calibration error vs published cell, B04",[CALCULATED],-9.9,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-037,"Build-up calibration error vs published cell, B05",[CALCULATED],-12.6,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-038,"Build-up calibration error vs published cell, N01",[CALCULATED],12.2,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-039,"Build-up calibration error vs published cell, S01",[CALCULATED],13.2,%,s12_results.json,EXECUTIVE_VERDICT
+PSC-040,"Mid SUV 1,500 km with 360 Wh/kg cell: usable energy",[CALCULATED],289.1,kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-041,"Mid SUV 1,500 km: battery mass",[CALCULATED],1115.0,kg,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-042,"Mid SUV 1,500 km in 5 min: average charging power",[CALCULATED],3.77,MW,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-043,"Mid SUV 1,500 km in 5 min: average C-rate",[CALCULATED],11.7,C,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-044,MCS connector ceiling,[PUBLISHED],3.75,MW,PS-033,EXECUTIVE_VERDICT
+PSC-045,Best deployed/claimed passenger-car charging power (CATL Shenxing gen-2),[VENDOR CLAIM],1.3,MW,PS-018,EXECUTIVE_VERDICT
+PSC-046,Transport-limited areal capacity for a 5-min charge (liquid electrolyte),[CALCULATED],1.86,mAh/cm2,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-047,Validated Li-ion DFN (Chen2020): fraction charged in 5 min at 1C CC-CV,[SIMULATED],8.0,%,s13a_fast_charge.json,03/fast_charging
+PSC-048,Validated Li-ion DFN (Chen2020): fraction charged in 5 min at 4C CC-CV,[SIMULATED],29.3,%,s13a_fast_charge.json,03/fast_charging
+PSC-049,Validated Li-ion DFN (Chen2020): fraction charged in 5 min at 10C CC-CV,[SIMULATED],30.7,%,s13a_fast_charge.json,03/fast_charging
+PSC-050,OKane2022 Li benchmark: capacity fade per cycle with 1C charge (15 cycles),[SIMULATED],0.0156,%/cycle,s13a_fast_charge.json,03/fast_charging
+PSC-051,OKane2022 Li benchmark: capacity fade per cycle with 3C charge (15 cycles),[SIMULATED],0.0186,%/cycle,s13a_fast_charge.json,03/fast_charging
+PSC-052,OKane2022 Li benchmark: capacity fade per cycle with 6C charge (15 cycles),[SIMULATED],0.0221,%/cycle,s13a_fast_charge.json,03/fast_charging
+PSC-053,S-cell: cell voltage needed for a 5-min (12C) charge at 60 mAh/cm2,[SIMULATED] (unvalidated model),4.4,V,s14_results.json,EXECUTIVE_VERDICT
+PSC-054,Over-charge side reaction onset in Na-MCl2 (NaAlCl4 + Ni),[PUBLISHED] (ZEBRA literature),3.05,V,HAZARD_ANALYSIS H3,EXECUTIVE_VERDICT
+PSC-055,S03: theoretical minimum material cost (reactants at feedstock price),[CALCULATED] from [ASSUMPTION],0.26,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-056,S03: cell cost floor at 1 GWh,[CALCULATED] from [ASSUMPTION],125.2,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-057,S04: theoretical minimum material cost (reactants at feedstock price),[CALCULATED] from [ASSUMPTION],0.03,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-058,S04: cell cost floor at 1 GWh,[CALCULATED] from [ASSUMPTION],64.8,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-059,N02: theoretical minimum material cost (reactants at feedstock price),[CALCULATED] from [ASSUMPTION],3.21,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-060,N02: cell cost floor at 1 GWh,[CALCULATED] from [ASSUMPTION],58.2,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-061,B02: theoretical minimum material cost (reactants at feedstock price),[CALCULATED] from [ASSUMPTION],9.18,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-062,B02: cell cost floor at 1 GWh,[CALCULATED] from [ASSUMPTION],40.7,USD/kWh,s13b_targets.json,EXECUTIVE_VERDICT
+PSC-063,"S03 cell cost at 100 MWh/yr, India scenario",[CALCULATED] from [ASSUMPTION],721.2,USD/kWh,s15_results.json,08/10
+PSC-064,"S03 cell cost at 1000 MWh/yr, India scenario",[CALCULATED] from [ASSUMPTION],379.6,USD/kWh,s15_results.json,08/10
+PSC-065,"N02 cell cost at 100 MWh/yr, India scenario",[CALCULATED] from [ASSUMPTION],165.1,USD/kWh,s15_results.json,08/10
+PSC-066,"N02 cell cost at 1000 MWh/yr, India scenario",[CALCULATED] from [ASSUMPTION],83.1,USD/kWh,s15_results.json,08/10
+PSC-067,"S03 materials cost in the G4 case (0.5 mm disc, 100 mAh/cm2, $15/kg ceramic)",[CALCULATED] from [ASSUMPTION],31.5,USD/kWh,s15_results.json,EXECUTIVE_VERDICT
+PSC-068,Lowest LFP cell price 2025 (stationary),[PUBLISHED],36,USD/kWh,PS-017,EXECUTIVE_VERDICT
+PSC-069,Altech CERENERGY 120 MWh/yr plant capex,[VENDOR CLAIM],156,EUR million,PS-032,EXECUTIVE_VERDICT
+PSC-070,ZEBRA cell specific energy (literature range 90-140),[PUBLISHED],120,Wh/kg,PS-010,EXECUTIVE_VERDICT
+PSC-071,Na-FeCl2 at 190 C: capacity at 33.3 mA/cm2,[PUBLISHED],116,mAh/g,PS-005,EXECUTIVE_VERDICT
+PSC-072,"NFPA 855 threshold quantity, sodium nickel chloride (70 kWh if UL 1973 listed)",[PUBLISHED],20,kWh,PS-015,EXECUTIVE_VERDICT
+PSC-073,Number of cells built / measured in this project,[MEASURED]-type fact: none exist,0,cells,BUILD_STATUS,EXECUTIVE_VERDICT
+PSC-074,Customer interviews conducted,fact,0,interviews,11_MARKET/customer_interviews,EXECUTIVE_VERDICT
+PSC-075,DFT(+U) voltage Na+1/2Cl2,[SIMULATED],3.92,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-076,DFT(+U) voltage FeCl2_U0,[SIMULATED],2.598,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-077,DFT(+U) voltage FeCl2_U4,[SIMULATED],3.416,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-078,DFT(+U) voltage CoCl2_U0,[SIMULATED],2.915,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-079,DFT(+U) voltage CoCl2_U4,[SIMULATED],3.32,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-080,DFT(+U) voltage NiCl2_U0,[SIMULATED],2.848,V,02/validation/s11_results.json,thermodynamic_limits.md
+PSC-081,DFT(+U) voltage NiCl2_U4,[SIMULATED],3.299,V,02/validation/s11_results.json,thermodynamic_limits.md
