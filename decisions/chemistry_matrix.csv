@@ -1,0 +1,10 @@
+criterion,weight,A_R0_symmetric_birnessite,B_birnessite_NTP_Na2SO4,C_MnFe_PBA_NTP_nonperchlorate,D_birnessite_AC_hybrid,evidence
+energy_density_cell_and_system,0.15,1,2,3,1,"S7: B block P50 17.6 Wh/kg (13.7-22.1); C 27.8 base / 35 optimistic; D ~6 Wh/kg; A symmetric ~1 V avg [CALC]"
+cycle_life,0.10,3,3,3,5,"R0 5000 cycles at 2.8 mg/cm2 [LIT Shan 2019]; HE-PBA//NTP 87%/1000 in 1 M Na2SO4 [LIT SRC-074]; capacitive anode tolerant; S4 water budget needs CE>=99.88% for B/C"
+rate_capability,0.10,4,3,4,5,"S3: B 86% (P10 54%) at 4C at 40 mg/cm2; collapses at 60 mg/cm2; PBA open framework fast; AC capacitive"
+cost_per_kWh_and_LCOS,0.20,1,2,3,1,"S9: B $350/kWh cost (203 optimistic); C $256 (149 optimistic); D $841; LFP pack $70 [LIT]"
+safety_gas_toxicity,0.15,3,3,2,4,"S4: NTP sits ~0.2 V below HER at pH 7 -> H2 on float; A 2.5 V window; C cyanide ligands (HCN risk in external fire), Mn dissolution; D can keep both electrodes inside window; S8: no runaway chain for all aqueous"
+material_availability_India,0.05,5,4,3,5,"Mn ores/EMD made in India (MOIL, SRC-109); TiO2/phosphate available; ferrocyanide mostly imported [ASSUMPTION]"
+manufacturability_no_dry_room,0.10,4,4,4,5,"all aqueous processing, no dry room; D uses commodity activated carbon"
+IP_freedom_to_operate,0.05,4,2,2,3,"Aquion-lineage Mn-oxide//NTP patents (CMU/Aquion assets sold 2017, SRC-032); aqueous PBA patents (Stanford/Alveo/Natron lineage); R0 is published 2019 [screening only, no legal FTO]"
+distance_from_Alsym,0.10,2,2,4,4,"Alsym earlier described as Mn-oxide water-based (SRC-019); now 'NFPP+' (SRC-013); PBA and hybrid-capacitor routes differ"
