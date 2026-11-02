@@ -1,0 +1,33 @@
+&control
+  calculation='scf', prefix='NiCl2afm', outdir='./tmp',
+  pseudo_dir='/work/lab/tools/pseudo/gbrv', tprnfor=.true., tstress=.true.,
+  etot_conv_thr=1e-5, forc_conv_thr=1e-4, disk_io='low'
+/
+&system
+  ibrav=0, nat=6, ntyp=3,
+  ecutwfc=50, ecutrho=400, vdw_corr='dft-d3', dftd3_version=4,
+  occupations='smearing', smearing='mv', degauss=0.01,
+  nspin=2,
+  starting_magnetization(1)=0.4,
+  starting_magnetization(3)=-0.4,
+/
+&electrons
+  conv_thr=1e-09, mixing_beta=0.3, electron_maxstep=200
+/
+ATOMIC_SPECIES
+Ni1 58.693 ni_pbe_v1.4.uspp.F.UPF
+Cl 35.453 cl_pbe_v1.4.uspp.F.UPF
+Ni2 58.693 ni_pbe_v1.4.uspp.F.UPF
+CELL_PARAMETERS angstrom
+  3.45700817 0.00000000 0.00000000
+  -1.72850409 2.99385689 0.00000000
+  0.00000000 -3.99180919 11.48955256
+ATOMIC_POSITIONS crystal
+Ni1 0.00000000 0.00000000 0.00000000
+Cl 0.25740681 0.51481361 0.38611021
+Cl 0.74259319 0.48518639 0.61388979
+Ni2 1.00000000 1.00000000 0.50000000
+Cl 0.25740681 0.51481361 0.88611021
+Cl 0.74259319 0.48518639 0.11388979
+K_POINTS automatic
+7 8 2 0 0 0

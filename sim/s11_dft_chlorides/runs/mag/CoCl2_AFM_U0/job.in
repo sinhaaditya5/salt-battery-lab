@@ -1,0 +1,33 @@
+&control
+  calculation='scf', prefix='CoCl2afm', outdir='./tmp',
+  pseudo_dir='/work/lab/tools/pseudo/gbrv', tprnfor=.true., tstress=.true.,
+  etot_conv_thr=1e-5, forc_conv_thr=1e-4, disk_io='low'
+/
+&system
+  ibrav=0, nat=6, ntyp=3,
+  ecutwfc=50, ecutrho=400, vdw_corr='dft-d3', dftd3_version=4,
+  occupations='smearing', smearing='mv', degauss=0.01,
+  nspin=2,
+  starting_magnetization(1)=0.5,
+  starting_magnetization(3)=-0.5,
+/
+&electrons
+  conv_thr=1e-09, mixing_beta=0.3, electron_maxstep=200
+/
+ATOMIC_SPECIES
+Co1 58.933 co_pbe_v1.2.uspp.F.UPF
+Cl 35.453 cl_pbe_v1.4.uspp.F.UPF
+Co2 58.933 co_pbe_v1.2.uspp.F.UPF
+CELL_PARAMETERS angstrom
+  3.47401738 0.00000000 0.00000000
+  -1.73700869 3.00858730 0.00000000
+  0.00000000 -4.01144973 11.61127752
+ATOMIC_POSITIONS crystal
+Co1 0.00000000 0.00000000 0.00000000
+Cl 0.25609445 0.51218889 0.38414167
+Cl 0.74390555 0.48781111 0.61585833
+Co2 0.00000000 0.00000000 0.50000000
+Cl 0.25609445 0.51218889 0.88414167
+Cl 0.74390555 0.48781111 0.11585833
+K_POINTS automatic
+7 8 2 0 0 0

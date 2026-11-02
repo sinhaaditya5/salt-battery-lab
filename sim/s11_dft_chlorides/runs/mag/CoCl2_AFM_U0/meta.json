@@ -1,0 +1,12 @@
+{
+ "name": "CoCl2afm",
+ "calc": "scf",
+ "U": 0.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 20.0,
+ "kind": "tm_afm",
+ "nat": 6
+}

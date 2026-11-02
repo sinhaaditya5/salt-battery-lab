@@ -1,0 +1,12 @@
+{
+ "name": "FeCl2fms",
+ "calc": "scf",
+ "U": 4.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 20.0,
+ "kind": "tm",
+ "nat": 6
+}
