@@ -216,3 +216,62 @@ GAS = dict(
     h2_limit_fraction=P(0.01, "-", "LIT", "1 % H2 by volume = 25 % of the 4 % LFL, the usual battery-room design limit (IEEE 1635 / NFPA 855 practice; verify edition)"),
     case_burst_kPa=P(60.0, "kPa", "ASSUMPTION", "PP-GF monobloc design burst margin", rng=(40.0, 100.0)),
 )
+
+# ----------------------------------------------------------------------------------------
+# S9 techno-economic inputs (USD). Every value tagged; ASSUMPTION ranges feed the tornado chart.
+# Values marked "research" are cross-checked against research/sources.csv (see S9 README).
+# ----------------------------------------------------------------------------------------
+USD_INR = P(88.0, "INR/USD", "ASSUMPTION", "exchange rate, Nov 2026", rng=(84.0, 92.0))
+COST = dict(
+    # materials $/kg (battery grade, delivered India, at >=100 t/yr)
+    mn_precursor=P(2.2, "$/kg", "ASSUMPTION", "battery-grade MnO2/Mn3O4 (EMD-type) price band", rng=(1.5, 3.5)),
+    naoh=P(0.45, "$/kg", "ASSUMPTION", "industrial caustic soda", rng=(0.3, 0.7)),
+    cathode_processing=P(2.5, "$/kg", "ASSUMPTION", "solid-state Na insertion 270 C, wash, dry, mill (energy+labour+depreciation)", rng=(1.0, 5.0)),
+    ntp=P(7.0, "$/kg", "ASSUMPTION", "NaTi2(PO4)3/C: TiO2 + NH4H2PO4 + Na2CO3 raw ~$2.3/kg (CALC) + carbon coat + calcination; no merchant supply", rng=(4.0, 14.0)),
+    carbon_black=P(8.0, "$/kg", "ASSUMPTION", "conductive carbon black", rng=(5.0, 15.0)),
+    binder=P(6.0, "$/kg", "ASSUMPTION", "aqueous CMC/SBR or PTFE", rng=(3.0, 15.0)),
+    steel_foil=P(12.0, "$/kg", "ASSUMPTION", "carbon-coated 316L foil 25 um", rng=(8.0, 22.0)),
+    separator=P(0.8, "$/m2", "ASSUMPTION", "nonwoven PP / glass mat", rng=(0.4, 1.5)),
+    na2so4=P(0.15, "$/kg", "ASSUMPTION", "technical-grade sodium sulfate", rng=(0.08, 0.30)),
+    case_pp=P(3.5, "$/kg", "ASSUMPTION", "moulded PP-GF V-0 case + lid", rng=(2.5, 5.5)),
+    hardware=P(4.0, "$/monobloc", "ASSUMPTION", "terminals, intercell straps, valve, flame arrestor", rng=(2.5, 7.0)),
+    # conversion
+    labour=P(3.0, "$/monobloc", "ASSUMPTION", "India line at scale, incl. formation", rng=(1.5, 6.0)),
+    energy_kwh_per_kwh=P(10.0, "kWh/kWh", "ASSUMPTION", "process energy; no dry room (aqueous)", rng=(5.0, 25.0)),
+    electricity=P(0.10, "$/kWh", "ASSUMPTION", "India industrial/C&I tariff", rng=(0.08, 0.14)),
+    yield_=P(0.92, "-", "ASSUMPTION", "good monoblocs / started", rng=(0.80, 0.97)),
+    capex_per_GWh=P(40e6, "$/(GWh/yr)", "ASSUMPTION", "aqueous line, no dry room; Li-ion lines are typically higher", rng=(25e6, 80e6)),
+    plant_GWh=P(0.5, "GWh/yr", "ASSUMPTION", "first commercial line nameplate", rng=(0.1, 1.0)),
+    utilisation=P(0.75, "-", "ASSUMPTION", "plant utilisation", rng=(0.5, 0.9)),
+    depreciation_years=P(10.0, "years", "ASSUMPTION", "straight-line", rng=(7.0, 12.0)),
+    overhead_frac=P(0.15, "-", "ASSUMPTION", "plant overhead, QA, warranty reserve as fraction of cash cost", rng=(0.08, 0.25)),
+    # system (48 V tray, UPS cabinet)
+    bms_per_module=P(45.0, "$/module", "ASSUMPTION", "monitor board (pcb/ BOM) + harness; checked against S-PCB BOM", rng=(25.0, 90.0)),
+    dcdc_per_kW=P(45.0, "$/kW", "ASSUMPTION", "bidirectional DC/DC for 48 V bus", rng=(30.0, 90.0)),
+    tray=P(30.0, "$/module", "ASSUMPTION", "steel tray, fuse, breaker", rng=(20.0, 60.0)),
+    cabinet_frame=P(700.0, "$/cabinet", "ASSUMPTION", "19-inch steel cabinet + string breaker + master BMS", rng=(400.0, 1200.0)),
+    gross_margin=P(0.30, "-", "TARGET", "gross margin on selling price", rng=(0.20, 0.40)),
+    # comparison technologies and site costs
+    lfp_pack=P(70.0, "$/kWh", "LIT", "BNEF 2025 stationary-storage pack average (rack incl. BMS)"),
+    lfp_ups_cabinet_installed=P(450.0, "$/kWh", "ASSUMPTION", "Li-ion UPS battery cabinet sold through UPS OEM, installed", rng=(250.0, 700.0)),
+    lfp_fire_protection=P(60.0, "$/kWh", "ASSUMPTION", "indoor Li-ion extras: rated room/enclosure, detection, suppression, deflagration venting, HMA/UL 9540A-driven engineering", rng=(15.0, 200.0)),
+    vrla_installed=P(160.0, "$/kWh", "ASSUMPTION", "VRLA UPS battery installed, per C10 kWh", rng=(110.0, 220.0)),
+    vrla_15min_fraction=VRLA_REF["fraction_at_15min"],
+    floor_cost=P(4000.0, "$/m2", "ASSUMPTION", "data-centre built floor cost (one-off)", rng=(2000.0, 10000.0)),
+    discount_rate=P(0.10, "-", "ASSUMPTION", "India real discount rate", rng=(0.08, 0.14)),
+    lfp_life_years=P(12.0, "years", "ASSUMPTION", "Li-ion UPS service life", rng=(10.0, 15.0)),
+    lfp_cycle_life=P(6000.0, "cycles", "ASSUMPTION", "stationary LFP cycle life to 80 %", rng=(4000.0, 8000.0)),
+    vrla_cycle_life=P(500.0, "cycles", "ASSUMPTION", "VRLA cycle life at 80 % DoD", rng=(300.0, 800.0)),
+    lfp_rte=P(0.92, "-", "ASSUMPTION", "LFP system round-trip efficiency", rng=(0.88, 0.95)),
+    vrla_rte=P(0.80, "-", "ASSUMPTION", "VRLA round-trip efficiency", rng=(0.75, 0.85)),
+    lfp_footprint=P(60.0, "kWh/m2", "ASSUMPTION", "Li-ion UPS cabinet energy per floor area incl. clearance", rng=(40.0, 100.0)),
+    vrla_footprint=P(40.0, "kWh/m2", "ASSUMPTION", "VRLA cabinet C10 energy per floor area incl. clearance", rng=(30.0, 55.0)),
+    clearance_factor=P(1.8, "-", "ASSUMPTION", "floor area / cabinet footprint (aisle + service)", rng=(1.5, 2.5)),
+    # R1 performance targets used in LCOS
+    r1_cycle_life=P(3000.0, "cycles", "TARGET", "to 80 % capacity; needs CE >= 99.88 % (S4)", rng=(1000.0, 6000.0)),
+    r1_float_life_years=P(10.0, "years", "TARGET", "UPS float service life; at risk from float gassing (S4)", rng=(3.0, 15.0)),
+    r1_rte=P(0.93, "-", "TARGET", "system RTE at C/5-1C incl. DC/DC (S3 cell 0.96-0.99 x DC/DC)", rng=(0.85, 0.96)),
+    cycles_per_year_telecom=P(365.0, "cycles/yr", "ASSUMPTION", "one deep cycle a day at weak-grid telecom sites", rng=(150.0, 600.0)),
+    horizon_years=P(15.0, "years", "ASSUMPTION", "analysis horizon", rng=(10.0, 20.0)),
+    learning_rate=P(0.18, "-", "ASSUMPTION", "cost reduction per doubling of cumulative production", rng=(0.12, 0.22)),
+)
