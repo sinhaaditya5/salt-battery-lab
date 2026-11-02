@@ -1,0 +1,36 @@
+{
+ "z_disc": [
+  0,
+  1.0
+ ],
+ "z_cath_flange": [
+  1.5,
+  6.5
+ ],
+ "z_anode_flange": [
+  -8.5,
+  -3.5
+ ],
+ "cathode_thickness_mm": 1.6994529320390641,
+ "cath_gap_mm": 4.500547067960936,
+ "qa_mAh_cm2": 60.0,
+ "cathode_charge": {
+  "Q_mAh": 271.4336,
+  "NaCl_g": 0.7399,
+  "Fe_g": 0.5599,
+  "Ni_g": 0.0654,
+  "FeS_g": 0.041,
+  "NaF_g": 0.0137,
+  "NaI_g": 0.0137,
+  "Al_g": 0.0273,
+  "granules_g": 1.4607,
+  "NaAlCl4_g": 0.5074,
+  "cathode_thickness_mm": 1.6995,
+  "AlCl3_for_melt_g": 0.3528,
+  "NaCl_for_melt_g": 0.1546
+ },
+ "total_mass_g": 275.0,
+ "energy_Wh": 0.597,
+ "lab_cell_Wh_per_kg": 2.17,
+ "note": "Lab fixture: heavy metal housings dominate mass; Wh/kg here is NOT a cell-design metric [CALCULATED]"
+}

@@ -1,0 +1,558 @@
+linetype {"load": "*"}
+layer.new {"name": "OUTLINE", "color": 7, "linetype": "Continuous", "lineweight": 0.5}
+layer.new {"name": "THIN", "color": 7, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "HIDDEN", "color": 8, "linetype": "HIDDEN", "lineweight": 0.25}
+layer.new {"name": "CENTER", "color": 1, "linetype": "CENTER", "lineweight": 0.18}
+layer.new {"name": "PHANTOM", "color": 6, "linetype": "PHANTOM", "lineweight": 0.25}
+layer.new {"name": "HATCH", "color": 8, "linetype": "Continuous", "lineweight": 0.13}
+layer.new {"name": "DIM", "color": 5, "linetype": "Continuous", "lineweight": 0.18}
+layer.new {"name": "TEXT", "color": 7, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BALLOON", "color": 3, "linetype": "Continuous", "lineweight": 0.25}
+layer.new {"name": "BORDER", "color": 7, "linetype": "Continuous", "lineweight": 0.7}
+layer.new {"name": "FLOW", "color": 4, "linetype": "Continuous", "lineweight": 0.35}
+ltscale {"scale": 0.3}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 0.5, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 2, "DIMLFAC": 1.0}
+dimstyle {"name": "SB", "current": true, "DIMSCALE": 0.5, "DIMTXT": 2.5, "DIMASZ": 2.2, "DIMEXO": 1.0, "DIMEXE": 1.5, "DIMGAP": 0.8, "DIMDEC": 2, "DIMLFAC": 1.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [80.0, 132.0], "p2": [95.0, 133.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [65.0, 132.0], "p2": [80.0, 133.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI37", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [95.2, 132.0], "p2": [101.0, 133.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [59.0, 132.0], "p2": [64.8, 133.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [93.0, 129.0], "p2": [101.0, 132.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [59.0, 129.0], "p2": [67.0, 132.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI31", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [95.0, 132.0], "p2": [95.2, 133.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [64.8, 132.0], "p2": [65.0, 133.0]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [93.5, 133.0], "p2": [101.0, 133.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [59.0, 133.0], "p2": [66.5, 133.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [93.5, 128.5], "p2": [101.0, 129.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [59.0, 128.5], "p2": [66.5, 129.0]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "SOLID", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [92.0, 133.5], "p2": [110.0, 138.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [50.0, 133.5], "p2": [68.0, 138.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [92.0, 138.5], "p2": [95.0, 139.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [65.0, 138.5], "p2": [68.0, 139.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [80.0, 139.5], "p2": [95.0, 142.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [65.0, 139.5], "p2": [80.0, 142.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI32", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [80.0, 133.0], "p2": [91.95, 134.699]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "AR-SAND", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [68.05, 133.0], "p2": [80.0, 134.699]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "AR-SAND", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [80.0, 134.699], "p2": [91.9, 134.999]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [68.1, 134.699], "p2": [80.0, 134.999]}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [92.0, 123.5], "p2": [110.0, 128.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [50.0, 123.5], "p2": [68.0, 128.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [92.0, 122.5], "p2": [95.0, 123.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [65.0, 122.5], "p2": [68.0, 123.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [80.0, 119.5], "p2": [95.0, 122.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "OUTLINE"}
+rectang {"p1": [65.0, 119.5], "p2": [80.0, 122.5]}
+layer.current {"name": "HATCH"}
+hatch {"handles": ["{last}"], "pattern": "ANSI33", "scale": 0.25, "angle": 0.0}
+layer.current {"name": "THIN"}
+rectang {"p1": [80.0, 122.5], "p2": [90.5, 132.0]}
+layer.current {"name": "THIN"}
+rectang {"p1": [69.5, 122.5], "p2": [80.0, 132.0]}
+layer.current {"name": "CENTER"}
+line {"points": [[105.0, 119.5], [105.0, 142.5]]}
+layer.current {"name": "PHANTOM"}
+rectang {"p1": [103.0, 120.3], "p2": [107.0, 141.5]}
+layer.current {"name": "CENTER"}
+line {"points": [[55.0, 119.5], [55.0, 142.5]]}
+layer.current {"name": "PHANTOM"}
+rectang {"p1": [53.0, 120.3], "p2": [57.0, 141.5]}
+layer.current {"name": "CENTER"}
+line {"points": [[80.0, 107.0], [80.0, 167.0]]}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [50.0, 110.0], "p2": [110.0, 110.0], "at": [80.0, 104.0], "text": "%%c60", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [68.0, 133.0], "p2": [92.0, 133.0], "at": [80.0, 159.0], "text": "%%c24 ACTIVE", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [65.0, 132.0], "p2": [95.0, 132.0], "at": [80.0, 120.0], "text": "%%c30", "rotation": 0}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [116.0, 132.0], "p2": [116.0, 133.0], "at": [120.0, 132.5], "text": "1.0", "rotation": 90}
+dimstyle {"name": "SB", "current": true}
+layer.current {"name": "DIM"}
+dimlinear {"p1": [44.0, 133.0], "p2": [44.0, 134.699], "at": [38.0, 133.85], "text": "1.70 @ 60 mAh/cm2", "rotation": 90}
+layer.current {"name": "BALLOON"}
+line {"points": [[130.0055225373791, 135.85147508257077], [85.0, 132.5]]}
+circle {"center": [132.0, 136.0], "radius": 2.0}
+circle {"center": [85.0, 132.5], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [132.0, 136.0], "text": "1", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[130.0183396639114, 126.27022640946663], [99.0, 130.5]]}
+circle {"center": [132.0, 126.0], "radius": 2.0}
+circle {"center": [99.0, 130.5], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [132.0, 126.0], "text": "2", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[122.18795421778263, 145.15354262768392], [95.1, 132.5]]}
+circle {"center": [124.0, 146.0], "radius": 2.0}
+circle {"center": [95.1, 132.5], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [124.0, 146.0], "text": "3", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[122.43679703754259, 152.75244378957726], [98.0, 133.25]]}
+circle {"center": [124.0, 154.0], "radius": 2.0}
+circle {"center": [98.0, 133.25], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [124.0, 154.0], "text": "4", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[117.10557280900008, 160.21114561800016], [105.0, 136.0]]}
+circle {"center": [118.0, 162.0], "radius": 2.0}
+circle {"center": [105.0, 136.0], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [118.0, 162.0], "text": "5", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[35.860836002133766, 149.26699974545514], [75.0, 133.85]]}
+circle {"center": [34.0, 150.0], "radius": 2.0}
+circle {"center": [75.0, 133.85], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [34.0, 150.0], "text": "6", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[43.55791668822208, 157.7458486564377], [72.0, 134.849]]}
+circle {"center": [42.0, 159.0], "radius": 2.0}
+circle {"center": [72.0, 134.849], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [42.0, 159.0], "text": "7", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[35.94430087283982, 122.46871538898817], [62.0, 128.75]]}
+circle {"center": [34.0, 122.0], "radius": 2.0}
+circle {"center": [62.0, 128.75], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [34.0, 122.0], "text": "11", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[37.690977806061944, 115.06798598277597], [55.0, 126.0]]}
+circle {"center": [36.0, 114.0], "radius": 2.0}
+circle {"center": [55.0, 126.0], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [36.0, 114.0], "text": "12", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[96.56031140915863, 113.38827114116846], [84.0, 125.5]]}
+circle {"center": [98.0, 112.0], "radius": 2.0}
+circle {"center": [84.0, 125.5], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [98.0, 112.0], "text": "13", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "BALLOON"}
+line {"points": [[122.91704484018378, 168.31856962028533], [105.0, 140.5]]}
+circle {"center": [124.0, 170.0], "radius": 2.0}
+circle {"center": [105.0, 140.5], "radius": 0.3}
+layer.current {"name": "BALLOON"}
+text {"at": [124.0, 170.0], "text": "14", "height": 1.6, "justify": "MC", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [40.0, 178.0], "text": "SECTION A-A  (2:1)   z = 0 AT ANODE FACE OF ITEM 1", "height": 2.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "OUTLINE"}
+circle {"center": [200.0, 140.0], "radius": 30.0}
+layer.current {"name": "HIDDEN"}
+circle {"center": [200.0, 140.0], "radius": 12.0}
+layer.current {"name": "CENTER"}
+circle {"center": [200.0, 140.0], "radius": 25.0}
+layer.current {"name": "OUTLINE"}
+circle {"center": [225.0, 140.0], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [212.5, 161.651], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [187.5, 161.651], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [175.0, 140.0], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [187.5, 118.349], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [212.5, 118.349], "radius": 3.1}
+layer.current {"name": "OUTLINE"}
+circle {"center": [194.0, 140.0], "radius": 1.59}
+layer.current {"name": "OUTLINE"}
+circle {"center": [206.0, 140.0], "radius": 1.59}
+layer.current {"name": "CENTER"}
+line {"points": [[164.0, 140.0], [236.0, 140.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [166.0, 142.0], "text": "A", "height": 2.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [232.0, 142.0], "text": "A", "height": 2.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [170.0, 176.0], "text": "PLAN (2:1)  6x M4 ON PCD 50; FILL TUBE (L), TC WELL (R)", "height": 1.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 85.25], "text": "ITEM LIST (BOM link: scell_r0_partlist.csv / PROJECT_SALT/06_PROCUREMENT)", "height": 1.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[10.0, 84.0], [111.0, 84.0]]}
+line {"points": [[10.0, 81.7], [111.0, 81.7]]}
+line {"points": [[10.0, 79.4], [111.0, 79.4]]}
+line {"points": [[10.0, 77.1], [111.0, 77.1]]}
+line {"points": [[10.0, 74.8], [111.0, 74.8]]}
+line {"points": [[10.0, 72.5], [111.0, 72.5]]}
+line {"points": [[10.0, 70.2], [111.0, 70.2]]}
+line {"points": [[10.0, 67.9], [111.0, 67.9]]}
+line {"points": [[10.0, 65.6], [111.0, 65.6]]}
+line {"points": [[10.0, 63.3], [111.0, 63.3]]}
+line {"points": [[10.0, 61.0], [111.0, 61.0]]}
+line {"points": [[10.0, 58.7], [111.0, 58.7]]}
+line {"points": [[10.0, 56.400000000000006], [111.0, 56.400000000000006]]}
+line {"points": [[10.0, 54.1], [111.0, 54.1]]}
+line {"points": [[10.0, 51.800000000000004], [111.0, 51.800000000000004]]}
+line {"points": [[10.0, 49.5], [111.0, 49.5]]}
+line {"points": [[10.0, 47.2], [111.0, 47.2]]}
+line {"points": [[10.0, 44.900000000000006], [111.0, 44.900000000000006]]}
+line {"points": [[10.0, 84.0], [10.0, 44.900000000000006]]}
+line {"points": [[16.0, 84.0], [16.0, 44.900000000000006]]}
+line {"points": [[62.0, 84.0], [62.0, 44.900000000000006]]}
+line {"points": [[77.0, 84.0], [77.0, 44.900000000000006]]}
+line {"points": [[82.0, 84.0], [82.0, 44.900000000000006]]}
+line {"points": [[111.0, 84.0], [111.0, 44.900000000000006]]}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 82.85], "text": "ITEM", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 82.85], "text": "PART", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 82.85], "text": "MATERIAL", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 82.85], "text": "QTY", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 82.85], "text": "QUALIFICATION", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 80.55], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 80.55], "text": "beta''-alumina electrolyte disc", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 80.55], "text": "beta_alumina", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 80.55], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 80.55], "text": "QT-01 conductivity, QT-02 He l", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 78.25], "text": "2", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 78.25], "text": "alpha-alumina insulating ring (counterbored)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 78.25], "text": "alpha_alumina", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 78.25], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 78.25], "text": "QT-02 He leak (after seal)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 75.95], "text": "3", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 75.95], "text": "glass seal (disc-to-ring)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 75.95], "text": "glass", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 75.95], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 75.95], "text": "QT-02 He leak, QT-03 20 therma", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 73.65], "text": "4", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 73.65], "text": "cathode-side gasket (graphite foil)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 73.65], "text": "graphite_foil", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 73.65], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 73.65], "text": "QT-04 NaAlCl4 compatibility 50", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 71.35], "text": "5", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 71.35], "text": "cathode housing / + terminal (Ni 201)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 71.35], "text": "Ni201", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 71.35], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 71.35], "text": "QT-04 compatibility; QT-05 Ni ", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 69.05], "text": "6", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 69.05], "text": "cathode granule bed NaCl+Fe+Ni+additives, NaAl", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 69.05], "text": "cathode_bed", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 69.05], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 69.05], "text": "QT-06 granule moisture <100 pp", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 66.75], "text": "7", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 66.75], "text": "cathode current collector mesh (Mo)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 66.75], "text": "Mo", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 66.75], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 66.75], "text": "QT-04", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 64.45], "text": "8", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 64.45], "text": "Mo wave spring (cathode compression)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 64.45], "text": "Mo", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 64.45], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 64.45], "text": "QT-04", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 62.15], "text": "9", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 62.15], "text": "fill tube (Ni 201, crimp + weld after infiltra", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 62.15], "text": "Ni201", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 62.15], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 62.15], "text": "QT-02", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 59.85], "text": "10", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 59.85], "text": "thermocouple well (Ni 201, closed end)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 59.85], "text": "Ni201", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 59.85], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 59.85], "text": "-", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 57.55], "text": "11", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 57.55], "text": "anode-side gasket (graphite foil)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 57.55], "text": "graphite_foil", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 57.55], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 57.55], "text": "QT-07 Na compatibility 500 h a", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 55.25], "text": "12", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 55.25], "text": "anode housing / - terminal (SS 316L)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 55.25], "text": "SS316L", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 55.25], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 55.25], "text": "QT-07", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 52.95], "text": "13", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 52.95], "text": "anode wick: SS 316L mesh roll + 0.1 mm shim (N", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 52.95], "text": "SS316L_mesh", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 52.95], "text": "1", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 52.95], "text": "QT-07", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 50.65], "text": "14", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 50.65], "text": "bolt M4x30 ISO 4762 A4-70 (with nut, Bellevill", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 50.65], "text": "SS316L", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 50.65], "text": "6", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 50.65], "text": "-", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 48.35], "text": "15", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 48.35], "text": "insulating sleeve (alpha-alumina, OD 6 / ID 4.", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 48.35], "text": "alpha_alumina", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 48.35], "text": "6", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 48.35], "text": "QT-08 insulation > 10 MOhm at ", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.6, 46.05], "text": "16", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [16.6, 46.05], "text": "mica washer (insulating, under bolt head)", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [62.6, 46.05], "text": "mica", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [77.6, 46.05], "text": "6", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [82.6, 46.05], "text": "QT-08", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [160.0, 96.25], "text": "CATHODE CHARGE PER CELL (params/scell_params.py)", "height": 1.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+line {"points": [[160.0, 95.0], [219.0, 95.0]]}
+line {"points": [[160.0, 92.7], [219.0, 92.7]]}
+line {"points": [[160.0, 90.4], [219.0, 90.4]]}
+line {"points": [[160.0, 88.1], [219.0, 88.1]]}
+line {"points": [[160.0, 85.8], [219.0, 85.8]]}
+line {"points": [[160.0, 95.0], [160.0, 85.8]]}
+line {"points": [[169.0, 95.0], [169.0, 85.8]]}
+line {"points": [[177.0, 95.0], [177.0, 85.8]]}
+line {"points": [[184.0, 95.0], [184.0, 85.8]]}
+line {"points": [[191.0, 95.0], [191.0, 85.8]]}
+line {"points": [[201.0, 95.0], [201.0, 85.8]]}
+line {"points": [[211.0, 95.0], [211.0, 85.8]]}
+line {"points": [[219.0, 95.0], [219.0, 85.8]]}
+layer.current {"name": "TEXT"}
+text {"at": [160.6, 93.85], "text": "mAh/cm2", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [169.6, 93.85], "text": "NaCl g", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [177.6, 93.85], "text": "Fe g", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [184.6, 93.85], "text": "Ni g", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [191.6, 93.85], "text": "granules g", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [201.6, 93.85], "text": "NaAlCl4 g", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [211.6, 93.85], "text": "bed mm", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [160.6, 91.55], "text": "30", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [169.6, 91.55], "text": "0.370", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [177.6, 91.55], "text": "0.280", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [184.6, 91.55], "text": "0.033", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [191.6, 91.55], "text": "0.730", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [201.6, 91.55], "text": "0.254", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [211.6, 91.55], "text": "0.85", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [160.6, 89.25], "text": "60", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [169.6, 89.25], "text": "0.740", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [177.6, 89.25], "text": "0.560", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [184.6, 89.25], "text": "0.065", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [191.6, 89.25], "text": "1.461", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [201.6, 89.25], "text": "0.507", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [211.6, 89.25], "text": "1.70", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [160.6, 86.95], "text": "100", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [169.6, 86.95], "text": "1.233", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [177.6, 86.95], "text": "0.933", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [184.6, 86.95], "text": "0.109", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [191.6, 86.95], "text": "2.435", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [201.6, 86.95], "text": "0.846", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [211.6, 86.95], "text": "2.83", "height": 1.1, "justify": "ML", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 37.0], "text": "NOTES", "height": 1.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 35.0], "text": "1. ASSEMBLE DISCHARGED (NaCl + Fe) IN Ar GLOVEBOX, H2O/O2 < 1 ppm. NO SODIUM METAL IS HANDLED AT ASSEMBLY.", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 33.0], "text": "2. GENERAL TOLERANCES ISO 2768-mK. SEALING FACES (ITEMS 2,5,12) FLATNESS 0.02, Ra 0.8.", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 31.0], "text": "3. OPERATE 180-260 C; HEAT/COOL <= 2 C/min; HW TRIP 290 C.", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 29.0], "text": "4. CELL LIMITS 1.8-2.75 V; TRIPS 1.65/2.95 V (SIDE REACTIONS 1.58/3.05 V).", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 27.0], "text": "5. GASKET/SEAL MATERIALS ARE CANDIDATES - QT-02/03/04/07/08 MUST PASS BEFORE ANY CHARGED CELL.", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [10.0, 25.0], "text": "6. ITEMS 1-3 SUPPLIED AS A GLASS-SEALED SUB-ASSEMBLY OR SEALED AT PARTNER LAB (QUOTE REQUIRED).", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "BORDER"}
+rectang {"p1": [0, 0], "p2": [297.0, 210.0]}
+rectang {"p1": [5.0, 5.0], "p2": [292.0, 205.0]}
+rectang {"p1": [197.0, 5.0], "p2": [292.0, 36.0]}
+line {"points": [[197.0, 12.0], [292.0, 12.0]]}
+line {"points": [[197.0, 18.0], [292.0, 18.0]]}
+line {"points": [[197.0, 24.0], [292.0, 24.0]]}
+line {"points": [[197.0, 30.0], [292.0, 30.0]]}
+line {"points": [[257.0, 5.0], [257.0, 24.0]]}
+layer.current {"name": "TEXT"}
+text {"at": [198.5, 33.0], "text": "SALT-BATTERY-LAB  |  S-CELL R0 PLANAR TEST CELL", "height": 1.7, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [198.5, 27.0], "text": "CONCEPT \u2014 NOT FOR FABRICATION", "height": 1.8, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [198.5, 21.0], "text": "DWG SB-SC-001     REV A     SHEET 1/1", "height": 1.5, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [198.5, 15.0], "text": "SCALE 2:1 (A2)  UNITS mm  2026-11-02", "height": 1.25, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [198.5, 8.0], "text": "TOLERANCES: CONCEPT   PROJECTION: 1ST ANGLE", "height": 1.25, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [258.5, 21.0], "text": "CAD: CADCraft (headless CLI)", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [258.5, 15.0], "text": "3D: build123d / OpenCascade", "height": 1.1, "justify": "L", "rotation": 0.0}
+layer.current {"name": "TEXT"}
+text {"at": [258.5, 8.0], "text": "SOURCE: params/scell_params.py, cad/make_scell.py", "height": 1.0, "justify": "L", "rotation": 0.0}
+layer.current {"name": "THIN"}
+circle {"center": [254.5, 21.0], "radius": 1.25}
+circle {"center": [254.5, 21.0], "radius": 0.6}
+line {"points": [[249.0, 19.75], [249.0, 22.25], [252.0, 21.75], [252.0, 20.25]], "closed": true}

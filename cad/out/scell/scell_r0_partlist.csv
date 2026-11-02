@@ -1,0 +1,17 @@
+item,part,material,qty,unit_mass_g,total_mass_g,tolerance_spec,qualification_test,bom_item
+1,beta''-alumina electrolyte disc,beta_alumina,1,2.304,2.3,OD 30.0 +0/-0.1; t 1.0 +/-0.05; flatness 0.02; both faces lapped,"QT-01 conductivity, QT-02 He leak",PS-M-01
+2,alpha-alumina insulating ring (counterbored),alpha_alumina,1,12.731,12.73,OD 42.0 +/-0.1; ID 26.0 +/-0.1; c'bore 30.4 +0.05/0 x 1.0 deep; faces flat 0.02,QT-02 He leak (after seal),PS-M-02
+3,glass seal (disc-to-ring),glass,1,0.047,0.05,fillet fills radial gap 0.2; CTE-matched sealing glass,"QT-02 He leak, QT-03 20 thermal cycles",PS-M-03
+4,cathode-side gasket (graphite foil),graphite_foil,1,0.447,0.45,t 0.5 before compression; OD/ID +/-0.2,QT-04 NaAlCl4 compatibility 500 h at 260 C,PS-M-04
+5,cathode housing / + terminal (Ni 201),Ni201,1,118.182,118.18,"ISO 2768-mK; sealing face flat 0.02, Ra 0.8; bolt holes 6.2 for insulating sleeves",QT-04 compatibility; QT-05 Ni chloridisation check,PS-M-05
+6,"cathode granule bed NaCl+Fe+Ni+additives, NaAlCl4-infiltrated (60 mAh/cm2)",cathode_bed,1,1.83,1.83,1.46 g granules + 0.51 g NaAlCl4; thickness 1.70 mm (calc),QT-06 granule moisture <100 ppm,PS-C-01..09
+7,cathode current collector mesh (Mo),Mo,1,1.364,1.36,"Mo mesh disc, dia 23.8; welded to Mo wave spring",QT-04,PS-M-06
+8,Mo wave spring (cathode compression),Mo,1,2.745,2.75,free height >= gap + 0.5 mm; load 20-40 N,QT-04,PS-M-07
+9,"fill tube (Ni 201, crimp + weld after infiltration)",Ni201,1,1.067,1.07,1/8 in OD x 0.024 in wall,QT-02,PS-M-08
+10,"thermocouple well (Ni 201, closed end)",Ni201,1,1.412,1.41,"closed-end 1/8 in tube, tip 1 mm above Mo spring",-,PS-M-08
+11,anode-side gasket (graphite foil),graphite_foil,1,0.447,0.45,t 0.5,QT-07 Na compatibility 500 h at 260 C,PS-M-04
+12,anode housing / - terminal (SS 316L),SS316L,1,110.047,110.05,"ISO 2768-mK; sealing face flat 0.02, Ra 0.8; M4 clearance 4.5",QT-07,PS-M-09
+13,anode wick: SS 316L mesh roll + 0.1 mm shim (Na wetting path),SS316L_mesh,1,6.581,6.58,compressed 0.3 mm against disc anode face,QT-07,PS-M-10
+14,"bolt M4x30 ISO 4762 A4-70 (with nut, Belleville stack)",SS316L,6,2.309,13.86,torque 1.2 N.m at RT; re-check after first heat-up,-,PS-M-11
+15,"insulating sleeve (alpha-alumina, OD 6 / ID 4.2)",alpha_alumina,6,0.285,1.71,length = flange t,QT-08 insulation > 10 MOhm at 260 C,PS-M-12
+16,"mica washer (insulating, under bolt head)",mica,6,0.042,0.25,t 0.3,QT-08,PS-M-13
