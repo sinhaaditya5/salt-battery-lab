@@ -1,0 +1,317 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "659a170e-d558-be7c-a0b3-67137bf1e9f7")
+	(paper "A3")
+	(title_block
+		(title "Salt-Battery 16-ch BMS/monitor — Overview")
+		(date "2026-11-02")
+		(rev "A")
+		(company "Salt-Battery-Lab (pre-prototype)")
+		(comment 1 "CONCEPT – NOT FOR PRODUCTION")
+		(comment 2 "rev A 2026-11-02, ratings from params/product_params.py (BMS)")
+		(comment 3 "16 x 0-20 V isolated block channels, 8 NTC, +/-200 A shunt, H2 + pressure")
+	)
+	(lib_symbols)
+	(text "CONCEPT – NOT FOR PRODUCTION.  rev A  2026-11-02.  Salt-Battery-Lab aqueous Na-ion (R1) 12 V monobloc string monitor."
+		(exclude_from_sim no)
+		(at 20 112 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "699c88f7-7c65-78fb-a434-bab424ba99c2")
+	)
+	(text "Ratings (params/product_params.py BMS): 16 series groups/board, 0-20 V per monobloc channel, 8 NTC, +/-200 A on 0.25 mOhm shunt,"
+		(exclude_from_sim no)
+		(at 20 117.4 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "d554fcb0-ca17-f72b-3077-e92199e0a32c")
+	)
+	(text "  2 gas inputs (H2 4-20 mA + pressure 0.5-4.5 V ratiometric), CAN 2.0B + RS-485 Modbus RTU, 2.5 kV isolation, supply 9-60 V."
+		(exclude_from_sim no)
+		(at 20 122.8 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "50eb4c68-4e41-5c6c-b050-528a4ab6a9bc")
+	)
+	(text "Cell-voltage approach: one isolated amplifier per 12 V monobloc (AMC3330, integrated isolated DC/DC) behind a 1 M / 30.1 k divider"
+		(exclude_from_sim no)
+		(at 20 128.2 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "c422e611-8d42-8f4a-51de-4644cf0d7bf2")
+	)
+	(text "  -> each channel floats at its own block potential, so the same board works anywhere in a 48 V module or a 480 V UPS string"
+		(exclude_from_sim no)
+		(at 20 133.6 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "5357b811-1a23-b37b-e8f8-4d434a2159bf")
+	)
+	(text "  (boards daisy-chain over isolated CAN). Li-ion AFEs (BQ79616, LTC6813...) assume 0-5 V per input in a common stack; an"
+		(exclude_from_sim no)
+		(at 20 139 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "e6c5711f-117f-9e56-d67a-1a4aab0e4b51")
+	)
+	(text "  aqueous R1 monobloc is 6-17.5 V (10 cells x 0.6-1.75 V) so they cannot read it directly, and per-cell use wastes channels."
+		(exclude_from_sim no)
+		(at 20 144.4 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "e02c756a-e8fb-5086-3394-0bb169f97115")
+	)
+	(text "Each block draws only ~17 uA (divider) -> no balancing load mismatch; AMC power (~29 mA typ each) comes from the board side."
+		(exclude_from_sim no)
+		(at 20 149.8 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "e88aa01b-eca1-2254-cfef-d24846d3e6dd")
+	)
+	(text "Isolation domains: HV islands CH01..CH16 + SH (6.4 mm min to logic), ICAN / I485 (3.2 mm min), enforced by DRC custom rules."
+		(exclude_from_sim no)
+		(at 20 155.2 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "7f3b935b-402b-9537-7d0c-dab99a258125")
+	)
+	(sheet
+		(at 20 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "6b63cee9-5c67-d2ba-67a5-fd11672ab759")
+		(property "Sheetname" "Power input 9-60 V, regulators"
+			(at 20 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_power.kicad_sch"
+			(at 20 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "2"))
+			)
+		)
+	)
+	(sheet
+		(at 115 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "480decd1-0a52-c8ec-ea4e-90ffff0719f0")
+		(property "Sheetname" "MCU STM32G474, ADCs, NTC & gas inputs"
+			(at 115 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_mcu.kicad_sch"
+			(at 115 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "3"))
+			)
+		)
+	)
+	(sheet
+		(at 210 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "b2d2f58c-e452-9210-dc3e-533651a22d08")
+		(property "Sheetname" "Isolated block sense ch1-4"
+			(at 210 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_cells0.kicad_sch"
+			(at 210 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "4"))
+			)
+		)
+	)
+	(sheet
+		(at 305 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "83524c1e-e7c5-435f-deac-25df4b233a3a")
+		(property "Sheetname" "Isolated block sense ch5-8"
+			(at 305 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_cells1.kicad_sch"
+			(at 305 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "5"))
+			)
+		)
+	)
+	(sheet
+		(at 20 72)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "87c1a975-f37f-7ece-959d-34905cc16051")
+		(property "Sheetname" "Isolated block sense ch9-12"
+			(at 20 71.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_cells2.kicad_sch"
+			(at 20 90.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "6"))
+			)
+		)
+	)
+	(sheet
+		(at 115 72)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "70c82700-b4d4-8a23-90d1-e874966c2edd")
+		(property "Sheetname" "Isolated block sense ch13-16"
+			(at 115 71.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_cells3.kicad_sch"
+			(at 115 90.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "7"))
+			)
+		)
+	)
+	(sheet
+		(at 210 72)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "2fc8aa3a-5b74-25c8-ab28-725a37345247")
+		(property "Sheetname" "Isolated shunt current sense"
+			(at 210 71.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_current.kicad_sch"
+			(at 210 90.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "8"))
+			)
+		)
+	)
+	(sheet
+		(at 305 72)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "2b24076e-2b99-d941-f798-76e30a4867db")
+		(property "Sheetname" "Isolated CAN + RS-485, outputs"
+			(at 305 71.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_monitor_comms.kicad_sch"
+			(at 305 90.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7" (page "9"))
+			)
+		)
+	)
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+)

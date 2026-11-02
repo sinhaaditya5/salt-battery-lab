@@ -1,0 +1,6149 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e850254a-5908-bd70-2948-cc0f08d381ff")
+	(paper "A3")
+	(title_block
+		(title "Salt-Battery 16-ch BMS/monitor — Isolated block sense ch13-16")
+		(date "2026-11-02")
+		(rev "A")
+		(company "Salt-Battery-Lab (pre-prototype)")
+		(comment 1 "CONCEPT – NOT FOR PRODUCTION")
+		(comment 2 "rev A 2026-11-02, ratings from params/product_params.py (BMS)")
+		(comment 3 "16 x 0-20 V isolated block channels, 8 NTC, +/-200 A shunt, H2 + pressure")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names (offset 1.016) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke (width 0.1524) (type default))
+					(fill (type none))
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke (width 0.1524) (type default))
+					(fill (type none))
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "2"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers (hide yes))
+			(pin_names (offset 0.254))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts (xy -2.032 0.762) (xy 2.032 0.762))
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+					(stroke (width 0.508) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "2"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers (hide yes))
+			(pin_names (offset 0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke (width 0.254) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "2"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Isolator_Analog:AMC3330"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -1.27 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Value" "AMC3330"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+				(at 31.75 41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc3330.pdf"
+				(at 33.02 39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "Description" "Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_keywords" "isolated analog amplifier integrated power supply"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "AMC3330_0_1"
+				(rectangle
+					(start -15.24 15.24)
+					(end 15.24 -15.24)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+				(polyline
+					(pts (xy 0 15.24) (xy 0 13.97))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 13.462) (xy 0 12.192))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 11.684) (xy 0 10.414))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 9.906) (xy 0 8.636))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 8.128) (xy 0 6.858))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 6.35) (xy 0 5.08))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 4.572) (xy 0 3.302))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 2.794) (xy 0 1.524))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 1.016) (xy 0 -0.254))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -0.762) (xy 0 -2.032))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -2.54) (xy 0 -3.81))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -4.318) (xy 0 -5.588))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -6.096) (xy 0 -7.366))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -7.874) (xy 0 -9.144))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -9.652) (xy 0 -10.922))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -11.43) (xy 0 -12.7))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 -13.208) (xy 0 -14.478))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "AMC3330_1_1"
+				(pin power_out line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "DCDC_OUT"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "DCDC_HGND"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "2"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "HLDO_IN"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "3"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "4"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "HLDO_OUT"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "5"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "INP"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "6"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "INN"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "7"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "HGND"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "8"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "9"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "OUTN"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "10"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "OUTP"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "11"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "12"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "LDO_OUT"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "13"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "DIAG"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "14"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "DCDC_GND"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "15"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "DCDC_IN"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "16"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 30.48 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5103437d-12ae-79d5-c06f-d70248b0309b")
+		(property "Reference" "J113"
+			(at 25.4 23.8 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "BLK13"
+			(at 25.4 33.08 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "monobloc 13 (+,-); harness per block"
+			(at 30.48 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "48a5aa51-b86a-3f33-758f-a80ed4a52280"))
+		(pin "2" (uuid "3d9eee2a-7855-9c57-7b57-54b0160ac598"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "J113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_P"
+		(shape passive)
+		(at 25.4 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "5feb74ef-064a-48fa-c2c3-85010453ba30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 25.4 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "a3162a20-2e9c-6676-297a-616244a2d0dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 29.21 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d060e356-0b2b-4e58-f371-579b944d23da")
+		(property "Reference" "R113"
+			(at 42.16 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1M 0.1%"
+			(at 42.16 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 43.18 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "divider top, 200 V rated 1206"
+			(at 43.18 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "030cfb92-15da-35db-93d3-ac31d5ef0cc5"))
+		(pin "2" (uuid "16d5f269-1d2b-b42e-fb7b-ad95904e411f"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_P"
+		(shape passive)
+		(at 43.18 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2226c7e5-4326-ef80-67d6-f84a7a9bd689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_VS"
+		(shape passive)
+		(at 43.18 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c256709c-13f6-13c5-77e5-f97e0bae53a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf56b28-7063-2635-73d9-2ccd3b9e2ebd")
+		(property "Reference" "R213"
+			(at 56.13 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "30.1k 0.1%"
+			(at 56.13 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.15 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "20 V FS -> 0.584 V"
+			(at 57.15 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "ed62a5aa-7b97-30db-7c26-d38e8f787deb"))
+		(pin "2" (uuid "edccd21d-af3a-f30c-fe98-b74ac3794dca"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_VS"
+		(shape passive)
+		(at 57.15 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "92bc6e49-eb65-3ddb-f618-5f24e1e5b204")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 57.15 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "69635f04-8126-d169-68fd-76c963d03e2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5ea68ff-52e0-6d19-6185-5ea9def9dab2")
+		(property "Reference" "C113"
+			(at 69.09 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 69.09 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 71.12 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "AA filter fc~53 Hz"
+			(at 71.12 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "977684f7-845f-4848-c46b-262a7314ae8e"))
+		(pin "2" (uuid "c5b76dbc-8e6e-67c2-8c0e-4ed7f2be85f2"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_VS"
+		(shape passive)
+		(at 71.12 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "84ba93a2-8640-fb43-b250-86df3962a7bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 71.12 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6f3148cd-1080-8855-223c-04797665314d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator_Analog:AMC3330")
+		(at 110.49 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e280abe-7964-c148-eff6-dcd4e320f4f1")
+		(property "Reference" "U113"
+			(at 92.71 28.88 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "AMC3330DWE"
+			(at 92.71 68.64 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc3330.pdf"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMC3330DWER"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "+/-1 V input, gain 2, reinforced isolation, integrated DC/DC"
+			(at 110.49 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "ae813886-a5d1-02ab-c9b2-584913afe7e4"))
+		(pin "10" (uuid "1de5b479-ff22-801f-2b16-d322dc3f281f"))
+		(pin "11" (uuid "2d20d51f-d5ac-1ad5-644c-51c450eb4a23"))
+		(pin "12" (uuid "a6b020c8-d21b-813f-417d-5eb91da6bd8a"))
+		(pin "13" (uuid "970ea8d3-4002-6fcb-e87b-fd57e8fc817a"))
+		(pin "14" (uuid "0959b23d-42d7-5317-0d00-eebbccb065e3"))
+		(pin "15" (uuid "e43be4c7-e967-1d05-cf2a-6ece8d46599d"))
+		(pin "16" (uuid "153945c9-8d3a-6f14-487b-5a1aa93812bb"))
+		(pin "2" (uuid "9f69727a-83b7-f31a-2118-0dac13859257"))
+		(pin "3" (uuid "d1aaa481-36b8-0076-3024-f9b106d6a409"))
+		(pin "4" (uuid "d84ede7d-3b62-6fa2-60e7-24a83cf34a5f"))
+		(pin "5" (uuid "9a63c659-b73d-7afc-ed4e-30c84e8c679a"))
+		(pin "6" (uuid "814fbb68-c07c-07e4-b70a-1f1419b1a16b"))
+		(pin "7" (uuid "cd08cd12-8927-8e10-c4e5-65c6ad9999a4"))
+		(pin "8" (uuid "7d05ce20-934d-8179-f967-81d862f66b86"))
+		(pin "9" (uuid "eda6dd26-21cd-67c9-005b-1421fa339325"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "U113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_DCDC"
+		(shape passive)
+		(at 92.71 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "10a2aa8e-3d25-4bdc-d505-6dc5a4dadef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 92.71 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "571da857-4673-a581-6cad-8839179ca054")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 40.64 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_DCDC"
+		(shape passive)
+		(at 92.71 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "4cb4a583-2297-d1a5-60d8-3b7cf5e9c167")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 45.72 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_HLDO"
+		(shape passive)
+		(at 92.71 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "b6bd0c7f-2a0d-4fb9-6984-694a6f75ee47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_VS"
+		(shape passive)
+		(at 92.71 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "f6e232ea-867b-6653-ea6f-64b518f6c5ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 53.34 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 92.71 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "73be93fb-4fed-9bc0-29e6-6f84d649a761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 60.96 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 105.41 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "edfe0fa9-a900-685b-f763-cf8d439d4b36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 66.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 115.57 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "3fdf2f54-c7ce-e2cc-0ad3-ed432575a08f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 66.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO13_N"
+		(shape passive)
+		(at 128.27 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c7e276fa-4e50-8280-d3fe-88c62984c191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 60.96 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO13_P"
+		(shape passive)
+		(at 128.27 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "0075556f-0377-8d13-5dc7-f12a9d938c86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 53.34 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 115.57 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2239bc4f-8ce8-ec48-5f41-3ffa36cd2be9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 30.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO13"
+		(shape passive)
+		(at 128.27 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "560771d6-dfe7-069c-e365-821a2b9be247")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(no_connect (at 128.27 48.26) (uuid "c8f0acda-2b12-77df-fbc3-c6c2adecbfd1"))
+	(global_label "GND"
+		(shape passive)
+		(at 128.27 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5695b494-caef-ad8d-817d-b8ac976779df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 43.18 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO13"
+		(shape passive)
+		(at 128.27 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "60e6a4ce-c746-414e-cc83-a3556a0e431d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6cc9a40-a8aa-5b3e-7b53-70841c0a8a3f")
+		(property "Reference" "C213"
+			(at 145.29 32.69 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 145.29 44.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.32 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "006863f1-ae73-0a42-bc8f-7de7ddd1e582"))
+		(pin "2" (uuid "adcdf925-55e7-c6a4-dbb4-a26306f71f35"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_DCDC"
+		(shape passive)
+		(at 147.32 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c1ddce08-3144-9714-63d3-6347938acad5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 147.32 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "24b1f884-7106-9582-2ccd-b628a40969c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 41.91 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49248f37-6957-270b-fdd2-52cf31ad469f")
+		(property "Reference" "C313"
+			(at 160.53 32.69 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.53 44.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "e7581fba-17d1-8f92-962f-710987effd65"))
+		(pin "2" (uuid "d43e4b5f-edbb-03ac-abcf-649f97775415"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH13_HLDO"
+		(shape passive)
+		(at 162.56 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1f8f3d26-c9fd-ff57-9d26-a8ca8705e30a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH13_GND"
+		(shape passive)
+		(at 162.56 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d12a76df-be4a-63cc-ed7e-62c9ec24534d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 41.91 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "218d3bd8-75e7-6d56-f7a3-b151b6bbb96e")
+		(property "Reference" "C413"
+			(at 175.77 28.88 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 175.77 40.7 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 177.8 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "a7c99784-9967-8883-05c0-93ad5e651d40"))
+		(pin "2" (uuid "ed3ee968-fe09-5a4b-d9c4-9c26c1cf2ef3"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "LDO13"
+		(shape passive)
+		(at 177.8 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "d7383e61-271b-8c94-f654-c72615aac169")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 30.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 177.8 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "0502ddd0-7b1e-dece-67b9-cc9192457cf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "544f5c9e-d598-2dc6-6a99-a189ed26a3e5")
+		(property "Reference" "C513"
+			(at 191.01 28.88 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 191.01 40.7 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.04 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "e5c9ac3c-639c-0df6-28c4-d24395eaf077"))
+		(pin "2" (uuid "c157580a-72bb-2a94-236e-148161f5d9d1"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 193.04 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "81e1eda1-a45b-06c1-2983-da4cb91f5d9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 30.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 193.04 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "68952316-d456-95bd-79be-cd3a808319f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d9b53e5-542b-8c18-7306-ea86d63a8dae")
+		(property "Reference" "R313"
+			(at 205.99 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 205.99 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "e0759220-c0ed-c15b-2ce4-58a7532da109"))
+		(pin "2" (uuid "b4e5ea21-f8f0-1c41-0f0b-8607e593004d"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO13_P"
+		(shape passive)
+		(at 207.01 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c5605ad4-b2a9-b0a8-bdae-e4e7790aefec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN13_P"
+		(shape passive)
+		(at 207.01 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "557a15d4-057c-f48b-1418-89c7f9101139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9679dd1e-01b8-dcf8-ec16-35d286b24589")
+		(property "Reference" "R413"
+			(at 218.69 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 218.69 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "746270c0-8bb9-eb8c-7bc8-1e664a8a150e"))
+		(pin "2" (uuid "11d93888-7a46-76a0-b496-8bbf867debab"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO13_N"
+		(shape passive)
+		(at 219.71 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "fd194d92-2994-d874-f117-99944e63a5e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN13_N"
+		(shape passive)
+		(at 219.71 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "54134c44-8a15-2dab-8278-379bc027ec1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f84b9aa3-96ba-0f1d-6736-891e9ea5507d")
+		(property "Reference" "C613"
+			(at 231.65 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10n C0G"
+			(at 231.65 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.68 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "dc9abc9b-5822-d6c4-5bf9-39387ba359ca"))
+		(pin "2" (uuid "ed01fc7a-df55-cce6-c83f-535cb890e17e"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "AIN13_P"
+		(shape passive)
+		(at 233.68 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8d9c4be3-66c8-19cc-7778-c1787d3a43d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN13_N"
+		(shape passive)
+		(at 233.68 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "8d78a6ed-93e1-947a-5721-5d8cd6a2aa3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 260.35 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "502ef7a3-dc98-bceb-8ad5-726f28cb2604")
+		(property "Reference" "J114"
+			(at 255.27 23.8 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "BLK14"
+			(at 255.27 33.08 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "monobloc 14 (+,-); harness per block"
+			(at 260.35 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "7ce70595-e70d-d3f7-f8b0-0b10f877299e"))
+		(pin "2" (uuid "b1512d98-60f9-f20c-c96b-b959bbcf97f6"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "J114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_P"
+		(shape passive)
+		(at 255.27 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d38622b9-9f98-afda-e8f0-b11406c409e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.27 26.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 255.27 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "5a43891f-63d2-1f71-5774-d41d460200ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.27 29.21 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 273.05 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0510faf-b2d5-9c2d-6e3e-b186c123ead4")
+		(property "Reference" "R114"
+			(at 272.03 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1M 0.1%"
+			(at 272.03 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 273.05 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "divider top, 200 V rated 1206"
+			(at 273.05 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "f002ac74-c540-b22a-d641-bc07fc8b7fd2"))
+		(pin "2" (uuid "ab171954-798e-a104-83e5-568ed0e25b90"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_P"
+		(shape passive)
+		(at 273.05 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "9ac79b08-86ea-527c-4441-781fec709a87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.05 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_VS"
+		(shape passive)
+		(at 273.05 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "39520934-e3bd-2352-e307-78cbc8a1b574")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.05 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 285.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4809590-7842-acea-de6c-e73e587d3604")
+		(property "Reference" "R214"
+			(at 284.73 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "30.1k 0.1%"
+			(at 284.73 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 285.75 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 285.75 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "20 V FS -> 0.584 V"
+			(at 285.75 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "5cc513b2-e9c3-36a8-2af5-f90cb01b0847"))
+		(pin "2" (uuid "0c8a6044-e556-9e4f-bdef-08f905f56b96"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_VS"
+		(shape passive)
+		(at 285.75 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "827b99dc-fce1-808e-5822-983ce15a2a67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.75 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 285.75 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "96ccab7a-a162-edfa-a795-d6b4a0e11e1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.75 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 300.99 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "241b7fa1-1397-fcc8-b168-2ad0c76b0dcd")
+		(property "Reference" "C114"
+			(at 298.96 30.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 298.96 41.97 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 300.99 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 300.99 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "AA filter fc~53 Hz"
+			(at 300.99 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "63224a66-e074-38dc-6ec6-e0876e571ba8"))
+		(pin "2" (uuid "31725be0-6f86-52e2-b7c2-2e6a99598c8d"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_VS"
+		(shape passive)
+		(at 300.99 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "83fe2d54-a82c-8951-5381-3df30e50f635")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.99 31.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 300.99 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "75b124f5-2671-ef57-bfe9-e65b3890d2cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.99 39.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator_Analog:AMC3330")
+		(at 340.36 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a8ccc6a-9805-78cc-ed46-3b6f3279c20b")
+		(property "Reference" "U114"
+			(at 322.58 28.88 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "AMC3330DWE"
+			(at 322.58 68.64 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc3330.pdf"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMC3330DWER"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "+/-1 V input, gain 2, reinforced isolation, integrated DC/DC"
+			(at 340.36 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "2e905618-6a70-aa7c-5dd5-034b57e95e16"))
+		(pin "10" (uuid "c31ceb41-9dd9-8e7d-5a80-3fb5e50bcf86"))
+		(pin "11" (uuid "7634506f-0764-ac25-57ae-ea80d5046628"))
+		(pin "12" (uuid "2f7efb4c-7dab-948b-1394-d4463236e231"))
+		(pin "13" (uuid "7b61b9f0-2f04-182e-3e1c-37126380aad2"))
+		(pin "14" (uuid "dda47c7b-dd63-cd49-9e5f-de0d0aeff575"))
+		(pin "15" (uuid "9e0e5d17-9bc8-8494-80b2-4e183155d012"))
+		(pin "16" (uuid "f2bcbe78-b165-d8d5-e54b-e4b9b44f42b2"))
+		(pin "2" (uuid "1057e862-48e0-5f7c-88d3-a076c3c21c86"))
+		(pin "3" (uuid "395be670-436b-2c32-0695-88dfa0371bc7"))
+		(pin "4" (uuid "f50b8c80-3c8b-683f-7060-a171511a0b0c"))
+		(pin "5" (uuid "7b83c3be-eda5-dfd7-4b92-4ca8c35e7081"))
+		(pin "6" (uuid "e76b0746-83d9-17b0-2238-9366ae9b2d8b"))
+		(pin "7" (uuid "5e2188c3-49cb-9b5b-bc18-6a23a74e4cc2"))
+		(pin "8" (uuid "1fd93cf2-cef7-ff18-23fa-d0244436f5e0"))
+		(pin "9" (uuid "eff94422-9ff9-d778-e9e8-ecc30b81d8f6"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "U114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_DCDC"
+		(shape passive)
+		(at 322.58 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1a539f9a-1611-a3fa-50e9-033e76d34d24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 322.58 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "ab03a3a2-e2b0-7e0d-39df-1327321ad799")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 40.64 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_DCDC"
+		(shape passive)
+		(at 322.58 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6cabab01-d98d-4cb1-6e90-25ac67c6fba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 45.72 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_HLDO"
+		(shape passive)
+		(at 322.58 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "2b300325-c04b-b53e-0814-b3b229d71165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 48.26 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_VS"
+		(shape passive)
+		(at 322.58 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d42f4226-0613-8a47-f761-3ebce6e6781b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 53.34 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 322.58 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "72cec662-5051-a6ab-9933-fd969daa79f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 60.96 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 335.28 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "80d87577-2752-3153-23c4-b9983d03ebf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 66.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 345.44 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "8a5c0a94-e5be-056f-da19-f36ed14c56f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 66.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO14_N"
+		(shape passive)
+		(at 358.14 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "70b8c548-7722-ceb6-b2d5-a8ceda565382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 60.96 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO14_P"
+		(shape passive)
+		(at 358.14 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bc513a09-6c2c-40db-e555-151b3d04ef0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 53.34 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 345.44 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a48fd794-61c7-cd04-a09c-52d5be821ed5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 30.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO14"
+		(shape passive)
+		(at 358.14 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "20ceb3b4-a174-1187-708b-3a89bec777f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 35.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(no_connect (at 358.14 48.26) (uuid "7cfc991f-96ca-e81c-4ed2-cdcae62dffbc"))
+	(global_label "GND"
+		(shape passive)
+		(at 358.14 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6fefec71-3b43-60d2-dd3b-559f69b53794")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 43.18 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO14"
+		(shape passive)
+		(at 358.14 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "99ab1978-e056-b176-a845-db5c74715700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 377.19 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2d6dc0f-d970-b359-eeee-b7acea406fac")
+		(property "Reference" "C214"
+			(at 375.16 32.69 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 375.16 44.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 377.19 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 377.19 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "3e815a81-63a9-3b34-f676-680dffd87631"))
+		(pin "2" (uuid "eed67051-fdf1-b4df-2030-4747e7161155"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_DCDC"
+		(shape passive)
+		(at 377.19 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e7a315b5-19ab-bf7f-d418-a50ac459c210")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.19 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 377.19 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "54be80ff-ed16-a01e-bb37-1b6b9410b37f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.19 41.91 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 392.43 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfe2017e-a45a-b155-7c13-48b7131db2b0")
+		(property "Reference" "C314"
+			(at 390.4 32.69 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 390.4 44.51 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 392.43 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 392.43 38.1 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "122feb54-04ba-dec9-d28b-1fa8d6611195"))
+		(pin "2" (uuid "6bb974aa-4f17-3f7b-a879-03e9e2bc3ac1"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH14_HLDO"
+		(shape passive)
+		(at 392.43 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "eda3c064-546d-ed4a-b318-1c050bcaaf0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.43 34.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH14_GND"
+		(shape passive)
+		(at 392.43 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "4461d319-a9fa-a887-0f79-f1312d307fd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.43 41.91 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc52ec30-d054-db64-42b2-8e478fd2dc13")
+		(property "Reference" "C414"
+			(at 17.02 89.84 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 17.02 101.66 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 19.05 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 19.05 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "9de95662-dbdd-1a51-0523-e51774cce588"))
+		(pin "2" (uuid "19fa1480-4972-43d6-6728-e563a24678cd"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "LDO14"
+		(shape passive)
+		(at 19.05 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f9399dc9-5a1a-544a-4ec1-5d402db885cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 91.44 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 19.05 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "46e356a1-462d-7b5f-eed4-1be7c1f50fa8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d9b3ae1-ee89-f1e4-770e-38d4fefbfbc5")
+		(property "Reference" "C514"
+			(at 32.26 89.84 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 32.26 101.66 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 34.29 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "ab9e442e-f5d6-7df0-e158-53758e6b28fc"))
+		(pin "2" (uuid "ad12d781-7d5d-7fd2-4df6-9275c53f1fca"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 34.29 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5ca56a96-a626-2187-aeec-9bdd91832dd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 91.44 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 34.29 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6cf9aac5-2011-2558-1fb0-e8d0e6b36da2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261d430c-01e0-5ce1-0a44-537f033026b1")
+		(property "Reference" "R314"
+			(at 47.24 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 47.24 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "12b72527-8b69-99c0-cb01-061d1d195b4f"))
+		(pin "2" (uuid "a0c9c89b-c545-9aff-6a50-a4035b0950ef"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO14_P"
+		(shape passive)
+		(at 48.26 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c628ef90-09d4-320a-9b40-39e9af9ab699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN14_P"
+		(shape passive)
+		(at 48.26 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "67cc8fc6-be6a-970f-9d07-222d3825da8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c3cd934-8aee-561c-878a-6687900562c6")
+		(property "Reference" "R414"
+			(at 61.21 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 61.21 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "9bf62c1a-18e8-805e-e98a-554000b2d87e"))
+		(pin "2" (uuid "d03e5978-0d62-133e-3d86-0878b6e580d3"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO14_N"
+		(shape passive)
+		(at 62.23 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bf006430-c65b-7b2c-812d-6880c8b794c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN14_N"
+		(shape passive)
+		(at 62.23 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "2fe43389-7ef9-1042-1e4e-ad2f6ee03193")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bf4cfe3-0478-c77c-02f5-ad9046707e9b")
+		(property "Reference" "C614"
+			(at 74.17 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10n C0G"
+			(at 74.17 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "faa5e86c-7537-0898-3177-cbac8f7f911b"))
+		(pin "2" (uuid "7e63eba5-4d49-83e8-0a4b-1e00e90c727b"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "AIN14_P"
+		(shape passive)
+		(at 76.2 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "63df710c-249a-fa3c-9966-3f2c7c41a450")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN14_N"
+		(shape passive)
+		(at 76.2 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "f9719b3c-a4fd-df13-4f33-bdf2bc2fd7ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 101.6 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a5cdbd-7b72-f803-df1c-bd3b4a824349")
+		(property "Reference" "J115"
+			(at 96.52 84.76 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "BLK15"
+			(at 96.52 94.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "monobloc 15 (+,-); harness per block"
+			(at 101.6 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "503a6fe2-14fc-6950-f25d-fecfc08926a2"))
+		(pin "2" (uuid "d0596317-8406-31b7-8358-162a926af8c3"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "J115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_P"
+		(shape passive)
+		(at 96.52 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c0104705-2bf7-b068-9c41-2a93d2a5e9d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 96.52 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6beb8f11-ab86-7623-1c26-e8dfdccc35c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 90.17 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6b8db0-8cbd-1f5c-ea22-dfd155b52a3c")
+		(property "Reference" "R115"
+			(at 114.55 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1M 0.1%"
+			(at 114.55 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 115.57 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "divider top, 200 V rated 1206"
+			(at 115.57 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "b20a2b8d-f141-6241-b148-e2b223b03c03"))
+		(pin "2" (uuid "6df042fd-6971-6293-7d7c-43d78941ef14"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_P"
+		(shape passive)
+		(at 115.57 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "76922da4-34b6-2ae0-a1f5-799efec2603c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_VS"
+		(shape passive)
+		(at 115.57 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "894d7ea1-db6b-b4b4-ace3-823c548692f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "906b14eb-d993-f5a6-3b5b-cf41ea178eef")
+		(property "Reference" "R215"
+			(at 127.25 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "30.1k 0.1%"
+			(at 127.25 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "20 V FS -> 0.584 V"
+			(at 128.27 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "0e1312c2-61bb-7271-510a-752315d458f5"))
+		(pin "2" (uuid "77fd60d0-df30-5b7e-9329-f3e2b39c2577"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_VS"
+		(shape passive)
+		(at 128.27 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b4e2eb8c-67f5-ae36-70c7-019af2e8b136")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 128.27 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1b2ad9b9-f8cc-6d1c-2714-5ba8cb807505")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c6b6e4a-3ada-e4a9-54c2-7a8518803d59")
+		(property "Reference" "C115"
+			(at 140.21 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 140.21 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.24 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "AA filter fc~53 Hz"
+			(at 142.24 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "8bbd2468-5ff6-e62e-7637-dfb41c4374f4"))
+		(pin "2" (uuid "b16cbaa0-df82-0785-ed43-644b967fc94e"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_VS"
+		(shape passive)
+		(at 142.24 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "734b9fbd-c832-b855-673a-5461a7829768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 142.24 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "48f99b02-3f71-9fc2-4de0-2d6c48bb4b4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator_Analog:AMC3330")
+		(at 181.61 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cef0635b-0a7b-aa1e-fd9f-c89852ee3d5c")
+		(property "Reference" "U115"
+			(at 163.83 89.84 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "AMC3330DWE"
+			(at 163.83 129.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc3330.pdf"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMC3330DWER"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "+/-1 V input, gain 2, reinforced isolation, integrated DC/DC"
+			(at 181.61 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "03620135-1190-5466-0670-96cdddfb8946"))
+		(pin "10" (uuid "d209e16b-df9f-ca19-f2b9-768f90b84a0e"))
+		(pin "11" (uuid "af1d8f3c-bf5f-0ad2-0fbe-0f3c11a8b3d5"))
+		(pin "12" (uuid "a7931607-4810-c512-addb-0ce8c9268f2d"))
+		(pin "13" (uuid "9ed86e4d-ce20-16fe-edb7-8e03a343db80"))
+		(pin "14" (uuid "b5a6b9c1-250f-79e7-b596-bd90956c598a"))
+		(pin "15" (uuid "9d2e6995-eec3-0ce2-b67c-1a8ddac05d53"))
+		(pin "16" (uuid "1143d4b2-5096-c6ab-f55c-c2ebfc0d2f67"))
+		(pin "2" (uuid "96f45a16-7b04-8b4e-b5a5-b7c0d1bca702"))
+		(pin "3" (uuid "d2d4057b-064b-bd65-d6fb-84aeb85d0eb7"))
+		(pin "4" (uuid "fa0cb8fd-2a1b-e99e-1f40-31bf42c0f258"))
+		(pin "5" (uuid "2d1aed36-fa30-b6f2-f2e9-803cb7ea027f"))
+		(pin "6" (uuid "aa2119dc-aa79-9a8c-de58-8acc5dda947d"))
+		(pin "7" (uuid "f193cc99-37af-6973-49ec-a24255ced088"))
+		(pin "8" (uuid "84df363d-9916-4ff4-85a2-792cfd2c2327"))
+		(pin "9" (uuid "bfb6e188-0d6d-f86d-0616-1fdf50d4f095"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "U115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_DCDC"
+		(shape passive)
+		(at 163.83 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6813cb34-64ea-a2fe-a450-2396441eaa36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 163.83 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1fecd6ca-7164-9b1d-e132-dae1ca490b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_DCDC"
+		(shape passive)
+		(at 163.83 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "3a5e7f4f-9c50-1ad1-b2f4-af63ea7913ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 106.68 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_HLDO"
+		(shape passive)
+		(at 163.83 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "e82471b2-6356-30f0-01e9-b300e2206c7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 109.22 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_VS"
+		(shape passive)
+		(at 163.83 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "2d3b520e-b860-eb1f-83ba-e9d67a490cf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 114.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 163.83 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "9435fea5-14c3-455a-deab-9ee8557355fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 121.92 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 176.53 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "46f4c7df-4a2f-bc29-7738-6df86b151abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 127 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 186.69 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d88331f6-fc44-55c3-ef6d-ed74125b15ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 127 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO15_N"
+		(shape passive)
+		(at 199.39 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2c0c38ef-2d66-fb6e-9eb1-793ed629aaf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 121.92 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO15_P"
+		(shape passive)
+		(at 199.39 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "3064f8c2-120e-bc1e-7987-7fa6bc63fd17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 114.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 186.69 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6bbcd436-84c5-d984-868a-005ff912c5c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 91.44 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO15"
+		(shape passive)
+		(at 199.39 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e85a9058-b571-5371-1ceb-9cef59e5bf47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(no_connect (at 199.39 109.22) (uuid "02de7483-b9e9-56a3-0985-284a031ccf46"))
+	(global_label "GND"
+		(shape passive)
+		(at 199.39 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "21936395-add9-2a6d-2a49-50dc1685c724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 104.14 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO15"
+		(shape passive)
+		(at 199.39 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b95ae59b-008f-df28-2373-c9a3368efc7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11f0be53-fd7b-a24f-0a58-5ebead2b54b2")
+		(property "Reference" "C215"
+			(at 216.41 93.65 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 216.41 105.47 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 218.44 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "7a27b6fa-49d8-4aa7-8c56-f87adbd93c31"))
+		(pin "2" (uuid "1da11a02-9b00-1157-cb71-d32ed19625ce"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_DCDC"
+		(shape passive)
+		(at 218.44 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ac12dd03-2cfa-3564-c6cb-eee7a7a60c2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 218.44 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "5a03a195-9b60-9108-ad03-7b9fe27e5370")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 102.87 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "834df337-c0e9-2534-13d8-e9ab46ad07c0")
+		(property "Reference" "C315"
+			(at 231.65 93.65 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 231.65 105.47 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.68 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "afd78ae2-c12b-3e95-dd06-6d0f30bda3db"))
+		(pin "2" (uuid "d8d61b6e-155d-a57b-f480-7f1006e75532"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH15_HLDO"
+		(shape passive)
+		(at 233.68 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "fd5946f8-6270-d25b-82d7-364daefef930")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH15_GND"
+		(shape passive)
+		(at 233.68 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "61b293b8-6b2d-30d0-4609-ef17e3c67af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 102.87 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65af13b4-300b-9862-5941-7dad5582311a")
+		(property "Reference" "C415"
+			(at 246.89 89.84 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 246.89 101.66 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "891110b6-a2f7-cc96-d4a6-40c80b7eba25"))
+		(pin "2" (uuid "75a30eb5-37c5-2a9c-8fb8-9c0fc73eaeb1"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "LDO15"
+		(shape passive)
+		(at 248.92 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "29daed37-43d7-5415-79cf-58d56164de70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 91.44 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 248.92 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6326dfc3-9361-c73a-5d0a-ec097c0ee1b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dc86321-fd7a-8446-2146-9521abb21f28")
+		(property "Reference" "C515"
+			(at 262.13 89.84 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 262.13 101.66 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 264.16 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 95.25 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "14fb07be-03b8-6770-7623-e619feb6b9c0"))
+		(pin "2" (uuid "1be28230-e420-1667-7938-00300892c240"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 264.16 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5c23daec-e970-71a0-df28-78ce9f140c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.16 91.44 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 264.16 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "60841a38-d95e-6d59-9559-926a699fead2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.16 99.06 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 278.13 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf2fddb4-83c5-56fc-13b5-8ddf22ae6e4a")
+		(property "Reference" "R315"
+			(at 277.11 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 277.11 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 278.13 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "20e38951-9dad-ef30-4129-d5e2e6c0ced9"))
+		(pin "2" (uuid "866bd966-3c2c-6b0d-3048-41c7e78f4bbb"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO15_P"
+		(shape passive)
+		(at 278.13 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ddedee97-53cd-084c-d009-80b9ce01bd80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN15_P"
+		(shape passive)
+		(at 278.13 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "5757846c-b95d-2149-8d21-04135765b9aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 292.1 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94bc4a9c-42ca-2903-d5f7-136c13acd2b0")
+		(property "Reference" "R415"
+			(at 291.08 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 291.08 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 292.1 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "2f707109-cfda-984d-eda9-0fd30520cabd"))
+		(pin "2" (uuid "0b714cc6-2440-7598-97ca-78aaa5f3444c"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO15_N"
+		(shape passive)
+		(at 292.1 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "305731d2-967b-af3b-6f3d-20389b24e7ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN15_N"
+		(shape passive)
+		(at 292.1 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "07a7619b-5149-b371-23d3-bae2fb9441bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 306.07 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b8f69b-cd5b-dd6c-cee3-2a88f531fccf")
+		(property "Reference" "C615"
+			(at 304.04 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10n C0G"
+			(at 304.04 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 306.07 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 306.07 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "79c8ae02-06dd-f87d-444b-c18c9a0ddd64"))
+		(pin "2" (uuid "24d5185d-c709-ce41-d922-7c65f10a52ec"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "AIN15_P"
+		(shape passive)
+		(at 306.07 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "62226914-dd09-d1cf-4382-b2aa4840043c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN15_N"
+		(shape passive)
+		(at 306.07 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "f30dbb13-b304-4a6a-4212-b9bd07545428")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 331.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ec1784b-03f2-8b79-398b-934e70feb4f7")
+		(property "Reference" "J116"
+			(at 326.39 84.76 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "BLK16"
+			(at 326.39 94.04 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "monobloc 16 (+,-); harness per block"
+			(at 331.47 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "ad09e43b-b5a5-322e-ed46-2cfb901207de"))
+		(pin "2" (uuid "2f078c5b-d71a-ecc6-b09c-eac839d2df18"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "J116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_P"
+		(shape passive)
+		(at 326.39 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "7bcab0df-4983-a968-5db9-a65f25c8dc3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 87.63 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 326.39 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1f126a28-441d-7c57-8f27-5e2e08dbd289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 90.17 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 345.44 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1406e1a0-1611-54d5-fe4f-72bf13c8aa50")
+		(property "Reference" "R116"
+			(at 344.42 91.11 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1M 0.1%"
+			(at 344.42 102.93 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 345.44 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "divider top, 200 V rated 1206"
+			(at 345.44 96.52 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "c19bb494-bf2e-29de-5616-51088f01b936"))
+		(pin "2" (uuid "897661f7-940b-b202-42f8-ef0593cbc8ae"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_P"
+		(shape passive)
+		(at 345.44 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "890f149b-fe70-f391-9fd4-2ec3b7934ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 92.71 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_VS"
+		(shape passive)
+		(at 345.44 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c517c7bf-3960-2903-cf0f-adda7aadd521")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 100.33 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 358.14 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39913ba2-ff21-4dff-fc5f-0e2259d98e3c")
+		(property "Reference" "R216"
+			(at 357.12 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "30.1k 0.1%"
+			(at 357.12 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 358.14 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 358.14 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "20 V FS -> 0.584 V"
+			(at 358.14 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "68b1aebc-5602-50aa-3665-e5581d78d58e"))
+		(pin "2" (uuid "46a6d08d-dddc-0c58-989c-fccd7f2d506b"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_VS"
+		(shape passive)
+		(at 358.14 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ffb9d307-75ec-5796-725e-f4d93a6f2f0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 358.14 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "f1d62bd3-f22c-2cc8-bf24-9fedc23ad0c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 372.11 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64ee1ffc-096d-7fc5-45b3-d4a5559f1769")
+		(property "Reference" "C116"
+			(at 370.08 92.38 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 370.08 104.2 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 372.11 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 372.11 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "AA filter fc~53 Hz"
+			(at 372.11 97.79 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "7183a103-9be3-9521-7964-5e94f419b384"))
+		(pin "2" (uuid "a2a4506a-3f25-d0aa-5ba6-97caa53b2c71"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_VS"
+		(shape passive)
+		(at 372.11 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5beeb319-1775-0389-45d1-ddec85e7f876")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 93.98 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 372.11 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "0aa709c8-c3ce-cd26-9cf5-baff5c82752c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 101.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator_Analog:AMC3330")
+		(at 44.45 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7a23018-843a-9156-2e43-6a3aab62ad41")
+		(property "Reference" "U116"
+			(at 26.67 152.07 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "AMC3330DWE"
+			(at 26.67 191.83 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc3330.pdf"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMC3330DWER"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Notes" "+/-1 V input, gain 2, reinforced isolation, integrated DC/DC"
+			(at 44.45 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "4c02c82b-d442-59f9-821e-44e557d339d0"))
+		(pin "10" (uuid "a164eb20-b8ee-9a1b-d6e6-336cb5dfd586"))
+		(pin "11" (uuid "b34e683f-b407-4a3f-998d-5cd41bfd0d7d"))
+		(pin "12" (uuid "b66bde0f-164f-60e9-65a8-80a87e8cc2b3"))
+		(pin "13" (uuid "ee4571d2-6d95-69f5-f5ff-101035c410c5"))
+		(pin "14" (uuid "48b2266a-7b06-4795-8582-41a89eeb3341"))
+		(pin "15" (uuid "25c3ef52-7077-0f69-28c9-3e8e8bf3fb9e"))
+		(pin "16" (uuid "5c498f9e-0328-57c1-7fb9-5ebde1a471c7"))
+		(pin "2" (uuid "2760cc18-119d-db26-4d29-a024d7acc627"))
+		(pin "3" (uuid "20442b0d-b492-bbe3-f501-e358c65212fb"))
+		(pin "4" (uuid "3caa1729-eef6-e570-0fe3-9bf78e93cf63"))
+		(pin "5" (uuid "067310c5-629a-52dd-6352-07d383417ad4"))
+		(pin "6" (uuid "cde6462a-3cd3-0cf1-aee7-2d7e092bfce9"))
+		(pin "7" (uuid "450fc1a7-d1b4-9b71-c59f-2a568c432450"))
+		(pin "8" (uuid "8fb99bd2-739c-f97c-b89f-92c095d1f948"))
+		(pin "9" (uuid "36deaaef-e6e9-52d8-eef4-9120cfa19eb7"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "U116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_DCDC"
+		(shape passive)
+		(at 26.67 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "09f7dda3-5ce5-5c41-f099-6da6e1bdc4d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 158.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 26.67 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "37c393c9-ea75-c31b-c93a-0b4b19e91285")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 163.83 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_DCDC"
+		(shape passive)
+		(at 26.67 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "2116a452-3947-7f80-d7ea-4d19e5cf3bcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 168.91 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_HLDO"
+		(shape passive)
+		(at 26.67 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d071b66e-f5c3-ea05-405c-40dbc15503fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 171.45 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_VS"
+		(shape passive)
+		(at 26.67 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c0080eac-d7c5-2036-5da8-e107575440af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 176.53 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 26.67 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1cad60de-0f06-0638-2c54-a94bedb23737")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 184.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 39.37 189.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "9420bbb0-0186-21ca-fe03-c60e0ff2432b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 189.23 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 49.53 189.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "ea521fc5-f12f-3565-8546-31a2a5028133")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 189.23 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO16_N"
+		(shape passive)
+		(at 62.23 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "9b20fff5-337d-e743-077f-07fbde5201b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 184.15 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VO16_P"
+		(shape passive)
+		(at 62.23 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "81a4ce2e-9039-3503-986b-0da8868c14fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 176.53 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 49.53 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "cb5e1ab5-bcc6-98f3-3659-3ed37606b55b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 153.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO16"
+		(shape passive)
+		(at 62.23 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5baaa4a9-a7e1-b430-b83d-f848fff5d19e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 158.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(no_connect (at 62.23 171.45) (uuid "4f7df770-b06f-73de-dba9-36a56cd36444"))
+	(global_label "GND"
+		(shape passive)
+		(at 62.23 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a1875772-51d9-6ea1-361a-426511995a81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 166.37 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO16"
+		(shape passive)
+		(at 62.23 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "0b58ff7a-89ac-0970-3549-c8f48e0b222e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 161.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8646f256-a4eb-e5a1-c746-7e618a3ffa5a")
+		(property "Reference" "C216"
+			(at 79.25 154.61 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 79.25 166.43 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 81.28 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "5eb3ac37-4213-03ac-668b-e1895faa7dda"))
+		(pin "2" (uuid "78a9c035-56ba-5d50-39bb-e4e4b2a6617f"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_DCDC"
+		(shape passive)
+		(at 81.28 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e22dcd95-7428-b719-b03c-42461e25ca26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 156.21 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 81.28 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "a24aa762-7d34-d2ce-e946-4b322820111d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 163.83 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "379e875c-0575-f711-41ff-18662065a4cf")
+		(property "Reference" "C316"
+			(at 93.22 154.61 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 93.22 166.43 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 95.25 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 160.02 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "c3355f35-bb3f-0464-e3b6-e8716d50e4e2"))
+		(pin "2" (uuid "25e94f92-9ca8-b5da-bd07-a902ad964b24"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CH16_HLDO"
+		(shape passive)
+		(at 95.25 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "54aca9c2-ddf6-fc58-2da0-1378a75878b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 156.21 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH16_GND"
+		(shape passive)
+		(at 95.25 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "abd2e6bc-b0db-1ff0-e5f1-b547eaf1db5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 163.83 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecc90719-fe84-8848-e036-0cccd1c6547d")
+		(property "Reference" "C416"
+			(at 108.46 152.07 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 108.46 163.89 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 110.49 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "b74d9c0e-ced4-8cb0-05d4-943568945ba3"))
+		(pin "2" (uuid "07eda6d0-5c52-c59b-a62a-28c6c542c0cb"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "LDO16"
+		(shape passive)
+		(at 110.49 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5f823d91-ec04-3b7d-12e3-06dfbe230a07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 153.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 110.49 161.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "39710b83-50da-82e7-4e30-15b17a78e236")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 161.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09aa5b6-ab57-94c2-276b-0949efc6d569")
+		(property "Reference" "C516"
+			(at 123.7 152.07 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 123.7 163.89 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.73 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "fe72b0c1-4fde-246c-f3b1-0c2f43b09dfe"))
+		(pin "2" (uuid "daa5dcc2-b3ed-5d95-c73c-1770c37aefa9"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C516")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 125.73 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "08bae90d-2a0d-1ca8-c864-36b7d950472d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 153.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 125.73 161.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c3067a4f-8081-9245-e724-9d741519c436")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 161.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da96edf7-99d1-0357-81f0-cb32f3b5f815")
+		(property "Reference" "R316"
+			(at 138.68 152.07 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 138.68 163.89 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.7 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "985c6041-2300-b088-35d1-c055849eccd4"))
+		(pin "2" (uuid "19f2ddc6-df95-1ed9-13be-f0f5e06069ba"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO16_P"
+		(shape passive)
+		(at 139.7 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "16f32ec2-0375-7854-9ad0-d07035b39a6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 153.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN16_P"
+		(shape passive)
+		(at 139.7 161.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "6e1894a5-56f5-82f8-4046-6d834924cb62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 161.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "842c5456-7a9d-1049-51bd-00af9ff8b702")
+		(property "Reference" "R416"
+			(at 152.65 152.07 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 152.65 163.89 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 157.48 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "07272a2c-a2d2-95ab-af2f-2f29af9a2e7e"))
+		(pin "2" (uuid "6facf8d5-7333-b699-15c1-2954dddc1565"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "R416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VO16_N"
+		(shape passive)
+		(at 153.67 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "18c754c0-8d4e-0916-a0e2-57b95043824b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 153.67 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN16_N"
+		(shape passive)
+		(at 153.67 161.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "f0dd8207-c5cc-21cf-2e1c-9d38eed488ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 161.29 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4566a1f2-2b76-2c89-d9b8-2861cc667664")
+		(property "Reference" "C616"
+			(at 165.61 153.34 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10n C0G"
+			(at 165.61 165.16 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 158.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 158.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 158.75 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+		(pin "1" (uuid "3cd0f012-9030-a790-7b96-f0f4f4afd34e"))
+		(pin "2" (uuid "23230ce8-0248-8bfd-e657-c0c3b895aa8d"))
+		(instances
+			(project "bms_monitor"
+				(path "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd"
+					(reference "C616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "AIN16_P"
+		(shape passive)
+		(at 167.64 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "0409f143-e24e-0add-b738-391a257d3c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 154.94 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AIN16_N"
+		(shape passive)
+		(at 167.64 162.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "70f62239-9aaf-8d6b-8f86-85c6e9630317")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 162.56 0)
+			(effects
+				(font (size 1.27 1.27))
+				(hide yes)
+			)
+		)
+	)
+)

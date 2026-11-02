@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-02T15:38:22",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7",
+            "violations": []
+        },
+        {
+            "path": "/Power input 9-60 V, regulators/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/6b63cee9-5c67-d2ba-67a5-fd11672ab759",
+            "violations": []
+        },
+        {
+            "path": "/MCU STM32G474, ADCs, NTC & gas inputs/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/480decd1-0a52-c8ec-ea4e-90ffff0719f0",
+            "violations": []
+        },
+        {
+            "path": "/Isolated block sense ch1-4/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/b2d2f58c-e452-9210-dc3e-533651a22d08",
+            "violations": []
+        },
+        {
+            "path": "/Isolated block sense ch5-8/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/83524c1e-e7c5-435f-deac-25df4b233a3a",
+            "violations": []
+        },
+        {
+            "path": "/Isolated block sense ch9-12/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/87c1a975-f37f-7ece-959d-34905cc16051",
+            "violations": []
+        },
+        {
+            "path": "/Isolated block sense ch13-16/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/70c82700-b4d4-8a23-90d1-e874966c2edd",
+            "violations": []
+        },
+        {
+            "path": "/Isolated shunt current sense/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/2fc8aa3a-5b74-25c8-ab28-725a37345247",
+            "violations": []
+        },
+        {
+            "path": "/Isolated CAN + RS-485, outputs/",
+            "uuid_path": "/659a170e-d558-be7c-a0b3-67137bf1e9f7/2b24076e-2b99-d941-f798-76e30a4867db",
+            "violations": []
+        }
+    ],
+    "source": "bms_monitor.kicad_sch"
+}
