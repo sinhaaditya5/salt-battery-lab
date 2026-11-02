@@ -139,8 +139,8 @@ def charts(res):
         col = ps.SERIES[[1, 2, 3][i]]
         ax.fill_between(xs, p10, p90, color=col, alpha=0.12, lw=0)
         ax.plot(xs, p50, color=col, marker="o", markeredgecolor=ps.SURFACE, markeredgewidth=1.5, label=labels[c])
-    ax.axvline(res["loadings_mg_cm2"][0], color=ps.DEEMPH, lw=1); ax.text(res["loadings_mg_cm2"][0] + 1, 8, "R0 paper\n2.8 mg/cm²", fontsize=7.2, color=ps.TEXT2)
-    ax.axvline(DESIGN, color=ps.DEEMPH, lw=1); ax.text(DESIGN + 1, 8, "R1 design\npoint", fontsize=7.2, color=ps.TEXT2)
+    ax.axvline(res["loadings_mg_cm2"][0], color=ps.DEEMPH, lw=1); ax.text(res["loadings_mg_cm2"][0] + 1, 55, "R0 paper\n2.8 mg/cm²", fontsize=7.2, color=ps.TEXT2)
+    ax.axvline(DESIGN, color=ps.DEEMPH, lw=1); ax.text(DESIGN + 1, 55, "R1 design\npoint", fontsize=7.2, color=ps.TEXT2)
     ax.set_xlabel("Cathode loading per side (mg/cm²)"); ax.set_ylabel("Capacity retained vs C/10 (%)")
     ax.set_ylim(0, 105); ax.set_title("Rate capability vs electrode loading (Monte Carlo P10–P90)")
     ax.legend(loc="lower left")
