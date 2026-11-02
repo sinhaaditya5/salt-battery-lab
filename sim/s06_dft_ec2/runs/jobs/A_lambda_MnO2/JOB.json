@@ -1,0 +1,16 @@
+{
+  "name": "lambda_MnO2",
+  "calc": "vc-relax",
+  "natoms": 12,
+  "formula": "Mn4 O8",
+  "kpts": [
+    3,
+    3,
+    4
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "A",
+  "note": "validation voltage end member"
+}

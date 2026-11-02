@@ -1,0 +1,16 @@
+{
+  "name": "Na_bcc",
+  "calc": "vc-relax",
+  "natoms": 1,
+  "formula": "Na1",
+  "kpts": [
+    18,
+    18,
+    18
+  ],
+  "spin": false,
+  "hubbard": false,
+  "vdw": null,
+  "lane": "A",
+  "note": "alkali metal reference for voltages"
+}

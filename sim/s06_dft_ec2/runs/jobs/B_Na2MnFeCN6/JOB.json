@@ -1,0 +1,16 @@
+{
+  "name": "Na2MnFeCN6",
+  "calc": "vc-relax",
+  "natoms": 16,
+  "formula": "Na2 Mn1 Fe1 C6 N6",
+  "kpts": [
+    3,
+    3,
+    3
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "B",
+  "note": "candidate-C cathode end member (cubic prototype)"
+}

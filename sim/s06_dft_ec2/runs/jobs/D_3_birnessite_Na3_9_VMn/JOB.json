@@ -1,0 +1,16 @@
+{
+  "name": "birnessite_Na3_9_VMn",
+  "calc": "relax",
+  "natoms": 47,
+  "formula": "Na3 Mn8 H12 O24",
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": "grimme-d3",
+  "lane": "D",
+  "note": "Mn vacancy at fixed uMLIP cell (dissolution proxy)"
+}
