@@ -1,0 +1,12 @@
+{
+ "name": "CoCl2",
+ "calc": "scf",
+ "U": 4.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 20,
+ "kind": "tm",
+ "nat": 3
+}

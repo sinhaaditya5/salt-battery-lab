@@ -1,0 +1,30 @@
+&control
+  calculation='scf', prefix='CoCl2', outdir='./tmp',
+  pseudo_dir='/work/lab/tools/pseudo/gbrv', tprnfor=.true., tstress=.true.,
+  etot_conv_thr=1e-5, forc_conv_thr=1e-4, disk_io='low'
+/
+&system
+  ibrav=0, nat=3, ntyp=2,
+  ecutwfc=50, ecutrho=400, vdw_corr='dft-d3', dftd3_version=4,
+  occupations='smearing', smearing='mv', degauss=0.01,
+  nspin=2,
+  starting_magnetization(1)=0.5,
+/
+&electrons
+  conv_thr=1e-09, mixing_beta=0.3, electron_maxstep=200
+/
+ATOMIC_SPECIES
+Co 58.933 co_pbe_v1.2.uspp.F.UPF
+Cl 35.453 cl_pbe_v1.4.uspp.F.UPF
+HUBBARD (ortho-atomic)
+U Co-3d 4.00
+CELL_PARAMETERS angstrom
+  1.73700869 1.00286244 5.80563876
+  -1.73700869 1.00286244 5.80563876
+  -0.00000000 -2.00572487 5.80563876
+ATOMIC_POSITIONS crystal
+Co -0.00000000 0.00000000 0.00000000
+Cl 0.25609445 0.25609445 0.25609445
+Cl -0.25609445 -0.25609445 -0.25609445
+K_POINTS automatic
+7 7 7 0 0 0
