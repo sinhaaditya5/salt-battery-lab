@@ -1,0 +1,53 @@
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+00:00.213  io.stl           | WARNING Removed 96 degenerate triangles during import
+00:00.522  io.stl           | WARNING Removed 96 degenerate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:381: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:117: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:414: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:559: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w.use_nodes = True
+00:21.705  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/row.png'
+RENDER row: 20.8 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/row.png
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
+Timer 'STL Import' took 0.33 ms
+Timer 'STL Import' took 3.56 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 0.68 ms
+Timer 'STL Import' took 0.42 ms
+Timer 'STL Import' took 4.15 ms
+Timer 'STL Import' took 5.44 ms
+Timer 'STL Import' took 0.31 ms
+Timer 'STL Import' took 0.19 ms
+Timer 'STL Import' took 19.48 ms
+Timer 'STL Import' took 0.57 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 0.47 ms
+Timer 'STL Import' took 37.77 ms
+Timer 'STL Import' took 3.64 ms
+Timer 'STL Import' took 0.52 ms
+Timer 'STL Import' took 5.26 ms
+Timer 'STL Import' took 19.86 ms
+Timer 'STL Import' took 0.26 ms
+Timer 'STL Import' took 3.51 ms
+Timer 'STL Import' took 0.21 ms
+Timer 'STL Import' took 0.67 ms
+Timer 'STL Import' took 0.41 ms
+Timer 'STL Import' took 4.30 ms
+Timer 'STL Import' took 5.62 ms
+Timer 'STL Import' took 0.31 ms
+Timer 'STL Import' took 0.19 ms
+Timer 'STL Import' took 18.44 ms
+Timer 'STL Import' took 0.58 ms
+Timer 'STL Import' took 0.19 ms
+Timer 'STL Import' took 0.42 ms
+Timer 'STL Import' took 34.42 ms
+Timer 'STL Import' took 3.65 ms
+Timer 'STL Import' took 0.53 ms
+Timer 'STL Import' took 5.24 ms
+Timer 'STL Import' took 20.05 ms
+
+Blender quit

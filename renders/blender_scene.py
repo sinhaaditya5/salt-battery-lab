@@ -56,7 +56,7 @@ MATS = {
     "cable_black": dict(color=(0.03, 0.03, 0.03), rough=0.5),
     "sense": dict(color=(0.90, 0.70, 0.15), rough=0.5),
     "handle": dict(color=(0.08, 0.08, 0.09), rough=0.4),
-    "cab_paint": dict(color=(0.72, 0.73, 0.72), rough=0.5),
+    "cab_paint": dict(color=(0.40, 0.41, 0.41), rough=0.5),
     "cab_shelf": dict(color=(0.66, 0.68, 0.70), metallic=0.8, rough=0.45),
     "duct": dict(color=(0.32, 0.33, 0.35), rough=0.6),
     "breaker": dict(color=(0.06, 0.06, 0.07), rough=0.45),
@@ -105,8 +105,8 @@ def liquid(name="M_electrolyte"):
     b.inputs["Transmission Weight"].default_value = 1.0
     b.inputs["IOR"].default_value = 1.335
     va = nt.nodes.new("ShaderNodeVolumeAbsorption")
-    va.inputs["Color"].default_value = (0.20, 0.55, 1.0, 1)
-    va.inputs["Density"].default_value = 18.0
+    va.inputs["Color"].default_value = (0.10, 0.45, 1.0, 1)
+    va.inputs["Density"].default_value = 140.0
     nt.links.new(va.outputs[0], nt.nodes["Material Output"].inputs["Volume"])
     m.diffuse_color = (0.35, 0.62, 0.95, 0.6)
     return m
@@ -195,7 +195,7 @@ def text_obj(body, loc, size, material, rz=0.0, align="CENTER"):
     return o
 
 
-def lid_marks(origin=(0, 0, 0), rz=0.0, dz=0.0, full=True):
+def lid_marks(origin=(0, 0, 0), rz=0.0, dz=0.0, full=True, side=True, side_dz0=False):
     """Label text + polarity marks on a monobloc lid (positions from the CAD anchors)."""
     a = META["r1_monobloc"]["anchors"]
     ink, white = principled("M_ink", (0.05, 0.06, 0.08), rough=0.6), principled("M_white", (0.92, 0.92, 0.9), rough=0.5)
@@ -207,9 +207,18 @@ def lid_marks(origin=(0, 0, 0), rz=0.0, dz=0.0, full=True):
     lx, ly, lz = a["lid_label"]
     lab = META["labels"]
     if full:
-        text_obj(lab["line1"], P((lx, ly + 11, lz - 0.25)), 0.0105, ink, rz)
-        text_obj(lab["line2"], P((lx, ly - 2, lz - 0.25)), 0.0072, ink, rz)
-        text_obj(lab["line3"], P((lx, ly - 14, lz - 0.25)), 0.0058, ink, rz)
+        text_obj(lab["line1"], P((lx, ly + 11, lz - 0.25)), 0.0078, ink, rz)
+        text_obj(lab["line2"], P((lx, ly - 1, lz - 0.25)), 0.0047, ink, rz)
+        text_obj(lab["line3"], P((lx, ly - 12, lz - 0.25)), 0.0050, ink, rz)
+    if full and side:
+        film = principled("M_sidefilm", (0.88, 0.89, 0.87), rough=0.5)
+        W2 = a["case_side"][1]
+        P0 = P
+        P = (lambda p, z_extra=0.0: P0(p, z_extra - dz)) if side_dz0 else P0
+        add_box("side_label", (0.185, 0.0006, 0.066), P((0.0, W2 - 0.3, 150.0)), film, rz)
+        for k, ln in enumerate(lab["side"]):
+            t = text_obj(ln, P((0.0, W2 - 0.7, 169 - k * 12.5)), 0.0056 if k else 0.0088, ink, rz)
+            t.rotation_euler = (math.radians(90), 0, math.radians(rz))
     for key, sym in (("terminal_pos", "+"), ("terminal_neg", "–")):
         tx, ty, tz = a[key]
         text_obj(sym, P((tx + (24 if key == "terminal_pos" else -24), ty + 2, tz + 0.05)), 0.016, white, rz)
@@ -342,10 +351,10 @@ def vent_path():
     H = 220.0
     pts = [(x, y, lay["z_bus1"] - 4), (x, 0.6, 203.0), (x, 0.6, 210.5), (x, y, 214.5), (x, y, 217.0), (xo - 2, y, 217.0),
            (xo, y, 219.0), (xo, y, H + 22)]
-    m = glow("M_ventpath", (1.0, 0.45, 0.08), 6.0)
+    m = glow("M_ventpath", (1.0, 0.45, 0.08), 10.0)
     cd = bpy.data.curves.new("ventpath", "CURVE")
     cd.dimensions = "3D"
-    cd.bevel_depth = 0.6 * MM
+    cd.bevel_depth = 0.9 * MM
     cd.bevel_resolution = 2
     sp = cd.splines.new("POLY")
     sp.points.add(len(pts) - 1)
@@ -413,8 +422,8 @@ def raised_floor(size=(12, 10)):
     br.inputs["Brick Width"].default_value = META["scene"]["tile_m"]
     br.inputs["Row Height"].default_value = META["scene"]["tile_m"]
     br.inputs["Mortar Size"].default_value = 0.004
-    br.inputs["Color1"].default_value = (0.50, 0.51, 0.52, 1)
-    br.inputs["Color2"].default_value = (0.46, 0.47, 0.48, 1)
+    br.inputs["Color1"].default_value = (0.30, 0.31, 0.32, 1)
+    br.inputs["Color2"].default_value = (0.27, 0.28, 0.29, 1)
     br.inputs["Mortar"].default_value = (0.12, 0.12, 0.13, 1)
     nt.links.new(br.outputs["Color"], b.inputs["Base Color"])
     b.inputs["Roughness"].default_value = 0.3
@@ -422,19 +431,19 @@ def raised_floor(size=(12, 10)):
 
 
 def room_shell(dims=(9.0, 7.0, 3.2), center=(0, 1.0)):
-    wall = principled("M_wall", (0.74, 0.75, 0.76), rough=0.8)
+    wall = principled("M_wall", (0.42, 0.43, 0.45), rough=0.8)
     L, D, H = dims
     cx, cy = center
     add_box("wall_back", (L, 0.1, H), (cx, cy + D / 2, H / 2), wall)
     add_box("wall_left", (0.1, D, H), (cx - L / 2, cy, H / 2), wall)
     add_box("wall_right", (0.1, D, H), (cx + L / 2, cy, H / 2), wall)
     add_box("ceiling", (L, D, 0.05), (cx, cy, H), principled("M_ceiling", (0.8, 0.8, 0.8), rough=0.9))
-    lamp = glow("M_lamp", (1.0, 0.97, 0.92), 9.0)
+    lamp = glow("M_lamp", (1.0, 0.97, 0.92), 2.5)
     for i in range(-3, 4):
         for j in (-1, 1):
             add_box(f"lamp_{i}_{j}", (1.2, 0.08, 0.02), (cx + i * 1.3, cy + j * 1.6, H - 0.03), lamp)
     tray = principled("M_cabletray", (0.55, 0.56, 0.58), metallic=0.8, rough=0.4)
-    for yy in (-0.25, 2.45):        # overhead cable ladders above the rows
+    for yy in (0.1, -2.6):        # overhead cable ladders above the rows
         for side in (-0.15, 0.15):
             add_box(f"ladder_{yy}_{side}", (L * 0.9, 0.006, 0.08), (cx, yy + side, 2.55), tray)
         for k in range(36):
@@ -442,7 +451,7 @@ def room_shell(dims=(9.0, 7.0, 3.2), center=(0, 1.0)):
     for k in range(5):
         lv = Vector((cx - 3.5 + k * 1.75, cy, H - 0.05))
         ld = bpy.data.lights.new(f"ceil_{k}", "AREA")
-        ld.size, ld.energy = 2.0, 260.0
+        ld.size, ld.energy = 2.0, 30.0 * LIGHT_GAIN
         o = bpy.data.objects.new(f"ceil_{k}", ld)
         o.location = lv
         bpy.context.collection.objects.link(o)
@@ -472,7 +481,7 @@ def shot_hero():
     lid_marks()
     studio()
     studio_lights(0.6)
-    cam, _ = camera((-0.50, -0.66, 0.42), (0.0, 0.0, 0.095), lens=55)
+    cam, _ = camera((-0.52, -0.72, 0.62), (0.0, 0.0, 0.085), lens=52)
     a = "r1_monobloc"
     pts = {k: A(a, k) for k in ("terminal_pos", "terminal_neg", "vent_outlet", "lid_label", "case_side", "manifold")}
     return cam, pts
@@ -480,10 +489,10 @@ def shot_hero():
 
 def shot_exploded():
     import_variant("r1_monobloc", "exploded")
-    lid_marks(dz=330.0)
+    lid_marks(dz=330.0, side_dz0=True)
     studio()
     studio_lights(0.8, (0, 0, 0.3))
-    cam, _ = camera((-0.72, -1.05, 0.66), (-0.08, 0.0, 0.27), lens=50)
+    cam, _ = camera((-0.72, -1.28, 0.90), (-0.07, 0.0, 0.31), lens=45)
     a, lay = "r1_monobloc", META["r1_monobloc"]["layout"]
     pts = {"lid_label": A(a, "lid_label", (0, 0, 330)), "vent_outlet": A(a, "vent_outlet", (0, 0, 380)),
            "valve_cell5": A(a, "valve_cell5", (0, 0, 300)), "strap": A(a, "strap", (0, 0, 150)),
@@ -499,7 +508,7 @@ def shot_cutaway():
     studio()
     studio_lights(0.6)
     vent_path()
-    cam, _ = camera((0.10, -0.62, 0.36), (0.035, -0.02, 0.105), lens=48)
+    cam, _ = camera((0.24, -0.70, 0.50), (0.03, 0.0, 0.11), lens=46)
     a, lay = "r1_monobloc", META["r1_monobloc"]["layout"]
     x6 = lay["cell_x"][6]
     pts = {"electrolyte_cell5": A(a, "electrolyte_cell5", (0, 3, -10)), "plates_cell5": A(a, "plates_cell5", (0, 2, 30)),
@@ -515,7 +524,7 @@ def shot_module():
     a = "r1_module48"
     t = META["mech"]["m48_sheet_t"]
     for k, (org, rz) in enumerate(META["module_blocks"]):
-        lid_marks(origin=(org[0] * MM, org[1] * MM, t * MM), rz=rz)
+        lid_marks(origin=(org[0] * MM, org[1] * MM, t * MM), rz=rz, side=False)
     studio()
     studio_lights(1.2, (0, 0, 0.15))
     cam, _ = camera((-1.10, -1.25, 0.95), (0.02, 0.02, 0.10), lens=45)
@@ -549,12 +558,12 @@ def shot_row():
     bpy.context.scene.world = w
     w.use_nodes = True
     w.node_tree.nodes["Background"].inputs["Color"].default_value = (0.55, 0.57, 0.6, 1)
-    w.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.35
-    add_box("backwall", (12, 0.1, 3.2), (0.6, 2.2, 1.6), principled("M_wall", (0.74, 0.75, 0.76), rough=0.8))
-    area("key", (-1.6, -3.2, 2.9), (0.6, 0, 1.0), 3.0, 1300, (1.0, 0.97, 0.92))
-    area("fill", (3.2, -2.6, 1.6), (0.6, 0, 1.0), 3.0, 450, (0.86, 0.9, 1.0))
-    area("top", (0.6, -0.6, 3.1), (0.6, 0, 0.0), 4.0, 700)
-    cam, _ = camera((-0.95, -3.35, 1.55), (0.62, -0.1, 0.98), lens=30)
+    w.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.12
+    add_box("backwall", (12, 0.1, 3.2), (0.6, 2.2, 1.6), principled("M_wall", (0.42, 0.43, 0.45), rough=0.8))
+    area("key", (-1.6, -3.2, 2.9), (0.6, 0, 1.0), 3.0, 160 * LIGHT_GAIN, (1.0, 0.97, 0.92))
+    area("fill", (3.2, -2.6, 1.6), (0.6, 0, 1.0), 3.0, 50 * LIGHT_GAIN, (0.86, 0.9, 1.0))
+    area("top", (0.6, -0.6, 3.1), (0.6, 0, 0.0), 4.0, 80 * LIGHT_GAIN)
+    cam, _ = camera((-0.75, -4.05, 1.62), (0.65, -0.1, 1.0), lens=32)
     a = "r1_ups_cabinet"
     o1 = (W, 0.0, 0.0)
     pts = {"louvre_high": A(a, "louvre_high", origin=(2 * W, 0, 0)), "louvre_low": A(a, "louvre_low", origin=(2 * W, 0, 0)),
@@ -565,23 +574,23 @@ def shot_row():
 
 
 def shot_room():
+    """Generic equipment room: R1 battery row + generic UPS frame on one side of the aisle, server racks opposite."""
     raised_floor((14, 12))
-    room_shell((9.0, 7.0, 3.2), (0.6, 1.2))
+    room_shell((9.0, 7.0, 3.2), (0.3, -0.9))
     W, D = cabinet_row(4, None, x0=0.0, y0=0.0, with_racks=False)
-    generic_ups_frame((-0.3 - 0.6, 0.0 - 0.025), w=1.2)
-    for k in range(7):            # server-rack row across the aisle, facing the battery row
-        generic_rack(f"rowB{k}", (-1.5 + k * 0.6, 2.6, 0), rz=180)
-    for k in range(4):            # end-of-room row
-        generic_rack(f"rowC{k}", (3.4, 0.0 + k * 0.6, 0), rz=90)
+    generic_ups_frame((4 * W - 0.3 + 0.6, 0.0 - 0.025), w=1.2)
+    for k in range(9):            # server-rack row across the aisle, fronts facing the battery row
+        generic_rack(f"rowB{k}", (-2.6 + k * 0.6, -2.55, 0), rz=180)
     w = bpy.data.worlds.new("World")
     bpy.context.scene.world = w
     w.use_nodes = True
     w.node_tree.nodes["Background"].inputs["Color"].default_value = (0.5, 0.52, 0.55, 1)
-    w.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.15
-    cam, _ = camera((-2.35, -2.75, 1.62), (1.0, 0.55, 1.02), lens=24)
+    w.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.08
+    area("aisle", (0.5, -1.3, 2.9), (0.5, -1.3, 0.0), 3.5, 110 * LIGHT_GAIN, (1.0, 0.97, 0.93))
+    cam, _ = camera((-2.3, -1.40, 1.62), (1.5, -0.45, 0.98), lens=20)
     a = "r1_ups_cabinet"
-    pts = {"string": A(a, "louvre_high", origin=(2 * W, 0, 0)), "louvre_low": A(a, "louvre_low", origin=(3 * W, 0, 0)),
-           "ups": (-0.9 + 0.3, -0.45, 1.45), "racks": (0.6, 2.6 - 0.55, 1.6), "roof": A(a, "roof_slots", origin=(W, 0, 0))}
+    pts = {"string": A(a, "louvre_high", origin=(1 * W, 0, 0)), "louvre_low": A(a, "louvre_low", origin=(0, 0, 0)),
+           "ups": (4 * W - 0.3 + 0.6 - 0.3, -0.45, 1.45), "racks": (-1.1, -2.55 + 0.55, 1.3), "roof": A(a, "roof_slots", origin=(2 * W, 0, 0))}
     return cam, pts
 
 
@@ -589,7 +598,7 @@ def shot_r0():
     import_variant("r0_test_cell", "exploded", smooth=True)
     studio(floor_color=(0.66, 0.67, 0.69))
     studio_lights(0.25, (0, 0, 0.06))
-    cam, _ = camera((-0.17, -0.25, 0.17), (0.004, 0.0, 0.072), lens=60)
+    cam, _ = camera((-0.28, -0.55, 0.33), (0.004, 0.0, 0.095), lens=60)
     a, ez = "r0_test_cell", META["r0_test_cell"]["explode_z"]
     pts = {"electrode_1": A(a, "electrode_1", (0, 0, ez["s1"])), "separator": A(a, "separator", (0, 0, ez["s2"])),
            "spring": A(a, "spring", (0, 0, ez["s6"])), "body": A(a, "body", (0, 0, ez["body"])),
@@ -609,7 +618,7 @@ def shot_turntable():
     piv.location = (0, 0, 0)
     bpy.context.collection.objects.link(piv)
     cam.parent = piv
-    cam.location = Vector((-0.50, -0.68, 0.40))
+    cam.location = Vector((-0.57, -0.78, 0.45))
     bpy.context.preferences.edit.keyframe_new_interpolation_type = "LINEAR"
     piv.rotation_euler = (0, 0, 0)
     piv.keyframe_insert("rotation_euler", frame=1)

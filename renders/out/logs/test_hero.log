@@ -1,23 +1,23 @@
 /Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-00:00.230  io.stl           | WARNING Removed 36 duplicate triangles during import
-/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:222: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+00:00.221  io.stl           | WARNING Removed 36 duplicate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:229: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   w.use_nodes = True
-00:02.831  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_hero_s24.png'
-RENDER hero: 2.6 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_hero_s24.png
+00:02.690  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_hero_s24_v2.png'
+RENDER hero: 2.4 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_hero_s24_v2.png
 Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
 Timer 'STL Import' took 0.43 ms
 Timer 'STL Import' took 0.12 ms
-Timer 'STL Import' took 0.18 ms
+Timer 'STL Import' took 0.17 ms
 Timer 'STL Import' took 0.34 ms
-Timer 'STL Import' took 0.62 ms
-Timer 'STL Import' took 50500 ns
-Timer 'STL Import' took 40125 ns
-Timer 'STL Import' took 0.94 ms
-Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 0.59 ms
+Timer 'STL Import' took 50208 ns
+Timer 'STL Import' took 41125 ns
+Timer 'STL Import' took 0.91 ms
+Timer 'STL Import' took 0.13 ms
 Timer 'STL Import' took 0.60 ms
-Timer 'STL Import' took 0.74 ms
-Timer 'STL Import' took 0.18 ms
-Timer 'STL Import' took 0.56 ms
+Timer 'STL Import' took 0.71 ms
+Timer 'STL Import' took 0.17 ms
+Timer 'STL Import' took 0.58 ms
 
 Blender quit

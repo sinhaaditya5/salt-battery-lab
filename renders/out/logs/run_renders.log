@@ -1,0 +1,14 @@
+hero        128 spp    22.9 s  exit 0
+exploded     96 spp    26.6 s  exit 0
+cutaway     128 spp    38.7 s  exit 0
+module       96 spp    20.0 s  exit 0
+row          96 spp    22.0 s  exit 0
+room        128 spp    63.6 s  exit 0
+r0           96 spp    20.6 s  exit 0
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/hero_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/exploded_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/cutaway_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/module_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/row_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/room_annotated.png
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/r0_annotated.png

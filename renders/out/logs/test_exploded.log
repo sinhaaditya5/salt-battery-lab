@@ -1,23 +1,23 @@
 /Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-00:00.239  io.stl           | WARNING Removed 34 duplicate triangles during import
-/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:222: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+00:00.218  io.stl           | WARNING Removed 34 duplicate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:231: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   w.use_nodes = True
-00:03.139  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_exploded_s24.png'
-RENDER exploded: 2.9 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_exploded_s24.png
+00:02.548  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_exploded_s24_v3.png'
+RENDER exploded: 2.3 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_exploded_s24_v3.png
 Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
-Timer 'STL Import' took 1.23 ms
-Timer 'STL Import' took 0.47 ms
-Timer 'STL Import' took 0.59 ms
-Timer 'STL Import' took 1.08 ms
-Timer 'STL Import' took 1.48 ms
-Timer 'STL Import' took 0.20 ms
-Timer 'STL Import' took 0.18 ms
-Timer 'STL Import' took 2.50 ms
-Timer 'STL Import' took 0.43 ms
-Timer 'STL Import' took 1.70 ms
-Timer 'STL Import' took 1.73 ms
-Timer 'STL Import' took 0.63 ms
-Timer 'STL Import' took 1.59 ms
+Timer 'STL Import' took 0.42 ms
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 0.17 ms
+Timer 'STL Import' took 0.36 ms
+Timer 'STL Import' took 0.57 ms
+Timer 'STL Import' took 58708 ns
+Timer 'STL Import' took 43000 ns
+Timer 'STL Import' took 0.93 ms
+Timer 'STL Import' took 0.10 ms
+Timer 'STL Import' took 0.57 ms
+Timer 'STL Import' took 0.68 ms
+Timer 'STL Import' took 0.17 ms
+Timer 'STL Import' took 0.55 ms
 
 Blender quit

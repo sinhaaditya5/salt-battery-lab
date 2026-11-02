@@ -1,0 +1,27 @@
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+00:00.293  io.stl           | WARNING Removed 4 degenerate triangles during import
+00:00.295  io.stl           | WARNING Removed 4 degenerate triangles during import
+00:00.328  io.stl           | WARNING Removed 12 degenerate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:231: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w.use_nodes = True
+00:19.792  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/module.png'
+RENDER module: 19.4 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/module.png
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
+Timer 'STL Import' took 0.96 ms
+Timer 'STL Import' took 1.05 ms
+Timer 'STL Import' took 0.95 ms
+Timer 'STL Import' took 1.02 ms
+Timer 'STL Import' took 0.26 ms
+Timer 'STL Import' took 3.86 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 0.18 ms
+Timer 'STL Import' took 0.19 ms
+Timer 'STL Import' took 5.32 ms
+Timer 'STL Import' took 1.06 ms
+Timer 'STL Import' took 1.31 ms
+Timer 'STL Import' took 1.19 ms
+Timer 'STL Import' took 0.87 ms
+Timer 'STL Import' took 3.45 ms
+
+Blender quit

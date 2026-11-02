@@ -1,53 +1,53 @@
 /Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-00:00.221  io.stl           | WARNING Removed 96 degenerate triangles during import
-00:00.531  io.stl           | WARNING Removed 96 degenerate triangles during import
-/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:372: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:00.216  io.stl           | WARNING Removed 96 degenerate triangles during import
+00:00.491  io.stl           | WARNING Removed 96 degenerate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:381: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
 /Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:117: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:405: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:414: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:550: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:559: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   w.use_nodes = True
-00:03.195  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_row_s24.png'
-RENDER row: 2.3 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_row_s24.png
+00:02.921  render           | Saved: '/Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_row_s24_v3.png'
+RENDER row: 2.1 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/renders/out/tests/test_row_s24_v3.png
 Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:51:40)
-Timer 'STL Import' took 0.47 ms
-Timer 'STL Import' took 3.49 ms
-Timer 'STL Import' took 0.29 ms
-Timer 'STL Import' took 0.71 ms
-Timer 'STL Import' took 0.56 ms
-Timer 'STL Import' took 4.07 ms
-Timer 'STL Import' took 5.61 ms
-Timer 'STL Import' took 0.27 ms
+Timer 'STL Import' took 76542 ns
+Timer 'STL Import' took 1.45 ms
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 0.26 ms
+Timer 'STL Import' took 91209 ns
+Timer 'STL Import' took 2.05 ms
+Timer 'STL Import' took 2.95 ms
+Timer 'STL Import' took 95750 ns
+Timer 'STL Import' took 44292 ns
+Timer 'STL Import' took 12.39 ms
 Timer 'STL Import' took 0.18 ms
-Timer 'STL Import' took 19.81 ms
-Timer 'STL Import' took 0.66 ms
-Timer 'STL Import' took 0.20 ms
-Timer 'STL Import' took 0.44 ms
-Timer 'STL Import' took 36.21 ms
-Timer 'STL Import' took 3.65 ms
-Timer 'STL Import' took 0.47 ms
-Timer 'STL Import' took 5.32 ms
-Timer 'STL Import' took 19.44 ms
-Timer 'STL Import' took 0.25 ms
-Timer 'STL Import' took 3.25 ms
-Timer 'STL Import' took 0.19 ms
-Timer 'STL Import' took 0.68 ms
-Timer 'STL Import' took 0.42 ms
-Timer 'STL Import' took 3.96 ms
-Timer 'STL Import' took 5.40 ms
-Timer 'STL Import' took 0.30 ms
-Timer 'STL Import' took 0.21 ms
-Timer 'STL Import' took 18.54 ms
-Timer 'STL Import' took 0.60 ms
+Timer 'STL Import' took 47958 ns
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 29.67 ms
+Timer 'STL Import' took 1.41 ms
+Timer 'STL Import' took 0.14 ms
+Timer 'STL Import' took 2.48 ms
+Timer 'STL Import' took 12.87 ms
+Timer 'STL Import' took 73000 ns
+Timer 'STL Import' took 1.47 ms
+Timer 'STL Import' took 53459 ns
 Timer 'STL Import' took 0.24 ms
-Timer 'STL Import' took 0.47 ms
-Timer 'STL Import' took 34.73 ms
-Timer 'STL Import' took 3.75 ms
-Timer 'STL Import' took 0.49 ms
-Timer 'STL Import' took 5.25 ms
-Timer 'STL Import' took 19.78 ms
+Timer 'STL Import' took 88666 ns
+Timer 'STL Import' took 2.11 ms
+Timer 'STL Import' took 2.86 ms
+Timer 'STL Import' took 0.10 ms
+Timer 'STL Import' took 46375 ns
+Timer 'STL Import' took 11.77 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 54625 ns
+Timer 'STL Import' took 0.11 ms
+Timer 'STL Import' took 25.85 ms
+Timer 'STL Import' took 1.37 ms
+Timer 'STL Import' took 0.14 ms
+Timer 'STL Import' took 2.46 ms
+Timer 'STL Import' took 12.56 ms
 
 Blender quit
