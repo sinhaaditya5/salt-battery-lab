@@ -131,7 +131,28 @@ def relax_batch():
         print(f"  {m['lane']:2s} {m['name']:28s} {m['calc']:9s} n={m['natoms']:3d} k={m['kpts']} vdw={m['vdw']}")
 
 
+
+
+def neb_batch(model="mace_mp0b3"):
+    """Static DFT+U SCF on every uMLIP NEB image -> DFT energy profile along the uMLIP path."""
+    metas = []
+    nd = S5 / "out" / f"neb_{model}"
+    for tag, lane, vdw in (("LiFePO4_b", "A", None), ("NaFePO4_b", "B", None), ("birnessite_Na", "C", "grimme-d3")):
+        for k in range(7):
+            p = nd / f"{tag}_img{k}.cif"
+            if not p.exists():
+                continue
+            s = Structure.from_file(str(p))
+            kw = dict(calc="scf", vdw=vdw, lane=lane, note=f"static DFT+U on {model} NEB image {k} of {tag}")
+            if tag.startswith("birn"):
+                kw["kpts"] = [2, 2, 1]
+            else:
+                kw["kspacing"] = 0.45
+            metas.append(write_pw(f"neb_{tag}_img{k}", s, **kw))
+    (HERE / "jobs_manifest_neb.json").write_text(json.dumps(metas, indent=2))
+    print(f"wrote {len(metas)} NEB image jobs")
+
+
 if __name__ == "__main__":
     batch = sys.argv[1] if len(sys.argv) > 1 else "relax"
-    if batch == "relax":
-        relax_batch()
+    {"relax": relax_batch, "neb": neb_batch}[batch]()

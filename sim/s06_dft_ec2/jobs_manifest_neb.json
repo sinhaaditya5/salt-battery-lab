@@ -1,0 +1,338 @@
+[
+  {
+    "name": "neb_LiFePO4_b_img0",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 0 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img1",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 1 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img2",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 2 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img3",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 3 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img4",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 4 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img5",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 5 of LiFePO4_b"
+  },
+  {
+    "name": "neb_LiFePO4_b_img6",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Li7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "A",
+    "note": "static DFT+U on mace_mp0b3 NEB image 6 of LiFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img0",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 0 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img1",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 1 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img2",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 2 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img3",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 3 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img4",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 4 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img5",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 5 of NaFePO4_b"
+  },
+  {
+    "name": "neb_NaFePO4_b_img6",
+    "calc": "scf",
+    "natoms": 55,
+    "formula": "Na7 Fe8 P8 O32",
+    "kpts": [
+      2,
+      2,
+      3
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": null,
+    "lane": "B",
+    "note": "static DFT+U on mace_mp0b3 NEB image 6 of NaFePO4_b"
+  },
+  {
+    "name": "neb_birnessite_Na_img0",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 0 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img1",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 1 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img2",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 2 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img3",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 3 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img4",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 4 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img5",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 5 of birnessite_Na"
+  },
+  {
+    "name": "neb_birnessite_Na_img6",
+    "calc": "scf",
+    "natoms": 46,
+    "formula": "Na1 Mn9 H12 O24",
+    "kpts": [
+      2,
+      2,
+      1
+    ],
+    "spin": true,
+    "hubbard": true,
+    "vdw": "grimme-d3",
+    "lane": "C",
+    "note": "static DFT+U on mace_mp0b3 NEB image 6 of birnessite_Na"
+  }
+]
