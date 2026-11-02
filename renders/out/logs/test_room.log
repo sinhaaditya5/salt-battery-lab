@@ -1,0 +1,11 @@
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:405: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:117: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+00:00.323  io.stl           | WARNING Removed 96 degenerate triangles during import
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:372: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/Volumes/Aditya ssd/Salt-Battery-Lab/renders/blender_scene.py:578: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w.use_nodes = True

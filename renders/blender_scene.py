@@ -32,12 +32,13 @@ SAMPLES = int(argv[argv.index("--samples") + 1]) if "--samples" in argv else 96
 RES = tuple(int(v) for v in (argv[argv.index("--res") + 1] if "--res" in argv else "1920x1080").split("x"))
 OUTPATH = Path(argv[argv.index("--out") + 1]) if "--out" in argv else OUT / f"{SHOT}.png"
 MM = 0.001
+LIGHT_GAIN = float(argv[argv.index("--gain") + 1]) if "--gain" in argv else 0.7
 
 # ------------------------------------------------------------------------------------------ materials
 MATS = {
-    "case": dict(color=(0.36, 0.40, 0.45), rough=0.48, coat=0.15),
-    "lid": dict(color=(0.27, 0.30, 0.34), rough=0.42, coat=0.15),
-    "vent": dict(color=(0.08, 0.36, 0.62), rough=0.38),
+    "case": dict(color=(0.085, 0.10, 0.12), rough=0.5, coat=0.1),
+    "lid": dict(color=(0.06, 0.07, 0.085), rough=0.45, coat=0.1),
+    "vent": dict(color=(0.02, 0.22, 0.50), rough=0.45),
     "epdm": dict(color=(0.03, 0.03, 0.03), rough=0.75),
     "frit": dict(color=(0.93, 0.93, 0.89), rough=0.95),
     "steel": dict(color=(0.74, 0.75, 0.77), metallic=1.0, rough=0.28),
@@ -215,7 +216,7 @@ def lid_marks(origin=(0, 0, 0), rz=0.0, dz=0.0, full=True):
 
 
 # ------------------------------------------------------------------------------------------ world / lights / camera
-def studio(floor_color=(0.62, 0.63, 0.65), strength=0.6, size=40.0):
+def studio(floor_color=(0.45, 0.46, 0.48), strength=0.22, size=40.0):
     w = bpy.data.worlds.new("World")
     bpy.context.scene.world = w
     w.use_nodes = True
@@ -252,10 +253,11 @@ def area(name, loc, target, size, energy, color=(1, 1, 1)):
 
 def studio_lights(scale=1.0, center=(0, 0, 0.1)):
     s = scale
-    area("key", (-1.4 * s, -1.6 * s, 1.9 * s), center, 1.6 * s, 260 * s * s, (1.0, 0.96, 0.91))
-    area("fill", (1.8 * s, -1.2 * s, 0.9 * s), center, 2.0 * s, 90 * s * s, (0.85, 0.90, 1.0))
-    area("rim", (0.6 * s, 1.9 * s, 1.4 * s), center, 1.6 * s, 200 * s * s, (0.80, 0.88, 1.0))
-    area("top", (0, 0, 2.6 * s), center, 2.5 * s, 120 * s * s)
+    k = LIGHT_GAIN
+    area("key", (-1.4 * s, -1.6 * s, 1.9 * s), center, 1.6 * s, 60 * k * s * s, (1.0, 0.96, 0.91))
+    area("fill", (1.8 * s, -1.2 * s, 0.9 * s), center, 2.0 * s, 18 * k * s * s, (0.85, 0.90, 1.0))
+    area("rim", (0.6 * s, 1.9 * s, 1.4 * s), center, 1.6 * s, 60 * k * s * s, (0.80, 0.88, 1.0))
+    area("top", (0, 0, 2.6 * s), center, 2.5 * s, 25 * k * s * s)
 
 
 def camera(loc, target, lens=50, name="cam"):
@@ -638,9 +640,11 @@ def shot_preview(asm, variant):
             hi = Vector(map(max, hi, w))
     c = (lo + hi) / 2
     r = (hi - lo).length
-    cam, _ = camera(c + Vector((-0.55, -0.85, 0.55)) * r * 1.25, c, lens=40)
+    cam, _ = camera(c + Vector((-0.55, -0.85, 0.50)) * r * 1.55, c, lens=40)
+    w = bpy.data.worlds.new("World")
+    w.color = (0.80, 0.82, 0.85)
+    bpy.context.scene.world = w
     setup_render(1, RES, engine="BLENDER_WORKBENCH")
-    bpy.context.scene.display.shading.background_type = "VIEWPORT" if hasattr(bpy.context.scene.display.shading, "background_type") else None
     bpy.context.scene.render.filepath = str(OUTPATH)
     bpy.ops.render.render(write_still=True)
     print("PREVIEW", asm, variant, "->", OUTPATH)
