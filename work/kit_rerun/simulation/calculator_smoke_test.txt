@@ -1,0 +1,25 @@
+R0 REFERENCE CELL — QUANTITY CALCULATOR
+This is arithmetic only; not a yield or performance prediction.
+
+MnCl2·4H2O input:                  0.7000 g
+Theoretical maximum Mn3O4:         0.2698 g
+Reported precursor NaOH solution:  8.350 mL
+NaOH mass in that solution:        1.0271 g (calculated)
+
+Na-insertion batch Mn3O4:          100.00 mg
+NaOH:Mn3O4 molar ratio:            4:1
+NaOH for this batch:               69.92 mg (calculated)
+
+Cell count:                        3
+Active material per cell:          10.00 mg total across both electrodes
+Carbon black per cell:             2.50 mg total across both electrodes
+Total active material for cells:   30.00 mg
+Total carbon black for cells:      7.50 mg
+Na2SO4 per cell:                   21.306 mg contained in electrolyte
+Electrolyte volume for cells:      450.0 µL
+Na2SO4 for cells only:             0.0639 g
+Na2SO4 for 100 mL stock:           14.2040 g
+
+Important: reported paper does not specify the full-cell slurry solvent/solids fraction or all separator/fixture dimensions.
+Do not treat these quantities as an order-ready kit until the facility closes those method gaps.
+Never substitute NaCl/table salt for Na2SO4.

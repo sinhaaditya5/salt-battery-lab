@@ -1,0 +1,14 @@
+{
+  "model_type": "one_RC_lumped_thermal_equivalent_circuit",
+  "parameter_status": "REQUIRES_MEASURED_R0_CELL_DATA",
+  "capacity_Ah": null,
+  "R0_ohm": null,
+  "R1_ohm": null,
+  "C1_F": null,
+  "thermal_capacity_J_K": null,
+  "thermal_conductance_W_K": null,
+  "initial_soc": null,
+  "initial_temperature_C": null,
+  "ocv_curve": null,
+  "notes": "Populate only with measured parameters from R0 cells. The model is a first-order equivalent-circuit and lumped thermal model; it does not predict electrode chemistry, degradation, gas evolution or safety."
+}

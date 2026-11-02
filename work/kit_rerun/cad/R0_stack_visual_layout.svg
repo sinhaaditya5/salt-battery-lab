@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720">
+  <rect width="1400" height="720" fill="#fbfcfe"/>
+  <text x="60" y="62" font-family="Arial" font-size="34" font-weight="700" fill="#17202a">R0 sodium-birnessite symmetric cell — stack layout</text>
+  <text x="60" y="102" font-family="Arial" font-size="18" fill="#5d6d7e">Exploded reference illustration. Only the 15 mm carbon-paper disc diameter is reported; other dimensions are illustrative.</text>
+  <line x1="60" y1="130" x2="1340" y2="130" stroke="#d5dce3" stroke-width="2"/>
+  <text x="75" y="180" font-family="Arial" font-size="23" font-weight="700" fill="#17202a">Exploded cross-section (not to scale)</text>
+  <!-- components -->
+  <rect x="115" y="545" width="360" height="26" rx="3" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+  <text x="510" y="566" font-family="Arial" font-size="18" fill="#34495e">Stainless contact plate — visual only</text>
+  <rect x="150" y="470" width="290" height="18" rx="2" fill="#24292e" stroke="#111" stroke-width="1"/>
+  <text x="510" y="485" font-family="Arial" font-size="18" fill="#34495e">Toray / E-TEK carbon paper, Ø15 mm (reported)</text>
+  <rect x="150" y="415" width="290" height="12" rx="2" fill="#6b9f56" stroke="#3d6b2e" stroke-width="1"/>
+  <text x="510" y="427" font-family="Arial" font-size="18" fill="#34495e">Na₀.₂₇MnO₂ + carbon coating (4:1 mass ratio)</text>
+  <rect x="125" y="330" width="340" height="22" rx="2" fill="#eadf9b" stroke="#8f7d34" stroke-width="1.5"/>
+  <text x="510" y="348" font-family="Arial" font-size="18" fill="#34495e">Cellulose filter-paper separator — grade/dimensions unreported</text>
+  <rect x="150" y="255" width="290" height="12" rx="2" fill="#6b9f56" stroke="#3d6b2e" stroke-width="1"/>
+  <text x="510" y="267" font-family="Arial" font-size="18" fill="#34495e">Na₀.₂₇MnO₂ + carbon coating (4:1 mass ratio)</text>
+  <rect x="150" y="200" width="290" height="18" rx="2" fill="#24292e" stroke="#111" stroke-width="1"/>
+  <text x="510" y="215" font-family="Arial" font-size="18" fill="#34495e">Toray / E-TEK carbon paper, Ø15 mm (reported)</text>
+  <rect x="115" y="145" width="360" height="26" rx="3" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+  <text x="510" y="166" font-family="Arial" font-size="18" fill="#34495e">Stainless contact plate — visual only</text>
+  <line x1="75" y1="600" x2="1280" y2="600" stroke="#d5dce3" stroke-width="2"/>
+  <text x="75" y="645" font-family="Arial" font-size="16" fill="#7b241c" font-weight="700">Do not manufacture a cell fixture from this picture. Use qualified research-cell hardware and its controlled drawing.</text>
+  <!-- right panel top view -->
+  <text x="970" y="180" font-family="Arial" font-size="23" font-weight="700" fill="#17202a">Plan view</text>
+  <circle cx="1110" cy="360" r="112" fill="#eadf9b" fill-opacity="0.65" stroke="#8f7d34" stroke-width="3" stroke-dasharray="8 5"/>
+  <circle cx="1110" cy="360" r="99" fill="#24292e" stroke="#111" stroke-width="2"/>
+  <circle cx="1110" cy="360" r="90" fill="#6b9f56" fill-opacity="0.85" stroke="#3d6b2e" stroke-width="2"/>
+  <line x1="1011" y1="500" x2="1209" y2="500" stroke="#34495e" stroke-width="2"/>
+  <line x1="1011" y1="492" x2="1011" y2="508" stroke="#34495e" stroke-width="2"/>
+  <line x1="1209" y1="492" x2="1209" y2="508" stroke="#34495e" stroke-width="2"/>
+  <text x="1110" y="530" text-anchor="middle" font-family="Arial" font-size="18" fill="#34495e">Ø15 mm electrode (reported)</text>
+  <text x="1110" y="565" text-anchor="middle" font-family="Arial" font-size="16" fill="#7b7d7d">Dashed separator circle is illustrative only</text>
+  <text x="965" y="620" font-family="Arial" font-size="15" fill="#5d6d7e">Electrolyte: 150 µL of 1 M Na₂SO₄ per cell (paper-reported).</text>
+</svg>

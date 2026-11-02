@@ -1,0 +1,9 @@
+VEHICLE TARGET REQUIREMENT CALCULATOR — NOT A BATTERY PERFORMANCE MODEL
+Range: 1,500 km
+Consumption assumption: 15–20 kWh/100 km
+Usable energy required: 225.0–300.0 kWh
+Average terminal charging power for 5 minutes: 2,700.00–3,600.00 kW
+Hypothetical cell-level energy density: 875.0 Wh/kg
+Ideal active cell mass only: 257.1–342.9 kg
+Pack mass and station input power would be higher after inactive pack mass and losses.
+No chemistry, fast-charge capability, range or safety performance is predicted.

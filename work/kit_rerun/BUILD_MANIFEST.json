@@ -1,0 +1,270 @@
+{
+  "package": "Salt Battery R0 Reference Cell Kit",
+  "version": "1.2",
+  "status": "literature-reproduction and method-development kit; no team experiment completed",
+  "files": [
+    {
+      "path": "01_R0_REFERENCE_CELL_SPEC.md",
+      "bytes": 16774,
+      "sha256": "2cb870bf1be82aa7060b5f4b5f5abdce61147bebdcbf66305aa5b9f3be3fb85f"
+    },
+    {
+      "path": "02_LAB_EXECUTION_ORDER.md",
+      "bytes": 4567,
+      "sha256": "f7743b5fc7741161ab2f426bc70b65d58673ec9762a7d307d8917fc278459104"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7585,
+      "sha256": "3b3eb08c72f68951be13875e335a1e138b14e7131c30d77a9bac88416dd576a1"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 8440,
+      "sha256": "74a4ffb19df10daa7f9b07155988c48581f51f3d0e93ff14e5900286f91f3096"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 7617,
+      "sha256": "fd7a333a106ce4ca29c169d7c2858ae11df0711851ac4dd6ae28834fe04211bb"
+    },
+    {
+      "path": "cad/R0_stack_preview.png",
+      "bytes": 224588,
+      "sha256": "4c883df0c3fc91e84a33bdc8c11c64ac4673730cbae0f2eceff01304f9a344bd"
+    },
+    {
+      "path": "cad/R0_stack_visual_layout.svg",
+      "bytes": 3821,
+      "sha256": "1898487d35401d430d7e2b8b5494f9aaa54a700f399d8d282ea9cff074df6e6c"
+    },
+    {
+      "path": "cad/R0_stack_visual_only.stl",
+      "bytes": 107170,
+      "sha256": "32ed3df83e13c14b00b164879f33390536308f106e6d6d25a7bd46dcb9e1bab4"
+    },
+    {
+      "path": "cad/electrode_disc_15mm.dxf",
+      "bytes": 14003,
+      "sha256": "4d23dafbbe4592c1f21eb31a195d20f551261017886015c16e36bba5f5a4b53c"
+    },
+    {
+      "path": "cad/electrode_disc_15mm_README.md",
+      "bytes": 525,
+      "sha256": "5c2b0a5dd017440495a6dfddcbeea677763f5d8f0c41e610013e630c1549b7d3"
+    },
+    {
+      "path": "cad/parameter_register.csv",
+      "bytes": 1796,
+      "sha256": "c1857e58f8f8db4cb12ee98d4cf21715cbb78b5737098468311f4f376ec3697d"
+    },
+    {
+      "path": "cad/stack_visualizer.scad",
+      "bytes": 2794,
+      "sha256": "516e1fcbf3de5d9e959b1eb15a895342b05888159c4c8c921cb5a84df3bcba9c"
+    },
+    {
+      "path": "chemistry/FEASIBILITY_MATRIX.csv",
+      "bytes": 4868,
+      "sha256": "486891d04475c906ec5ebd35aa8018549181679f1367d5f925d0e876906d25df"
+    },
+    {
+      "path": "chemistry/REACTION_REGISTER.md",
+      "bytes": 3130,
+      "sha256": "b0b84ecc14c383ae4ac17416dbed7b3fddf0c8cd27cfa525a6a7703e94fd3fc9"
+    },
+    {
+      "path": "docs/BUILD_CARDS.md",
+      "bytes": 10898,
+      "sha256": "72514a7f9fb62cba726e1ed8a8793f1264b29dfd678de3ac7c8039a7e07adc31"
+    },
+    {
+      "path": "docs/OUTREACH_EMAILS.md",
+      "bytes": 4534,
+      "sha256": "ab4cee0366f949753fe4ce568631d3e9be89813e1e2146f5b490d050dfb1ecdc"
+    },
+    {
+      "path": "economics/README.md",
+      "bytes": 722,
+      "sha256": "75b1f420f9742126d756b7094c4e20d8ee1a3bc4181a0a2d3da79d2201945b94"
+    },
+    {
+      "path": "economics/cost_inputs_template.json",
+      "bytes": 1168,
+      "sha256": "2b9ab3dde82ca87ba8f64ff117eac59d8e579e62ce09708c73da529d1b694094"
+    },
+    {
+      "path": "economics/cost_model.py",
+      "bytes": 5519,
+      "sha256": "dcf4db92ba0be84a812f97c3e8e35a1450668f379f5225c2e0814af4a68b3a14"
+    },
+    {
+      "path": "economics/cost_model_expected_block.txt",
+      "bytes": 671,
+      "sha256": "8229702677047f877cf975056bf354518fb58976a9c24cc74fcf04591cc592e9"
+    },
+    {
+      "path": "manufacturing/01_SCALE_UP_AND_AUTOMATION.md",
+      "bytes": 7051,
+      "sha256": "aced327c5ebd02d6b28f97c23ce486f5d0d5c8d7d30626c62d0dd68d16c80c5f"
+    },
+    {
+      "path": "procurement/BOM.csv",
+      "bytes": 10188,
+      "sha256": "a523d56d969f9051b15b5dc3203b3c1ad996c7086eac8fa4432bd4b8acf89da3"
+    },
+    {
+      "path": "procurement/EQUIPMENT_BOM.csv",
+      "bytes": 7206,
+      "sha256": "12ee488b3c92713f421578df58f10592885a729b0add61d633d6fbfb06f7987d"
+    },
+    {
+      "path": "procurement/THREE_CELL_ORDER_LIST.md",
+      "bytes": 4600,
+      "sha256": "997522f1f74b306b5b2d5042d935f4f87533f8108610d7cb8f47a337e3547b44"
+    },
+    {
+      "path": "results_template/CELL_ASSEMBLY_RECORD.csv",
+      "bytes": 553,
+      "sha256": "d3d3911838148377f2d996672ab0484fbce20b0490ceb2fac2f2132acae6626d"
+    },
+    {
+      "path": "results_template/POWDER_BATCH_RECORD.csv",
+      "bytes": 621,
+      "sha256": "04a0766484f22fac5265ced61d3d8cb73ed589d2a4f2751db9b3f8d5db4353f9"
+    },
+    {
+      "path": "results_template/TEST_RUN_RECORD.csv",
+      "bytes": 480,
+      "sha256": "5ffeb361f8d9ea9681c312e0730a51e3b70fbc449480a08f6eac959528ada5c1"
+    },
+    {
+      "path": "safety/HAZARD_REGISTER.csv",
+      "bytes": 2961,
+      "sha256": "814b04692a03898c30c52adf3236c736abfeb7b7933c926f237e2ac9ac8bfbeb"
+    },
+    {
+      "path": "scripts/run_software_checks.ps1",
+      "bytes": 1633,
+      "sha256": "a7a92e85077c8772922d7b3eb665d71232d348b53182103b5a2e993bbcd6de6a"
+    },
+    {
+      "path": "simulation/ATOMISTIC_WORKFLOW_STATUS.md",
+      "bytes": 3139,
+      "sha256": "d8bceccca9967700025d22d3775d08a8a4049c134a6c6b2e736048de2cd3a1a6"
+    },
+    {
+      "path": "simulation/README.md",
+      "bytes": 4040,
+      "sha256": "886df7c7f66ddadeda748923653fe3d0ad6e31363700e77794be7f3078b582b1"
+    },
+    {
+      "path": "simulation/analyze_cycler_csv.py",
+      "bytes": 6868,
+      "sha256": "d77d6549eb1b8f5fb47c35fbc5cb8cb5dde0e01445b990789ed3a11ae85e278f"
+    },
+    {
+      "path": "simulation/analyzer_smoke_test.txt",
+      "bytes": 248,
+      "sha256": "1c23e256c6a53163ab94c59c86fca683d592b8cc8619c04850ed5d8ff15d5d05"
+    },
+    {
+      "path": "simulation/calculator_smoke_test.txt",
+      "bytes": 1181,
+      "sha256": "663d261adf1954458441f79a4aec7e02de460546dc4b24127e02a526a4794149"
+    },
+    {
+      "path": "simulation/canonical_cycler_template.csv",
+      "bytes": 61,
+      "sha256": "d80ad43544274e0b399cabe6e5dfced3ec31cf27463d010789d653d35d3cf955"
+    },
+    {
+      "path": "simulation/cell_sizing_calculator.py",
+      "bytes": 4407,
+      "sha256": "3db524fe9eba31f54dc71b5f24463ddd41e9eb0327a9b6611a2acbc2b77a43f0"
+    },
+    {
+      "path": "simulation/current_profile_demo_synthetic.csv",
+      "bytes": 135,
+      "sha256": "cd9084cf557f04a0f22b1f4ac0ea66d0d075b205945eca7043d2bb524397a6ca"
+    },
+    {
+      "path": "simulation/demo_analysis_output/cycle_summary.csv",
+      "bytes": 554,
+      "sha256": "b4c7ef2c40b6e7af6c2d950f9b2bc94b080c3d4ec3eddbdbf0bb8e77814403e3"
+    },
+    {
+      "path": "simulation/demo_analysis_output/summary.json",
+      "bytes": 1173,
+      "sha256": "1d55a21d064a9840b5aebb187fbc90de256d0cfa98dfc5848ce518430801dcf6"
+    },
+    {
+      "path": "simulation/demo_synthetic_data.csv",
+      "bytes": 400,
+      "sha256": "fcb2fb3fd245be0cc6fcc5a0ad72db11c9c74e04b3dc8e62434882599ea9175d"
+    },
+    {
+      "path": "simulation/equivalent_circuit_model.py",
+      "bytes": 5052,
+      "sha256": "9cab3ba4aa06b815586f85989c7f64b2960fefd7db9f12383c77d5693d93659b"
+    },
+    {
+      "path": "simulation/moonshot_requirements.py",
+      "bytes": 2229,
+      "sha256": "ac10fe69d6de571ef6219f11e4f5814d8591240eb5c585339a60b0c080bb323e"
+    },
+    {
+      "path": "simulation/moonshot_requirements_README.md",
+      "bytes": 583,
+      "sha256": "821e2b117542e969d1c47db895fde496cdc871a3fbb91768ff84997db3aa5aaf"
+    },
+    {
+      "path": "simulation/rc_demo_synthetic_output.csv",
+      "bytes": 1305,
+      "sha256": "6b6810736999640d62d6e1f6fbe6ff646d4148875c9db190d824dc5948acc984"
+    },
+    {
+      "path": "simulation/rc_model_demo_synthetic_parameters.json",
+      "bytes": 562,
+      "sha256": "a1e3ff7df1e8d02ce7d09a1f6ff5007414a33c4f5920ac2eab9914d057660082"
+    },
+    {
+      "path": "simulation/rc_model_parameters_template.json",
+      "bytes": 557,
+      "sha256": "188229d6e623b9b8a7c6578c656668bb485b59ab5068f44325938bdc22a4d2a7"
+    },
+    {
+      "path": "simulation/rc_smoke_test.txt",
+      "bytes": 171,
+      "sha256": "47f3b4d76c5870c8f8db9fef105c163ccd1071fce7ff96852d8d4b1f98c2b8fe"
+    },
+    {
+      "path": "validation/TEST_MATRIX.csv",
+      "bytes": 4455,
+      "sha256": "dc6b25e0be95219115fabc7c0b64f40ab0a943dd1259aee2242a3c1c63738403"
+    },
+    {
+      "path": "yc/CLAIM_CONTROL_AND_EVIDENCE.md",
+      "bytes": 3113,
+      "sha256": "bd866658399bddeee2993b1d44fc818f1c23799c5894f58ddab82cb886cc6745"
+    },
+    {
+      "path": "yc/TECHNICAL_ONE_PAGER.md",
+      "bytes": 3205,
+      "sha256": "e409a78983ad33db33e90f0a821c83664e61d47db62bf72e72cbdfae3670a8dc"
+    }
+  ],
+  "verification": {
+    "python_syntax": "passed",
+    "quantity_calculator": "passed",
+    "cycler_analyser": "passed on synthetic data only",
+    "equivalent_circuit_model": "passed on synthetic data only",
+    "moonshot_arithmetic": "passed; arithmetic only",
+    "cost_model_guard": "passed; correctly refused incomplete inputs",
+    "dxf": "one 15.000 mm circle verified",
+    "stl": "watertight visual-only mesh verified",
+    "electrochemistry": "not performed",
+    "dft_md": "not performed",
+    "powerShell_runner": "not run in Linux environment"
+  }
+}

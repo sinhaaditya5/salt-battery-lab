@@ -1,0 +1,2 @@
+Wrote simulation/rc_demo_synthetic_output.csv; rows=8
+This is an equivalent-circuit estimate. Validate against independent measured profiles before engineering decisions.

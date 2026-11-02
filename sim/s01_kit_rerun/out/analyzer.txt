@@ -1,0 +1,4 @@
+Analyzed 1 complete cycles
+Wrote simulation/demo_analysis_output/cycle_summary.csv
+Wrote simulation/demo_analysis_output/summary.json
+No performance claim is valid until masses, sign conventions, instrument export and test conditions are verified.

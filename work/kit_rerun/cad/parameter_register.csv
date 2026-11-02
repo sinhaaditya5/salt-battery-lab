@@ -1,0 +1,20 @@
+parameter,value,unit,status,source_or_note
+paper_electrode_diameter,15.0,mm,reported,2019 paper says 1.5 cm Toray carbon paper disc
+active_material_per_electrode,5.0,mg,reported,Approximate active mass in paper
+carbon_black_per_electrode,1.25,mg,reported,4:1 active material to carbon black ratio
+active_to_carbon_mass_ratio,4:1,ratio,reported,Paper-reported
+separator_diameter,,mm,unknown,Not specified in main Methods; confirm author or qualify
+separator_thickness,,mm,unknown,Not specified in main Methods
+carbon_paper_grade,,text,unknown,Paper names Toray/E-TEK but not exact grade/thickness/treatment
+carbon_paper_thickness,,mm,unknown,Not specified in main Methods; obtain datasheet
+active_coating_thickness,,mm,unknown,Must be measured from produced electrode
+slurry_solvent,,text,unknown,Full-cell slurry solvent not specified in main Methods
+slurry_solids_fraction,,%,unknown,Full-cell slurry solids concentration not specified in main Methods
+compression_force,,N,unknown,No spring force or applied pressure reported
+fixture_internal_dimensions,,mm,unknown,Use manufacturer dimension drawing for actual fixture
+fixture_gasket_details,,text,unknown,Use manufacturer specification and EHS approval
+separator_diameter_visual_default,17.0,mm,illustrative-only,OpenSCAD display default only; not a fabrication value
+contact_plate_diameter_visual_default,18.0,mm,illustrative-only,OpenSCAD display default only; not a fabrication value
+contact_plate_thickness_visual_default,1.0,mm,illustrative-only,OpenSCAD display default only; not a fabrication value
+carbon_paper_thickness_visual_default,0.2,mm,illustrative-only,OpenSCAD display default only; not a fabrication value
+active_layer_thickness_visual_default,0.05,mm,illustrative-only,OpenSCAD display default only; not a fabrication value
