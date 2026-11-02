@@ -1,0 +1,999 @@
+{
+ "targets": {
+  "range_km": 1500,
+  "charge_min": 5,
+  "cell_Whkg": 360,
+  "cost_usd": 3.0
+ },
+ "A_vehicle": [
+  {
+   "vehicle": "efficient sedan",
+   "pack_Whkg": 288.0,
+   "consumption_Wh_km": 140.1,
+   "usable_kWh": 210.1,
+   "installed_kWh": 233.5,
+   "battery_mass_kg": 811.0,
+   "battery_share_of_vehicle_mass": 0.35,
+   "avg_charge_power_MW": 2.74,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 3.43,
+   "current_kA_at_1250V": 2.19,
+   "x_MCS_ceiling": 0.73,
+   "x_best_deployed": 2.1,
+   "pack_case": "founder target 360 cell x 0.80"
+  },
+  {
+   "vehicle": "mid SUV",
+   "pack_Whkg": 288.0,
+   "consumption_Wh_km": 192.7,
+   "usable_kWh": 289.1,
+   "installed_kWh": 321.2,
+   "battery_mass_kg": 1115.0,
+   "battery_share_of_vehicle_mass": 0.38,
+   "avg_charge_power_MW": 3.77,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 4.71,
+   "current_kA_at_1250V": 3.02,
+   "x_MCS_ceiling": 1.01,
+   "x_best_deployed": 2.9,
+   "pack_case": "founder target 360 cell x 0.80"
+  },
+  {
+   "vehicle": "large SUV / pickup",
+   "pack_Whkg": 288.0,
+   "consumption_Wh_km": 274.8,
+   "usable_kWh": 412.2,
+   "installed_kWh": 458.0,
+   "battery_mass_kg": 1590.0,
+   "battery_share_of_vehicle_mass": 0.41,
+   "avg_charge_power_MW": 5.38,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 6.72,
+   "current_kA_at_1250V": 4.3,
+   "x_MCS_ceiling": 1.43,
+   "x_best_deployed": 4.1,
+   "pack_case": "founder target 360 cell x 0.80"
+  },
+  {
+   "vehicle": "heavy truck (40 t)",
+   "pack_Whkg": 288.0,
+   "consumption_Wh_km": 1466.8,
+   "usable_kWh": 2200.2,
+   "installed_kWh": 2444.6,
+   "battery_mass_kg": 8488.0,
+   "battery_share_of_vehicle_mass": 0.38,
+   "avg_charge_power_MW": 28.7,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 35.87,
+   "current_kA_at_1250V": 22.96,
+   "x_MCS_ceiling": 7.65,
+   "x_best_deployed": 22.1,
+   "pack_case": "founder target 360 cell x 0.80"
+  },
+  {
+   "vehicle": "efficient sedan",
+   "pack_Whkg": 203.9,
+   "consumption_Wh_km": 154.9,
+   "usable_kWh": 232.3,
+   "installed_kWh": 258.2,
+   "battery_mass_kg": 1266.0,
+   "battery_share_of_vehicle_mass": 0.46,
+   "avg_charge_power_MW": 3.03,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 3.79,
+   "current_kA_at_1250V": 2.42,
+   "x_MCS_ceiling": 0.81,
+   "x_best_deployed": 2.3,
+   "pack_case": "best non-Li P50 (N08 anode-free Na SSB) pack"
+  },
+  {
+   "vehicle": "mid SUV",
+   "pack_Whkg": 203.9,
+   "consumption_Wh_km": 217.1,
+   "usable_kWh": 325.7,
+   "installed_kWh": 361.8,
+   "battery_mass_kg": 1775.0,
+   "battery_share_of_vehicle_mass": 0.5,
+   "avg_charge_power_MW": 4.25,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 5.31,
+   "current_kA_at_1250V": 3.4,
+   "x_MCS_ceiling": 1.13,
+   "x_best_deployed": 3.3,
+   "pack_case": "best non-Li P50 (N08 anode-free Na SSB) pack"
+  },
+  {
+   "vehicle": "large SUV / pickup",
+   "pack_Whkg": 203.9,
+   "consumption_Wh_km": 315.3,
+   "usable_kWh": 473.0,
+   "installed_kWh": 525.5,
+   "battery_mass_kg": 2577.0,
+   "battery_share_of_vehicle_mass": 0.53,
+   "avg_charge_power_MW": 6.17,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 7.71,
+   "current_kA_at_1250V": 4.94,
+   "x_MCS_ceiling": 1.65,
+   "x_best_deployed": 4.7,
+   "pack_case": "best non-Li P50 (N08 anode-free Na SSB) pack"
+  },
+  {
+   "vehicle": "heavy truck (40 t)",
+   "pack_Whkg": 203.9,
+   "consumption_Wh_km": 1672.2,
+   "usable_kWh": 2508.3,
+   "installed_kWh": 2787.0,
+   "battery_mass_kg": 13668.0,
+   "battery_share_of_vehicle_mass": 0.49,
+   "avg_charge_power_MW": 32.72,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 40.9,
+   "current_kA_at_1250V": 26.17,
+   "x_MCS_ceiling": 8.72,
+   "x_best_deployed": 25.2,
+   "pack_case": "best non-Li P50 (N08 anode-free Na SSB) pack"
+  },
+  {
+   "vehicle": "efficient sedan",
+   "pack_Whkg": 144.2,
+   "consumption_Wh_km": 182.2,
+   "usable_kWh": 273.3,
+   "installed_kWh": 303.6,
+   "battery_mass_kg": 2106.0,
+   "battery_share_of_vehicle_mass": 0.58,
+   "avg_charge_power_MW": 3.56,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 4.46,
+   "current_kA_at_1250V": 2.85,
+   "x_MCS_ceiling": 0.95,
+   "x_best_deployed": 2.7,
+   "pack_case": "commercial Na-ion (N01) pack"
+  },
+  {
+   "vehicle": "mid SUV",
+   "pack_Whkg": 144.2,
+   "consumption_Wh_km": 264.5,
+   "usable_kWh": 396.8,
+   "installed_kWh": 440.8,
+   "battery_mass_kg": 3057.0,
+   "battery_share_of_vehicle_mass": 0.63,
+   "avg_charge_power_MW": 5.18,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 6.47,
+   "current_kA_at_1250V": 4.14,
+   "x_MCS_ceiling": 1.38,
+   "x_best_deployed": 4.0,
+   "pack_case": "commercial Na-ion (N01) pack"
+  },
+  {
+   "vehicle": "large SUV / pickup",
+   "pack_Whkg": 144.2,
+   "consumption_Wh_km": 398.8,
+   "usable_kWh": 598.1,
+   "installed_kWh": 664.6,
+   "battery_mass_kg": 4609.0,
+   "battery_share_of_vehicle_mass": 0.67,
+   "avg_charge_power_MW": 7.8,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 9.75,
+   "current_kA_at_1250V": 6.24,
+   "x_MCS_ceiling": 2.08,
+   "x_best_deployed": 6.0,
+   "pack_case": "commercial Na-ion (N01) pack"
+  },
+  {
+   "vehicle": "heavy truck (40 t)",
+   "pack_Whkg": 144.2,
+   "consumption_Wh_km": 2086.5,
+   "usable_kWh": 3129.7,
+   "installed_kWh": 3477.5,
+   "battery_mass_kg": 24116.0,
+   "battery_share_of_vehicle_mass": 0.63,
+   "avg_charge_power_MW": 40.82,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 51.03,
+   "current_kA_at_1250V": 32.66,
+   "x_MCS_ceiling": 10.89,
+   "x_best_deployed": 31.4,
+   "pack_case": "commercial Na-ion (N01) pack"
+  },
+  {
+   "vehicle": "efficient sedan",
+   "pack_Whkg": 98.8,
+   "consumption_Wh_km": 251.8,
+   "usable_kWh": 377.7,
+   "installed_kWh": 419.7,
+   "battery_mass_kg": 4248.0,
+   "battery_share_of_vehicle_mass": 0.74,
+   "avg_charge_power_MW": 4.93,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 6.16,
+   "current_kA_at_1250V": 3.94,
+   "x_MCS_ceiling": 1.31,
+   "x_best_deployed": 3.8,
+   "pack_case": "ZEBRA (S01) pack"
+  },
+  {
+   "vehicle": "mid SUV",
+   "pack_Whkg": 98.8,
+   "consumption_Wh_km": 402.4,
+   "usable_kWh": 603.5,
+   "installed_kWh": 670.6,
+   "battery_mass_kg": 6788.0,
+   "battery_share_of_vehicle_mass": 0.79,
+   "avg_charge_power_MW": 7.87,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 9.84,
+   "current_kA_at_1250V": 6.3,
+   "x_MCS_ceiling": 2.1,
+   "x_best_deployed": 6.1,
+   "pack_case": "ZEBRA (S01) pack"
+  },
+  {
+   "vehicle": "large SUV / pickup",
+   "pack_Whkg": 98.8,
+   "consumption_Wh_km": 681.9,
+   "usable_kWh": 1022.9,
+   "installed_kWh": 1136.6,
+   "battery_mass_kg": 11504.0,
+   "battery_share_of_vehicle_mass": 0.83,
+   "avg_charge_power_MW": 13.34,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 16.68,
+   "current_kA_at_1250V": 10.67,
+   "x_MCS_ceiling": 3.56,
+   "x_best_deployed": 10.3,
+   "pack_case": "ZEBRA (S01) pack"
+  },
+  {
+   "vehicle": "heavy truck (40 t)",
+   "pack_Whkg": 98.8,
+   "consumption_Wh_km": 3413.9,
+   "usable_kWh": 5120.8,
+   "installed_kWh": 5689.8,
+   "battery_mass_kg": 57589.0,
+   "battery_share_of_vehicle_mass": 0.8,
+   "avg_charge_power_MW": 66.79,
+   "avg_C_rate": 11.7,
+   "current_kA_at_800V": 83.49,
+   "current_kA_at_1250V": 53.43,
+   "x_MCS_ceiling": 17.81,
+   "x_best_deployed": 51.4,
+   "pack_case": "ZEBRA (S01) pack"
+  }
+ ],
+ "A_heat_midSUV_founder_pack": [
+  {
+   "ASR_ohm_cm2": 5,
+   "current_density_mA_cm2": 35.1,
+   "heat_fraction": 0.049,
+   "heat_kWh": 15.3,
+   "heat_rejection_kW": 184.0,
+   "adiabatic_dT_K": 49.5
+  },
+  {
+   "ASR_ohm_cm2": 10,
+   "current_density_mA_cm2": 35.1,
+   "heat_fraction": 0.097,
+   "heat_kWh": 30.6,
+   "heat_rejection_kW": 368.0,
+   "adiabatic_dT_K": 98.9
+  },
+  {
+   "ASR_ohm_cm2": 20,
+   "current_density_mA_cm2": 35.1,
+   "heat_fraction": 0.195,
+   "heat_kWh": 61.3,
+   "heat_rejection_kW": 735.0,
+   "adiabatic_dT_K": 197.8
+  },
+  {
+   "ASR_ohm_cm2": 40,
+   "current_density_mA_cm2": 35.1,
+   "heat_fraction": 0.39,
+   "heat_kWh": 122.6,
+   "heat_rejection_kW": 1471.0,
+   "adiabatic_dT_K": 395.7
+  }
+ ],
+ "A_station": {
+  "stalls": 8,
+  "peak_MW": 30.2,
+  "note": "8 stalls at the founder's spec need ~30 MW grid connection or on-site buffer storage; a typical 8-stall 350 kW site is ~2.8 MW."
+ },
+ "B_electrode": {
+  "D_eff_cm2_s": 4.1079191812887454e-07,
+  "L_max_um": 64.1,
+  "Qa_max_cathode_mAh_cm2": 2.88,
+  "Qa_max_anode_mAh_cm2": 1.86,
+  "Qa_max_cell": 1.86,
+  "particle_radius_max_um_at_Ds_1e10": 1.0,
+  "note": "Criterion L^2/D_eff <= t_charge/3 with t=300 s, D_e=2.5e-6 cm2/s, eps=0.30, Bruggeman 1.5 [ASSUMPTION]"
+ },
+ "B_energy_vs_loading": {
+  "N01": {
+   "1.0": 148.4,
+   "1.5": 162.0,
+   "1.8598638060228803": 167.9,
+   "2.5": 174.8,
+   "3.5": 181.0,
+   "5.0": 185.7
+  },
+  "N02": {
+   "1.0": 126.3,
+   "1.5": 136.3,
+   "1.8598638060228803": 140.5,
+   "2.5": 145.3,
+   "3.5": 149.7,
+   "5.0": 153.0
+  },
+  "N08": {
+   "1.0": 155.1,
+   "1.5": 191.3,
+   "1.8598638060228803": 210.1,
+   "2.5": 234.5,
+   "3.5": 260.6,
+   "5.0": 283.7
+  },
+  "B01": {
+   "1.0": 173.8,
+   "1.5": 202.1,
+   "1.8598638060228803": 215.7,
+   "2.5": 232.4,
+   "3.5": 248.5,
+   "5.0": 262.0
+  }
+ },
+ "B_metal_anode": {
+  "required_mA_cm2_at_12C": {
+   "2.0 mAh/cm2": 24.0,
+   "3.5 mAh/cm2": 42.0,
+   "5.0 mAh/cm2": 60.0
+  },
+  "typical_critical_current_density_mA_cm2": "~1-10 at room temperature for Li/Na metal on inorganic solid electrolytes [ASSUMPTION; literature range]"
+ },
+ "C_three_dollar": [
+  {
+   "id": "S01",
+   "name": "ZEBRA Na|beta''-Al2O3|NaAlCl4|NiCl2 (tubular, 270-350 C)",
+   "cell_Whkg_P50": 130.2,
+   "theoretical_min_material_usd_kWh": 6.42,
+   "theoretical_min_breakdown": {
+    "NaCl": 0.05,
+    "Ni": 6.37
+   },
+   "cell_materials_P10": 126.6,
+   "cell_materials_P50": 204.3,
+   "conversion_1GWh": [
+    25,
+    45,
+    90
+   ],
+   "cell_cost_floor": 151.6,
+   "cell_cost_mid": 249.3,
+   "pack_cost_floor": 159.6,
+   "pack_cost_mid": 264.3,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 151.6,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 50.5
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 159.6,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 53.2
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 23.0,
+    "floor_usd_kWh": 151.6,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 19.74
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 19.8,
+    "max_unit_energy_Wh_at_mid": 12.0,
+    "verdict": "PLAUSIBLE only for units <= ~20 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 25,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 8.3
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.147,
+    "lcos_mid": 0.243,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "S03",
+   "name": "IT planar Na|beta''-Al2O3|NaAlCl4|FeCl2 (Fe + 10% Ni, 190 C)",
+   "cell_Whkg_P50": 130.9,
+   "theoretical_min_material_usd_kWh": 0.26,
+   "theoretical_min_breakdown": {
+    "NaCl": 0.06,
+    "Fe": 0.2
+   },
+   "cell_materials_P10": 100.2,
+   "cell_materials_P50": 191.0,
+   "conversion_1GWh": [
+    25,
+    45,
+    90
+   ],
+   "cell_cost_floor": 125.2,
+   "cell_cost_mid": 236.0,
+   "pack_cost_floor": 133.2,
+   "pack_cost_mid": 251.0,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 125.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 41.7
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 133.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 44.4
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 22.9,
+    "floor_usd_kWh": 125.2,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 16.39
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 24.0,
+    "max_unit_energy_Wh_at_mid": 12.7,
+    "verdict": "PLAUSIBLE only for units <= ~24 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 25,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 8.3
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.343,
+    "lcos_mid": 0.646,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "S04",
+   "name": "RT Na|AlCl3-SOCl2|Cl2-in-carbon (Na-Cl2)",
+   "cell_Whkg_P50": 188.5,
+   "theoretical_min_material_usd_kWh": 0.03,
+   "theoretical_min_breakdown": {
+    "NaCl": 0.03
+   },
+   "cell_materials_P10": 56.8,
+   "cell_materials_P50": 75.8,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 64.8,
+   "cell_cost_mid": 89.8,
+   "pack_cost_floor": 72.8,
+   "pack_cost_mid": 104.8,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 64.8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 21.6
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 72.8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 24.3
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 15.9,
+    "floor_usd_kWh": 64.8,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 12.21
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 46.3,
+    "max_unit_energy_Wh_at_mid": 33.4,
+    "verdict": "PLAUSIBLE only for units <= ~46 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.772,
+    "lcos_mid": 1.111,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "N01",
+   "name": "Na-ion layered oxide|hard carbon (NaPF6 carbonate)",
+   "cell_Whkg_P50": 176.7,
+   "theoretical_min_material_usd_kWh": 8.08,
+   "theoretical_min_breakdown": {
+    "Na2CO3": 0.31,
+    "Ni": 5.79,
+    "Fe": 0.17,
+    "Mn_oxide": 0.75,
+    "hard_carbon_precursor": 1.06
+   },
+   "cell_materials_P10": 50.1,
+   "cell_materials_P50": 56.8,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 58.1,
+   "cell_cost_mid": 70.8,
+   "pack_cost_floor": 66.1,
+   "pack_cost_mid": 85.8,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 58.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 19.4
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 66.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 22.0
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 17.0,
+    "floor_usd_kWh": 58.1,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 10.27
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 51.6,
+    "max_unit_energy_Wh_at_mid": 42.4,
+    "verdict": "PLAUSIBLE only for units <= ~52 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.052,
+    "lcos_mid": 0.068,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "NEAR"
+   }
+  },
+  {
+   "id": "N02",
+   "name": "Na-ion NFPP|hard carbon",
+   "cell_Whkg_P50": 144.7,
+   "theoretical_min_material_usd_kWh": 3.21,
+   "theoretical_min_breakdown": {
+    "Na2CO3": 0.26,
+    "Fe": 0.3,
+    "H3PO4": 1.57,
+    "hard_carbon_precursor": 1.08
+   },
+   "cell_materials_P10": 50.2,
+   "cell_materials_P50": 56.3,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 58.2,
+   "cell_cost_mid": 70.3,
+   "pack_cost_floor": 66.2,
+   "pack_cost_mid": 85.3,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 58.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 19.4
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 66.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 22.1
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 20.7,
+    "floor_usd_kWh": 58.2,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 8.42
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 51.5,
+    "max_unit_energy_Wh_at_mid": 42.7,
+    "verdict": "PLAUSIBLE only for units <= ~52 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.052,
+    "lcos_mid": 0.067,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "NEAR"
+   }
+  },
+  {
+   "id": "N03",
+   "name": "Na-ion Prussian white|hard carbon",
+   "cell_Whkg_P50": 175.6,
+   "theoretical_min_material_usd_kWh": 5.13,
+   "theoretical_min_breakdown": {
+    "Na4Fe(CN)6": 3.44,
+    "MnSO4": 0.68,
+    "hard_carbon_precursor": 1.01
+   },
+   "cell_materials_P10": 45.1,
+   "cell_materials_P50": 51.1,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 53.1,
+   "cell_cost_mid": 65.1,
+   "pack_cost_floor": 61.1,
+   "pack_cost_mid": 80.1,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 53.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 17.7
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 61.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 20.4
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 17.1,
+    "floor_usd_kWh": 53.1,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 9.32
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 56.5,
+    "max_unit_energy_Wh_at_mid": 46.1,
+    "verdict": "PLAUSIBLE only for units <= ~56 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.064,
+    "lcos_mid": 0.083,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "N09",
+   "name": "RT Na-S: Na|glyme|S/C (Na2S end)",
+   "cell_Whkg_P50": 144.3,
+   "theoretical_min_material_usd_kWh": 1.67,
+   "theoretical_min_breakdown": {
+    "Na_metal": 1.62,
+    "S": 0.05
+   },
+   "cell_materials_P10": 76.0,
+   "cell_materials_P50": 103.4,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 84.0,
+   "cell_cost_mid": 117.4,
+   "pack_cost_floor": 92.0,
+   "pack_cost_mid": 132.4,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 84.0,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 28.0
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 92.0,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 30.7
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 20.8,
+    "floor_usd_kWh": 84.0,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 12.12
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 35.7,
+    "max_unit_energy_Wh_at_mid": 25.6,
+    "verdict": "PLAUSIBLE only for units <= ~36 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.241,
+    "lcos_mid": 0.347,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "A01",
+   "name": "Aqueous Zn-ion: Zn|ZnSO4|MnO2",
+   "cell_Whkg_P50": 53.8,
+   "theoretical_min_material_usd_kWh": 7.34,
+   "theoretical_min_breakdown": {
+    "Zn": 2.53,
+    "MnO2_EMD": 4.81
+   },
+   "cell_materials_P10": 58.2,
+   "cell_materials_P50": 69.6,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 66.2,
+   "cell_cost_mid": 83.6,
+   "pack_cost_floor": 74.2,
+   "pack_cost_mid": 98.6,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 66.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 22.1
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 74.2,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 24.7
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 55.8,
+    "floor_usd_kWh": 66.2,
+    "verdict": "NEAR (within 2x)",
+    "floor_usd_per_kg": 3.56
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 45.3,
+    "max_unit_energy_Wh_at_mid": 35.9,
+    "verdict": "PLAUSIBLE only for units <= ~45 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.077,
+    "lcos_mid": 0.103,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "A03",
+   "name": "Iron-air: Fe|KOH|air electrode (multi-day)",
+   "cell_Whkg_P50": 61.3,
+   "theoretical_min_material_usd_kWh": 0.37,
+   "theoretical_min_breakdown": {
+    "Fe": 0.37
+   },
+   "cell_materials_P10": 45.1,
+   "cell_materials_P50": 62.4,
+   "conversion_1GWh": [
+    10,
+    20,
+    40
+   ],
+   "cell_cost_floor": 55.1,
+   "cell_cost_mid": 82.4,
+   "pack_cost_floor": 63.1,
+   "pack_cost_mid": 97.4,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 55.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 18.4
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 63.1,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 21.0
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 48.9,
+    "floor_usd_kWh": 55.1,
+    "verdict": "NEAR (within 2x)",
+    "floor_usd_per_kg": 3.38
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 54.4,
+    "max_unit_energy_Wh_at_mid": 36.4,
+    "verdict": "PLAUSIBLE only for units <= ~54 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 10,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 3.3
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.151,
+    "lcos_mid": 0.233,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "IMPLAUSIBLE"
+   }
+  },
+  {
+   "id": "B02",
+   "name": "BENCHMARK LFP|graphite (large prismatic)",
+   "cell_Whkg_P50": 195.2,
+   "theoretical_min_material_usd_kWh": 9.18,
+   "theoretical_min_breakdown": {
+    "Li2CO3": 4.18,
+    "FePO4": 2.56,
+    "graphite": 2.44
+   },
+   "cell_materials_P10": 32.7,
+   "cell_materials_P50": 36.1,
+   "conversion_1GWh": [
+    8,
+    14,
+    25
+   ],
+   "cell_cost_floor": 40.7,
+   "cell_cost_mid": 50.1,
+   "pack_cost_floor": 48.7,
+   "pack_cost_mid": 65.1,
+   "I1_cell_3usd_kWh": {
+    "target": 3.0,
+    "floor": 40.7,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 13.6
+   },
+   "I2_pack_3usd_kWh": {
+    "target": 3.0,
+    "floor": 48.7,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 16.2
+   },
+   "I3_3usd_per_kg_cell": {
+    "target_usd_per_kg": 3.0,
+    "equivalent_usd_kWh": 15.4,
+    "floor_usd_kWh": 40.7,
+    "verdict": "IMPLAUSIBLE",
+    "floor_usd_per_kg": 7.94
+   },
+   "I4_3usd_per_unit": {
+    "max_unit_energy_Wh_at_floor": 73.7,
+    "max_unit_energy_Wh_at_mid": 59.9,
+    "verdict": "PLAUSIBLE only for units <= ~74 Wh (single small cells); IMPLAUSIBLE for modules/packs"
+   },
+   "I5_conversion_3usd_kWh": {
+    "target": 3.0,
+    "floor": 8,
+    "verdict": "IMPLAUSIBLE",
+    "gap_x": 2.7
+   },
+   "I6_levelised": {
+    "lcos_floor_usd_per_kWh_delivered": 0.038,
+    "lcos_mid": 0.051,
+    "as_3_usd_per_kWh_delivered": "TRIVIALLY MET (meaningless as a target)",
+    "as_3_cents_per_kWh_delivered": "NEAR"
+   }
+  }
+ ],
+ "D_salt_routes": [
+  {
+   "route": "S01 direct NaCl in cathode",
+   "chloride_role": "Cl is the electroactive anion (Cl-/Cl2 or MCl2/NaCl)",
+   "kg_NaCl_per_kWh": 1.12,
+   "process": "dry + purify solar/vacuum salt (low Ca, Mg, SO4, H2O)",
+   "energy_kWh_per_kWh_cell": 0.168,
+   "water_L_per_kWh": 0.56,
+   "byproducts": "none from salt (Cl stays in the cell)",
+   "label": "[CALCULATED]; drying/purification energy 0.15 kWh/kg [ASSUMPTION]"
+  },
+  {
+   "route": "S03 direct NaCl in cathode",
+   "chloride_role": "Cl is the electroactive anion (Cl-/Cl2 or MCl2/NaCl)",
+   "kg_NaCl_per_kWh": 1.28,
+   "process": "dry + purify solar/vacuum salt (low Ca, Mg, SO4, H2O)",
+   "energy_kWh_per_kWh_cell": 0.192,
+   "water_L_per_kWh": 0.64,
+   "byproducts": "none from salt (Cl stays in the cell)",
+   "label": "[CALCULATED]; drying/purification energy 0.15 kWh/kg [ASSUMPTION]"
+  },
+  {
+   "route": "S04 direct NaCl in cathode",
+   "chloride_role": "Cl is the electroactive anion (Cl-/Cl2 or MCl2/NaCl)",
+   "kg_NaCl_per_kWh": 0.63,
+   "process": "dry + purify solar/vacuum salt (low Ca, Mg, SO4, H2O)",
+   "energy_kWh_per_kWh_cell": 0.095,
+   "water_L_per_kWh": 0.32,
+   "byproducts": "none from salt (Cl stays in the cell)",
+   "label": "[CALCULATED]; drying/purification energy 0.15 kWh/kg [ASSUMPTION]"
+  },
+  {
+   "route": "N02 Na-ion via soda ash (Solvay, India)",
+   "chloride_role": "Cl leaves as CaCl2 effluent (~1 t per t soda ash)",
+   "kg_NaCl_per_kWh": 1.63,
+   "process": "Solvay: NaCl + CaCO3 -> Na2CO3 + CaCl2 (NH3 recycle)",
+   "energy_kWh_per_kWh_cell": 3.36,
+   "water_L_per_kWh": 10.2,
+   "byproducts": "CaCl2 brine; CO2",
+   "label": "[CALCULATED]; 1.6 kg NaCl and ~12 GJ (3.3 kWh) per kg soda ash, 10 L water/kg [ASSUMPTION]"
+  },
+  {
+   "route": "N01 Na-ion via soda ash (Solvay, India)",
+   "chloride_role": "Cl leaves as CaCl2 effluent (~1 t per t soda ash)",
+   "kg_NaCl_per_kWh": 1.65,
+   "process": "Solvay: NaCl + CaCO3 -> Na2CO3 + CaCl2 (NH3 recycle)",
+   "energy_kWh_per_kWh_cell": 3.4,
+   "water_L_per_kWh": 10.3,
+   "byproducts": "CaCl2 brine; CO2",
+   "label": "[CALCULATED]; 1.6 kg NaCl and ~12 GJ (3.3 kWh) per kg soda ash, 10 L water/kg [ASSUMPTION]"
+  },
+  {
+   "route": "N09 Na metal via Downs cell",
+   "chloride_role": "Cl2 co-product must be sold or handled",
+   "kg_NaCl_per_kWh": 2.49,
+   "process": "molten NaCl/CaCl2 electrolysis ~600 C",
+   "energy_kWh_per_kWh_cell": 9.81,
+   "water_L_per_kWh": 0.0,
+   "byproducts": "Cl2 (1.54 kg per kg Na)",
+   "label": "[CALCULATED]; ~10 kWh electricity per kg Na [ASSUMPTION]"
+  }
+ ],
+ "D_seawater": {
+  "route": "Seawater direct (any route)",
+  "note": "35 g/L dissolved salts; ~29 L seawater per kg NaCl plus Mg/Ca/SO4 removal. Solar salt pans (Gujarat, Tamil Nadu) already do this at near-zero energy; a battery company gains nothing by extracting its own. Thermal evaporation would cost ~65 MJ/kg NaCl. [CALCULATED from ASSUMPTION]"
+ }
+}
