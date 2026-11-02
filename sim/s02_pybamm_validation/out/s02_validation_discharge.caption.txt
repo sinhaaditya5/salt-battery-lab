@@ -1,0 +1,1 @@
+PyBaMM sodium-ion DFN against digitised experimental HC//NVPF discharge curves: thin lines use parameters as shipped (independent validation: voltage MAE 67-121 mV, fails 60 mV gate); thick lines after a one-parameter kinetic calibration (MAE 42-55 mV). [SIM] PyBaMM BasicDFN, validated against [LIT] Chayambuka et al. 2022 (MAE per rate in s02_validation.json)
