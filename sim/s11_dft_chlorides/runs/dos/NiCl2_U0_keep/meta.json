@@ -1,0 +1,12 @@
+{
+ "name": "NiCl2dos",
+ "calc": "scf",
+ "U": 0.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 30,
+ "kind": "tm",
+ "nat": 3
+}
