@@ -1,0 +1,13 @@
+.venv/
+tools/cache/
+tools/uv-cache/
+tools/tmp/
+tools/micromamba/
+tools/blender-user/
+tools/aws/credentials_unused
+**/__pycache__/
+*.pyc
+.DS_Store
+work/scratch/
+sim/s06_dft_ec2/runs/**/*.save/
+sim/s06_dft_ec2/runs/**/*.wfc*
