@@ -1,0 +1,1 @@
+Relaxed interlayer spacing of a 48-atom ordered birnessite model at three Na contents, compared with the reference paper's XRD. [SIM] uMLIP screen, ordered model of a disordered material; [LIT] Shan et al. 2019 XRD

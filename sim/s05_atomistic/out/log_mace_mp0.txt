@@ -1,0 +1,18 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+mace_mp0 FePO4_olivine            E=   -169.7552 eV  steps= 107  fmax=0.006  V=  286.25    12.9s
+mace_mp0 LiFePO4                  E=   -191.1383 eV  steps=  40  fmax=0.023  V=  301.91     6.0s
+mace_mp0 LiMn2O4                  E=    -96.6003 eV  steps=  10  fmax=0.030  V=  148.69     0.7s
+mace_mp0 Li_bcc                   E=     -1.9066 eV  steps=   6  fmax=0.000  V=   21.11     0.1s
+mace_mp0 MnFeCN6                  E=   -117.9098 eV  steps= 147  fmax=0.019  V=  236.93     7.6s
+mace_mp0 MnO2_layer_dry           E=   -191.7140 eV  steps=  15  fmax=0.015  V=  479.50     1.5s
+mace_mp0 MnO_rocksalt             E=    -15.6000 eV  steps=   4  fmax=0.000  V=   23.16     0.1s
+mace_mp0 Na2MnFeCN6               E=   -125.7125 eV  steps=  99  fmax=0.026  V=  242.85     6.3s
+mace_mp0 Na3Ti2PO43               E=   -287.7258 eV  steps=  27  fmax=0.027  V=  520.45     4.8s
+mace_mp0 NaFePO4_olivine          E=   -187.1206 eV  steps= 121  fmax=0.006  V=  336.79    25.3s
+mace_mp0 NaTi2PO43                E=   -277.4625 eV  steps=   0  fmax=0.018  V=  472.00     0.3s
+mace_mp0 Na_bcc                   E=     -1.3084 eV  steps=   4  fmax=0.000  V=   37.35     0.1s
+mace_mp0 birnessite_Na1_9         E=   -284.6903 eV  steps= 538  fmax=0.028  V=  514.14   222.8s
+mace_mp0 birnessite_Na3_9         E=   -294.6839 eV  steps= 600  fmax=0.009  V=  492.30   325.4s
+mace_mp0 birnessite_Na5_9         E=   -302.1792 eV  steps= 600  fmax=0.027  V=  520.95   341.7s
+mace_mp0 lambda_MnO2              E=    -84.8039 eV  steps=  45  fmax=0.026  V=  142.12     8.3s

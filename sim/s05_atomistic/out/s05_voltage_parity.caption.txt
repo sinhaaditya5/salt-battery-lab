@@ -1,0 +1,1 @@
+Average insertion voltages from universal ML potentials (and DFT+U where finished) against literature values for five validation compounds. [SIM] uMLIP screen, not DFT-verified; [LIT] reference voltages (sim/s05_atomistic/literature_refs.json)
