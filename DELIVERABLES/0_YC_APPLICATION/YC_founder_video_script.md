@@ -9,7 +9,7 @@ Aim for about 150 words, which is roughly 60 seconds at a calm pace. No slides, 
 ---
 
 **[0:00–0:08] Who and what**
-> "Hi, I'm [[name]]. I'm building a water-based sodium battery that can't catch fire, for places where lithium is hard to put indoors: data centres, telecom sites, hospitals, building basements."
+> "Hi, I'm [[name]]. I'm building a sodium battery whose electrolyte is salt water, so it can't burn, for places where lithium is hard to put indoors: data centres, telecom sites, hospitals, building basements."
 
 **[0:08–0:22] The insight**
 > "I ran the numbers on my own idea before spending lab money. A water battery can't beat lithium on cost per kWh; my model says two to five times worse. It only wins where lithium's indoor fire costs are high, and fire codes don't reward 'safe', they reward tested and listed. So the product is the battery plus its fire-test data."
