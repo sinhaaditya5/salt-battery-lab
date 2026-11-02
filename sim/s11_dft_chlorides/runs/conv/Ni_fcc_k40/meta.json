@@ -1,0 +1,12 @@
+{
+ "name": "Ni_fcc",
+ "calc": "scf",
+ "U": 0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 40,
+ "kind": "metal",
+ "nat": 1
+}

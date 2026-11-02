@@ -1,0 +1,12 @@
+{
+ "name": "NaCl_rs",
+ "calc": "scf",
+ "U": 0,
+ "ecut": [
+  45,
+  360
+ ],
+ "kdens": 15,
+ "kind": "ins",
+ "nat": 2
+}

@@ -1,0 +1,1 @@
+"/Volumes/Aditya ssd/Salt-Battery-Lab/tools/micromamba/envs/qe/bin/mpirun" --oversubscribe -np 4 "/Volumes/Aditya ssd/Salt-Battery-Lab/tools/micromamba/envs/qe/bin/pw.x"  -in job.in > job.out 2>&1

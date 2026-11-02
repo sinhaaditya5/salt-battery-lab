@@ -1,0 +1,12 @@
+{
+ "name": "NiCl2_FM",
+ "calc": "scf",
+ "U": 4.0,
+ "ecut": [
+  45,
+  360
+ ],
+ "kdens": 15,
+ "kind": "tm",
+ "nat": 3
+}
