@@ -1,0 +1,1 @@
+Thermodynamic water window (1.23 V) vs pH, with the R1 anode and cathode potential ranges at pH 7: both ends rely on kinetic overpotential, so side reactions are expected. [LIT] Nernst equation; electrode ranges [ASSUMPTION] (params MAT)

@@ -1,0 +1,1 @@
+Simulated temperature rise across a 12 V R1 monobloc cross-section at the end of a 15-minute (4C) UPS discharge, natural convection in a rack. [SIM] 2-D finite-difference conduction; heat from S3 overpotential [SIM]; thermal properties [ASSUMPTION]

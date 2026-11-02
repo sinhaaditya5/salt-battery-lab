@@ -1,0 +1,1 @@
+PyBaMM DFN of a validated Li-ion benchmark cell under constant-current charge 1-12C: fraction charged in 5 min, fraction charged before the plating criterion is crossed, and peak temperature. [SIMULATED] benchmark Li-ion model (Chen2020); not a salt-battery result
