@@ -1,0 +1,1 @@
+SM-48T thermal budget: keep-warm loss vs discharge heat and heaters; daily keep-warm energy vs stored energy. [CALCULATED] sim/s16_module_thermal from [ASSUMPTION] inputs

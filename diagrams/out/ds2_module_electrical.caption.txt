@@ -1,0 +1,1 @@
+SM-48T power path (cells to front connectors) and BMS / heater control, with independent hardware protection. [ASSUMPTION] concept architecture
