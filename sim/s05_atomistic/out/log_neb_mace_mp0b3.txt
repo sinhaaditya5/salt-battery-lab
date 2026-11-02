@@ -2,3 +2,5 @@ cuequivariance or cuequivariance_torch is not available. Cuequivariance accelera
 Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
 mace_mp0b3 LiFePO4_b        barrier=0.342 eV  dE=-0.000  hop=3.04 A
 mace_mp0b3 NaFePO4_b        barrier=0.275 eV  dE=0.000  hop=3.19 A
+mace_mp0b3 birnessite_Na    barrier=0.393 eV  dE=-0.012  hop=4.03 A
+mace_mp0b3 PBA_Na           barrier=0.535 eV  dE=0.000  hop=4.99 A
