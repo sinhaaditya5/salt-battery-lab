@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:12,627
+This is Salt Battery: a study of whether a water-based sodium battery can be a company. Nothing has been built yet. Everything you'll see is a simulation, a calculation or a cited source.
+
+2
+00:00:12,927 --> 00:00:27,180
+The problem. Lithium is cheap, but indoors it now brings fire engineering. Yet codes reward tested, listed chemistries: an unlisted battery gets a 3 kilowatt-hour threshold, stricter than lithium's 20.
+
+3
+00:00:27,480 --> 00:00:38,749
+The concept is a twelve-volt block in the lead-acid box size, with a manganese-oxide cathode, a titanium-phosphate anode, and salt water as the electrolyte.
+
+4
+00:00:39,049 --> 00:00:53,525
+We started with a belief: indoors, we only need lead-acid energy density, and we'd win on installed cost. Our own numbers withdrew that belief. What survived is narrower: codes reward tested chemistries.
+
+5
+00:00:53,825 --> 00:01:11,768
+Simulations show a rate cliff. At forty milligrams per square centimetre, a fifteen-minute discharge keeps about 86% of capacity; thicker electrodes collapse. Our electrochemical model failed its own validation gate, so we use it for trends only.
+
+6
+00:01:12,068 --> 00:01:22,905
+Safety. There is no thermal-runaway chain: the electrolyte cannot burn, and water absorbs the heat. But hydrogen and the plastic case remain real hazards.
+
+7
+00:01:23,205 --> 00:01:38,048
+Competition is honest and hard. Aquion built this chemistry class at 18.6 watt-hours per kilogram and went bankrupt. Non-aqueous sodium-ion firms already sell no-thermal-runaway batteries at far higher energy.
+
+8
+00:01:38,348 --> 00:01:51,860
+Unit economics: about 350 dollars per kilowatt-hour to make, against 70 for a lithium iron phosphate pack. Indoors, it only wins if lithium's fire costs become very large.
+
+9
+00:01:52,160 --> 00:02:02,221
+In India, this wedge is about 341 million dollars a year, and the part that cares about being allowed indoors is about 74 million.
+
+10
+00:02:02,521 --> 00:02:13,684
+So the first experiment isn't in a lab. It's twenty buyer interviews and two fire-protection quotes. If fewer than three buyers face a large lithium premium, we stop.
+
+11
+00:02:13,984 --> 00:02:20,343
+Every step on the roadmap has a kill gate, and spending beyond week twelve depends on passing them.
+
+12
+00:02:20,643 --> 00:02:36,966
+Our verdict: no-go on a factory company today. Go, with conditions, on a twelve-week falsification sprint, and if it fails, pivot to battery fire-code software, where the 2026 code change created real demand.
