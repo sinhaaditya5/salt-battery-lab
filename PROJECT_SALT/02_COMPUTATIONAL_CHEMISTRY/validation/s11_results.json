@@ -1,0 +1,585 @@
+{
+ "convergence": {
+  "NaCl_rs": {
+   "ecut30": 57.21,
+   "ecut35": 5.72,
+   "ecut40": 2.97,
+   "ecut45": 2.38,
+   "ecut50": 1.35,
+   "ecut60": 0.71,
+   "ecut70": 0.0,
+   "k10": 0.86,
+   "k15": 0.09,
+   "k20": 0.0,
+   "k25": -0.0,
+   "k30": 0.0
+  },
+  "NiCl2_FM": {
+   "ecut30": 720.64,
+   "ecut35": 115.07,
+   "ecut40": 12.94,
+   "ecut45": 3.9,
+   "ecut50": 2.48,
+   "ecut60": 0.55,
+   "ecut70": 0.0,
+   "k10": 2.05,
+   "k15": 0.39,
+   "k20": 0.01,
+   "k25": 0.0,
+   "k30": 0.0
+  },
+  "Ni_fcc": {
+   "k20": -5.38,
+   "k30": -2.1,
+   "k40": -0.69,
+   "k50": -0.06,
+   "k60": 0.0
+  }
+ },
+ "lattice": {
+  "Na_bcc": {
+   "a_conv": 4.092,
+   "exp": 4.225,
+   "err_pct": -3.15
+  },
+  "NaCl_rs": {
+   "a_conv": 5.599,
+   "exp": 5.64,
+   "err_pct": -0.73
+  },
+  "Fe_bcc": {
+   "a_conv": 2.815,
+   "exp": 2.866,
+   "err_pct": -1.76
+  },
+  "Ni_fcc": {
+   "a_conv": 3.485,
+   "exp": 3.524,
+   "err_pct": -1.1
+  },
+  "Co_hcp": {
+   "a": 2.474,
+   "c": 3.995,
+   "exp": [
+    2.507,
+    4.07
+   ]
+  },
+  "FeCl2_U0": {
+   "a_hex": 3.483,
+   "c_hex": 17.729,
+   "exp": [
+    3.579,
+    17.536
+   ],
+   "err_a_pct": -2.69,
+   "err_c_pct": 1.1
+  },
+  "FeCl2_U4": {
+   "a_hex": 3.572,
+   "c_hex": 17.572,
+   "exp": [
+    3.579,
+    17.536
+   ],
+   "err_a_pct": -0.21,
+   "err_c_pct": 0.21
+  },
+  "CoCl2_U0": {
+   "a_hex": 3.474,
+   "c_hex": 17.417,
+   "exp": [
+    3.544,
+    17.43
+   ],
+   "err_a_pct": -1.97,
+   "err_c_pct": -0.08
+  },
+  "CoCl2_U4": {
+   "a_hex": 3.57,
+   "c_hex": 17.36,
+   "exp": [
+    3.544,
+    17.43
+   ],
+   "err_a_pct": 0.75,
+   "err_c_pct": -0.4
+  },
+  "NiCl2_U0": {
+   "a_hex": 3.457,
+   "c_hex": 17.234,
+   "exp": [
+    3.543,
+    17.335
+   ],
+   "err_a_pct": -2.43,
+   "err_c_pct": -0.58
+  },
+  "NiCl2_U4": {
+   "a_hex": 3.485,
+   "c_hex": 17.416,
+   "exp": [
+    3.543,
+    17.335
+   ],
+   "err_a_pct": -1.63,
+   "err_c_pct": 0.47
+  }
+ },
+ "moments": {
+  "Fe_bcc": 2.21,
+  "Ni_fcc": 0.64,
+  "Co_hcp": 3.26,
+  "FeCl2_U0": 4.0,
+  "FeCl2_U4": 4.0,
+  "CoCl2_U0": 3.0,
+  "CoCl2_U4": 3.0,
+  "NiCl2_U0": 2.0,
+  "NiCl2_U4": 2.0
+ },
+ "formation": {
+  "NaCl": {
+   "dft_eV": -3.92,
+   "exp_eV": -4.261,
+   "err_eV": 0.342
+  },
+  "FeCl2_U0": {
+   "dft_eV": -2.643,
+   "exp_eV": -3.542,
+   "err_eV": 0.899,
+   "note": "consistent PBE"
+  },
+  "FeCl2_U4": {
+   "dft_eV": -1.006,
+   "exp_eV": -3.542,
+   "err_eV": 2.536,
+   "note": "U>0 chloride vs U=0 metal: mixed-functional energy, not corrected"
+  },
+  "CoCl2_U0": {
+   "dft_eV": -2.01,
+   "exp_eV": -3.239,
+   "err_eV": 1.229,
+   "note": "consistent PBE"
+  },
+  "CoCl2_U4": {
+   "dft_eV": -1.2,
+   "exp_eV": -3.239,
+   "err_eV": 2.039,
+   "note": "U>0 chloride vs U=0 metal: mixed-functional energy, not corrected"
+  },
+  "NiCl2_U0": {
+   "dft_eV": -2.143,
+   "exp_eV": -3.165,
+   "err_eV": 1.022,
+   "note": "consistent PBE"
+  },
+  "NiCl2_U4": {
+   "dft_eV": -1.241,
+   "exp_eV": -3.165,
+   "err_eV": 1.923,
+   "note": "U>0 chloride vs U=0 metal: mixed-functional energy, not corrected"
+  }
+ },
+ "voltages": {
+  "Na+1/2Cl2": {
+   "dft_V": 3.92,
+   "exp_dH_V": 4.261,
+   "exp_dG_V": 3.981
+  },
+  "FeCl2_U0": {
+   "dft_V": 2.598,
+   "exp_dH_V": 2.49,
+   "exp_dG_V": 2.415,
+   "exp_OCV_300C": 2.35,
+   "err_vs_dH_V": 0.108
+  },
+  "FeCl2_U4": {
+   "dft_V": 3.416,
+   "exp_dH_V": 2.49,
+   "exp_dG_V": 2.415,
+   "exp_OCV_300C": 2.35,
+   "err_vs_dH_V": 0.926
+  },
+  "CoCl2_U0": {
+   "dft_V": 2.915,
+   "exp_dH_V": 2.642,
+   "exp_dG_V": 2.583,
+   "exp_OCV_300C": null,
+   "err_vs_dH_V": 0.273
+  },
+  "CoCl2_U4": {
+   "dft_V": 3.32,
+   "exp_dH_V": 2.642,
+   "exp_dG_V": 2.583,
+   "exp_OCV_300C": null,
+   "err_vs_dH_V": 0.678
+  },
+  "NiCl2_U0": {
+   "dft_V": 2.848,
+   "exp_dH_V": 2.679,
+   "exp_dG_V": 2.639,
+   "exp_OCV_300C": 2.58,
+   "err_vs_dH_V": 0.169
+  },
+  "NiCl2_U4": {
+   "dft_V": 3.299,
+   "exp_dH_V": 2.679,
+   "exp_dG_V": 2.639,
+   "exp_OCV_300C": 2.58,
+   "err_vs_dH_V": 0.62
+  }
+ },
+ "uscan": {
+  "FeCl2_geomU0": {
+   "0": {
+    "V": 2.593,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "2": {
+    "V": 3.033,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "4": {
+    "V": 3.426,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "6": {
+    "V": 3.789,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   }
+  },
+  "FeCl2_geomU4": {
+   "0": {
+    "V": 2.608,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "2": {
+    "V": 3.032,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "4": {
+    "V": 3.413,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   },
+   "6": {
+    "V": 3.767,
+    "mag": 4.0,
+    "gap_eV": 0.0,
+    "metallic": true
+   }
+  },
+  "CoCl2_geomU0": {
+   "0": {
+    "V": 2.917,
+    "mag": 3.0,
+    "gap_eV": 0.151,
+    "metallic": false
+   },
+   "2": {
+    "V": 3.154,
+    "mag": 3.0,
+    "gap_eV": 1.728,
+    "metallic": false
+   },
+   "4": {
+    "V": 3.339,
+    "mag": 3.0,
+    "gap_eV": 2.747,
+    "metallic": false
+   },
+   "6": {
+    "V": 3.492,
+    "mag": 3.0,
+    "gap_eV": 3.637,
+    "metallic": false
+   }
+  },
+  "CoCl2_geomU4": {
+   "0": {
+    "V": 2.931,
+    "mag": 3.0,
+    "gap_eV": 0.237,
+    "metallic": false
+   },
+   "2": {
+    "V": 3.147,
+    "mag": 3.0,
+    "gap_eV": 1.873,
+    "metallic": false
+   },
+   "4": {
+    "V": 3.319,
+    "mag": 3.0,
+    "gap_eV": 2.875,
+    "metallic": false
+   },
+   "6": {
+    "V": 3.46,
+    "mag": 3.0,
+    "gap_eV": 3.763,
+    "metallic": false
+   }
+  },
+  "NiCl2_geomU0": {
+   "0": {
+    "V": 2.848,
+    "mag": 2.0,
+    "gap_eV": 0.986,
+    "metallic": false
+   },
+   "2": {
+    "V": 3.094,
+    "mag": 2.0,
+    "gap_eV": 1.7,
+    "metallic": false
+   },
+   "4": {
+    "V": 3.306,
+    "mag": 2.0,
+    "gap_eV": 2.368,
+    "metallic": false
+   },
+   "6": {
+    "V": 3.487,
+    "mag": 2.0,
+    "gap_eV": 3.043,
+    "metallic": false
+   }
+  },
+  "NiCl2_geomU4": {
+   "0": {
+    "V": 2.855,
+    "mag": 2.0,
+    "gap_eV": 1.024,
+    "metallic": false
+   },
+   "2": {
+    "V": 3.094,
+    "mag": 2.0,
+    "gap_eV": 1.729,
+    "metallic": false
+   },
+   "4": {
+    "V": 3.299,
+    "mag": 2.0,
+    "gap_eV": 2.384,
+    "metallic": false
+   },
+   "6": {
+    "V": 3.473,
+    "mag": 2.0,
+    "gap_eV": 3.048,
+    "metallic": false
+   }
+  }
+ },
+ "magnetic": {
+  "FeCl2_U0": {
+   "E_AFM_minus_FM_meV_per_fu": -2.85,
+   "ground": "AFM (interlayer)"
+  },
+  "FeCl2_U4": {
+   "E_AFM_minus_FM_meV_per_fu": -0.39,
+   "ground": "AFM (interlayer)"
+  },
+  "CoCl2_U0": {
+   "E_AFM_minus_FM_meV_per_fu": -4.41,
+   "ground": "AFM (interlayer)"
+  },
+  "CoCl2_U4": {
+   "E_AFM_minus_FM_meV_per_fu": -1.16,
+   "ground": "AFM (interlayer)"
+  },
+  "NiCl2_U0": {
+   "E_AFM_minus_FM_meV_per_fu": -4.92,
+   "ground": "AFM (interlayer)"
+  },
+  "NiCl2_U4": {
+   "E_AFM_minus_FM_meV_per_fu": -1.73,
+   "ground": "AFM (interlayer)"
+  }
+ },
+ "gaps": {
+  "FeCl2_U0_relax": {
+   "gap_eV": 0.0,
+   "metallic": true,
+   "raw_eV": -0.281
+  },
+  "FeCl2_U4_relax": {
+   "gap_eV": 0.0,
+   "metallic": true,
+   "raw_eV": -0.447
+  },
+  "CoCl2_U0_relax": {
+   "gap_eV": 0.16,
+   "metallic": false,
+   "raw_eV": 0.16
+  },
+  "CoCl2_U4_relax": {
+   "gap_eV": 2.876,
+   "metallic": false,
+   "raw_eV": 2.876
+  },
+  "NiCl2_U0_relax": {
+   "gap_eV": 0.995,
+   "metallic": false,
+   "raw_eV": 0.995
+  },
+  "NiCl2_U4_relax": {
+   "gap_eV": 2.364,
+   "metallic": false,
+   "raw_eV": 2.364
+  }
+ },
+ "pdos": {
+  "CoCl2_U0": {
+   "E_F_eV": 6.0149,
+   "vbm_minus_EF_eV": -0.02,
+   "top1eV_M3d_frac": 0.737,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  },
+  "CoCl2_U4": {
+   "E_F_eV": 5.7584,
+   "vbm_minus_EF_eV": -1.54,
+   "top1eV_M3d_frac": 0.247,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  },
+  "FeCl2_U0": {
+   "E_F_eV": 6.6223,
+   "vbm_minus_EF_eV": -0.01,
+   "top1eV_M3d_frac": 0.954,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  },
+  "FeCl2_U4": {
+   "E_F_eV": 5.982,
+   "vbm_minus_EF_eV": -0.01,
+   "top1eV_M3d_frac": 0.953,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  },
+  "NiCl2_U0": {
+   "E_F_eV": 6.1297,
+   "vbm_minus_EF_eV": -0.57,
+   "top1eV_M3d_frac": 0.747,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  },
+  "NiCl2_U4": {
+   "E_F_eV": 5.9422,
+   "vbm_minus_EF_eV": -1.38,
+   "top1eV_M3d_frac": 0.148,
+   "note": "share of M-3d vs Cl-3p projected states in the top 1 eV of the valence band"
+  }
+ },
+ "status": {
+  "Na_bcc": "DONE",
+  "NaCl_rs": "DONE",
+  "Fe_bcc": "DONE",
+  "Ni_fcc": "DONE",
+  "Co_hcp": "DONE",
+  "Cl2_box": "DONE",
+  "FeCl2_U0": "DONE",
+  "FeCl2_U4": "DONE bfgs-converged; final SCF crashed (QE 7.6 conda bug)",
+  "CoCl2_U0": "DONE",
+  "CoCl2_U4": "DONE bfgs-converged; final SCF crashed (QE 7.6 conda bug)",
+  "NiCl2_U0": "DONE",
+  "NiCl2_U4": "DONE bfgs-converged; final SCF crashed (QE 7.6 conda bug)"
+ },
+ "platform": {
+  "conv/NaCl_rs_ecut30": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut35": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut40": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut45": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut50": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut60": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_ecut70": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_k10": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_k15": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_k20": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_k25": "local Apple M4 (osx-arm64)",
+  "conv/NaCl_rs_k30": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut30": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut35": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut40": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut45": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut50": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut60": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_ecut70": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_k10": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_k15": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_k20": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_k25": "local Apple M4 (osx-arm64)",
+  "conv/NiCl2_FM_k30": "local Apple M4 (osx-arm64)",
+  "conv/Ni_fcc_k20": "local Apple M4 (osx-arm64)",
+  "conv/Ni_fcc_k30": "local Apple M4 (osx-arm64)",
+  "conv/Ni_fcc_k40": "local Apple M4 (osx-arm64)",
+  "conv/Ni_fcc_k50": "local Apple M4 (osx-arm64)",
+  "conv/Ni_fcc_k60": "local Apple M4 (osx-arm64)",
+  "dos/CoCl2_U0_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "dos/CoCl2_U4_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "dos/FeCl2_U0_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "dos/FeCl2_U4_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "dos/NiCl2_U0_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "dos/NiCl2_U4_keep": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/CoCl2_AFM_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/CoCl2_AFM_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/CoCl2_FMsup_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/CoCl2_FMsup_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/FeCl2_AFM_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/FeCl2_AFM_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/FeCl2_FMsup_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/FeCl2_FMsup_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/NiCl2_AFM_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/NiCl2_AFM_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/NiCl2_FMsup_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "mag/NiCl2_FMsup_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "relax/Cl2_box": "local Apple M4 (osx-arm64)",
+  "relax/CoCl2_FM_U0": "local Apple M4 (osx-arm64)",
+  "relax/CoCl2_FM_U4": "local Apple M4 (osx-arm64)",
+  "relax/Co_hcp": "local Apple M4 (osx-arm64)",
+  "relax/FeCl2_FM_U0": "local Apple M4 (osx-arm64)",
+  "relax/FeCl2_FM_U4": "local Apple M4 (osx-arm64)",
+  "relax/Fe_bcc": "local Apple M4 (osx-arm64)",
+  "relax/NaCl_rs": "local Apple M4 (osx-arm64)",
+  "relax/Na_bcc": "local Apple M4 (osx-arm64)",
+  "relax/NiCl2_FM_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "relax/NiCl2_FM_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "relax/Ni_fcc": "local Apple M4 (osx-arm64)",
+  "uscan/CoCl2_geomU0_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU0_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU0_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU0_U6": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU4_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU4_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU4_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/CoCl2_geomU4_U6": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU0_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU0_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU0_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU0_U6": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU4_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU4_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU4_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/FeCl2_geomU4_U6": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU0_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU0_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU0_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU0_U6": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU4_U0": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU4_U2": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU4_U4": "EC2 c8g.8xlarge (linux-aarch64)",
+  "uscan/NiCl2_geomU4_U6": "EC2 c8g.8xlarge (linux-aarch64)"
+ }
+}
