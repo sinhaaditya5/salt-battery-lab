@@ -24,6 +24,16 @@ step "S7 build-up";              python sim/s07_buildup/run_s07.py > "$LOG/s7.tx
 step "S8 thermal";               python sim/s08_thermal/run_s08.py > "$LOG/s8.txt" 2>&1; snap "$LOG/s8.txt" 01_simulations S8 "S8 thermal"
 step "S9 TEA";                   python sim/s09_tea/run_s09.py > "$LOG/s9.txt" 2>&1; snap "$LOG/s9.txt" 01_simulations S9 "S9 TEA"
 step "S10 market";               python sim/s10_market/run_s10.py > "$LOG/s10.txt" 2>&1; snap "$LOG/s10.txt" 01_simulations S10 "S10 market"
+step "S11 DFT+U analysis (QE runs: sim/s11_dft_chlorides/campaign.py, not re-run here)"; python sim/s11_dft_chlorides/analyze.py > "$LOG/s11.txt" 2>&1 || true
+step "S12 chemistry matrix";      python sim/s12_chemistry_matrix/matrix.py > "$LOG/s12.txt" 2>&1; snap "$LOG/s12.txt" 01_simulations S12 "S12 chemistry matrix"
+step "S13 founder targets";       python sim/s13_founder_targets/targets.py > "$LOG/s13.txt" 2>&1; snap "$LOG/s13.txt" 01_simulations S13 "S13 founder targets"
+if [ $FAST -eq 0 ]; then step "S13a PyBaMM fast charge + degradation (long)"; python sim/s13_founder_targets/fast_charge_pybamm.py > "$LOG/s13a.txt" 2>&1; fi
+step "S14 salt-cell model";       python sim/s14_scell_model/scell_model.py > "$LOG/s14.txt" 2>&1
+step "S15 factory scenarios";     python sim/s15_factory/factory.py > "$LOG/s15.txt" 2>&1
+step "S-cell CAD + drawing";      python cad/make_scell.py > "$LOG/scell_cad.txt" 2>&1
+step "SCM-1 PCB (draft) + firmware tests"; pcb/build_scm.sh > "$LOG/scm_pcb.txt" 2>&1 || echo "SCM-1 build reported errors"; make -C pcb/scell_monitor/firmware test > "$LOG/fw.txt" 2>&1 || echo "firmware tests FAILED"
+step "procurement + assembly map"; python tools/project_salt/make_procurement.py > "$LOG/proc.txt" 2>&1; python tools/project_salt/render_exploded.py >> "$LOG/proc.txt" 2>&1
+step "PROJECT_SALT assemble";     python tools/project_salt/assemble.py > "$LOG/project_salt.txt" 2>&1
 step "diagrams";                 python diagrams/make_diagrams.py > "$LOG/diagrams.txt" 2>&1
 step "financial model";          python finance/make_financial_model.py > "$LOG/fin.txt" 2>&1
 rm -rf work/xlsx_check/recalced; "$SOFFICE" $LO_PROFILE --headless --convert-to pdf --outdir work/xlsx_check/recalced DELIVERABLES/1_investor_docs/SaltBattery_Financial_Model.xlsx > /dev/null 2>&1 || true
