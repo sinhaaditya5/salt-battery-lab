@@ -1,5 +1,5 @@
 {
-  "name": "birnessite_Na5_9",
+  "name": "birnessite_Na5_9_r2",
   "calc": "vc-relax",
   "natoms": 50,
   "formula": "Na5 Mn9 H12 O24",
@@ -12,5 +12,5 @@
   "hubbard": true,
   "vdw": "grimme-d3",
   "lane": "D",
-  "note": "birnessite interlayer + voltage (PBE+U+D3)"
+  "note": "restart from ionic step 12 of D_1_birnessite_Na5_9 (spot interruption)"
 }

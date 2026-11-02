@@ -1,5 +1,5 @@
 {
-  "name": "Na3Ti2PO43",
+  "name": "Na3Ti2PO43_r2",
   "calc": "vc-relax",
   "natoms": 40,
   "formula": "Na6 Ti4 P6 O24",
@@ -12,5 +12,5 @@
   "hubbard": true,
   "vdw": null,
   "lane": "A",
-  "note": "validation voltage end member"
+  "note": "restart from ionic step 7 of A_Na3Ti2PO43 (spot interruption)"
 }
