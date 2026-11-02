@@ -1,0 +1,16 @@
+{
+  "name": "birnessite_Na3_9_fixcell",
+  "calc": "relax",
+  "natoms": 48,
+  "formula": "Na3 Mn9 H12 O24",
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": "grimme-d3",
+  "lane": "D",
+  "note": "pristine at fixed uMLIP cell (vacancy reference)"
+}
