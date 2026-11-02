@@ -26,4 +26,4 @@ export PYTHONPYCACHEPREFIX="$LAB/tools/cache/pycache"
 mkdir -p "$TMPDIR" "$MPLCONFIGDIR" "$PIP_CACHE_DIR" "$HF_HOME" "$TORCH_HOME" "$npm_config_cache" \
          "$BLENDER_USER_RESOURCES" "$CADCRAFT_CONFIG_DIR" "$CONDA_PKGS_DIRS" "$MACE_CACHE" "$PYVISTA_USERDATA_PATH"
 export PATH="$LAB/.venv/bin:$PARC/tools/rust/cargo/bin:$PATH"
-export PYTHONPATH="$LAB:$PYTHONPATH"
+export PYTHONPATH="$LAB${PYTHONPATH:+:$PYTHONPATH}"
