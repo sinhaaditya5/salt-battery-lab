@@ -1,0 +1,1 @@
+Indicative positioning of R1 against LFP, sodium-ion claims, VRLA and Aquion on specific energy and cost per kWh. LFP [LIT]/[ASSUMPTION]; Na-ion [VENDOR]; VRLA [CALC]; Aquion [CALC]/[LIT]; R1 [CALC] (cost, not price)

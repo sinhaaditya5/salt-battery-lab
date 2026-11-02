@@ -1,0 +1,1 @@
+Unit-economics waterfall from bottom-up cost to selling price per kWh for the R1 monobloc at a 0.5 GWh/yr plant. [CALC] S9 from [ASSUMPTION] inputs; margin [TARGET]; LFP [LIT]

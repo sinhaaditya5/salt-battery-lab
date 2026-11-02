@@ -1,0 +1,1 @@
+Concept scale-up path for an aqueous line (no dry room) with indicative capex at each step. [ASSUMPTION] capex ranges (params COST capex_per_GWh for the plant; pilot/demo values are estimates, not quotes)

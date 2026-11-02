@@ -1,0 +1,1 @@
+Validation ladder from reproducing the published material to field pilots, with the kill gate at each rung. [TARGET] gates from decisions/IDEA_v2.md; timings [ASSUMPTION]

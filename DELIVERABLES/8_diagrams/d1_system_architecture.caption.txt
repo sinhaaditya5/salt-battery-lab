@@ -1,0 +1,1 @@
+R1 concept system architecture from cell to critical load, including the aqueous-specific gas monitoring path. [TARGET] design values from params; [CALC] energies from params/design.py
