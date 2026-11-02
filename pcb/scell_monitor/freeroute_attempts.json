@@ -1,0 +1,18 @@
+{
+ "tool": "Freerouting 2.1.0 (headless, EC2 c7i.8xlarge)",
+ "attempts": [
+  {
+   "config": "2 signal layers (F/B), In1 GND + In2 +3V3 planes",
+   "passes": 79,
+   "best_unrouted": 101,
+   "last_unrouted": 107
+  },
+  {
+   "config": "3 signal layers (F/In2/B), In1 GND plane, +3V3 routed",
+   "passes": 59,
+   "best_unrouted": 97,
+   "last_unrouted": 102
+  }
+ ],
+ "decision": "neither attempt completed the board; delivered layout uses the in-house router (DRAFT) - placement needs manual rework"
+}
