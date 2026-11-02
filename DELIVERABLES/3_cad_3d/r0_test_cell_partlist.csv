@@ -1,0 +1,14 @@
+part,material,qty,unit_mass_kg,total_mass_kg,mass_basis
+end plate with boss (304 SS),304 stainless,2,0.1257,0.2515,CAD volume x density
+lead tab (304 SS),304 stainless,2,0.0009516,0.001903,CAD volume x density
+insulating body (PTFE),PTFE,1,0.0678,0.0678,CAD volume x density
+carbon-paper current collector,carbon paper,2,1.477e-05,2.955e-05,CAD volume x density
+electrode coating (birnessite + CB),R0 coating,2,6.25e-06,1.25e-05,Shan 2019 masses (LIT)
+separator (cellulose filter paper),cellulose filter paper,1,2.552e-05,2.552e-05,CAD volume x density
+spacer disc (304 SS),304 stainless,1,0.002393,0.002393,CAD volume x density
+compression spring,spring steel (316),1,0.00157,0.00157,CAD volume x density
+piston (304 SS),304 stainless,1,0.01196,0.01196,CAD volume x density
+insulating bolt sleeve (PEEK),PEEK,3,0.001177,0.00353,CAD volume x density
+clamp bolt M5 + nut,304 stainless,3,0.01013,0.0304,CAD volume x density
+electrolyte 150 uL 1 M Na2SO4 (not modelled),electrolyte 1 M Na2SO4,1,0.000168,0.000168,R0 electrolyte_volume x density
+"TOTAL (estimate, CONCEPT)",,20,,0.371,sum of rows
