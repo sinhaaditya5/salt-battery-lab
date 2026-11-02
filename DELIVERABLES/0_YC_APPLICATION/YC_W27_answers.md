@@ -48,7 +48,7 @@ How to use: replace each `[[ FOUNDER: … ]]` with your own facts. The wording f
 >
 > The electrolyte is salt water, so there is no flammable solvent and no thermal runaway. The product is a 12 V block in the same box size as the lead-acid blocks that UPS and telecom racks already use.
 >
-> What we've learned from our own models is that it won't win on cost per kWh. Lithium iron phosphate packs are $70/kWh, and our bottom-up estimate is 2–5× that, because water-based cells store ~20–35 Wh/kg. It can only win where lithium's indoor costs are high, or where lithium isn't allowed at all, and only if it lasts ~15 years.
+> What we've learned from our own models is that it won't win on cost per kWh. Lithium iron phosphate packs are $70/kWh, and our bottom-up estimate is 2–5 times that, because water-based cells store ~20–35 Wh/kg. It can only win where lithium's indoor costs are high, or where lithium isn't allowed at all, and only if it lasts ~15 years.
 >
 > Stage: pre-prototype, no cell built. The first step is a 10–12-week lab test of the two things that decide the company.
 
@@ -65,10 +65,10 @@ How to use: replace each `[[ FOUNDER: … ]]` with your own facts. The wording f
 > (2) I built an open simulation lab, and it changed the plan:
 > - the paper's 1 M sodium sulfate would crystallise below ~15–20 °C, so we use 0.5 M;
 > - a sealed cell needs ≥99.88% coulombic efficiency or it dries out before 3,000 cycles;
-> - our cost model says we're 2–5× lithium per kWh;
+> - our cost model says we're 2–5 times lithium per kWh;
 > - fire codes today treat an unlisted chemistry *more* strictly than lithium (3 kWh vs 20 kWh in IFC 2024).
 >
-> (3) I dropped my original EV and "5× energy" goals because the physics rules them out.
+> (3) I dropped my original EV and multi-fold-energy goals because the physics rules them out.
 >
 > Next: lab partner, then reproduce the material, then test thick electrodes.
 
@@ -169,7 +169,7 @@ How to use: replace each `[[ FOUNDER: … ]]` with your own facts. The wording f
 | NFPA 855-2026: max-energy table removed; HMA by default; UL 9540A + large-scale fire test; lead-acid & aqueous-Ni exempt from explosion control | [LIT] | SRC-085…089 |
 | NSW 240-min rooms for Li-ion DC UPS batteries | [LIT] (low conf.) | SRC-093 |
 | LFP stationary pack $70/kWh (BNEF 2025) | [LIT] | SRC-104/105; energy-storage.news BNEF coverage |
-| R1 cost $150–350/kWh; 2–5× LFP | [CALC] | sim/s09_tea (assumed material prices, no quotes) |
+| R1 cost $150–350/kWh; 2–5 times LFP | [CALC] | sim/s09_tea (assumed material prices, no quotes) |
 | ~20–35 Wh/kg block energy | [CALC] | params/design.py; sim/s09_tea scenario grid |
 | Aquion module 18.6 Wh/kg, 0.45C max | [CALC] from [VENDOR] datasheet | SRC-035, SRC-038 |
 | 1 M Na₂SO₄ crystallises below ~15–20 °C | [CALC] from [LIT] solubility | params MAT (4.76 g/100 mL at 0 °C; 13.9–19.5 at 20 °C) |
@@ -182,4 +182,4 @@ How to use: replace each `[[ FOUNDER: … ]]` with your own facts. The wording f
 | Telecom 0.6–1.8 GWh/yr; India TAM $150–600M | [CALC]+[ASSUMPTION] | to be replaced by S10 |
 | Lab test ~$5–10k, 10–12 weeks | [ASSUMPTION] | no quote yet |
 
-Banned-phrase check: no "proven", "breakthrough", "zero risk", "cannot fail", "patented", "partnership", "LOI", "EV-ready", and no 5× / 1,500 km *targets*.
+Banned-phrase check: no "proven", "breakthrough", "zero risk", "cannot fail", "patented", "partnership", "LOI", "EV-ready", and no multi-fold-energy or long-range EV targets.

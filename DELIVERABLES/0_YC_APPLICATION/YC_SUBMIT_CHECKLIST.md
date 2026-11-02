@@ -42,8 +42,8 @@ Late applications are still read, but YC gives no timing guarantee.
 
 ## Final honesty pass (2 minutes)
 - [ ] The code threshold for an unlisted chemistry is 3 kWh (IFC 2024), not 10. v1 had the wrong number.
-- [ ] No "proven", "breakthrough", "zero risk", "cannot fail", "patented", "partnership", "LOI", "EV-ready".
-- [ ] No 5× / 1,500 km goal (mention them only as abandoned).
+- [ ] No "proven", "breakthrough", "zero risk", "cannot fail", "patented", "partnership", "LOI", "EV-ready", "5×" or "1,500 km".
+- [ ] No multi-fold-energy or long-range EV goals (mention only as abandoned).
 - [ ] No "we measured" / "our results". No cell has been built.
 - [ ] Every number can be defended from the evidence table at the bottom of the answers file.
 
