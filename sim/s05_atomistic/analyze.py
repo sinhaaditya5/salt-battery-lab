@@ -40,10 +40,12 @@ def mlip_energies(model):
 def dft_energies():
     """Final total energies (eV) of finished S6 jobs; job dir names are <lane>_[<prio>_]<name>."""
     out, meta = {}, {}
-    runs = LAB / "sim/s06_dft_ec2/runs/jobs"
-    if not runs.exists():
-        return out, meta
-    for d in sorted(runs.iterdir()):
+    dirs = []
+    for r in ("runs_i1", "runs"):            # instance 1 (spot-interrupted 06:25 UTC) then instance 2; later wins
+        p = LAB / "sim/s06_dft_ec2" / r / "jobs"
+        if p.exists():
+            dirs += sorted(p.iterdir())
+    for d in dirs:
         txt0 = (d / "pw.out").read_text(errors="ignore") if (d / "pw.out").exists() else ""
         done = (d / "DONE").exists()
         bfgs_ok = "bfgs converged" in txt0
@@ -52,6 +54,8 @@ def dft_energies():
         name = d.name.split("_", 1)[1]
         if name[:2] in ("1_", "2_", "3_", "4_"):
             name = name[2:]
+        if name.endswith("_r2"):
+            name = name[:-3]
         txt = (d / "pw.out").read_text(errors="ignore")
         es = [float(l.split("=")[1].split()[0]) for l in txt.splitlines() if l.strip().startswith("!")]
         if not es:
@@ -87,15 +91,19 @@ def interlayer(model):
 
 
 def dft_interlayer():
+    """Interlayer spacing from BFGS-converged DFT+U+D vc-relax of the birnessite models (both instances)."""
+    sys.path.insert(0, str(LAB / "sim/s06_dft_ec2"))
+    from make_restart_batch import last_geometry
     res = {}
-    runs = LAB / "sim/s06_dft_ec2/runs/jobs"
-    from ase.io import read
-    for n in (1, 3, 5):
-        for d in runs.glob(f"*birnessite_Na{n}_9") if runs.exists() else []:
-            if (d / "DONE").exists():
-                at = read(str(d / "pw.out"), format="espresso-out", index=-1)
-                c = at.cell
-                res[n / 9] = float(at.get_volume() / np.linalg.norm(np.cross(c[0], c[1])))
+    for r in ("runs_i1", "runs"):
+        runs = LAB / "sim/s06_dft_ec2" / r / "jobs"
+        for n in (1, 3, 5):
+            for d in (sorted(runs.glob(f"*birnessite_Na{n}_9")) + sorted(runs.glob(f"*birnessite_Na{n}_9_r2"))) if runs.exists() else []:
+                txt = (d / "pw.out").read_text(errors="ignore") if (d / "pw.out").exists() else ""
+                if "bfgs converged" in txt:
+                    s, _ = last_geometry(d / "pw.out")
+                    a, b = s.lattice.matrix[0], s.lattice.matrix[1]
+                    res[n / 9] = float(s.volume / np.linalg.norm(np.cross(a, b)))
     return res
 
 
@@ -200,7 +208,7 @@ def charts(S):
             for x, v in zip(xs, vals):
                 if not np.isnan(v):
                     ax.text(x, v + 0.01, f"{v:.2f}", ha="center", va="bottom", fontsize=7, color=ps.TEXT2)
-        ax.scatter([0], [REF["barriers_eV"]["LiFePO4_b"]["value"]], marker="_", s=400, color=ps.TEXT, zorder=4, label="Literature (GGA)")
+        ax.scatter([0], [REF["barriers_eV"]["LiFePO4_b_axis"]["value"]], marker="_", s=400, color=ps.TEXT, zorder=4, label="Literature (GGA)")
         ax.set_xticks(range(len(paths))); ax.set_xticklabels(labels)
         ax.set_ylabel("Migration barrier (eV)")
         ax.set_title("Alkali-ion migration barriers (climbing-image NEB)")
