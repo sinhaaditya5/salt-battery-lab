@@ -1,0 +1,16 @@
+{
+  "name": "birnessite_Na3_9_r2",
+  "calc": "vc-relax",
+  "natoms": 48,
+  "formula": "Na3 Mn9 H12 O24",
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": "grimme-d3",
+  "lane": "C",
+  "note": "restart from ionic step 15 of C_1_birnessite_Na3_9 (spot interruption)"
+}

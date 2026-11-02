@@ -1,0 +1,16 @@
+{
+  "name": "NaTi2PO43_r2",
+  "calc": "vc-relax",
+  "natoms": 36,
+  "formula": "Na2 Ti4 P6 O24",
+  "kpts": [
+    2,
+    2,
+    2
+  ],
+  "spin": true,
+  "hubbard": true,
+  "vdw": null,
+  "lane": "B",
+  "note": "restart from ionic step 4 of B_NaTi2PO43 (spot interruption)"
+}
