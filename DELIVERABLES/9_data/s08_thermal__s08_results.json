@@ -1,0 +1,118 @@
+{
+ "label": "[SIM] lumped + 2-D conduction model; [CALC] abuse energy balance; inputs [ASSUMPTION]",
+ "lumped": {
+  "heat_capacity_J_K": 28466.118983335145,
+  "electrolyte_g": 3883.9429319031033,
+  "exposed_area_m2": 0.2013,
+  "tau_s": 23568.57011370686,
+  "overpotential_source": "S3 nominal",
+  "rates": [
+   {
+    "C_rate": 0.25,
+    "current_A": 8.544375,
+    "heat_W": 0.20598501163243374,
+    "discharge_s": 14400.0,
+    "dT_adiabatic_K": 0.10420051181699663,
+    "dT_with_convection_K": 0.07797057664486627,
+    "steady_state_cycling_dT_K": 0.17054562976687676
+   },
+   {
+    "C_rate": 1.0,
+    "current_A": 34.1775,
+    "heat_W": 4.833234231406859,
+    "discharge_s": 3600.0,
+    "dT_adiabatic_K": 0.6112404449391547,
+    "dT_with_convection_K": 0.5668470183242421,
+    "steady_state_cycling_dT_K": 4.001684245244957
+   },
+   {
+    "C_rate": 2.0,
+    "current_A": 68.355,
+    "heat_W": 20.277674445974277,
+    "discharge_s": 1800.0,
+    "dT_adiabatic_K": 1.2822195405043344,
+    "dT_with_convection_K": 1.234479181370558,
+    "steady_state_cycling_dT_K": 16.788933967522997
+   },
+   {
+    "C_rate": 4.0,
+    "current_A": 136.71,
+    "heat_W": 83.0001728245911,
+    "discharge_s": 900.0,
+    "dT_adiabatic_K": 2.6241777316347035,
+    "dT_with_convection_K": 2.574705439622864,
+    "steady_state_cycling_dT_K": 68.7201298431786
+   }
+  ]
+ },
+ "fd2d_ups_15min": {
+  "max_dT_K": 2.807154085795167,
+  "mean_stack_dT_K": 2.185113761870279
+ },
+ "fd2d_1C_3h": {
+  "max_dT_K": 1.0633751553342403
+ },
+ "abuse": {
+  "stored_electrical_energy_MJ": 1.4272524000000002,
+  "adiabatic_rise_if_all_energy_released_K": 50.13863677150908,
+  "water_g": 3612.066926669886,
+  "heat_to_reach_100C_from_25C_MJ": 2.134958923750136,
+  "latent_heat_of_all_water_MJ": 8.152435053493933,
+  "fraction_water_boiled_if_all_energy_released_after_100C": 0.0,
+  "case_fire_load_MJ": 100.814175,
+  "case_fire_load_vs_stored_energy": 70.63514133870085,
+  "note": "The polypropylene case is combustible in an external fire; specify flame-retardant (UL 94 V-0) PP."
+ },
+ "runaway_chain": [
+  {
+   "li_ion_step": "SEI decomposition (~80-120 C)",
+   "aqueous_R1": "No SEI in an aqueous Na2SO4 cell",
+   "status": "removed"
+  },
+  {
+   "li_ion_step": "Anode-electrolyte reaction, exothermic",
+   "aqueous_R1": "NTP is an oxide; no lithiated graphite + organic solvent",
+   "status": "removed"
+  },
+  {
+   "li_ion_step": "Separator melt -> internal short (~130-165 C)",
+   "aqueous_R1": "Water boils at ~101 C first and clamps temperature while liquid remains",
+   "status": "mitigated (internal shorts still possible from dendrite-free mechanical damage)"
+  },
+  {
+   "li_ion_step": "Cathode O2 release (NMC ~200 C; LFP much higher)",
+   "aqueous_R1": "MnO2-type oxides lose O2 only at ~500 C+, endothermically",
+   "status": "removed in the credible range"
+  },
+  {
+   "li_ion_step": "Electrolyte combustion (flammable carbonates)",
+   "aqueous_R1": "Electrolyte is water + Na2SO4: non-combustible",
+   "status": "removed"
+  },
+  {
+   "li_ion_step": "Remaining: hydrogen from side reactions or overcharge",
+   "aqueous_R1": "H2 is flammable (LFL 4 %); needs vent + ventilation (S4)",
+   "status": "REMAINS"
+  },
+  {
+   "li_ion_step": "Remaining: plastic case + binder/carbon in an external fire",
+   "aqueous_R1": "Case fire load is larger than the stored electrical energy",
+   "status": "REMAINS"
+  },
+  {
+   "li_ion_step": "Remaining: electrolyte leakage (conductive, Mn2+ traces)",
+   "aqueous_R1": "Short-circuit path on busbars/floor; wastewater handling",
+   "status": "REMAINS"
+  },
+  {
+   "li_ion_step": "Remaining: Mn2+ dissolution / capacity fade",
+   "aqueous_R1": "Performance, not fire, hazard; water-quality limits on disposal",
+   "status": "REMAINS"
+  },
+  {
+   "li_ion_step": "Remaining: freezing / salt crystallisation",
+   "aqueous_R1": "0.5 M Na2SO4 saturates near 5 C; water freezes below ~ -2 C",
+   "status": "REMAINS (operating limit)"
+  }
+ ]
+}

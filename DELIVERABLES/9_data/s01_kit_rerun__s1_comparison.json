@@ -1,0 +1,54 @@
+{
+  "n_pass": 9,
+  "n_total": 9,
+  "checks": [
+    {
+      "check": "calculator stdout == calculator_smoke_test.txt",
+      "pass": true,
+      "got_lines": 25,
+      "expected_lines": 25,
+      "first_diff": null
+    },
+    {
+      "check": "analyser stdout == analyzer_smoke_test.txt",
+      "pass": true,
+      "got_lines": 4,
+      "expected_lines": 4,
+      "first_diff": null
+    },
+    {
+      "check": "RC stdout == rc_smoke_test.txt",
+      "pass": true,
+      "got_lines": 2,
+      "expected_lines": 2,
+      "first_diff": null
+    },
+    {
+      "check": "cost guard output == cost_model_expected_block.txt",
+      "pass": true,
+      "got_lines": 1,
+      "expected_lines": 1,
+      "first_diff": null
+    },
+    {
+      "check": "cost guard exits non-zero",
+      "pass": true
+    },
+    {
+      "check": "analyzer_summary.json == kit simulation/demo_analysis_output/summary.json",
+      "pass": true
+    },
+    {
+      "check": "analyzer_cycle_summary.csv == kit simulation/demo_analysis_output/cycle_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "rc_output.csv == kit simulation/rc_demo_synthetic_output.csv",
+      "pass": true
+    },
+    {
+      "check": "moonshot arithmetic ran",
+      "pass": true
+    }
+  ]
+}

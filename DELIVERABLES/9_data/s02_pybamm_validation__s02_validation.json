@@ -1,0 +1,135 @@
+{
+  "model": "pybamm.sodium_ion.BasicDFN + ParameterValues('Chayambuka2022')",
+  "pybamm_version": "26.10.1.1",
+  "reference": "Chayambuka et al. 2022 Fig. 4a experimental symbols (digitised)",
+  "rates": {
+    "1": {
+      "n_points": 21,
+      "c_rate": 0.08,
+      "paper_model_MAE_mV": 19.9,
+      "q_last_exp_point_mAh": 2.615,
+      "A_as_shipped": {
+        "MAE_mV": 74.4,
+        "q_end_mAh": 2.728,
+        "q_end_err_pct": 4.31,
+        "pass": false
+      },
+      "B_plus_contact_R": {
+        "MAE_mV": 82.9,
+        "q_end_mAh": 2.728,
+        "q_end_err_pct": 4.31,
+        "pass": false
+      },
+      "C_units_fix_plus_contact_R": {
+        "MAE_mV": 65.8,
+        "q_end_mAh": 2.729,
+        "q_end_err_pct": 4.35,
+        "pass": false
+      },
+      "D_calibrated_k_x2": {
+        "MAE_mV": 50.7,
+        "q_end_mAh": 2.729,
+        "q_end_err_pct": 4.33,
+        "pass": true
+      }
+    },
+    "5": {
+      "n_points": 16,
+      "c_rate": 0.42,
+      "paper_model_MAE_mV": 34.6,
+      "q_last_exp_point_mAh": 2.438,
+      "A_as_shipped": {
+        "MAE_mV": 120.8,
+        "q_end_mAh": 2.424,
+        "q_end_err_pct": -0.57,
+        "pass": false
+      },
+      "B_plus_contact_R": {
+        "MAE_mV": 173.3,
+        "q_end_mAh": 2.419,
+        "q_end_err_pct": -0.79,
+        "pass": false
+      },
+      "C_units_fix_plus_contact_R": {
+        "MAE_mV": 74.0,
+        "q_end_mAh": 2.426,
+        "q_end_err_pct": -0.47,
+        "pass": false
+      },
+      "D_calibrated_k_x2": {
+        "MAE_mV": 54.5,
+        "q_end_mAh": 2.426,
+        "q_end_err_pct": -0.49,
+        "pass": true
+      }
+    },
+    "10": {
+      "n_points": 11,
+      "c_rate": 0.85,
+      "paper_model_MAE_mV": 32.2,
+      "q_last_exp_point_mAh": 2.191,
+      "A_as_shipped": {
+        "MAE_mV": 79.5,
+        "q_end_mAh": 2.193,
+        "q_end_err_pct": 0.07,
+        "pass": false
+      },
+      "B_plus_contact_R": {
+        "MAE_mV": 181.7,
+        "q_end_mAh": 2.172,
+        "q_end_err_pct": -0.87,
+        "pass": false
+      },
+      "C_units_fix_plus_contact_R": {
+        "MAE_mV": 118.8,
+        "q_end_mAh": 2.202,
+        "q_end_err_pct": 0.47,
+        "pass": false
+      },
+      "D_calibrated_k_x2": {
+        "MAE_mV": 42.0,
+        "q_end_mAh": 2.198,
+        "q_end_err_pct": 0.33,
+        "pass": true
+      }
+    },
+    "12": {
+      "n_points": 21,
+      "c_rate": 1.02,
+      "paper_model_MAE_mV": 48.1,
+      "q_last_exp_point_mAh": 2.106,
+      "A_as_shipped": {
+        "MAE_mV": 66.9,
+        "q_end_mAh": 2.104,
+        "q_end_err_pct": -0.13,
+        "pass": false
+      },
+      "B_plus_contact_R": {
+        "MAE_mV": 188.5,
+        "q_end_mAh": 2.067,
+        "q_end_err_pct": -1.88,
+        "pass": false
+      },
+      "C_units_fix_plus_contact_R": {
+        "MAE_mV": 113.4,
+        "q_end_mAh": 2.115,
+        "q_end_err_pct": 0.42,
+        "pass": false
+      },
+      "D_calibrated_k_x2": {
+        "MAE_mV": 52.1,
+        "q_end_mAh": 2.11,
+        "q_end_err_pct": 0.15,
+        "pass": true
+      }
+    }
+  },
+  "all_pass_A_as_shipped": false,
+  "all_pass_B_plus_contact_R": false,
+  "all_pass_C_units_fix_plus_contact_R": false,
+  "all_pass_D_calibrated_k_x2": true,
+  "independent_validation_pass": false,
+  "calibrated_pass": true,
+  "verdict": "Independent validation (parameters as shipped) FAILS the pre-set 60 mV voltage criterion at all four rates (MAE 67-121 mV) (capacity within 5 % passes at all rates). A one-parameter calibration of the exchange-current scale (x2) brings MAE to 42-55 mV at all rates (paper's own model 20-48 mV) - that is calibration on the same data, not validation. Consequence for S3: capacity-vs-rate trends usable at +/-5 %; absolute voltages carry >= +/-0.1 V uncertainty until kinetics are measured (GITT/EIS) for the real electrodes.",
+  "note_units": "PyBaMM's Chayambuka2022 j0 normalises c_e by c_e0 while keeping k values whose paper units (Eq. 6) are m^2.5 mol^-1.5 s^-1 with un-normalised c_e; the x sqrt(1000) correction fits the upper plateau but overshoots the lower one, so the shipped k(c) tables likely differ from the paper's final optimised curves."
+}

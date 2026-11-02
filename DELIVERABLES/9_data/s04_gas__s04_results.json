@@ -1,0 +1,186 @@
+{
+ "label": "[CALC] from [ASSUMPTION] inputs (params GAS); not measured",
+ "cell_capacity_Ah": 34.1775,
+ "cell_water_g": 362.37920374077066,
+ "cell_headspace_L": 0.1482525,
+ "ce_sweep": [
+  {
+   "CE": 0.99,
+   "H2_mL": 114.33,
+   "O2_mL": 14.291,
+   "gas_mL": 128.621,
+   "water_g": 0.207,
+   "gas_mL_per_Ah": 3.763,
+   "dP_kPa_per_cycle": 87.91,
+   "cycles_between_vents": 0.17,
+   "cycles_to_20pct_water_loss": 351.0
+  },
+  {
+   "CE": 0.9911,
+   "H2_mL": 101.468,
+   "O2_mL": 12.684,
+   "gas_mL": 114.152,
+   "water_g": 0.183,
+   "gas_mL_per_Ah": 3.34,
+   "dP_kPa_per_cycle": 78.02,
+   "cycles_between_vents": 0.19,
+   "cycles_to_20pct_water_loss": 395.0
+  },
+  {
+   "CE": 0.9922,
+   "H2_mL": 88.606,
+   "O2_mL": 11.076,
+   "gas_mL": 99.682,
+   "water_g": 0.16,
+   "gas_mL_per_Ah": 2.917,
+   "dP_kPa_per_cycle": 68.13,
+   "cycles_between_vents": 0.22,
+   "cycles_to_20pct_water_loss": 452.0
+  },
+  {
+   "CE": 0.9934,
+   "H2_mL": 75.744,
+   "O2_mL": 9.468,
+   "gas_mL": 85.212,
+   "water_g": 0.137,
+   "gas_mL_per_Ah": 2.493,
+   "dP_kPa_per_cycle": 58.24,
+   "cycles_between_vents": 0.26,
+   "cycles_to_20pct_water_loss": 529.0
+  },
+  {
+   "CE": 0.9945,
+   "H2_mL": 62.882,
+   "O2_mL": 7.86,
+   "gas_mL": 70.742,
+   "water_g": 0.114,
+   "gas_mL_per_Ah": 2.07,
+   "dP_kPa_per_cycle": 48.35,
+   "cycles_between_vents": 0.31,
+   "cycles_to_20pct_water_loss": 637.0
+  },
+  {
+   "CE": 0.9956,
+   "H2_mL": 50.019,
+   "O2_mL": 6.252,
+   "gas_mL": 56.272,
+   "water_g": 0.09,
+   "gas_mL_per_Ah": 1.646,
+   "dP_kPa_per_cycle": 38.46,
+   "cycles_between_vents": 0.39,
+   "cycles_to_20pct_water_loss": 801.0
+  },
+  {
+   "CE": 0.9968,
+   "H2_mL": 37.157,
+   "O2_mL": 4.645,
+   "gas_mL": 41.802,
+   "water_g": 0.067,
+   "gas_mL_per_Ah": 1.223,
+   "dP_kPa_per_cycle": 28.57,
+   "cycles_between_vents": 0.53,
+   "cycles_to_20pct_water_loss": 1079.0
+  },
+  {
+   "CE": 0.9979,
+   "H2_mL": 24.295,
+   "O2_mL": 3.037,
+   "gas_mL": 27.332,
+   "water_g": 0.044,
+   "gas_mL_per_Ah": 0.8,
+   "dP_kPa_per_cycle": 18.68,
+   "cycles_between_vents": 0.8,
+   "cycles_to_20pct_water_loss": 1650.0
+  },
+  {
+   "CE": 0.999,
+   "H2_mL": 11.433,
+   "O2_mL": 1.429,
+   "gas_mL": 12.862,
+   "water_g": 0.021,
+   "gas_mL_per_Ah": 0.376,
+   "dP_kPa_per_cycle": 8.79,
+   "cycles_between_vents": 1.71,
+   "cycles_to_20pct_water_loss": 3505.0
+  }
+ ],
+ "nominal": {
+  "H2_mL": 57.165085830250305,
+  "O2_mL": 7.1456357287812855,
+  "gas_mL": 64.31072155903159,
+  "water_g": 0.10337803594949176,
+  "CE": 0.995,
+  "cycles_to_20pct_water_loss": 701.0758144366783,
+  "CE_needed_for_3000_cycles": 0.9988315403092722
+ },
+ "tafel": {
+  "i0_HER_A_cell": 0.010941098446164565,
+  "i0_OER_A_cell": 0.017362909033024936,
+  "float_current_mA_per_Ah": 6.233952266685693,
+  "float_gas_L_per_cell_year": 624.8256100648044,
+  "float_water_loss_pct_per_year": 311.81210598090394
+ },
+ "pH_sensitivity": [
+  {
+   "pH": 5.0,
+   "i_side_rel": 2.7301713849194673
+  },
+  {
+   "pH": 5.5,
+   "i_side_rel": 1.9295262973641862
+  },
+  {
+   "pH": 6.0,
+   "i_side_rel": 1.4157319860011826
+  },
+  {
+   "pH": 6.5,
+   "i_side_rel": 1.1182003091050414
+  },
+  {
+   "pH": 7.0,
+   "i_side_rel": 1.0
+  },
+  {
+   "pH": 7.5,
+   "i_side_rel": 1.0538085521516267
+  },
+  {
+   "pH": 8.0,
+   "i_side_rel": 1.3029139342618892
+  },
+  {
+   "pH": 8.5,
+   "i_side_rel": 1.80784502783805
+  },
+  {
+   "pH": 9.0,
+   "i_side_rel": 2.6802757526790435
+  },
+  {
+   "pH": 9.5,
+   "i_side_rel": 4.107296032428029
+  },
+  {
+   "pH": 10.0,
+   "i_side_rel": 6.391265681431897
+  }
+ ],
+ "fault": {
+  "I_A": 6.835500000000001,
+  "H2_L_per_min_per_cell": 0.04763757152520854,
+  "gas_L_per_min_per_cell": 0.07145635728781281,
+  "time_to_vent_s": 18.428375366035223,
+  "vent_min_flow_L_min": 0.14291271457562563
+ },
+ "ventilation": {
+  "fault": {
+   "H2_L_per_min_cabinet": 19.055028610083415,
+   "air_m3_per_h_for_1pct": 114.3301716605005
+  },
+  "float": {
+   "H2_L_per_min_cabinet": 0.47551416291081006,
+   "air_m3_per_h_for_1pct": 2.8530849774648606
+  }
+ }
+}
