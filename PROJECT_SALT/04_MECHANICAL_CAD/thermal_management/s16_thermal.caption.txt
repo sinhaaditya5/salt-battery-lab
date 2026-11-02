@@ -1,0 +1,1 @@
+SM-48T thermal model: standby loss versus insulation type and thickness, and warm-up from 25 C at three heater powers. [CALCULATED] lumped model from [ASSUMPTION] inputs (params/smodule_params.py); no thermal test

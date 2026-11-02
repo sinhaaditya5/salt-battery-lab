@@ -1,0 +1,179 @@
+{
+ "geometry": {
+  "inner_mm": [
+   354.0,
+   354.0,
+   225.0
+  ],
+  "hotbox_outer_mm": [
+   438.4,
+   438.4,
+   309.4
+  ],
+  "stack_h_mm": 210.0,
+  "A_inner_m2": 0.5692157323871136,
+  "A_outer_m2": 0.9269328138940977,
+  "A_mean_m2": 0.7263778221658319
+ },
+ "masses": {
+  "cell_g": 452.2,
+  "cells_kg": 37.98,
+  "can_kg": 4.5,
+  "internals_kg": 6.0,
+  "melt_kg": 1.85
+ },
+ "heat_capacity_kJ_K": 33.7,
+ "module": {
+  "kWh": 2.272,
+  "V_nom": 48.3,
+  "Ah": 47.04,
+  "P_max_kW": 1.317
+ },
+ "standby_sweep": {
+  "t_mm": [
+   10,
+   15,
+   20,
+   25,
+   30,
+   35,
+   40,
+   45,
+   50,
+   55,
+   60,
+   65,
+   70,
+   75,
+   80,
+   85,
+   90,
+   95,
+   100
+  ],
+  "W": {
+   "microporous board, 25 C": [
+    389.52,
+    259.68,
+    194.76,
+    155.81,
+    129.84,
+    111.29,
+    97.38,
+    86.56,
+    77.9,
+    70.82,
+    64.92,
+    59.93,
+    55.65,
+    51.94,
+    48.69,
+    45.83,
+    43.28,
+    41.0,
+    38.95
+   ],
+   "microporous board, 45 C": [
+    342.31,
+    228.2,
+    171.15,
+    136.92,
+    114.1,
+    97.8,
+    85.58,
+    76.07,
+    68.46,
+    62.24,
+    57.05,
+    52.66,
+    48.9,
+    45.64,
+    42.79,
+    40.27,
+    38.03,
+    36.03,
+    34.23
+   ],
+   "evacuated panel, 25 C": [
+    77.9,
+    51.94,
+    38.95,
+    31.16,
+    25.97,
+    22.26,
+    19.48,
+    17.31,
+    15.58,
+    14.16,
+    12.98,
+    11.99,
+    11.13,
+    10.39,
+    9.74,
+    9.17,
+    8.66,
+    8.2,
+    7.79
+   ],
+   "evacuated panel, 45 C": [
+    68.46,
+    45.64,
+    34.23,
+    27.38,
+    22.82,
+    19.56,
+    17.12,
+    15.21,
+    13.69,
+    12.45,
+    11.41,
+    10.53,
+    9.78,
+    9.13,
+    8.56,
+    8.05,
+    7.61,
+    7.21,
+    6.85
+   ]
+  }
+ },
+ "standby_design": {
+  "insulation_mm": 40.0,
+  "evacuated_W": 19.5,
+  "microporous_W": 97.4,
+  "evacuated_kWh_day": 0.467,
+  "evacuated_frac_of_capacity_per_day": 0.206,
+  "microporous_kWh_day": 2.337,
+  "microporous_frac_of_capacity_per_day": 1.029,
+  "evacuated_kWh_yr": 170.6,
+  "evacuated_usd_yr": 17.06,
+  "self_sustain_hours_if_grid_lost": 116.7,
+  "note": "If the grid is lost and the module must keep itself hot, standby loss drains it; a cold (frozen) module needs hours to restart."
+ },
+ "warmup": {
+  "300 W": {
+   "hours": 5.59,
+   "reached": true
+  },
+  "600 W": {
+   "hours": 2.75,
+   "reached": true
+  },
+  "1000 W": {
+   "hours": 1.64,
+   "reached": true
+  }
+ },
+ "warmup_ramp_limited_floor_h": 1.38,
+ "discharge": {
+  "P_out_W": 1317,
+  "heat_W": 52.7,
+  "duration_h": 1.73,
+  "standby_loss_W": 19.5,
+  "net_W": 33.2,
+  "adiabatic_rise_C": 9.7,
+  "cooling_bypass_needed": false,
+  "note": "Heat at max rate exceeds standby loss, but the 190->260 C window (70 K) absorbs a full discharge; the fan bypass is for abuse/over-temperature, not normal duty."
+ }
+}

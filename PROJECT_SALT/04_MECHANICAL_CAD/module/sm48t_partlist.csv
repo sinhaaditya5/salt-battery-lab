@@ -1,0 +1,30 @@
+item,part,material,qty,unit_mass_g,total_mass_g,tolerance_spec,qualification_test,bom_item
+1,"outer case (steel, powder coat)","DC01 steel 1.2 mm, zinc + powder coat RAL 7016",1,10391.66,10391.7,sheet-metal ISO 2768-m,-,PM-10
+2,bay/hot-box bulkhead,"DC01 steel 1.2 mm, zinc + powder coat RAL 7016",2,1260.89,2521.8,-,-,PM-10
+3,evacuated insulation shell 40 mm (D4),"evacuated SS double-wall panel, microporous silica core, k_eff 0.005 W/m.K [ASSUMPTION]",1,8877.12,8877.1,"panel joints <= 2 mm, overlapped",QT-20 standby loss <= 25 W at 25 C,PM-11
+4,"inner hot can SS 304 (welded, He-tight)",SS 304 1.0 mm welded inner can,1,4543.67,4543.7,weld leak <1e-6 mbar.L/s,QT-21 He leak,PM-12
+5,mica plate heater 150 W (D4),"mica-insulated plate heater 150 W, 48 V DC, 260 C max",4,364.8,1459.2,-,QT-22 heater 1000 h at 260 C,PM-13
+6,"cooling-bypass duct (rear, through insulation) (D4)",SS 304 1.0 mm welded inner can,2,137.47,275.0,-,QT-23 damper leak,PM-14
+7,rear fan 80 mm + motorised damper (D4),80 mm 48 V fan + motorised damper (cooling bypass),2,35.81,59.9,-,-,PM-15
+20,"P1 anode can (Na reservoir + SS wick), SS 316L","SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)",84,111.25,9340.8,"drawn can, flange flat 0.05",QT-07 Na compat.,PM-01
+21,P1 beta''-alumina plate 150 x 150 x 1.0,"beta''-alumina plate, Li/Mg-stabilised, >=98 % dense, both faces lapped",84,73.35,6162.0,150 +0/-0.2; t 1.0 +/-0.05; flat 0.05,"QT-01, QT-02, G5 (scale-up)",PM-02
+22,P1 alpha-alumina seal frame (glass-sealed to plate),"alpha-alumina 99.5 %, glass-sealed frame/feedthrough",84,13.51,1134.0,frame flat 0.03,"QT-02, QT-03",PM-03
+23,"P1 cathode can (granule bed + Mo collector), Ni 201","Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)",84,123.78,10399.2,"drawn can, flange flat 0.05","QT-04, QT-05",PM-04
+24,P1 + tab (Ni 201),"Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)",84,0.89,75.6,-,-,PM-04
+25,P1 - tab (SS 316L),"SS 316L sheet 0.5 mm, deep drawn (anode can / - tab)",84,0.8,67.2,-,-,PM-01
+30,mica spacer 2 mm,"phlogopite mica sheet 2 mm (cell spacer, 250 C rated)",80,145.16,11616.0,-,-,PM-05
+31,series strap Ni 201 0.5 mm,"Ni 201 sheet 0.5 mm, deep drawn (cathode can / + tab)",80,16.0,1280.0,resistance-welded,QT-24 weld pull,PM-06
+40,"+ busbar (Cu, Ni-plated) 30 x 5","C110 copper bar, Ni-plated 10 um",2,285.63,501.5,-,-,PM-07
+41,"- busbar (Cu, Ni-plated) 30 x 5","C110 copper bar, Ni-plated 10 um",2,228.51,401.2,-,-,PM-07
+42,"ceramic power feedthrough (alpha-alumina, brazed)","alpha-alumina 99.5 %, glass-sealed frame/feedthrough",2,45.43,90.8,He leak <1e-8,QT-25 feedthrough thermal cycling,PM-08
+50,"front panel 19 in 7U (AL 5052, black)","AL 5052-H32 3 mm front panel, anodised black",1,1201.05,1201.1,EIA-310 hole pattern,-,PM-20
+51,front handle,"AL handle, anodised",2,95.19,190.4,-,-,PM-21
+52,power connector + (120 A),"panel power connector, 120 A, red (+)",1,31.86,31.9,-,-,PM-22
+53,power connector - (120 A),"panel power connector, 120 A, black (-)",1,31.86,31.9,-,-,PM-22
+54,DC isolator 160 A (rotary),"DC isolator 160 A, rotary",1,99.97,100.0,-,-,PM-23
+55,RJ45 CAN / RS-485,RJ45 CAN/RS-485 jack,2,4.61,9.2,-,-,PM-24
+56,status LED (light pipe),status light-pipe,4,0.2,0.8,-,-,PM-25
+57,BMS-48T board (cold bay),"FR-4 1.6 mm, BMS-48T (SCM-1 derived) [concept]",1,168.72,168.7,-,QT-26 HIL test,PM-26
+58,main contactor 150 A,"150 A 60 V DC contactor, sealed",1,432.0,432.0,-,-,PM-27
+59,main fuse 125 A,"125 A 80 V DC fuse, bolt-down",1,79.83,79.8,-,-,PM-28
+60,slide rail,"telescopic slide rail, zinc steel",2,874.36,1748.8,-,-,PM-29
