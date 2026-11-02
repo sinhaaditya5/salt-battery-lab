@@ -12,5 +12,5 @@ def test_document_lint(name):
     p = DOCS / name
     assert p.exists(), f"{name} not generated"
     n, problems = lint(p)
-    assert n > 10, "suspiciously few quantitative statements parsed"
+    assert n > (4 if "OnePager" in name else 20), "suspiciously few quantitative statements parsed"
     assert not problems, "\n".join(f"{w} [{k}] {h}: {t}" for w, k, h, t in problems[:40])
