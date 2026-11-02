@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="628.2pt" height="347.04pt" viewBox="0 0 628.2 347.04" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T23:07:07.719662</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 347.04 
+L 628.2 347.04 
+L 628.2 -0 
+L 0 -0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 44.028 293.2704 
+L 289.548 293.2704 
+L 289.548 276.6384 
+L 44.028 276.6384 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #c9ccd1; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 44.028 276.6384 
+L 289.548 276.6384 
+L 289.548 246.7008 
+L 44.028 246.7008 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #d9dde3; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 44.028 246.7008 
+L 289.548 246.7008 
+L 289.548 226.7424 
+L 44.028 226.7424 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #efe6cc; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 44.028 226.7424 
+L 289.548 226.7424 
+L 289.548 173.52 
+L 44.028 173.52 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #5a4a42; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 44.028 173.52 
+L 289.548 173.52 
+L 289.548 156.888 
+L 44.028 156.888 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #b5b8bd; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 44.028 156.888 
+L 289.548 156.888 
+L 289.548 140.256 
+L 44.028 140.256 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #a9a69d; stroke: #888888; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 314.1 238.04615 
+Q 314.1 206.78145 314.1 176.634784 
+" clip-path="url(#p9b77afb450)" style="fill: none; stroke: #2a78d6; stroke-linecap: round"/>
+    <path d="M 312.3 180.234784 
+L 314.1 176.634784 
+L 315.9 180.234784 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #2a78d6; stroke: #2a78d6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 332.514 175.52185 
+Q 332.514 206.78655 332.514 236.933216 
+" clip-path="url(#p9b77afb450)" style="fill: none; stroke: #eb6834; stroke-linecap: round"/>
+    <path d="M 334.314 233.333216 
+L 332.514 236.933216 
+L 330.714 233.333216 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #eb6834; stroke: #eb6834; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 379.1628 122.29344 
+L 592.7652 122.29344 
+Q 600.1308 122.29344 600.1308 118.30176 
+L 600.1308 65.74464 
+Q 600.1308 61.75296 592.7652 61.75296 
+L 379.1628 61.75296 
+Q 371.7972 61.75296 371.7972 65.74464 
+L 371.7972 118.30176 
+Q 371.7972 122.29344 379.1628 122.29344 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #fdf1ea; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 379.1628 202.12704 
+L 592.7652 202.12704 
+Q 600.1308 202.12704 600.1308 198.13536 
+L 600.1308 145.57824 
+Q 600.1308 141.58656 592.7652 141.58656 
+L 379.1628 141.58656 
+Q 371.7972 141.58656 371.7972 145.57824 
+L 371.7972 198.13536 
+Q 371.7972 202.12704 379.1628 202.12704 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #eef4fc; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 379.1628 295.26624 
+L 592.7652 295.26624 
+Q 600.1308 295.26624 600.1308 291.27456 
+L 600.1308 225.41184 
+Q 600.1308 221.42016 592.7652 221.42016 
+L 379.1628 221.42016 
+Q 371.7972 221.42016 371.7972 225.41184 
+L 371.7972 291.27456 
+Q 371.7972 295.26624 379.1628 295.26624 
+z
+" clip-path="url(#p9b77afb450)" style="fill: #e9f7f1; stroke: #c9c8c2; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="166.788" y="286.928916" transform="rotate(-0 166.788 286.928916)">SS 316L anode can (−)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="166.788" y="263.644116" transform="rotate(-0 166.788 263.644116)">Na metal (formed on charge) + SS wick</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="166.788" y="238.719866" transform="rotate(-0 166.788 238.719866)">β''-alumina electrolyte  1.0 mm  (Na⁺ only)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="166.788" y="202.105716" transform="rotate(-0 166.788 202.105716)">cathode bed 1.7 mm @ 60 mAh/cm²: NaCl + Fe (+10 % Ni) in molten NaAlCl₄</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="166.788" y="167.178516" transform="rotate(-0 166.788 167.178516)">Mo collector + wave spring</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="166.788" y="150.546516" transform="rotate(-0 166.788 150.546516)">Ni 201 cathode can (+)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="44.028" y="130.2768" transform="rotate(-0 44.028 130.2768)">Cell stack (R0: Ø30 mm disc · P1: 150 mm plate) — operates 180–260 °C</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="314.1" y="201.158726" transform="rotate(-0 314.1 201.158726)">Na⁺ (charge)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="332.514" y="201.158726" transform="rotate(-0 332.514 201.158726)">Na⁺ (discharge)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(445.402828 84.035888)">Cathode (charge →)</text>
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(413.090344 95.080262)">2 NaCl + Fe → FeCl₂ + 2 Na⁺ + 2 e⁻</text>
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(391.382766 104.847872)">E° ≈ 2.35 V vs Na (Fe), 2.58 V (Ni) at ~300 °C</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(449.580984 163.869488)">Anode (charge →)</text>
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(413.533656 174.119488)">Na⁺ + e⁻ → Na (liquid above 98 °C)</text>
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(416.351766 184.369488)">No Na metal handled at assembly</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(403.34775 246.3257)">Assembled DISCHARGED from salt + iron</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(415.49025 255.5507)">Limits 1.8–2.75 V, trips 1.65/2.95 V</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(427.980875 265.855075)">(side reactions 1.58 / 3.05 V)</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(403.44525 275.855075)">P1: 11.8 Ah, 27 Wh, ≤ 40 mA/cm² (C/1.5)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="44.028" y="323.208" transform="rotate(-0 44.028 323.208)">[PUBLISHED] chemistry (ZEBRA / Na-FeCl₂, PS-005); dimensions [ASSUMPTION] (params/scell_params.py, smodule_params.py); DFT check: S11.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9b77afb450">
+   <rect x="7.2" y="7.2" width="613.8" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>
