@@ -27,3 +27,5 @@ mkdir -p "$TMPDIR" "$MPLCONFIGDIR" "$PIP_CACHE_DIR" "$HF_HOME" "$TORCH_HOME" "$n
          "$BLENDER_USER_RESOURCES" "$CADCRAFT_CONFIG_DIR" "$CONDA_PKGS_DIRS" "$MACE_CACHE" "$PYVISTA_USERDATA_PATH"
 export PATH="$LAB/.venv/bin:$PARC/tools/rust/cargo/bin:$PATH"
 export PYTHONPATH="$LAB${PYTHONPATH:+:$PYTHONPATH}"
+export SOFFICE="$SSD/Applications/LibreOffice.app/Contents/MacOS/soffice"
+export LO_PROFILE="-env:UserInstallation=file:///Volumes/Aditya%20ssd/Salt-Battery-Lab/tools/lo_profile"
