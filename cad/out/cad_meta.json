@@ -411,7 +411,7 @@
   "solids": 141,
   "bbox_min": [
    -373.0,
-   -225.0,
+   -228.0,
    0.0
   ],
   "bbox_max": [
@@ -421,10 +421,10 @@
   ],
   "size": [
    711.0,
-   450.0,
+   453.0,
    280.0
   ],
-  "mass_est_kg": 98.57834421119004,
+  "mass_est_kg": 99.47447801427207,
   "glb": true,
   "variants": [
    "full"
@@ -535,7 +535,7 @@
    800.0,
    2000.0
   ],
-  "mass_est_kg": 987.9567344921753,
+  "mass_est_kg": 989.5025564921754,
   "glb": true,
   "variants": [
    "closed",
@@ -544,32 +544,32 @@
   "anchors": {
    "block_bottom": [
     -92.5,
-    -195.0,
+    -180.0,
     161.5
    ],
    "block_mid_terminal": [
     62.49999999999999,
-    -320.0,
+    -305.0,
     995.0
    ],
    "shelf4": [
     -179.0,
-    -350.0,
+    -360.0,
     772.5
    ],
    "vent_block": [
     9.644093543285407e-15,
-    -37.5,
+    -22.5,
     1470.0
    ],
    "breaker": [
     179.0,
-    -374.0,
+    -359.0,
     1815.75
    ],
    "master_bms": [
     104.0,
-    -145.0,
+    -130.0,
     1845.0
    ],
    "louvre_low": [
@@ -594,7 +594,7 @@
    ],
    "plenum": [
     0.0,
-    340.0,
+    355.0,
     1000.0
    ]
   },
@@ -607,7 +607,13 @@
  "labels": {
   "line1": "R1  10-CELL AQUEOUS Na-ION  12 V BLOCK",
   "line2": "11.6 V nom  |  0.40 kWh [TARGET]  |  0.5 M Na2SO4 (water-based)",
-  "line3": "CONCEPT PROTOTYPE - NOT FOR SALE"
+  "line3": "CONCEPT PROTOTYPE - NOT FOR SALE",
+  "side": [
+   "R1 AQUEOUS SODIUM-ION 12 V",
+   "10 cells in series | 11.6 V nom | 0.40 kWh [TARGET]",
+   "water-based 0.5 M Na2SO4 electrolyte",
+   "no lead | no lithium | concept"
+  ]
  },
  "mech": {
   "tab_y_mm": 45.0,
