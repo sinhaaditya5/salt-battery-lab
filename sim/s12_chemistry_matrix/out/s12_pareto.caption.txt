@@ -1,0 +1,1 @@
+Pareto frontier over practical cell Wh/kg, safety score and cell materials cost (non-benchmark candidates). [CALCULATED from ASSUMPTION prices and inputs]

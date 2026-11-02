@@ -1,0 +1,1 @@
+Theoretical vs practical cell and pack specific energy for 30 architectures; Monte-Carlo build-up n=20,000. [CALCULATED] theoretical; [CALCULATED from ASSUMPTION inputs] practical; benchmarks calibrated to [PUBLISHED]/[VENDOR CLAIM] cells
