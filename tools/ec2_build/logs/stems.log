@@ -1,0 +1,80 @@
+stem_01_dft_vs_expt_voltage
+stem_02_voltage_vs_U
+stem_03_gap_vs_U
+stem_04_magnetic_order
+stem_05_cutoff_convergence
+stem_06_chemistry_matrix_whkg
+stem_07_scell_utilisation
+stem_08_factory_cost_scale
+stem_09_module_standby_loss
+ t line 225 column 8
+    __gnuplot_print__ at line 168 column 7
+    print at line 768 column 14
+    stem_09_module_standby_loss at line 17 column 1
+    run at line 93 column 5
+    run_all_stem at line 6 column 3
+
+warning: axis: omitting non-positive data in log plot
+warning: called from
+    __gnuplot_print__>eps_drawnow at line 225 column 8
+    __gnuplot_print__ at line 168 column 7
+    print at line 768 column 14
+    stem_09_module_standby_loss at line 17 column 1
+    run at line 93 column 5
+    run_all_stem at line 6 column 3
+
+warning: axis: omitting non-positive data in log plot
+warning: called from
+    __gnuplot_print__>eps_drawnow at line 225 column 8
+    __gnuplot_print__ at line 168 column 7
+    print at line 768 column 14
+    stem_09_module_standby_loss at line 17 column 1
+    run at line 93 column 5
+    run_all_stem at line 6 column 3
+
+warning: axis: omitting non-positive data in log plot
+warning: called from
+    __gnuplot_print__>eps_drawnow at line 225 column 8
+    __gnuplot_print__ at line 168 column 7
+    print at line 768 column 14
+    stem_09_module_standby_loss at line 17 column 1
+    run at line 93 column 5
+    run_all_stem at line 6 column 3
+
+warning: axis: omitting non-positive data in log plot
+warning: called from
+    __gnuplot_print__>eps_drawnow at line 225 column 8
+    __gnuplot_print__ at line 168 column 7
+    print at line 768 column 14
+    stem_09_module_standby_loss at line 17 column 1
+    run at line 93 column 5
+    run_all_stem at line 6 column 3
+
+
+{
+ "scripts": [
+  "stem_01_dft_vs_expt_voltage",
+  "stem_02_voltage_vs_U",
+  "stem_03_gap_vs_U",
+  "stem_04_magnetic_order",
+  "stem_05_cutoff_convergence",
+  "stem_06_chemistry_matrix_whkg",
+  "stem_07_scell_utilisation",
+  "stem_08_factory_cost_scale",
+  "stem_09_module_standby_loss"
+ ],
+ "engine": "GNU Octave, version 8.4.0",
+ "pngs": [
+  "stem_01_dft_vs_expt_voltage.png",
+  "stem_02_voltage_vs_U.png",
+  "stem_03_gap_vs_U.png",
+  "stem_04_magnetic_order.png",
+  "stem_05_cutoff_convergence.png",
+  "stem_06_chemistry_matrix_whkg.png",
+  "stem_07_scell_utilisation.png",
+  "stem_08_factory_cost_scale.png",
+  "stem_09_module_standby_loss.png"
+ ],
+ "returncode": 0,
+ "stderr_tail": "lumn 7\n    print at line 768 column 14\n    stem_09_module_standby_loss at line 17 column 1\n    run at line 93 column 5\n    run_all_stem at line 6 column 3\n\nwarning: axis: omitting non-positive data in log plot\nwarning: called from\n    __gnuplot_print__>eps_drawnow at line 225 column 8\n    __gnuplot_print__ at line 168 column 7\n    print at line 768 column 14\n    stem_09_module_standby_loss at line 17 column 1\n    run at line 93 column 5\n    run_all_stem at line 6 column 3\n\nwarning: axis: omitting non-positive data in log plot\nwarning: called from\n    __gnuplot_print__>eps_drawnow at line 225 column 8\n    __gnuplot_print__ at line 168 column 7\n    print at line 768 column 14\n    stem_09_module_standby_loss at line 17 column 1\n    run at line 93 column 5\n    run_all_stem at line 6 column 3\n\n"
+}

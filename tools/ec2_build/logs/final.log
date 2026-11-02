@@ -1,0 +1,35 @@
+{
+ "tool": "Freerouting 2.1.0 (headless, EC2 c7i.8xlarge)",
+ "attempts": [
+  {
+   "config": "2 signal layers (F/B), In1 GND + In2 +3V3 planes",
+   "passes": 79,
+   "best_unrouted": 101,
+   "last_unrouted": 107
+  },
+  {
+   "config": "3 signal layers (F/In2/B), In1 GND plane, +3V3 routed",
+   "passes": 59,
+   "best_unrouted": 97,
+   "last_unrouted": 102
+  }
+ ],
+ "decision": "neither attempt completed the board; delivered layout uses the in-house router (DRAFT) - placement needs manual rework"
+}
+generated scell_monitor 145 parts
+Found 0 violations
+Saved ERC Report to scell_monitor/erc.json
+placed 20 fixed + 119 auto
+routing 3.2s: 1703 tracks, 245 vias, 37 failed
+Found 600 violations
+Found 37 unconnected items
+Saved DRC Report to drc.json
+Saved board
+SCM-1 rebuilt (layout is a DRAFT - see PROJECT_SALT/05_ELECTRONICS/README.md)
+spreadsheet: 18 pages
+kicad: ['5 schematic pages', 'top render rc=0', 'bottom render rc=0']
+consoles: pytest rc=0
+['console_cadcraft_drawings.png', 'console_dft_campaign.png', 'console_octave_stems.png', 'console_pytest_ec2.png', 'console_render_times.png', 'console_spreadsheet_check.png', 'console_toolchain.png', 'kicad_pcb_bottom.png', 'kicad_pcb_top.png', 'kicad_schematic_p01.png', 'kicad_schematic_p02.png', 'kicad_schematic_p03.png', 'kicad_schematic_p04.png', 'kicad_schematic_p05.png', 'spreadsheet_Cell_BOM.png', 'spreadsheet_page01.png', 'spreadsheet_page02.png', 'spreadsheet_page03.png', 'spreadsheet_page04.png', 'spreadsheet_page05.png', 'spreadsheet_page06.png', 'spreadsheet_page07.png', 'spreadsheet_page08.png', 'spreadsheet_page09.png', 'spreadsheet_page10.png', 'spreadsheet_page11.png', 'spreadsheet_page12.png', 'spreadsheet_page13.png', 'spreadsheet_page14.png', 'spreadsheet_page15.png', 'spreadsheet_page16.png', 'spreadsheet_page17.png', 'spreadsheet_page18.png']
+wrote /work/lab/DELIVERABLES/1_investor_docs/SaltBattery_Complete_Technical_Record.docx figures 63 tables 18
+-rw-rw-r-- 1 ubuntu ubuntu 11243303 Nov  2 22:57 SaltBattery_Complete_Technical_Record.docx
+-rw-rw-r-- 1 ubuntu ubuntu  8414586 Nov  2 22:57 SaltBattery_Complete_Technical_Record.pdf

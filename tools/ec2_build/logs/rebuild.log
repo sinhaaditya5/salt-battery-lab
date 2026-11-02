@@ -1,0 +1,37 @@
+== 23:00:54 thermal
+== 23:00:55 cad
+drawings: {"SB-SM-001": {"tool": "CADCraft", "commands": 466, "errors": []}, "SB-TM-001": {"tool": "CADCraft", "commands": 175, "errors": []}, "SB-UPS-001": {"tool": "CADCraft", "commands": 149, "errors": []}}
+== 23:06:14 renders
+module_hero 0 23s
+module_cutaway 0 29s
+== 23:07:07 diagrams
+== 23:07:08 stems
+ "engine": "GNU Octave, version 8.4.0",
+ "returncode": 0,
+== 23:07:11 pcb
+Saved DRC Report to drc.json
+Saved board
+SCM-1 rebuilt (layout is a DRAFT - see PROJECT_SALT/05_ELECTRONICS/README.md)
+== 23:07:30 xlsx
+ "verified": true,
+ "errors": [],
+== 23:07:32 tests
+....s...                                                                 [100%]
+78 passed, 1 skipped, 1 xfailed in 30.16s
+== 23:08:03 screens
+['console_cadcraft_drawings.png', 'console_dft_campaign.png', 'console_octave_stems.png', 'console_pytest_ec2.png', 'console_render_times.png', 'console_spreadsheet_check.png', 'console_toolchain.png', 'kicad_pcb_bottom.png', 'kicad_pcb_top.png', 'kicad_schematic_p01.png', 'kicad_schematic_p02.png', 'kicad_schematic_p03.png', 'kicad_schematic_p04.png', 'kicad_schematic_p05.png', 'spreadsheet_Cell_BOM.png', 'spreadsheet_page01.png', 'spreadsheet_page02.png', 'spreadsheet_page03.png', 'spreadsheet_page04.png', 'spreadsheet_page05.png', 'spreadsheet_page06.png', 'spreadsheet_page07.png', 'spreadsheet_page08.png', 'spreadsheet_page09.png', 'spreadsheet_page10.png', 'spreadsheet_page11.png', 'spreadsheet_page12.png', 'spreadsheet_page13.png', 'spreadsheet_page14.png', 'spreadsheet_page15.png', 'spreadsheet_page16.png', 'spreadsheet_page17.png', 'spreadsheet_page18.png']
+== 23:08:39 report
+wrote /work/lab/DELIVERABLES/1_investor_docs/SaltBattery_Complete_Technical_Record.docx figures 64 tables 18
+== 23:08:52 deck
+wrote /work/lab/DELIVERABLES/1_investor_docs/SaltBattery_Complete_Technical_Deck.pptx 23 slides
+== 23:08:56 pdf
+-rw-rw-r-- 1 ubuntu ubuntu  3524684 Nov  2 23:09 SaltBattery_Complete_Technical_Deck.pdf
+-rw-rw-r-- 1 ubuntu ubuntu  3356361 Nov  2 23:08 SaltBattery_Complete_Technical_Deck.pptx
+-rw-rw-r-- 1 ubuntu ubuntu 11396034 Nov  2 23:08 SaltBattery_Complete_Technical_Record.docx
+-rw-rw-r-- 1 ubuntu ubuntu  8579236 Nov  2 23:09 SaltBattery_Complete_Technical_Record.pdf
+== 23:09:07 validate
+All validations PASSED!
+== 23:09:07 qa
+23 pages
+48 pages
+== 23:09:09 done

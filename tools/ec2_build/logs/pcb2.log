@@ -1,0 +1,11 @@
+generated scell_monitor 145 parts
+Found 0 violations
+Saved ERC Report to scell_monitor/erc.json
+[pcbbuild] route skipped (freerouting)
+placed 20 fixed + 119 auto
+{"inner_signal": true, "dsn_export": true, "cmd": "java -Djava.awt.headless=true -jar /opt/freerouting/freerouting.jar -de scell_monitor.dsn -do scell_monitor.ses -mp 40 --gui.enabled=false", "returncode": 143, "wall_s": 494.9, "ses_exists": false}
+Found 490 violations
+Found 352 unconnected items
+Saved DRC Report to drc.json
+Saved board
+SCM-1 rebuilt (layout is a DRAFT - see PROJECT_SALT/05_ELECTRONICS/README.md)

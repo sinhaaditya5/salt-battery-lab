@@ -1,0 +1,22 @@
+{
+ "verified": true,
+ "sheets_exported": 8,
+ "errors": [],
+ "recalculated": {
+  "cell_materials_usd": 11.7456676456,
+  "cell_usd_kwh": 434.252722774327,
+  "beta_share": 0.374691344314399,
+  "module_usd": 2203.1042222304,
+  "module_usd_kwh": 969.662496932438,
+  "x_over_target": 323.220832310813,
+  "standby_W": 19.476010125,
+  "keepwarm_usd_yr": 17.0609848695,
+  "whkg_levers": [
+   28.2766894835096,
+   32.2365493757094,
+   36.7833182230281,
+   56.9077866388811
+  ]
+ },
+ "engine": "LibreOffice 24.2.7.2 420(Build:2)"
+}

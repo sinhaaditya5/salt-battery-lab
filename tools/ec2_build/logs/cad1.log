@@ -1,0 +1,138 @@
+{
+ "geometry": {
+  "inner_mm": [
+   354.0,
+   354.0,
+   225.0
+  ],
+  "hotbox_outer_mm": [
+   438.4,
+   438.4,
+   309.4
+  ],
+  "stack_h_mm": 210.0,
+  "A_inner_m2": 0.5692157323871136,
+  "A_outer_m2": 0.9269328138940977,
+  "A_mean_m2": 0.7263778221658319
+ },
+ "masses": {
+  "cell_g": 452.2,
+  "cells_kg": 37.98,
+  "can_kg": 4.5,
+  "internals_kg": 6.0,
+  "melt_kg": 1.85
+ },
+ "standby_design": {
+  "insulation_mm": 40.0,
+  "evacuated_W": 19.5,
+  "microporous_W": 97.4,
+  "evacuated_kWh_day": 0.467,
+  "evacuated_frac_of_capacity_per_day": 0.206,
+  "microporous_kWh_day": 2.337,
+  "microporous_frac_of_capacity_per_day": 1.029,
+  "evacuated_kWh_yr": 170.6,
+  "evacuated_usd_yr": 17.06,
+  "self_sustain_hours_if_grid_lost": 116.7,
+  "note": "If the grid is lost and the module must keep itself hot, standby loss drains it; a cold (frozen) module needs hours to restart."
+ },
+ "warmup": {
+  "300 W": {
+   "hours": 5.59,
+   "reached": true
+  },
+  "600 W": {
+   "hours": 2.75,
+   "reached": true
+  },
+  "1000 W": {
+   "hours": 1.64,
+   "reached": true
+  }
+ },
+ "warmup_ramp_limited_floor_h": 1.38,
+ "discharge": {
+  "P_out_W": 1317,
+  "heat_W": 52.7,
+  "duration_h": 1.73,
+  "standby_loss_W": 19.5,
+  "net_W": 33.2,
+  "adiabatic_rise_C": 9.7,
+  "cooling_bypass_needed": false,
+  "note": "Heat at max rate exceeds standby loss, but the 190->260 C window (70 K) absorbs a full discharge; the fan bypass is for abuse/over-temperature, not normal duty."
+ }
+}
+{
+ "p1": {
+  "Ah": 11.76,
+  "Wh": 27.05,
+  "thickness_mm": 8.0,
+  "outer_mm": 161.0,
+  "hardware_g": 323.5,
+  "mass_g": 408.8,
+  "Wh_kg": 66.2,
+  "Wh_L": 130.4
+ },
+ "sm48t": {
+  "ix": 354.0,
+  "iy": 354.0,
+  "iz": 225.0,
+  "ox": 438.4,
+  "oy": 438.4,
+  "oz": 309.4,
+  "bay": 70.0,
+  "yc": 289.2,
+  "zc": 154.7,
+  "depth": 560.4,
+  "col": 86.5,
+  "z0": 47.19999999999999,
+  "stack_h": 210.0,
+  "cells_modelled": 84,
+  "ztop": 258.1885115728203,
+  "panel_w": 482.6,
+  "panel_h": 310.35,
+  "partlist": null,
+  "render_groups": [
+   "accent",
+   "alpha",
+   "beta",
+   "black",
+   "busbar",
+   "case",
+   "fuse",
+   "handle",
+   "heater",
+   "insulation",
+   "led",
+   "mica",
+   "nickel",
+   "panel",
+   "pcb",
+   "red",
+   "stainless",
+   "stainless_dark"
+  ],
+  "hardware_kg": 73.19,
+  "cathode_kg": 7.16,
+  "mass_kg": 80.35,
+  "kWh": 2.272,
+  "Wh_kg": 28.3,
+  "Wh_L": 27.1,
+  "envelope_L": 83.9
+ },
+ "cabinet": {
+  "z_modules": [
+   184.45,
+   495.6,
+   806.75
+  ],
+  "z_controller": 1117.9,
+  "z_breakers": 1206.8000000000002,
+  "z_top_used": 1295.7000000000003,
+  "X": 300.0,
+  "Y": 800.0,
+  "Z": 1400.0,
+  "kWh": 6.82,
+  "modules": 3
+ }
+}
+drawings: null
