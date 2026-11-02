@@ -43,7 +43,7 @@ def blocks_docx(path):
     from docx import Document
     d = Document(path)
     for p in d.paragraphs:
-        yield "para", p.text, p.text
+        yield "para", p.text, p.text                      # strict: same paragraph
     for t in d.tables:
         for row in t.rows:
             rowtext = " | ".join(c.text for c in row.cells)
@@ -66,7 +66,7 @@ def blocks_pptx(path):
             if sh.has_text_frame:
                 for p in sh.text_frame.paragraphs:
                     txt = "".join(r.text for r in p.runs)
-                    yield f"slide {i}", txt, sh.text_frame.text
+                    yield f"slide {i}", txt, txt          # strict: the tag must be in the same paragraph
             if getattr(sh, "has_table", False) and sh.has_table:
                 for r in sh.table.rows:
                     rt = " | ".join(c.text for c in r.cells)

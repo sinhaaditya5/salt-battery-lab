@@ -84,7 +84,7 @@ def build() -> Ledger:
     L.add("C-021", "India VRLA 12 V 100 Ah price per nominal kWh", "CALC", "7,100-7,600", "INR/kWh", "GeM listing SRC-120/121", "low")
     L.add("C-022", "India 48 V LFP pack price per kWh", "CALC", "10,800-21,600", "INR/kWh", "listings SRC-119", "low")
     L.add("C-023", "India data-centre capacity June 2026 -> 2029", "LIT", "1.6 -> 6", "GW", "JLL via press SRC-124", "low")
-    L.add("C-024", "India telecom tower installations (Dec 2024)", "LIT", 816763, "towers", "DoT via Business Standard SRC-134", "low")
+    L.add("C-024", "India telecom tower installations (Dec 2024)", "LIT", "816,763", "towers", "DoT via Business Standard SRC-134", "low")
     L.add("C-025", "India added BESS capacity H1 2026", "LIT", 8.2, "GWh", "Mercom via ESS News SRC-126", "medium")
     L.add("C-026", "Best aqueous Na-ion full cells at realistic loading use 17 m NaClO4 (an oxidiser)", "LIT", 17, "mol/kg", "Wu et al., Nat Commun 2024; SRC-052/053", "high")
     L.add("C-027", "Na2SO4 solubility at 0 C (anhydrous basis)", "LIT", 4.76, "g/100 mL", "Wikipedia/CRC; params MAT", "medium")
@@ -157,6 +157,10 @@ def build() -> Ledger:
     L.add("C-206", "Kill gate: cathode capacity at 40 mg/cm2", "TARGET", ">=60", "mAh/g", "decisions/IDEA_v2.md K1", "n/a")
     L.add("C-207", "Kill gate: buyers naming a >=$150/kWh Li-ion indoor premium", "TARGET", ">=3 of 20", "", "decisions/IDEA_v2.md K4", "n/a")
     L.add("C-208", "Use of funds total (YC standard deal)", "LIT", 500, "k$", "ycombinator.com/deal", "high")
+    L.add("C-209", "VRLA float service life in UPS duty", "ASSUMPTION", "3-6", "years", "params VRLA_REF; typical datasheets", "low")
+    L.add("C-210", "R1 nominal cell voltage (cathode minus anode average potential)", "CALC", round(MAT["cathode_avg_potential_SHE"].value - MAT["anode_avg_potential_SHE"].value, 2), "V", "params MAT", "medium")
+    L.add("C-211", "Li-ion fire-protection cost at which R1 breaks even for indoor UPS (base case)", "CALC", 568, "$/kWh", "finance model UPS_TCO (LibreOffice-recalculated)", "low")
+    L.add("C-212", "DFT spot instance spend to date (two instances; first reclaimed by AWS)", "CALC", "<2", "$", "sim/s06_dft_ec2 cost watchdog", "high")
     return L
 
 
