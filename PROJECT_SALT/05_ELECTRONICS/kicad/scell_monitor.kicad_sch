@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8c9061c3-c436-3ba8-6e71-3b68e8281bc8")
+	(paper "A3")
+	(title_block
+		(title "SCM-1 salt-cell test monitor — Overview")
+		(date "2026-11-02")
+		(rev "A")
+		(company "Salt-Battery-Lab (pre-prototype)")
+		(comment 1 "CONCEPT – NOT FOR PRODUCTION")
+		(comment 2 "rev A 2026-11-02, limits from params/scell_params.py OPERATE")
+		(comment 3 "4 cell taps (<=12.4 V), 4x type-K TC, 0-2 A shunt, HW heater interlock, isolated USB")
+	)
+	(lib_symbols)
+	(text "CONCEPT – NOT FOR PRODUCTION. SCM-1 rev A 2026-11-02: S-cell R0 test monitor (Na-MCl2, 180-260 C)."
+		(exclude_from_sim no)
+		(at 20 80 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "4daff2f9-d493-c710-4dfa-9290a40aa545")
+	)
+	(text "Cell sense: 4 taps -> 100k/10k (0.1%) -> ADS131M08 adjacent-tap differential; FS 12.4 V string -> 1.127 V. Calibrate per channel (TP-E03)."
+		(exclude_from_sim no)
+		(at 20 85.4 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "41ba1305-f898-74f3-b460-50756363c8fa")
+	)
+	(text "Thermocouples MUST be ungrounded-junction (insulated): the cell case is at cell potential and the MAX31856 inputs are referenced to GND."
+		(exclude_from_sim no)
+		(at 20 90.8 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "588d49dc-4e78-b093-0e79-6772503266ca")
+	)
+	(text "Hardware interlock: heater SSR drive = HEAT_EN AND TC_FAULT_N (74LVC1G08). TC HI-fault thresholds are programmed to OPERATE.T_trip_C;"
+		(exclude_from_sim no)
+		(at 20 96.2 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "c6f8113e-6835-54cc-95f7-0a732a93aa8f")
+	)
+	(text "  an independent bimetal cut-out and the E-stop NC contact are wired in series with the SSR/mains OFF-BOARD (build manual step E-04)."
+		(exclude_from_sim no)
+		(at 20 101.6 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "148b01cf-d067-541f-c022-561576b75188")
+	)
+	(text "Cycler interlock K1 NO-COM closes only while firmware state is healthy; de-energised (open) at reset, brown-out or MCU hang (IWDG)."
+		(exclude_from_sim no)
+		(at 20 107 0)
+		(effects
+			(font (size 1.6 1.6))
+			(justify left top)
+		)
+		(uuid "d64000b0-563c-9816-93d2-41304cfa4b4c")
+	)
+	(sheet
+		(at 20 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "08f09e11-ec6a-693c-6246-dd07701ba0e4")
+		(property "Sheetname" "Power 12-30 V, regulators"
+			(at 20 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scell_monitor_power.kicad_sch"
+			(at 20 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scell_monitor"
+				(path "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8" (page "2"))
+			)
+		)
+	)
+	(sheet
+		(at 115 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "3979371c-8751-4503-45ff-60193fb4f896")
+		(property "Sheetname" "MCU STM32G474 + ADC"
+			(at 115 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scell_monitor_mcu.kicad_sch"
+			(at 115 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scell_monitor"
+				(path "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8" (page "3"))
+			)
+		)
+	)
+	(sheet
+		(at 210 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "90d8f71a-06db-ad2a-442f-4268f89b20f4")
+		(property "Sheetname" "Cell taps, thermocouples, current"
+			(at 210 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scell_monitor_sense.kicad_sch"
+			(at 210 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scell_monitor"
+				(path "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8" (page "4"))
+			)
+		)
+	)
+	(sheet
+		(at 305 40)
+		(size 80 18)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "f1a08d99-7a3a-341b-699c-27f068170967")
+		(property "Sheetname" "Heater interlock, relay, USB"
+			(at 305 39.3 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scell_monitor_io.kicad_sch"
+			(at 305 58.6 0)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scell_monitor"
+				(path "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8" (page "5"))
+			)
+		)
+	)
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+)

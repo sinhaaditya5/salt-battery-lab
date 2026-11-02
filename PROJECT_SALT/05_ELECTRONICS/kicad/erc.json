@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-02T23:07:15",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8",
+            "violations": []
+        },
+        {
+            "path": "/Power 12-30 V, regulators/",
+            "uuid_path": "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8/08f09e11-ec6a-693c-6246-dd07701ba0e4",
+            "violations": []
+        },
+        {
+            "path": "/MCU STM32G474 + ADC/",
+            "uuid_path": "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8/3979371c-8751-4503-45ff-60193fb4f896",
+            "violations": []
+        },
+        {
+            "path": "/Cell taps, thermocouples, current/",
+            "uuid_path": "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8/90d8f71a-06db-ad2a-442f-4268f89b20f4",
+            "violations": []
+        },
+        {
+            "path": "/Heater interlock, relay, USB/",
+            "uuid_path": "/8c9061c3-c436-3ba8-6e71-3b68e8281bc8/f1a08d99-7a3a-341b-699c-27f068170967",
+            "violations": []
+        }
+    ],
+    "source": "scell_monitor.kicad_sch"
+}
