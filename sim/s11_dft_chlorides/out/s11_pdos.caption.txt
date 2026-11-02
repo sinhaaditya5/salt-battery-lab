@@ -1,0 +1,1 @@
+Projected density of states (metal 3d, Cl 3p) of FeCl2, CoCl2 and NiCl2 at U = 4 eV. For the insulators (CoCl2, NiCl2) E_F falls inside the gap; FeCl2 has a minority-spin Fe-3d state at E_F (metallic in the symmetric cell). [SIMULATED] PBE+U-D3, QE 7.6 projwfc.x, GBRV USPP; FM order, R-3m 3-atom cell

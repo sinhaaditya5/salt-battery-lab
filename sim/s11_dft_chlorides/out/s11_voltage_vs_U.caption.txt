@@ -1,0 +1,1 @@
+DFT(+U) conversion voltages of Na-MCl2 couples versus Hubbard U, against experimental enthalpy-based voltages. [SIMULATED] PBE(+U)-D3, QE 7.6, GBRV USPP; experimental [PUBLISHED] thermochemistry (transcribed, verify)
