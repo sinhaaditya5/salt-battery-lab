@@ -1,0 +1,13 @@
+part,material,qty,unit_mass_kg,total_mass_kg,mass_basis
+tray (galvanised steel),galvanised steel,1,7.021,7.021,CAD volume x density
+front panel (galvanised steel),galvanised steel,1,1.97,1.97,CAD volume x density
+front pull handle,aluminium 6063,2,0.1134,0.2268,CAD volume x density
+"monobloc 12 V (R1, full mass from design.monobloc)",-,4,19.67,78.68,design.monobloc() mass_kg (CALC)
+hold-down bar + tie rods,galvanised steel,4,0.4349,1.74,CAD volume x density
+main fuse (holder + link),electronics (potted avg),1,0.6048,0.6048,CAD volume x density
+DC/DC converter box,electronics (potted avg),1,6.692,6.692,CAD volume x density
+module BMS enclosure + board,electronics (potted avg),1,1.152,1.152,CAD volume x density
+DC output connector,PP,2,0.004343,0.008686,CAD volume x density
+power cable 25 mm2 (insulated Cu),copper (insulated cable),8,0.05322,0.4257,CAD volume x density
+BMS sense / NTC lead,copper (insulated cable),4,0.01428,0.05712,CAD volume x density
+"TOTAL (estimate, CONCEPT)",,29,,98.578,sum of rows

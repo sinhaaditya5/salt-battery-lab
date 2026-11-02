@@ -1,0 +1,21 @@
+part,material,qty,unit_mass_kg,total_mass_kg,mass_basis
+case container (moulded with partitions),PP-GF20,1,1.926,1.926,CAD volume x density
+"lid (moulded, incl. valve wells)",PP-GF20,1,0.3449,0.3449,CAD volume x density
+lid label,label film,1,0.003005,0.003005,CAD volume x density
+vent manifold cover,PP,1,0.006792,0.006792,CAD volume x density
+flame arrestor frit,PP frit (porous),1,7.56e-05,7.56e-05,CAD volume x density
+valve nipple,PP,10,0.0001367,0.001367,CAD volume x density
+one-way valve cap (EPDM),EPDM,10,0.000313,0.00313,CAD volume x density
+terminal post M8 female insert,"brass (lead-free, Sn-plated)",2,0.02877,0.05753,CAD volume x density
+terminal polarity collar,PP,2,0.0003393,0.0006786,CAD volume x density
+terminal link (316L),316L stainless,2,0.01771,0.03542,CAD volume x density
+"cathode plate (Na-birnessite, 2-side coated 316L)",cathode,210,0.03255,6.835,design.electrode_stack loading / active fraction + cc
+electrode tab (uncoated 316L foil; drawn at plate thickness),316L stainless,420,3.2e-05,0.01344,tab area x cc thickness x density
+separator (nonwoven PP / AGM),separator,420,0.001628,0.6836,MAT separator_areal_mass x plate area
+"anode plate (NaTi2(PO4)3/C, 2-side coated 316L)",anode,210,0.02488,5.226,design.electrode_stack loading / active fraction + cc
+plate-group strap (316L),316L stainless,20,0.02116,0.4232,CAD volume x density
+free electrolyte 0.5 M Na2SO4 (fluid volume),electrolyte 0.5 M Na2SO4,10,0.04264,0.4264,CAD volume x density
+intercell connector (316L),316L stainless,9,0.003761,0.03385,CAD volume x density
+electrolyte in pores (not a separate solid),electrolyte 0.5 M Na2SO4,10,0.3432,3.432,design.electrode_stack electrolyte_mg_cm2
+"TOTAL (estimate, CONCEPT)",,1340,,19.452,sum of rows
+design.monobloc() mass_kg for comparison,,,,19.670,params/design.py (CALC)
