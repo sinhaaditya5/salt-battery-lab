@@ -6,9 +6,12 @@ LAB="/Volumes/Aditya ssd/Salt-Battery-Lab"; HERE="$LAB/sim/s06_dft_ec2"; source 
 eval "$("$LAB/.venv/bin/python" -c "
 import sys; sys.path.insert(0,'$LAB'); from params.product_params import EC2 as E
 print(f\"REGION={E['region']} ITYPE={E['instance_type']} CAP={E['spend_cap_usd']} HARD={int(E['hard_shutdown_hours'])} EBS={E['ebs_gb']}\")")"
-MAXPRICE=0.45                      # spot max $/h; worst case 48 h x 0.45 + EBS/IPv4 < $25 cap
+# per-job overrides (3 Nov 2026 S11 chloride run: shorter hard stop, lower per-instance cap)
+ITYPE=${S06_ITYPE:-$ITYPE}; CAP=${S06_CAP_USD:-$CAP}; HARD=${S06_HARD_HOURS:-$HARD}; EBS=${S06_EBS_GB:-$EBS}
+ARCH=${S06_ARCH:-arm64}            # arm64 (Graviton, DFT) or amd64 (x86: Blender/KiCad/LibreOffice build host)
+MAXPRICE=${S06_MAXPRICE:-0.45}     # spot max $/h; worst case 48 h x 0.45 + EBS/IPv4 < $25 cap (per-job override S06_MAXPRICE)
 KEY=saltlab-dft; KEYF="$LAB/tools/aws/$KEY.pem"; SG=saltlab-dft-ssh
-AMI=$(aws ssm get-parameter --region $REGION --name /aws/service/canonical/ubuntu/server/24.04/stable/current/arm64/hvm/ebs-gp3/ami-id --query Parameter.Value --output text)
+AMI=$(aws ssm get-parameter --region $REGION --name /aws/service/canonical/ubuntu/server/24.04/stable/current/$ARCH/hvm/ebs-gp3/ami-id --query Parameter.Value --output text)
 if [ ! -f "$KEYF" ]; then
   aws ec2 create-key-pair --region $REGION --key-name $KEY --key-type ed25519 --query KeyMaterial --output text > "$KEYF"; chmod 600 "$KEYF"
 fi
