@@ -1,0 +1,15 @@
+company,country,chemistry,salt_literal,cell_Wh_kg_claim,stage_2026,funding_or_scale,source_ids,label
+FZSoNick (FIAMM/MES-DEA heritage),IT,"Na-NiCl2 (ZEBRA), 48TL telecom",Y,~100-140 (class value; product sheet not found),commercial,n/a,PS-014 PS-036,VENDOR CLAIM / PUBLISHED
+Altech Batteries + Fraunhofer IKTS (CERENERGY),DE/AU,"Na-NiCl2 (ABS60 60 kWh pack, 240 cells x 2.58 V)",Y,not published,prototype Oct 2024; 120 MWh/yr plant planned (EUR 156 M),JV 75/25,PS-013 PS-032,VENDOR CLAIM
+Inlyte Energy (Beta Research),US/UK,Na-FeCl2 (iron-salt),Y,not published,pilot (no 2025-26 status found),$8 M seed 2023,PS-012,VENDOR CLAIM
+PNNL / Battelle,US,IT Na-NiCl2 / Na-FeCl2 at 190 C,Y,350 / >295 Wh/kg (material basis),research; US10615407B2,public lab,PS-005 PS-006 PS-007,PUBLISHED
+NGK Insulators (NAS),JP,Na-S high temperature,N (Na metal),~150-240 (literature range),commercial grid,large,-,PUBLISHED (general)
+CATL (Naxtra Na-ion; Shenxing/Qilin Li),CN,Na-ion; LFP/NMC fast charge,N,~175 (Na-ion),mass production,n/a,SRC Naxtra; PS-018 PS-020,VENDOR CLAIM
+BYD,CN,Na-ion + LFP; 1 MW flash charging,N,n/a,mass production,n/a,PS-019,VENDOR CLAIM
+Peak Energy,US,Na-ion (cells made in China),N,not disclosed,3.5 MWh system; 4 GWh/yr factory planned,$108 M Series B (Oct 2026),SRC-001..010,VENDOR CLAIM
+Alsym Energy,US,'Na-Series NFPP+' (previously described as aqueous),N,135,samples 2026; HVM planned 2027,~$110 M total (one report),SRC-011..020; PS-027,VENDOR CLAIM
+Natron Energy,US,Prussian blue Na-ion (power),N,low (power cells),shut down 2025; IP with creditors' estate,-,PS-028,PUBLISHED
+Aquion Energy,US,aqueous Na-ion,N,~18.6 (module),bankrupt 2017,~$200 M raised,C-013..C-015,PUBLISHED
+Faradion (Reliance),UK/IN,Na layered oxide,N,~160 (class),scale-up in India,Reliance-owned,PS-029,VENDOR CLAIM
+ProLogium / Factorial / Solid Power / QuantumScape,TW/US,Li solid-state (benchmark),N,300-400 (claims),pilot / B-samples,large,not searched this session,VENDOR CLAIM (unverified here)
+Form Energy,US,Fe-air multi-day,N,low,first deployments,large,not searched this session,VENDOR CLAIM (unverified here)

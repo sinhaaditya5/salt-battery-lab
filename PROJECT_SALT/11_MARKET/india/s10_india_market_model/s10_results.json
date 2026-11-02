@@ -1,0 +1,131 @@
+{
+ "label": "[CALC] Monte Carlo from cited [LIT] and [ASSUMPTION] inputs; India only, annual flow",
+ "inputs": {
+  "towers": {
+   "range": [
+    816763,
+    816763
+   ],
+   "tag": "LIT",
+   "source": "DoT tower installations 30 Dec 2024 (SRC-134)"
+  },
+  "kWh_per_site": {
+   "range": [
+    8.0,
+    20.0
+   ],
+   "tag": "ASSUMPTION",
+   "source": "48 V x 150-400 Ah; Amara Raja reports ~1 GWh over ~50k sites = ~20 kWh/site [VENDOR, low conf.]"
+  },
+  "telecom_replace_years": {
+   "range": [
+    4.0,
+    7.0
+   ],
+   "tag": "ASSUMPTION",
+   "source": "VRLA 3-5 y, Li 8-10 y blended"
+  },
+  "dc_GW_2026": {
+   "range": [
+    1.6,
+    1.6
+   ],
+   "tag": "LIT",
+   "source": "JLL June 2026 (SRC-124)"
+  },
+  "dc_GW_2029": {
+   "range": [
+    6.0,
+    6.0
+   ],
+   "tag": "LIT",
+   "source": "JLL 2029 projection (SRC-124)"
+  },
+  "ups_minutes": {
+   "range": [
+    5.0,
+    10.0
+   ],
+   "tag": "LIT/ASSUMPTION",
+   "source": "~5 min colo/cloud, 1-2 min hyperscale (SRC-142); 10 min upper case"
+  },
+  "ups_redundancy": {
+   "range": [
+    1.0,
+    2.0
+   ],
+   "tag": "ASSUMPTION",
+   "source": "N to 2N battery strings"
+  },
+  "dc_replace_years": {
+   "range": [
+    5.0,
+    10.0
+   ],
+   "tag": "ASSUMPTION",
+   "source": "VRLA ~5 y, Li ~10 y"
+  },
+  "price_usd_per_kWh": {
+   "range": [
+    85.0,
+    200.0
+   ],
+   "tag": "CALC",
+   "source": "VRLA INR 7,100-7,600/kWh (SRC-121) to 48 V LFP INR 10,800-21,600/kWh (SRC-119) at INR 88/$"
+  },
+  "sam_fraction_telecom": {
+   "range": [
+    0.1,
+    0.3
+   ],
+   "tag": "ASSUMPTION",
+   "source": "indoor/rooftop/in-building sites, theft-prone or hot unconditioned sites where no-lead/non-flammable matters"
+  },
+  "sam_fraction_dc": {
+   "range": [
+    0.2,
+    0.5
+   ],
+   "tag": "ASSUMPTION",
+   "source": "UPS rooms where Li-ion fire engineering is a real constraint"
+  },
+  "som_share_5y": {
+   "range": [
+    0.02,
+    0.08
+   ],
+   "tag": "ASSUMPTION",
+   "source": "new entrant share of SAM after 5 years"
+  }
+ },
+ "telecom_GWh_yr": {
+  "p10": 1.3464694634196157,
+  "p50": 2.080518687877168,
+  "p90": 3.031130449078932
+ },
+ "dc_ups_GWh_yr": {
+  "p10": 0.24394596632987176,
+  "p50": 0.35969823013170976,
+  "p90": 0.5252677112876156
+ },
+ "TAM_usd_yr": {
+  "p10": 210338404.07474023,
+  "p50": 341180355.6810819,
+  "p90": 530533836.29352343
+ },
+ "SAM_usd_yr": {
+  "p10": 42088372.6435867,
+  "p50": 74014882.94560389,
+  "p90": 123585876.88584751
+ },
+ "SOM_usd_yr_after_5y": {
+  "p10": 1626423.8355324576,
+  "p50": 3467442.658841297,
+  "p90": 7001242.622506598
+ },
+ "crosscheck": {
+  "IMARC India UPS battery market 2024": 305120000.0,
+  "TechSci India UPS battery 2025": 401000000.0,
+  "sources": "SRC-137, SRC-138 (paid-report press summaries, low confidence)"
+ }
+}
