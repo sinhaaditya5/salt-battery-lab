@@ -30,6 +30,34 @@ A complete, rebuildable study of a water-based sodium battery startup idea. It c
 | `11_screenshots` | Console snapshots and images captured while running tests, simulations, Blender, KiCad, DFT and document QA |
 | `STARTUP_DECISION_MEMO.md` | Go/no-go, proven vs simulated vs assumed, cheapest experiment, first 90 days |
 
+
+## Project Salt extension (2 Nov 2026, second brief): `PROJECT_SALT/`
+
+**Start at `PROJECT_SALT/00_START_HERE/EXECUTIVE_VERDICT.md`.**
+
+**Outcome B:** no salt-derived chemistry meets 360 Wh/kg + 5-min / 1,500 km + $3 + non-flammable. The closest candidates are:
+- N08 anode-free Na solid-state (energy);
+- S03 salt-iron molten-salt cell (salt is the active material);
+- N02 NFPP Na-ion (balance; commercial, no novelty).
+
+| New piece | Where | Rebuild |
+|---|---|---|
+| S11 DFT(+U) on Na/NaCl/Cl2/Fe-Co-Ni chlorides: relax, U-scan, FM/AFM, gaps, PDOS (QE 7.6; local M4 + EC2 c8g.8xlarge) | `sim/s11_dft_chlorides` | `campaign.py write/run <stage>`; `analyze.py`; EC2: `ec2/ec2_s11.sh push/status/pull` |
+| S12 30-architecture feasibility matrix (calibrated build-up, Pareto, ranking) | `sim/s12_chemistry_matrix` | `matrix.py` |
+| S13 founder targets ($3 ×6, 1,500 km / 5 min, salt feedstock) + PyBaMM fast charge/degradation | `sim/s13_founder_targets` | `targets.py`; `fast_charge_pybamm.py` (~10 min) |
+| S14 salt-iron cell model; S15 factory scenarios + tornado | `sim/s14_scell_model`, `sim/s15_factory` | scripts |
+| S-cell R0 CAD + drawing SB-SC-001 | `cad/make_scell.py`, `params/scell_params.py` | `python cad/make_scell.py` |
+| SCM-1 test-monitor KiCad (ERC 0; layout DRAFT) + firmware core | `pcb/scell_monitor` | `pcb/build_scm.sh`; `make -C pcb/scell_monitor/firmware test` |
+| Package assembly (BOM, ledger, status, manifest) | `tools/project_salt/` | `assemble.py` |
+| **v1.1** D3 P1 cell + SM-48T 48 V module, D4 thermal (S16), D5 SC-UPS-1 cabinet: STEP, part lists, CADCraft drawings SB-SM-001/SB-TM-001/SB-UPS-001 | `cad/make_smodule.py`, `params/smodule_params.py`, `sim/s16_module_thermal` | `python cad/make_smodule.py` |
+| **v1.1** Blender renders + turntable of the salt designs | `renders/blender_salt.py` → `renders/out_salt` | `python renders/run_salt_renders.py` |
+| **v1.1** Diagrams ds1–ds5, MATLAB stem scripts (run with Octave) | `diagrams/make_salt_diagrams.py`, `tools/matlab/make_stem.py` → `matlab/stem` | `--run` executes the .m files |
+| **v1.1** SaltIron_Engineering_Model.xlsx (live formulas, LibreOffice-verified) | `finance/make_salt_model.py` → `PROJECT_SALT/10_ECONOMICS` | `python finance/make_salt_model.py` |
+| **v1.1** Complete technical record (.docx/.pdf) and deck (.pptx/.pdf) | `docs/make_full_report.py`, `docs/make_full_deck.py` → `DELIVERABLES/1_investor_docs` | run on the build host |
+| **v1.1** EC2 x86 build host (all heavy work since 3 Nov 03:10 IST) | `tools/ec2_build/` | `ec2_build.sh push / bootstrap / bg / pull`; `rebuild_salt.sh` |
+
+`./run_all.sh` now runs all of the above. `--fast` skips the PyBaMM S13a runs. QE jobs are never re-run automatically.
+
 ## Rebuild
 
 ```bash
@@ -38,7 +66,7 @@ source "/Volumes/Aditya ssd/Salt-Battery-Lab/tools/env.sh"
 ./run_all.sh            # full: also re-runs the uMLIP screen (~1 h) and Blender renders
 ```
 
-`run_all.sh` never launches EC2. DFT results are re-analysed from `sim/s06_dft_ec2/runs*/`. To run DFT again, see `sim/s06_dft_ec2/README.md`; it costs money and needs founder approval.
+`run_all.sh` never launches EC2. DFT results are re-analysed from `sim/s06_dft_ec2/runs*/` and `sim/s11_dft_chlorides/runs/`. To run DFT again, launch with `sim/s06_dft_ec2/launch.sh` (per-job overrides `S06_HARD_HOURS`, `S06_CAP_USD`, `S06_ITYPE`), then `sim/s11_dft_chlorides/ec2/ec2_s11.sh push`; finish with `sim/s06_dft_ec2/terminate.sh`. It costs money and needs founder approval.
 
 ## Layout
 
