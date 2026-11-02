@@ -1,0 +1,30 @@
+plugins: platformdirs-4.14.3
+collecting ... collected 25 items
+
+tests/test_params.py::test_every_value_tagged_and_no_measured PASSED     [  4%]
+tests/test_params.py::test_assumptions_have_ordered_ranges PASSED        [  8%]
+tests/test_params.py::test_measured_tag_rejected PASSED                  [ 12%]
+tests/test_params.py::test_r0_loading_matches_paper_geometry PASSED      [ 16%]
+tests/test_params.py::test_monobloc_energy_identity PASSED               [ 20%]
+tests/test_params.py::test_monobloc_mass_balance_and_fits_envelope PASSED [ 24%]
+tests/test_params.py::test_loading_monotonic PASSED                      [ 28%]
+tests/test_params.py::test_electrolyte_below_solubility_limit_at_5C PASSED [ 32%]
+tests/test_sim_models.py::test_s1_kit_rerun_all_pass PASSED              [ 36%]
+tests/test_sim_models.py::test_s2_validation_recorded_honestly PASSED    [ 40%]
+tests/test_sim_models.py::test_s2_digitiser_regression PASSED            [ 44%]
+tests/test_sim_models.py::test_s3_retention_physical PASSED              [ 48%]
+tests/test_sim_models.py::test_s3_round_trip_bounded PASSED              [ 52%]
+tests/test_sim_models.py::test_s4_faraday_conservation PASSED            [ 56%]
+tests/test_sim_models.py::test_s4_nernst_window PASSED                   [ 60%]
+tests/test_sim_models.py::test_s4_ce_requirement_consistent PASSED       [ 64%]
+tests/test_sim_models.py::test_s5_literature_regression PASSED           [ 68%]
+tests/test_sim_models.py::test_s5_voltage_formula PASSED                 [ 72%]
+tests/test_sim_models.py::test_s7_bounds_and_aquion_class PASSED         [ 76%]
+tests/test_sim_models.py::test_s9_refusal_logic PASSED                   [ 80%]
+tests/test_sim_models.py::test_s9_cost_components_sum PASSED             [ 84%]
+tests/test_sim_models.py::test_s9_spreadsheet_matches_python PASSED      [ 88%]
+tests/test_sim_models.py::test_s8_energy_balance PASSED                  [ 92%]
+tests/test_sim_models.py::test_s10_ordering PASSED                       [ 96%]
+tests/test_sim_models.py::test_claims_ledger_complete PASSED             [100%]
+
+============================== 25 passed in 1.04s ==============================
