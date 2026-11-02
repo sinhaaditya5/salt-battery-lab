@@ -1,0 +1,5 @@
+telecom_GWh_yr         P10     1.35  P50     2.08  P90     3.03
+dc_ups_GWh_yr          P10     0.24  P50     0.36  P90     0.53
+TAM_usd_yr             P10   210.34  P50   341.18  P90   530.53
+SAM_usd_yr             P10    42.09  P50    74.01  P90   123.59
+SOM_usd_yr_after_5y    P10     1.63  P50     3.47  P90     7.00

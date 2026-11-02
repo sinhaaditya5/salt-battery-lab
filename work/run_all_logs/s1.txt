@@ -1,0 +1,16 @@
+1/5 syntax
+2/5 calculator
+3/5 analyser
+4/5 RC model
+5/5 moonshot
+cost guard
+PASS calculator stdout == calculator_smoke_test.txt
+PASS analyser stdout == analyzer_smoke_test.txt
+PASS RC stdout == rc_smoke_test.txt
+PASS cost guard output == cost_model_expected_block.txt
+PASS cost guard exits non-zero
+PASS analyzer_summary.json == kit simulation/demo_analysis_output/summary.json
+PASS analyzer_cycle_summary.csv == kit simulation/demo_analysis_output/cycle_summary.csv
+PASS rc_output.csv == kit simulation/rc_demo_synthetic_output.csv
+PASS moonshot arithmetic ran
+S1: 9/9 checks pass

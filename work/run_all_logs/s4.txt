@@ -1,0 +1,6 @@
+cell 34.2 Ah, water 362 g, headspace 148 mL
+nominal CE 0.995: gas 64 mL/cell/cycle, water 0.103 g/cycle -> 20% water loss after 701 cycles
+CE needed for 3000 cycles before 20% water loss: 0.99883
+tafel {'i0_HER_A_cell': np.float64(0.0109), 'i0_OER_A_cell': np.float64(0.0174), 'float_current_mA_per_Ah': np.float64(6.234), 'float_gas_L_per_cell_year': np.float64(624.8256), 'float_water_loss_pct_per_year': np.float64(311.8121)}
+fault {'I_A': 6.836, 'H2_L_per_min_per_cell': 0.048, 'gas_L_per_min_per_cell': 0.071, 'time_to_vent_s': 18.428, 'vent_min_flow_L_min': 0.143}
+ventilation {'fault': {'H2_L_per_min_cabinet': 19.055028610083415, 'air_m3_per_h_for_1pct': 114.3301716605005}, 'float': {'H2_L_per_min_cabinet': np.float64(0.47551416291081006), 'air_m3_per_h_for_1pct': np.float64(2.8530849774648606)}}

@@ -1,0 +1,24 @@
+{
+ "UPS_4C": {
+  "C_rate": 4.0,
+  "current_A": 136.71,
+  "heat_W": 83.0,
+  "discharge_s": 900.0,
+  "dT_adiabatic_K": 2.62,
+  "dT_with_convection_K": 2.57,
+  "steady_state_cycling_dT_K": 68.72
+ },
+ "fd2d_ups_maxdT": 2.81,
+ "fd2d_1C_3h_maxdT": 1.06,
+ "abuse": {
+  "stored_electrical_energy_MJ": 1.43,
+  "adiabatic_rise_if_all_energy_released_K": 50.14,
+  "water_g": 3612.07,
+  "heat_to_reach_100C_from_25C_MJ": 2.13,
+  "latent_heat_of_all_water_MJ": 8.15,
+  "fraction_water_boiled_if_all_energy_released_after_100C": 0.0,
+  "case_fire_load_MJ": 100.81,
+  "case_fire_load_vs_stored_energy": 70.64,
+  "note": "The polypropylene case is combustible in an external fire; specify flame-retardant (UL 94 V-0) PP."
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "voltages": {
+  "LiFePO4": {
+   "literature": {
+    "value": 3.45,
+    "unc": 0.05,
+    "tag": "LIT",
+    "source": "Padhi, Nanjundaswamy, Goodenough, J. Electrochem. Soc. 144, 1188 (1997): ~3.4-3.5 V plateau vs Li"
+   },
+   "mace_mp0b3": 3.45,
+   "mace_mp0": 3.439,
+   "chgnet": 3.422,
+   "dft": 3.754
+  },
+  "LiMn2O4": {
+   "literature": {
+    "value": 4.1,
+    "unc": 0.05,
+    "tag": "LIT",
+    "source": "Thackeray et al. / Ohzuku et al., J. Electrochem. Soc. 137, 769 (1990): 4 V region (two steps ~4.05/4.15 V) vs Li"
+   },
+   "mace_mp0b3": 4.066,
+   "mace_mp0": 3.992,
+   "chgnet": 4.021,
+   "dft": null
+  },
+  "NaFePO4_olivine": {
+   "literature": {
+    "value": 2.8,
+    "unc": 0.1,
+    "tag": "LIT",
+    "source": "Moreau et al., Chem. Mater. 22, 4126 (2010): ~2.8 V vs Na (as cited by ECS 229 abstract 71201)"
+   },
+   "mace_mp0b3": 3.022,
+   "mace_mp0": 3.033,
+   "chgnet": 3.067,
+   "dft": null
+  },
+  "Na3Ti2PO43": {
+   "literature": {
+    "value": 2.1,
+    "unc": 0.05,
+    "tag": "CALC",
+    "source": "NaTi2(PO4)3 -0.807 V vs Ag/AgCl (aqueous; RSC J. Mater. Chem. A 2019, C9TA08829F) converted: +0.197 V (Ag/AgCl vs SHE), Na+/Na -2.71 V vs SHE"
+   },
+   "mace_mp0b3": 1.435,
+   "mace_mp0": 1.257,
+   "chgnet": 1.349,
+   "dft": null
+  },
+  "Na2MnFeCN6": {
+   "literature": {
+    "value": 3.49,
+    "unc": 0.05,
+    "tag": "LIT",
+    "source": "Song, Wang, Lu, ... Goodenough, J. Am. Chem. Soc. 137, 2658 (2015): dehydrated rhombohedral Na2-dMnFe(CN)6 plateau 3.53 V charge / 3.44 V discharge (mean 3.49 V)"
+   },
+   "mace_mp0b3": 2.776,
+   "mace_mp0": 2.593,
+   "chgnet": 2.226,
+   "dft": null
+  }
+ },
+ "errors": {
+  "mace_mp0b3": {
+   "n": 5,
+   "MAE_V": 0.327,
+   "max_abs_V": 0.714,
+   "mean_signed_V": -0.238
+  },
+  "mace_mp0": {
+   "n": 5,
+   "MAE_V": 0.418,
+   "max_abs_V": 0.897,
+   "mean_signed_V": -0.325
+  },
+  "chgnet": {
+   "n": 5,
+   "MAE_V": 0.478,
+   "max_abs_V": 1.264,
+   "mean_signed_V": -0.371
+  },
+  "dft": {
+   "n": 1,
+   "MAE_V": 0.304,
+   "max_abs_V": 0.304,
+   "mean_signed_V": 0.304
+  }
+ },
+ "birnessite_voltage": {
+  "x 1/9 -> 3/9": {
+   "mace_mp0b3": 3.728,
+   "mace_mp0": 3.688,
+   "chgnet": 3.46,
+   "dft": null
+  },
+  "x 3/9 -> 5/9": {
+   "mace_mp0b3": 2.207,
+   "mace_mp0": 2.439,
+   "chgnet": 2.496,
+   "dft": null
+  }
+ },
+ "interlayer_A": {
+  "mace_mp0b3": {
+   "0.1111111111111111": 7.694925083936877,
+   "0.3333333333333333": 7.0527451552307365,
+   "0.5555555555555556": 7.17255977222701
+  },
+  "mace_mp0": {
+   "0.1111111111111111": 7.57594174465755,
+   "0.3333333333333333": 7.055107825646853,
+   "0.5555555555555556": 7.377090851639213
+  },
+  "chgnet": {
+   "0.1111111111111111": 7.703390183648283,
+   "0.3333333333333333": 7.160587628350044,
+   "0.5555555555555556": 7.177559943141435
+  },
+  "dft": {}
+ },
+ "barriers_eV": {
+  "mace_mp0b3": {
+   "LiFePO4_b": 0.3423837472196283,
+   "NaFePO4_b": 0.2747396238743818,
+   "birnessite_Na": 0.393390357643284,
+   "PBA_Na": 0.5352281494187991
+  }
+ }
+}

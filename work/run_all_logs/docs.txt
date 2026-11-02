@@ -1,0 +1,2 @@
+deck slides: 28 -> /Volumes/Aditya ssd/Salt-Battery-Lab/DELIVERABLES/1_investor_docs/SaltBattery_Investor_Deck.pptx
+wrote SaltBattery_Technical_and_Business_Report.docx SaltBattery_OnePager.docx

@@ -1,0 +1,5 @@
+UPS monobloc: 396 Wh, cost $139 -> $350/kWh (materials $115)
+telecom monobloc: $287/kWh
+UPS 15-yr cost per kWh of 15-min backup: R1 1228 | LFP 720 | VRLA 990  (R1 price 693, floor 268)
+Telecom LCOS $/kWh: R1 0.424 | LFP 0.251 | VRLA 0.574; lives {'R1': 8.219178082191782, 'LFP': 12.0, 'VRLA': 1.36986301369863}
+top UPS tornado: [('r1_float_life_years', 1667, 241), ('lfp_ups_cabinet_installed', 772, 178), ('floor_cost', 407, 810), ('gross_margin', 388, 668), ('ntp', 433, 684)]

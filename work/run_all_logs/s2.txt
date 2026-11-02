@@ -1,0 +1,5 @@
+  1 A/m2  MAE A   74.4 | B   82.9 | C   65.8 mV (paper 19.9);  q_end C 2.729 vs exp 2.615
+  5 A/m2  MAE A  120.8 | B  173.3 | C   74.0 mV (paper 34.6);  q_end C 2.426 vs exp 2.438
+ 10 A/m2  MAE A   79.5 | B  181.7 | C  118.8 mV (paper 32.2);  q_end C 2.202 vs exp 2.191
+ 12 A/m2  MAE A   66.9 | B  188.5 | C  113.4 mV (paper 48.1);  q_end C 2.115 vs exp 2.106
+{'all_pass_A_as_shipped': False, 'all_pass_B_plus_contact_R': False, 'all_pass_C_units_fix_plus_contact_R': False, 'all_pass_D_calibrated_k_x2': True}

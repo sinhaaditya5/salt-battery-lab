@@ -1,0 +1,9 @@
+ok architecture
+ok process_flow
+ok manufacturing_capex
+ok validation_ladder
+ok safety_comparison
+ok positioning
+ok waterfall
+ok roadmap
+ok use_of_funds
