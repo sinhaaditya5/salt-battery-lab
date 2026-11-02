@@ -1,0 +1,1 @@
+Capacity retained at C/5, 1C and 4C relative to C/10 as cathode loading rises from the paper's 2.8 mg/cm² to 80 mg/cm²; bands are P10–P90 of 40 Monte Carlo samples per loading. [SIM] PyBaMM DFN with literature parameter ranges (diffusivity, particle size, kinetics, conductivity, capacity, porosity); not validated
