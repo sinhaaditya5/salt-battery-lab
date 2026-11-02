@@ -1,0 +1,12 @@
+{
+ "name": "Cl2_box",
+ "calc": "relax",
+ "U": 0.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 20.0,
+ "kind": "mol",
+ "nat": 2
+}

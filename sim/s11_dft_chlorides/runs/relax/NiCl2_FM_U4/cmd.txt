@@ -1,0 +1,1 @@
+"/work/lab/tools/micromamba/envs/qe/bin/mpirun" --oversubscribe -np 16 "/work/lab/tools/micromamba/envs/qe/bin/pw.x" -nk 4 -in job.in > job.out 2>&1

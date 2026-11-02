@@ -1,0 +1,12 @@
+{
+ "name": "Ni_fcc",
+ "calc": "vc-relax",
+ "U": 0.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 40.0,
+ "kind": "metal",
+ "nat": 1
+}

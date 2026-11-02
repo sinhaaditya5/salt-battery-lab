@@ -1,0 +1,34 @@
+&control
+  calculation='vc-relax', prefix='CoCl2', outdir='./tmp',
+  pseudo_dir='/Volumes/Aditya ssd/Salt-Battery-Lab/tools/pseudo/gbrv', tprnfor=.true., tstress=.true.,
+  etot_conv_thr=1e-5, forc_conv_thr=1e-4, disk_io='low'
+/
+&system
+  ibrav=0, nat=3, ntyp=2,
+  ecutwfc=50, ecutrho=400, vdw_corr='dft-d3', dftd3_version=4,
+  occupations='smearing', smearing='mv', degauss=0.01,
+  nspin=2,
+  starting_magnetization(1)=0.5,
+/
+&electrons
+  conv_thr=1e-07, mixing_beta=0.3, electron_maxstep=200
+/
+&ions
+  ion_dynamics='bfgs'
+/
+&cell
+  cell_dynamics='bfgs', press_conv_thr=0.5
+/
+ATOMIC_SPECIES
+Co 58.933 co_pbe_v1.2.uspp.F.UPF
+Cl 35.453 cl_pbe_v1.4.uspp.F.UPF
+CELL_PARAMETERS angstrom
+  1.77200000 1.02306468 5.81000000
+  -1.77200000 1.02306468 5.81000000
+  0.00000000 -2.04612935 5.81000000
+ATOMIC_POSITIONS crystal
+Co 0.00000000 0.00000000 0.00000000
+Cl 0.25700000 0.25700000 0.25700000
+Cl -0.25700000 -0.25700000 -0.25700000
+K_POINTS automatic
+5 5 5 0 0 0

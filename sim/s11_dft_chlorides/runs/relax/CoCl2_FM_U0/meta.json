@@ -1,0 +1,12 @@
+{
+ "name": "CoCl2",
+ "calc": "vc-relax",
+ "U": 0.0,
+ "ecut": [
+  50,
+  400
+ ],
+ "kdens": 15,
+ "kind": "tm",
+ "nat": 3
+}
