@@ -1,0 +1,649 @@
+{
+ "group_colors": {
+  "case": [
+   0.36,
+   0.4,
+   0.45
+  ],
+  "lid": [
+   0.3,
+   0.33,
+   0.37
+  ],
+  "vent": [
+   0.1,
+   0.42,
+   0.68
+  ],
+  "epdm": [
+   0.04,
+   0.04,
+   0.04
+  ],
+  "frit": [
+   0.93,
+   0.93,
+   0.89
+  ],
+  "steel": [
+   0.72,
+   0.74,
+   0.77
+  ],
+  "terminal": [
+   0.83,
+   0.82,
+   0.78
+  ],
+  "red": [
+   0.72,
+   0.08,
+   0.07
+  ],
+  "black": [
+   0.04,
+   0.04,
+   0.045
+  ],
+  "label": [
+   0.95,
+   0.95,
+   0.93
+  ],
+  "cathode": [
+   0.09,
+   0.07,
+   0.06
+  ],
+  "anode": [
+   0.24,
+   0.25,
+   0.27
+  ],
+  "separator": [
+   0.9,
+   0.93,
+   0.97
+  ],
+  "electrolyte": [
+   0.35,
+   0.62,
+   0.95
+  ],
+  "tray": [
+   0.62,
+   0.64,
+   0.66
+  ],
+  "enclosure": [
+   0.17,
+   0.18,
+   0.2
+  ],
+  "cable_red": [
+   0.7,
+   0.07,
+   0.06
+  ],
+  "cable_black": [
+   0.05,
+   0.05,
+   0.05
+  ],
+  "sense": [
+   0.9,
+   0.72,
+   0.18
+  ],
+  "handle": [
+   0.1,
+   0.1,
+   0.11
+  ],
+  "cab_paint": [
+   0.17,
+   0.19,
+   0.22
+  ],
+  "cab_shelf": [
+   0.7,
+   0.72,
+   0.74
+  ],
+  "duct": [
+   0.32,
+   0.33,
+   0.35
+  ],
+  "breaker": [
+   0.07,
+   0.07,
+   0.08
+  ],
+  "accent": [
+   0.9,
+   0.45,
+   0.1
+  ],
+  "r0_steel": [
+   0.75,
+   0.76,
+   0.78
+  ],
+  "ptfe": [
+   0.95,
+   0.95,
+   0.92
+  ],
+  "peek": [
+   0.74,
+   0.6,
+   0.4
+  ],
+  "carbonpaper": [
+   0.07,
+   0.07,
+   0.08
+  ],
+  "coating": [
+   0.16,
+   0.1,
+   0.07
+  ],
+  "cellulose": [
+   0.98,
+   0.97,
+   0.93
+  ],
+  "spring": [
+   0.62,
+   0.64,
+   0.68
+  ]
+ },
+ "r0_test_cell": {
+  "title": "R0 symmetric aqueous test cell in a generic split-cell fixture (illustrative) - CONCEPT NOT FOR FABRICATION",
+  "solids": 19,
+  "bbox_min": [
+   -43.0,
+   -25.0,
+   -5.0
+  ],
+  "bbox_max": [
+   43.0,
+   25.0,
+   40.6
+  ],
+  "size": [
+   86.0,
+   50.0,
+   45.6
+  ],
+  "mass_est_kg": 0.3712552633157663,
+  "glb": true,
+  "variants": [
+   "full",
+   "cut",
+   "exploded"
+  ],
+  "anchors": {
+   "electrode_1": [
+    7.5,
+    0.0,
+    12.209330559889704
+   ],
+   "separator": [
+    9.5,
+    0.0,
+    12.299330559889704
+   ],
+   "top_plate": [
+    0.0,
+    25.0,
+    36.6
+   ],
+   "body": [
+    -25.0,
+    0.0,
+    18.3
+   ],
+   "spring": [
+    7.5,
+    0.0,
+    16.598661119779408
+   ],
+   "bolt": [
+    1.1634144591899855e-15,
+    19.0,
+    40.6
+   ]
+  },
+  "notes": [
+   "Fixture is a generic split-cell fixture (illustrative); Shan 2019 used an MTI EQ-STC split cell (no published drawing)."
+  ],
+  "extra": {},
+  "explode_z": {
+   "b0": 0,
+   "body": 25,
+   "s0": 45,
+   "s1": 52,
+   "s2": 60,
+   "s3": 68,
+   "s4": 75,
+   "s5": 84,
+   "s6": 94,
+   "s7": 108,
+   "t0": 125,
+   "bolt": 150
+  }
+ },
+ "r1_monobloc": {
+  "title": "R1 12 V monobloc (10 cells, 0.40 kWh TARGET) - CONCEPT NOT FOR FABRICATION",
+  "solids": 1330,
+  "bbox_min": [
+   -165.0,
+   -86.5,
+   0.0
+  ],
+  "bbox_max": [
+   165.0,
+   86.5,
+   220.0
+  ],
+  "size": [
+   330.0,
+   173.0,
+   220.0
+  ],
+  "mass_est_kg": 19.452278918282865,
+  "glb": true,
+  "variants": [
+   "full",
+   "cut",
+   "exploded"
+  ],
+  "anchors": {
+   "terminal_pos": [
+    -125.0,
+    -62.5,
+    220.0
+   ],
+   "terminal_neg": [
+    125.0,
+    -62.5,
+    220.0
+   ],
+   "vent_outlet": [
+    157.5,
+    0.0,
+    220.0
+   ],
+   "lid_label": [
+    0.0,
+    45.0,
+    220.0
+   ],
+   "case_side": [
+    0.0,
+    -86.5,
+    99.0
+   ],
+   "lid_edge": [
+    -135.0,
+    -76.5,
+    220.0
+   ],
+   "valve_cell5": [
+    -16.224999999999994,
+    0.0,
+    210.0
+   ],
+   "manifold": [
+    48.67500000000001,
+    0.0,
+    217.0
+   ],
+   "frit": [
+    157.5,
+    0.0,
+    217.0
+   ],
+   "plates_cell5": [
+    -16.224999999999994,
+    -77.5,
+    96.5
+   ],
+   "electrolyte_cell5": [
+    -16.224999999999994,
+    -82.5,
+    30.29994775515692
+   ],
+   "strap": [
+    -48.675,
+    45.0,
+    200.0
+   ],
+   "headspace": [
+    16.224999999999994,
+    -40.0,
+    199.0
+   ],
+   "partition": [
+    -1.2499999999999947,
+    -82.5,
+    120.0
+   ],
+   "separator_cell5": [
+    -16.224999999999994,
+    -79.5,
+    29.0
+   ]
+  },
+  "notes": [
+   "Vent: per-cell one-way EPDM Bunsen valve (x10) in a lid well, venting into a common lid manifold channel that exits through a single porous-PP flame-arrestor frit and outlet hole",
+   "Free-electrolyte level 56.6 mm (from design.monobloc free_electrolyte_kg); pores saturated."
+  ],
+  "extra": {},
+  "cut_x0": -97.35000000000001,
+  "layout": {
+   "n": 10,
+   "comp": 29.95,
+   "pitch": 32.45,
+   "cell_x": [
+    -146.025,
+    -113.575,
+    -81.125,
+    -48.675,
+    -16.224999999999994,
+    16.224999999999994,
+    48.67500000000001,
+    81.12500000000003,
+    113.57500000000002,
+    146.025
+   ],
+   "stack_t": 27.55280208485615,
+   "z_plate0": 9.0,
+   "z_plate1": 184.0,
+   "z_lid0": 214.0,
+   "z_tab1": 194.0,
+   "z_bus1": 200.0,
+   "term_y": -62.5,
+   "term_x": [
+    -125.0,
+    125.0
+   ],
+   "w_in": 165.0,
+   "sep_w": 159.0,
+   "z_sep0": 7.0,
+   "z_fill": 56.59989551031384,
+   "v_free_mm3": 42643.57303448307
+  }
+ },
+ "r1_cell": {
+  "title": "R1 cell (one of 10 in the monobloc) - CONCEPT NOT FOR FABRICATION",
+  "solids": 129,
+  "bbox_min": [
+   -31.149999999999995,
+   -82.45,
+   4.05
+  ],
+  "bbox_max": [
+   -1.2999999999999936,
+   82.45,
+   200.0
+  ],
+  "size": [
+   29.85,
+   164.9,
+   195.95
+  ],
+  "mass_est_kg": 1.360779509183249,
+  "glb": true,
+  "variants": [
+   "full"
+  ],
+  "anchors": {},
+  "notes": [],
+  "extra": {}
+ },
+ "r1_module48": {
+  "title": "R1 48 V telecom module (4 x 12 V monobloc) - CONCEPT NOT FOR FABRICATION",
+  "solids": 141,
+  "bbox_min": [
+   -373.0,
+   -225.0,
+   0.0
+  ],
+  "bbox_max": [
+   338.0,
+   225.0,
+   280.0
+  ],
+  "size": [
+   711.0,
+   450.0,
+   280.0
+  ],
+  "mass_est_kg": 98.57834421119004,
+  "glb": true,
+  "variants": [
+   "full"
+  ],
+  "anchors": {
+   "tray": [
+    278.0,
+    -225.0,
+    36.0
+   ],
+   "dcdc": [
+    -93.0,
+    180.0,
+    214.0
+   ],
+   "bms": [
+    142.0,
+    180.0,
+    52.0
+   ],
+   "fuse": [
+    -283.0,
+    180.0,
+    72.0
+   ],
+   "block1": [
+    -168.0,
+    -220.0,
+    101.0
+   ],
+   "block2_vent": [
+    325.5,
+    -133.5,
+    222.0
+   ],
+   "series_cable": [
+    -43.0,
+    -196.0,
+    228.0
+   ],
+   "output": [
+    -362.0,
+    180.0,
+    168.0
+   ],
+   "label3": [
+    168.0,
+    0.5,
+    222.0
+   ]
+  },
+  "notes": [
+   "Tray 676 x 450 x 280 mm (CAD): MODULE48 tray_mm (600.0, 450.0, 280.0) cannot hold 4 monoblocs."
+  ],
+  "extra": {
+   "blocks": [
+    [
+     [
+      -168.0,
+      -133.5
+     ],
+     0
+    ],
+    [
+     [
+      168.0,
+      -133.5
+     ],
+     0
+    ],
+    [
+     [
+      168.0,
+      45.5
+     ],
+     180
+    ],
+    [
+     [
+      -168.0,
+      45.5
+     ],
+     180
+    ]
+   ]
+  },
+  "tray_cad_mm": [
+   676.0,
+   450.0,
+   280.0
+  ]
+ },
+ "r1_ups_cabinet": {
+  "title": "R1 UPS battery cabinet (8 x 5 monoblocs, 480 V string) - CONCEPT NOT FOR FABRICATION",
+  "solids": 1220,
+  "bbox_min": [
+   -300.0,
+   -400.0,
+   0.0
+  ],
+  "bbox_max": [
+   300.0,
+   400.0,
+   2000.0
+  ],
+  "size": [
+   600.0,
+   800.0,
+   2000.0
+  ],
+  "mass_est_kg": 987.9567344921753,
+  "glb": true,
+  "variants": [
+   "closed",
+   "open"
+  ],
+  "anchors": {
+   "block_bottom": [
+    -92.5,
+    -195.0,
+    161.5
+   ],
+   "block_mid_terminal": [
+    62.49999999999999,
+    -320.0,
+    995.0
+   ],
+   "shelf4": [
+    -179.0,
+    -350.0,
+    772.5
+   ],
+   "vent_block": [
+    9.644093543285407e-15,
+    -37.5,
+    1470.0
+   ],
+   "breaker": [
+    179.0,
+    -374.0,
+    1815.75
+   ],
+   "master_bms": [
+    104.0,
+    -145.0,
+    1845.0
+   ],
+   "louvre_low": [
+    0.0,
+    -400.0,
+    160.0
+   ],
+   "louvre_high": [
+    0.0,
+    -400.0,
+    1840.0
+   ],
+   "roof_slots": [
+    0.0,
+    200.0,
+    2000.0
+   ],
+   "door_handle": [
+    240.0,
+    -400.0,
+    1040.0
+   ],
+   "plenum": [
+    0.0,
+    340.0,
+    1000.0
+   ]
+  },
+  "notes": [
+   "Shelf pitch 237.5 mm leaves 15.0 mm above block lids."
+  ],
+  "extra": {},
+  "shelf_pitch_mm": 237.5
+ },
+ "labels": {
+  "line1": "R1  10-CELL AQUEOUS Na-ION  12 V BLOCK",
+  "line2": "11.6 V nom  |  0.40 kWh [TARGET]  |  0.5 M Na2SO4 (water-based)",
+  "line3": "CONCEPT PROTOTYPE - NOT FOR SALE"
+ },
+ "mech": {
+  "tab_y_mm": 45.0,
+  "m48_sheet_t": 2.0
+ },
+ "scene": {
+  "tile_m": 0.6
+ },
+ "module_blocks": [
+  [
+   [
+    -168.0,
+    -133.5
+   ],
+   0
+  ],
+  [
+   [
+    168.0,
+    -133.5
+   ],
+   0
+  ],
+  [
+   [
+    168.0,
+    45.5
+   ],
+   180
+  ],
+  [
+   [
+    -168.0,
+    45.5
+   ],
+   180
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+  r0_test_cell: 19 solids, bbox [86.0, 50.0, 45.6] mm, mass est 0.37 kg, glb=True, 4.1 s
+  r1_monobloc: 1330 solids, bbox [330.0, 173.0, 220.0] mm, mass est 19.45 kg, glb=True, 2.7 s
+  r1_cell: 129 solids, bbox [29.85, 164.9, 195.95] mm, mass est 1.36 kg, glb=True, 0.2 s
+  r1_module48: 141 solids, bbox [711.0, 450.0, 280.0] mm, mass est 98.58 kg, glb=True, 0.2 s
+  r1_ups_cabinet: 1220 solids, bbox [600.0, 800.0, 2000.0] mm, mass est 987.96 kg, glb=True, 1.1 s
+CAD done in 13.5 s -> /Volumes/Aditya ssd/Salt-Battery-Lab/cad/out
