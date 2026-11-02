@@ -1,0 +1,9 @@
+blender: Blender 5.0.1
+kicad-cli: 10.0.8
+soffice: LibreOffice 24.2.7.2 420(Build:2)
+python: Python 3.12.3
+build123d: 0.13.0
+pcbnew: 10.0.8
+cadcraft-cli: cadcraft-cli 0.15.1 (dev)
+java: openjdk version "21.0.12.1" 2026-08-18
+nproc: 32

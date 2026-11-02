@@ -1,0 +1,11 @@
+generated scell_monitor 145 parts
+Found 0 violations
+Saved ERC Report to scell_monitor/erc.json
+[pcbbuild] route skipped (freerouting)
+placed 20 fixed + 119 auto
+  UNROUTED SPI_SCK U8.10 -> U6.10
+Found 739 violations
+Found 37 unconnected items
+Saved DRC Report to drc.json
+Saved board
+SCM-1 rebuilt (layout is a DRAFT - see PROJECT_SALT/05_ELECTRONICS/README.md)

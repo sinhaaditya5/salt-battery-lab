@@ -1,0 +1,275 @@
+    Updating git repository `https://github.com/storytold/egui.git`
+    Updating git repository `https://github.com/storytold/craft-libs`
+    Updating git repository `https://github.com/storytold/winit.git`
+    Updating crates.io index
+    Updating git repository `https://github.com/storytold/craft-libs`
+warning: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+warning: patch `egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+warning: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+warning: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+help: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+ Downloading crates ...
+  Downloaded arrayref v0.3.9
+  Downloaded anstyle-query v1.1.5
+  Downloaded anstyle-parse v1.0.0
+  Downloaded autocfg v1.5.1
+  Downloaded anstyle v1.0.14
+  Downloaded base64 v0.22.1
+  Downloaded clap_lex v1.1.1
+  Downloaded colorchoice v1.0.5
+  Downloaded color_quant v1.1.0
+  Downloaded cfg-if v1.0.5
+  Downloaded anstream v1.0.0
+  Downloaded anyhow v1.0.104
+  Downloaded bumpalo v3.20.3
+  Downloaded byteorder v1.5.0
+  Downloaded clap_derive v4.6.7
+  Downloaded strsim v0.11.1
+  Downloaded adler2 v2.0.1
+  Downloaded byteorder-lite v0.1.0
+  Downloaded yoke v0.8.4
+  Downloaded arrayvec v0.7.8
+  Downloaded bytemuck v1.25.2
+  Downloaded bytemuck_derive v1.12.1
+  Downloaded clap v4.6.7
+  Downloaded clap_builder v4.6.7
+  Downloaded bitflags v2.13.2
+  Downloaded web-time v1.1.0
+  Downloaded yoke-derive v0.8.4
+  Downloaded zerofrom-derive v0.1.8
+  Downloaded hash32 v0.3.1
+  Downloaded zerofrom v0.1.8
+  Downloaded gif v0.14.2
+  Downloaded either v1.19.0
+  Downloaded equivalent v1.0.3
+  Downloaded rstar v0.13.0
+  Downloaded scopeguard v1.2.0
+  Downloaded utf8parse v0.2.2
+  Downloaded euclid v0.22.14
+  Downloaded multiversion_no_op v1.0.0
+  Downloaded phf v0.11.3
+  Downloaded quote v1.0.47
+  Downloaded core_detect v1.0.0
+  Downloaded oem_cp v2.1.2
+  Downloaded thiserror v2.0.21
+  Downloaded unicode-ident v1.0.27
+  Downloaded thiserror-impl v2.0.21
+  Downloaded xmp-writer v0.3.3
+  Downloaded zune-core v0.5.3
+  Downloaded getrandom v0.4.3
+  Downloaded same-file v1.0.6
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded synstructure v0.14.0
+  Downloaded zmij v1.0.23
+  Downloaded subsetter v0.2.6
+  Downloaded imagesize v0.14.0
+  Downloaded quick-error v2.0.1
+  Downloaded tiny-skia-path v0.12.0
+  Downloaded weezl v0.1.12
+  Downloaded heck v0.5.0
+  Downloaded itoa v1.0.18
+  Downloaded float-cmp v0.9.0
+  Downloaded proc-macro2 v1.0.107
+  Downloaded serde v1.0.229
+  Downloaded serde_core v1.0.229
+  Downloaded siphasher v1.0.4
+  Downloaded strict-num v0.1.1
+  Downloaded float_next_after v1.0.0
+  Downloaded phf_shared v0.11.3
+  Downloaded polycool v0.4.0
+  Downloaded unicode-bidi v0.3.18
+  Downloaded is_terminal_polyfill v1.70.2
+  Downloaded foldhash v0.2.0
+  Downloaded log v0.4.34
+  Downloaded num-traits v0.2.19
+  Downloaded rustc-hash v2.1.3
+  Downloaded rustversion v1.0.23
+  Downloaded serde_derive v1.0.229
+  Downloaded simd-adler32 v0.3.10
+  Downloaded simdutf8 v0.1.5
+  Downloaded smallvec v1.16.4
+  Downloaded crossbeam-deque v0.8.8
+  Downloaded fdeflate v0.3.7
+  Downloaded font-types v0.11.3
+  Downloaded font-types v0.12.7
+  Downloaded memmap2 v0.9.12
+  Downloaded once_cell v1.21.4
+  Downloaded crc32fast v1.5.3
+  Downloaded crossbeam-epoch v0.9.21
+  Downloaded crossbeam-utils v0.8.23
+  Downloaded lyon_geom v1.0.20
+  Downloaded lyon_path v1.0.19
+  Downloaded miniz_oxide v0.9.1
+  Downloaded png v0.18.1
+  Downloaded ryu v1.0.23
+  Downloaded flate2 v1.1.10
+  Downloaded heapless v0.8.0
+  Downloaded image-webp v0.2.4
+  Downloaded minimal-lexical v0.2.1
+  Downloaded miniz_oxide v0.8.9
+  Downloaded nom v7.1.3
+  Downloaded zune-jpeg v0.5.15
+  Downloaded memchr v2.8.3
+  Downloaded rayon-core v1.13.0
+  Downloaded indexmap v2.14.2
+  Downloaded libm v0.2.16
+  Downloaded rayon v1.12.0
+  Downloaded serde_json v1.0.154
+  Downloaded zlib-rs v0.6.8
+  Downloaded hashbrown v0.17.1
+  Downloaded kurbo v0.13.1
+  Downloaded lyon_tessellation v1.0.23
+  Downloaded quick-xml v0.42.0
+  Downloaded skrifa v0.42.1
+  Downloaded tiny-skia v0.12.0
+  Downloaded write-fonts v0.48.1
+  Downloaded harfrust v0.14.0
+  Downloaded syn v3.0.9
+  Downloaded read-fonts v0.39.2
+  Downloaded encoding_rs v0.8.42
+  Downloaded read-fonts v0.45.1
+  Downloaded acadrust v0.6.6
+  Downloaded libc v0.2.191
+  Downloaded pdf-writer v0.15.0
+  Downloaded skrifa v0.48.0
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.27
+   Compiling autocfg v1.5.1
+   Compiling cfg-if v1.0.5
+   Compiling libm v0.2.16
+   Compiling memchr v2.8.3
+   Compiling simd-adler32 v0.3.10
+   Compiling arrayvec v0.7.8
+   Compiling crc32fast v1.5.3
+   Compiling bitflags v2.13.2
+   Compiling adler2 v2.0.1
+   Compiling stable_deref_trait v1.2.1
+   Compiling serde_core v1.0.229
+   Compiling thiserror v2.0.21
+   Compiling itoa v1.0.18
+   Compiling crossbeam-utils v0.8.23
+   Compiling smallvec v1.16.4
+   Compiling rustversion v1.0.23
+   Compiling serde v1.0.229
+   Compiling crossbeam-epoch v0.9.21
+   Compiling crossbeam-deque v0.8.8
+   Compiling once_cell v1.21.4
+   Compiling foldhash v0.2.0
+   Compiling log v0.4.34
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.3
+   Compiling siphasher v1.0.4
+   Compiling zmij v1.0.23
+   Compiling rayon-core v1.13.0
+   Compiling libc v0.2.191
+   Compiling serde_json v1.0.154
+   Compiling strict-num v0.1.1
+   Compiling arrayref v0.3.9
+   Compiling byteorder v1.5.0
+   Compiling core_detect v1.0.0
+   Compiling miniz_oxide v0.9.1
+   Compiling fdeflate v0.3.7
+   Compiling miniz_oxide v0.8.9
+   Compiling ryu v1.0.23
+   Compiling either v1.19.0
+   Compiling scopeguard v1.2.0
+   Compiling polycool v0.4.0
+   Compiling multiversion_no_op v1.0.0
+   Compiling simdutf8 v0.1.5
+   Compiling phf_shared v0.11.3
+   Compiling anyhow v1.0.104
+   Compiling cadcraft-fonts v0.15.1 (/work/cadcraft/crates/fonts)
+   Compiling unicode-bidi v0.3.18
+   Compiling float_next_after v1.0.0
+   Compiling utf8parse v0.2.2
+   Compiling heapless v0.8.0
+   Compiling quick-error v2.0.1
+   Compiling weezl v0.1.12
+   Compiling byteorder-lite v0.1.0
+   Compiling rustc-hash v2.1.3
+   Compiling num-traits v0.2.19
+   Compiling minimal-lexical v0.2.1
+   Compiling color_quant v1.1.0
+   Compiling zune-core v0.5.3
+   Compiling anstyle-parse v1.0.0
+   Compiling cadcraft-dwg v0.15.1 (/work/cadcraft/crates/dwg)
+   Compiling phf v0.11.3
+   Compiling hash32 v0.3.1
+   Compiling bumpalo v3.20.3
+   Compiling base64 v0.22.1
+   Compiling anstyle v1.0.14
+   Compiling imagesize v0.14.0
+   Compiling xmp-writer v0.3.3
+   Compiling kurbo v0.13.1
+   Compiling web-time v1.1.0
+   Compiling oem_cp v2.1.2
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling colorchoice v1.0.5
+   Compiling anstyle-query v1.1.5
+   Compiling getrandom v0.4.3
+   Compiling strsim v0.11.1
+   Compiling anstream v1.0.0
+   Compiling clap_lex v1.1.1
+   Compiling heck v0.5.0
+   Compiling gif v0.14.2
+   Compiling image-webp v0.2.4
+   Compiling zune-jpeg v0.5.15
+   Compiling nom v7.1.3
+   Compiling pdf-writer v0.15.0
+   Compiling quick-xml v0.42.0
+   Compiling flate2 v1.1.10
+   Compiling encoding_rs v0.8.42
+   Compiling craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+   Compiling clap_builder v4.6.7
+   Compiling syn v3.0.9
+   Compiling indexmap v2.14.2
+   Compiling same-file v1.0.6
+   Compiling png v0.18.1
+   Compiling memmap2 v0.9.12
+   Compiling rayon v1.12.0
+   Compiling euclid v0.22.14
+   Compiling float-cmp v0.9.0
+   Compiling rstar v0.13.0
+   Compiling lyon_geom v1.0.20
+   Compiling lyon_path v1.0.19
+   Compiling lyon_tessellation v1.0.23
+   Compiling synstructure v0.14.0
+   Compiling bytemuck_derive v1.12.1
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling thiserror-impl v2.0.21
+   Compiling serde_derive v1.0.229
+   Compiling clap_derive v4.6.7
+   Compiling zerofrom v0.1.8
+   Compiling yoke v0.8.4
+   Compiling bytemuck v1.25.2
+   Compiling cadcraft-dxf v0.15.1 (/work/cadcraft/crates/dxf)
+   Compiling acadrust v0.6.6
+   Compiling font-types v0.11.3
+   Compiling font-types v0.12.7
+   Compiling tiny-skia-path v0.12.0
+   Compiling clap v4.6.7
+   Compiling read-fonts v0.39.2
+   Compiling read-fonts v0.45.1
+   Compiling tiny-skia v0.12.0
+   Compiling cadcraft-geom v0.15.1 (/work/cadcraft/crates/geom)
+   Compiling cadcraft-color v0.15.1 (/work/cadcraft/crates/color)
+   Compiling cadcraft-doc v0.15.1 (/work/cadcraft/crates/doc)
+   Compiling skrifa v0.42.1
+   Compiling write-fonts v0.48.1
+   Compiling cadcraft-constraints v0.15.1 (/work/cadcraft/crates/constraints)
+   Compiling harfrust v0.14.0
+   Compiling skrifa v0.48.0
+   Compiling subsetter v0.2.6
+   Compiling krilla v0.8.2 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+   Compiling cadcraft-render v0.15.1 (/work/cadcraft/crates/render)
+   Compiling cadcraft-engine v0.15.1 (/work/cadcraft/crates/engine)
+   Compiling craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+   Compiling cadcraft-io v0.15.1 (/work/cadcraft/crates/io)
+   Compiling cadcraft-mcp v0.15.1 (/work/cadcraft/crates/mcp)
+   Compiling cadcraft-cli v0.15.1 (/work/cadcraft/apps/cadcraft-cli)
+    Finished `release` profile [optimized] target(s) in 1m 09s
