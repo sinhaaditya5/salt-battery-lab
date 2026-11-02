@@ -5498,3 +5498,163 @@ O                6.6633036387       -1.6611930093        1.7783979737
 
 
      negative rho (up, down):  0.000E+00 6.633E-03
+          total   stress  (Ry/bohr**3)                   (kbar)     P=       -1.58
+  -0.00001597   0.00000003  -0.00000281           -2.35        0.00       -0.41
+   0.00000003  -0.00000766   0.00000002            0.00       -1.13        0.00
+  -0.00000281   0.00000002  -0.00000859           -0.41        0.00       -1.26
+
+     Energy error            =      5.3E-04 Ry
+     Gradient error          =      3.0E-03 Ry/Bohr
+     Cell gradient error     =      2.3E+00 kbar
+
+     number of scf cycles    =   7
+     number of bfgs steps    =   6
+
+     enthalpy           old  =   -1920.9217235723 Ry
+     enthalpy           new  =   -1920.9222549814 Ry
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0118785674 bohr
+     new conv_thr            =       0.0000000030 Ry
+
+     new unit-cell volume =   3544.54268 a.u.^3 (   525.24703 Ang^3 )
+     density =      2.84286 g/cm^3
+
+CELL_PARAMETERS (angstrom)
+   8.010295431  -4.471736067  -0.008049101
+   8.010222760   4.471605888  -0.008349268
+   5.521508968  -0.000291035   7.326259688
+
+ATOMIC_POSITIONS (angstrom)
+Na               7.7229996981        1.1140950088        5.4782597251
+Na              12.8247921471        2.9004488592        4.7614699675
+Na              12.2046215973       -1.7866620510        6.5894197258
+Na               9.3374055509        1.7862408371        0.7204415934
+Na               8.7172350012       -2.9008700730        2.5483913517
+Na              13.8190274502       -1.1145162226        1.8316015941
+Ti              18.3136647278       -0.0003577756        6.2144167786
+Ti              13.9957352991       -0.0002926205        4.7491973626
+Ti               7.5462918492       -0.0001285934        2.5606639566
+Ti               3.2283624205       -0.0000634382        1.0954445406
+P               11.6059767382        1.2914179838        7.0524043053
+P                8.8740849550        3.1996182119        3.3868869568
+P                8.1552129944       -1.9082974191        5.5057798726
+P               13.3868141639        1.9078762153        1.8040814466
+P               12.6679421933       -3.2000394258        3.9229743624
+P                9.9360504101       -1.2918391976        0.2574570038
+O               14.8881980546        1.6568739158        5.5291500586
+O               14.6448686487       -1.2203336829        6.2464538019
+O               10.2084652106        0.6668464038        7.2431955881
+O               11.5079478618        2.8074705513        6.7218483130
+O               15.5671823447       -0.4374880775        3.5282827972
+O                7.9669782698       -0.9065103053        6.6797943744
+O                9.7942718088        3.4326483433        4.6028049715
+O               12.3523003933        0.5377585148        5.9221708876
+O                8.5494831496        1.6882035044        3.2742878575
+O                9.4229833021       -2.7659500360        5.6973347614
+O                9.5296483402        3.7138884053        2.0742454839
+O                8.2500498135       -1.1505453881        4.1570189475
+O               13.2919773448        1.1501241742        3.1528423717
+O               12.0123788080       -3.7143096192        5.2356158353
+O               12.1190438462        2.7655288221        1.6125265578
+O               12.9925440087       -1.6886247182        4.0355734616
+O                9.1897267650       -0.5381797286        1.3876904316
+O               11.7477553494       -3.4330695571        2.7070563477
+O               13.5750488784        0.9060890914        0.6300669448
+O                5.9748448035        0.4370668636        3.7815785220
+O               10.0340792864       -2.8078917651        0.5880130062
+O               11.3335619377       -0.6672676176        0.0666657311
+O                6.8971585095        1.2199124691        1.0634075173
+O                6.6538290937       -1.6572951297        1.7807112605
+
+
+
+     Writing config-only to output data dir ./tmp/Na3Ti2PO43.save/ :
+     XML data file
+     NEW-OLD atomic charge density approx. for the potential
+     New effective cutoffs (rho, wfc):  238.57   39.76
+
+     Check: negative core charge=   -0.000004
+
+     negative rho (up, down):  0.000E+00 6.663E-03
+     Generating pointlists ...
+
+     total cpu time spent up to now is     2274.1 secs
+
+     per-process dynamical memory:   241.3 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.00E-06,  avg # of iterations =  4.0
+
+     negative rho (up, down):  0.000E+00 6.662E-03
+
+     total cpu time spent up to now is     2312.9 secs
+
+     total energy              =   -1920.92258118 Ry
+     estimated scf accuracy    <       0.00058918 Ry
+
+     total magnetization       =     4.00 Bohr mag/cell
+     absolute magnetization    =     4.33 Bohr mag/cell
+
+     iteration #  2     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.13E-07,  avg # of iterations =  1.6
+
+     negative rho (up, down):  0.000E+00 6.662E-03
+
+     total cpu time spent up to now is     2333.9 secs
+
+     total energy              =   -1920.92259082 Ry
+     estimated scf accuracy    <       0.00129112 Ry
+
+     total magnetization       =     4.00 Bohr mag/cell
+     absolute magnetization    =     4.33 Bohr mag/cell
+
+     iteration #  3     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.13E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  0.000E+00 6.660E-03
+
+     total cpu time spent up to now is     2352.9 secs
+
+     total energy              =   -1920.92255607 Ry
+     estimated scf accuracy    <       0.00016117 Ry
+
+     total magnetization       =     4.00 Bohr mag/cell
+     absolute magnetization    =     4.33 Bohr mag/cell
+
+     iteration #  4     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  5.84E-08,  avg # of iterations =  2.0
+
+     negative rho (up, down):  0.000E+00 6.662E-03
+
+     total cpu time spent up to now is     2376.6 secs
+
+     total energy              =   -1920.92257113 Ry
+     estimated scf accuracy    <       0.00001111 Ry
+
+     total magnetization       =     4.00 Bohr mag/cell
+     absolute magnetization    =     4.33 Bohr mag/cell
+
+     iteration #  5     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.02E-09,  avg # of iterations =  3.0
+
+     negative rho (up, down):  0.000E+00 6.664E-03
+
+     total cpu time spent up to now is     2401.9 secs
+
+     total energy              =   -1920.92257261 Ry
+     estimated scf accuracy    <       0.00000260 Ry
+
+     total magnetization       =     4.00 Bohr mag/cell
+     absolute magnetization    =     4.33 Bohr mag/cell
+
+     iteration #  6     ecut=    40.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
