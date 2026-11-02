@@ -1,0 +1,114 @@
+{
+  "LiFePO4": {
+    "formula": "LiFePO4",
+    "nsites": 28,
+    "spacegroup": "Pnma",
+    "source": "MP mp-19017 (Ehull 0.000)",
+    "volume_A3": 284.5
+  },
+  "FePO4_olivine": {
+    "formula": "FePO4",
+    "nsites": 24,
+    "spacegroup": "Pnma",
+    "source": "topotactic: mp-19017 minus Li",
+    "volume_A3": 284.5
+  },
+  "NaFePO4_olivine": {
+    "formula": "NaFePO4",
+    "nsites": 28,
+    "spacegroup": "Pnma",
+    "source": "topotactic: mp-19017 Li->Na, volume +10% (relaxed later)",
+    "volume_A3": 312.95
+  },
+  "LiMn2O4": {
+    "formula": "LiMn2O4",
+    "nsites": 14,
+    "spacegroup": "Imma",
+    "source": "MP mp-1272804 (Ehull 0.000) primitive",
+    "volume_A3": 148.66
+  },
+  "lambda_MnO2": {
+    "formula": "MnO2",
+    "nsites": 12,
+    "spacegroup": "Imma",
+    "source": "topotactic: mp-1272804 minus Li",
+    "volume_A3": 148.66
+  },
+  "NaTi2PO43": {
+    "formula": "NaTi2(PO4)3",
+    "nsites": 36,
+    "spacegroup": "R-3c",
+    "source": "MP mp-6761 (Ehull 0.000)",
+    "volume_A3": 472.0
+  },
+  "Na3Ti2PO43": {
+    "formula": "Na3Ti2(PO4)3",
+    "nsites": 40,
+    "spacegroup": "R-3",
+    "source": "MP mp-761046 (Ehull 0.057)",
+    "volume_A3": 519.35
+  },
+  "Na2MnFeCN6": {
+    "formula": "Na2MnFe(CN)6",
+    "nsites": 16,
+    "spacegroup": "Fm-3m",
+    "source": "built: cubic Fm-3m Prussian-white prototype a=10.5 A (MP has no entry); real material is rhombohedral",
+    "volume_A3": 289.41
+  },
+  "MnFeCN6": {
+    "formula": "MnFe(CN)6",
+    "nsites": 14,
+    "spacegroup": "Fm-3m",
+    "source": "topotactic: Na2MnFe(CN)6 minus Na",
+    "volume_A3": 289.41
+  },
+  "Li_bcc": {
+    "formula": "Li",
+    "nsites": 1,
+    "spacegroup": "Im-3m",
+    "source": "bcc a=3.44 A",
+    "volume_A3": 20.35
+  },
+  "Na_bcc": {
+    "formula": "Na",
+    "nsites": 1,
+    "spacegroup": "Im-3m",
+    "source": "bcc a=4.23 A",
+    "volume_A3": 37.84
+  },
+  "MnO_rocksalt": {
+    "formula": "MnO",
+    "nsites": 2,
+    "spacegroup": "Fm-3m",
+    "source": "rocksalt a=4.445 A (mu_Mn reference for vacancy proxy)",
+    "volume_A3": 21.96
+  },
+  "birnessite_Na1_9": {
+    "formula": "NaMn9(HO2)12",
+    "nsites": 46,
+    "spacegroup": "P1",
+    "source": "built: 3x3 delta-MnO2 layer + 1 Na + 6 H2O, c0=7.19 A (paper d001)",
+    "volume_A3": 455.19
+  },
+  "birnessite_Na3_9": {
+    "formula": "NaMn3(HO2)4",
+    "nsites": 48,
+    "spacegroup": "P1",
+    "source": "built: 3x3 delta-MnO2 layer + 3 Na + 6 H2O, c0=7.19 A (paper d001)",
+    "volume_A3": 455.19
+  },
+  "birnessite_Na5_9": {
+    "formula": "Na5Mn9(HO2)12",
+    "nsites": 50,
+    "spacegroup": "P1",
+    "source": "built: 3x3 delta-MnO2 layer + 5 Na + 6 H2O, c0=7.19 A (paper d001)",
+    "volume_A3": 455.19
+  },
+  "MnO2_layer_dry": {
+    "formula": "MnO2",
+    "nsites": 27,
+    "spacegroup": "P-3m1",
+    "source": "built: 3x3 delta-MnO2 layer, no interlayer species",
+    "volume_A3": 455.19
+  }
+}
