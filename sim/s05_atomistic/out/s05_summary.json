@@ -23,7 +23,7 @@
       "mace_mp0b3": 4.066,
       "mace_mp0": 3.992,
       "chgnet": 4.021,
-      "dft": null
+      "dft": 3.772
     },
     "NaFePO4_olivine": {
       "literature": {
@@ -47,7 +47,7 @@
       "mace_mp0b3": 1.435,
       "mace_mp0": 1.257,
       "chgnet": 1.349,
-      "dft": null
+      "dft": 0.977
     },
     "Na2MnFeCN6": {
       "literature": {
@@ -59,7 +59,7 @@
       "mace_mp0b3": 2.776,
       "mace_mp0": 2.593,
       "chgnet": 2.226,
-      "dft": null
+      "dft": 2.464
     }
   },
   "birnessite_voltage": {
@@ -92,7 +92,9 @@
       "0.3333333333333333": 7.160587628350044,
       "0.5555555555555556": 7.177559943141435
     },
-    "dft": {}
+    "dft": {
+      "0.3333333333333333": 6.936110402398142
+    }
   },
   "barriers_eV": {
     "mace_mp0b3": {
@@ -122,10 +124,10 @@
       "mean_signed_V": -0.371
     },
     "dft": {
-      "n": 1,
-      "MAE_V": 0.304,
-      "max_abs_V": 0.304,
-      "mean_signed_V": 0.304
+      "n": 4,
+      "MAE_V": 0.695,
+      "max_abs_V": 1.123,
+      "mean_signed_V": -0.543
     }
   },
   "dft_jobs_done": {
@@ -165,11 +167,35 @@
       "wall_s": "177",
       "total_mag": "5.00"
     },
+    "Na3Ti2PO43": {
+      "status": "DONE",
+      "n_scf": 22,
+      "wall_s": "7817",
+      "total_mag": "4.00"
+    },
+    "Na_bcc": {
+      "status": "DONE",
+      "n_scf": 9,
+      "wall_s": "28",
+      "total_mag": null
+    },
+    "lambda_MnO2": {
+      "status": "bfgs-converged; final SCF crashed",
+      "n_scf": 11,
+      "wall_s": "522",
+      "total_mag": "12.00"
+    },
     "NaTi2PO43": {
       "status": "DONE",
       "n_scf": 1,
       "wall_s": "524",
       "total_mag": "-0.00"
+    },
+    "birnessite_Na3_9": {
+      "status": "bfgs-converged; final SCF crashed",
+      "n_scf": 20,
+      "wall_s": "3723",
+      "total_mag": "30.00"
     }
   }
 }
