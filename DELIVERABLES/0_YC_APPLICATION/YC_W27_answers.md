@@ -1,6 +1,11 @@
-# YC Winter 2027 application — copy-paste answers (v2)
+# YC Winter 2027 application — copy-paste answers (v3)
 
-**v2 · 2 Nov 2026, ~12:00 IST · replaces v1 (kept as `YC_W27_answers_v1_superseded.md`).**
+**v3 · 2 Nov 2026, evening IST.** v3 only tightens one number (block energy 15–35 Wh/kg, median 17.6, from the final S7 Monte Carlo); the v2 answers stand. The full evidence package now exists:
+- deck, report, one-pager and financial model in `DELIVERABLES/1_investor_docs`;
+- `STARTUP_DECISION_MEMO.md`;
+- a narrated 2½-minute explainer in `2_video`.
+
+You can point the interview to these. v1 is kept as `YC_W27_answers_v1_superseded.md`.
 **Deadline: Mon 2 Nov 2026, 8:00 pm PT = Tue 3 Nov 2026, 9:30 am IST** (confirmed on ycombinator.com/apply).
 YC does not allow editing after you submit (FAQ). Only material changes can go through apply.ycombinator.com/app/edit, so submit once, honestly.
 
@@ -48,7 +53,7 @@ How to use: replace each `[[ FOUNDER: … ]]` with your own facts. The wording f
 >
 > The electrolyte is salt water, so there is no flammable solvent and no thermal runaway. The product is a 12 V block in the same box size as the lead-acid blocks that UPS and telecom racks already use.
 >
-> What we've learned from our own models is that it won't win on cost per kWh. Lithium iron phosphate packs are $70/kWh, and our bottom-up estimate is 2–5 times that, because water-based cells store ~20–35 Wh/kg. It can only win where lithium's indoor costs are high, or where lithium isn't allowed at all, and only if it lasts ~15 years.
+> What we've learned from our own models is that it won't win on cost per kWh. Lithium iron phosphate packs are $70/kWh, and our bottom-up estimate is 2–5 times that, because water-based blocks store ~15–35 Wh/kg (our bottom-up median is 17.6). It can only win where lithium's indoor costs are high, or where lithium isn't allowed at all, and only if it lasts ~15 years.
 >
 > Stage: pre-prototype, no cell built. The first step is a 10–12-week lab test of the two things that decide the company.
 
