@@ -31,3 +31,5 @@ PROJECT_SALT/12_YC/investor_deck/SaltBattery_Complete_*
 PROJECT_SALT/04_MECHANICAL_CAD/renders/
 PROJECT_SALT/13_RELEASE/final_build_kit/*.zip
 PROJECT_SALT/02_COMPUTATIONAL_CHEMISTRY/raw_results/
+# co-founder delivery pack (copies of tracked outputs; rebuilt by hand)
+SEND_TO_COFOUNDER/
