@@ -1,0 +1,36 @@
+[project]
+name = "salt-battery-lab"
+version = "1.1.0"
+description = "Rebuildable engineering and business study of a sodium salt-battery startup: DFT, cell models, CAD, PCB, TEA and a go/no-go verdict."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Aditya" }]
+keywords = ["battery", "sodium-ion", "DFT", "quantum-espresso", "pybamm", "techno-economics", "cad", "kicad"]
+classifiers = [
+  "Private :: Do Not Upload",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+# The lab is a collection of scripts, not an installable package. Dependencies are pinned in:
+#   requirements/ci.txt                 minimal set for tests and CI
+#   tools/ec2_build/requirements.txt    full lock used on the EC2 build host
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/sinhaaditya5/salt-battery-lab"
+Issues = "https://github.com/sinhaaditya5/salt-battery-lab/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+extend-exclude = ["00_source_kit", "PROJECT_SALT", "DELIVERABLES", "sim/*/runs*", "tools/pseudo"]
+
+[tool.ruff.lint]
+# Correctness-only rule set: the lab favours dense, single-purpose research scripts.
+select = ["E9", "F63", "F7", "F82"]

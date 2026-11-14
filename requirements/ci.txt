@@ -1,0 +1,14 @@
+# Minimal pinned set for CI and `make test`: the suites that need no CAD, DFT, Blender or KiCad toolchain.
+# Versions match the EC2 build-host lock (tools/ec2_build/requirements.txt, Python 3.12).
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==13.0.0
+pandas==3.1.0
+openpyxl==3.1.5
+python-docx==1.2.0
+python-pptx==1.0.2
+ezdxf==1.4.5
+ase==3.29.0
+pymatgen==2026.10.24
+pytest==9.2.0
