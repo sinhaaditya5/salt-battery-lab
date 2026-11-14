@@ -8,7 +8,7 @@ CORE_TESTS := tests/test_params.py tests/test_sim_models.py tests/test_docs_lint
               tests/test_s11_dft.py tests/test_project_salt.py tests/test_salt_designs.py
 
 .DEFAULT_GOAL := help
-.PHONY: help setup fetch-assets check test test-all firmware-test rebuild rebuild-fast clean link
+.PHONY: help setup fetch-assets check test test-all firmware-test assets rebuild rebuild-fast clean link
 
 help: ## Show this help
 	@awk 'BEGIN{FS=":.*## "} /^[a-zA-Z_-]+:.*## /{printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -36,6 +36,9 @@ test-all: ## Every suite, including CAD (needs build123d/OCP)
 
 firmware-test: ## SCM-1 firmware host unit tests (C11, -Werror)
 	$(MAKE) -C pcb/scell_monitor/firmware test
+
+assets: ## Regenerate README imagery in docs/assets (banner, turntable GIF, renders, charts)
+	$(PY) scripts/make_readme_assets.py
 
 rebuild-fast: ## Rebuild every output, reusing ML-potential runs and renders (~15 min)
 	./run_all.sh --fast
