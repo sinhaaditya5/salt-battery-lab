@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Scripts address the lab by its absolute path on the founder's SSD; CI exposes the checkout there,
+  # exactly as the EC2 build host does (see docs/REPRODUCIBILITY.md).
+  LAB_PATH: /Volumes/Aditya ssd/Salt-Battery-Lab
+
+jobs:
+  integrity:
+    name: Integrity (secrets · sizes · JSON/CSV/Python · shell)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Repository integrity gate
+        run: python scripts/check_repo.py
+      - name: Shell syntax (bash -n)
+        run: git ls-files -z '*.sh' | xargs -0 -n1 bash -n
+      - name: Python byte-compile
+        run: python -m compileall -q -x '/\.git/' .
+
+  firmware:
+    name: Firmware host tests (SCM-1, C11 -Werror)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerated limits.h matches the committed one
+        working-directory: pcb/scell_monitor/firmware
+        run: |
+          cp limits.h /tmp/limits.committed.h
+          python gen_limits.py
+          diff -u /tmp/limits.committed.h limits.h
+      - name: Build and run unit tests
+        run: make -C pcb/scell_monitor/firmware test
+
+  tests:
+    name: Core tests (params · models · DFT · docs lint · Project Salt)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements/ci.txt
+      - name: Install pinned requirements
+        run: python -m pip install -r requirements/ci.txt
+      - name: Expose checkout at the lab path
+        run: |
+          sudo mkdir -p "$(dirname "$LAB_PATH")"
+          sudo ln -sfn "$GITHUB_WORKSPACE" "$LAB_PATH"
+      - name: pytest
+        working-directory: ${{ env.LAB_PATH }}
+        run: |
+          python -m pytest tests/test_params.py tests/test_sim_models.py tests/test_docs_lint.py \
+            tests/test_s11_dft.py tests/test_project_salt.py tests/test_salt_designs.py \
+            --junitxml=junit-ci.xml
+      - name: Upload JUnit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: junit-ci
+          path: junit-ci.xml
+          if-no-files-found: ignore
