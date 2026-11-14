@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+type: software
+title: "Salt Battery Lab: a rebuildable engineering and business study of a sodium salt-battery startup"
+version: 1.1.0
+date-released: 2026-11-03
+authors:
+  - given-names: Aditya
+repository-code: "https://github.com/sinhaaditya5/salt-battery-lab"
+abstract: >-
+  Scripted, evidence-tagged study of an aqueous sodium-ion and salt-derived battery startup idea. It
+  covers uMLIP and DFT+U (Quantum ESPRESSO) chemistry, PyBaMM cell models, gas, thermal and abuse
+  budgets, CAD, drawings, PCB and firmware, techno-economics, market sizing, a 30-architecture
+  feasibility matrix and a go/no-go verdict. Pre-prototype: nothing is measured.
+keywords:
+  - sodium-ion battery
+  - aqueous battery
+  - sodium metal chloride
+  - DFT+U
+  - techno-economic analysis
+  - battery energy storage
+license: LicenseRef-AllRightsReserved
