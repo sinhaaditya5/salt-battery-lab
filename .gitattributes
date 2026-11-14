@@ -1,0 +1,38 @@
+# Files are stored byte-exact (no line-ending normalisation): the R0 kit is SHA-256 verified
+# against its BUILD_MANIFEST.json, and QE/KiCad/CAD outputs must round-trip unchanged.
+
+# Binary engineering and media formats
+*.step binary
+*.stl  binary
+*.glb  binary
+*.png  binary
+*.jpg  binary
+*.mp4  binary
+*.aiff binary
+*.pdf  binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.gz   binary
+*.model binary
+
+# Quantum ESPRESSO pseudopotentials, inputs and outputs: never touch line endings
+*.UPF  -text
+*.in   -text
+*.out  -text
+*.err  -text
+
+# Language statistics: count the code, not generated data and vendored files
+**/out/**              linguist-generated
+**/runs/**             linguist-generated
+**/runs_i1/**          linguist-generated
+**/jobs/**             linguist-generated
+**/jobs_i1/**          linguist-generated
+DELIVERABLES/**        linguist-generated
+PROJECT_SALT/**        linguist-generated
+work/**                linguist-generated
+00_source_kit/**       linguist-vendored
+tools/pseudo/**        linguist-vendored
+*.kicad_*              linguist-generated
+*.net                  linguist-generated
+*.m                    linguist-language=MATLAB
