@@ -1,0 +1,36 @@
+name: Claim correction
+description: A number, source or conclusion in the lab looks wrong, outdated or mis-tagged
+title: "[claim] "
+labels: ["claim-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking our work. Corrections to evidence are the most valuable contribution to this repository.
+  - type: input
+    id: claim
+    attributes:
+      label: Claim ID or location
+      description: A `C-…` ID from CLAIMS_LEDGER.csv, or a file path and line
+      placeholder: "C-122, or DELIVERABLES/STARTUP_DECISION_MEMO.md:21"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the current statement and explain the problem
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Better evidence
+      description: Link a primary source (paper DOI, standard clause, datasheet) where possible
+    validations:
+      required: true
+  - type: dropdown
+    id: tag
+    attributes:
+      label: Correct evidence tag
+      options: ["[LIT] / [PUBLISHED]", "[VENDOR] / [VENDOR CLAIM]", "[CALC] / [CALCULATED]", "[SIM] / [SIMULATED]", "[ASSUMPTION]", "[TARGET]", "Not sure"]

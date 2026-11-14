@@ -1,0 +1,29 @@
+name: Build or script bug
+description: A script, simulation, generator or test fails or produces wrong output
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      placeholder: "python sim/s09_tea/run_s09.py, or ./run_all.sh --fast"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened
+      description: Paste the error or the unexpected output (use a code block)
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "macOS 26 / Ubuntu 24.04, Python 3.12.x, tool versions (Blender, KiCad, QE)"
