@@ -1,35 +1,88 @@
+# ---------------------------------------------------------------------------
+# Secrets: never commit credentials of any kind
+# ---------------------------------------------------------------------------
+rootkey.csv
+*.pem
+.env
+.env.*
+tools/aws/credentials*
+
+# ---------------------------------------------------------------------------
+# Python / tooling
+# ---------------------------------------------------------------------------
 .venv/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+*.lck
+*.swp
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Local toolchains and caches (all live on the lab SSD; see tools/env.sh)
+# ---------------------------------------------------------------------------
 tools/cache/
 tools/uv-cache/
 tools/tmp/
 tools/micromamba/
 tools/blender-user/
-tools/aws/credentials_unused
-**/__pycache__/
-*.pyc
-.DS_Store
+tools/lo_profile/
+tools/cadcraft-config/
+
+# Third-party binaries and model weights: fetched by scripts/fetch_assets.sh
+tools/models/*.model
+tools/pcbtools/freerouting-cli/
+tools/pcbtools/*.tar.gz
+tools/pcbtools/*.zip
+
+# Third-party copyrighted papers and datasheets: see research/REFERENCES.md
+research/datasheets/*.pdf
+research/datasheets/*.txt
+research/papers/*.pdf
+research/papers/*.txt
+work/shan2019.*
+
+# ---------------------------------------------------------------------------
+# Regenerable build outputs
+# ---------------------------------------------------------------------------
 work/scratch/
-sim/s06_dft_ec2/runs/**/*.save/
-sim/s06_dft_ec2/runs/**/*.wfc*
-tools/aws/*.pem
-sim/s06_dft_ec2/.user_data.rendered.sh
-sim/s06_dft_ec2/.instance_*
-rootkey.csv
-# regenerable Blender frame sequences (rebuild: python renders/run_renders.py, or ./run_all.sh); stills are kept
+video/tmp/
+drawings/out/tmp/
 renders/out/turntable/
 renders/out/turntable_captioned/
 renders/out/tests/
-# QE scratch
-sim/s11_dft_chlorides/runs/**/tmp/
 renders/out_salt/*_frames/
 renders/out_salt/test_*.png
 renders/out_salt/*.log
-# PROJECT_SALT duplicates of tracked artefacts (rebuilt by tools/project_salt/assemble.py); the package itself stays on disk
+**/firmware/test/test_core
+**/firmware/test/test_drv
+DELIVERABLES.zip
+
+# Quantum ESPRESSO scratch (wavefunctions and save dirs are huge)
+sim/s06_dft_ec2/runs/**/*.save/
+sim/s06_dft_ec2/runs/**/*.wfc*
+sim/s11_dft_chlorides/runs/**/tmp/
+sim/s06_dft_ec2/.user_data.rendered.sh
+sim/s06_dft_ec2/.instance_*
+
+# PROJECT_SALT duplicates of tracked artefacts (rebuilt by tools/project_salt/assemble.py)
 PROJECT_SALT/**/*.step
 PROJECT_SALT/**/*.mp4
 PROJECT_SALT/12_YC/investor_deck/SaltBattery_Complete_*
 PROJECT_SALT/04_MECHANICAL_CAD/renders/
 PROJECT_SALT/13_RELEASE/final_build_kit/*.zip
 PROJECT_SALT/02_COMPUTATIONAL_CHEMISTRY/raw_results/
-# co-founder delivery pack (copies of tracked outputs; rebuilt by hand)
+
+# Private delivery packs (copies of tracked outputs)
 SEND_TO_COFOUNDER/
+SEND_TO_COFOUNDER.zip
