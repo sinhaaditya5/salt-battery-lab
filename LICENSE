@@ -1,0 +1,30 @@
+Copyright (c) 2026 Aditya. All rights reserved.
+
+This repository, including its source code, parameter sets, simulation inputs
+and outputs, CAD models, engineering drawings, PCB designs, firmware, renders,
+diagrams, spreadsheets, documents, presentations and video, is proprietary.
+
+The repository is published publicly for review and reference only. Viewing
+it, and forking it within GitHub as permitted by the GitHub Terms of Service,
+is allowed. No other right or licence is granted, expressly or by implication.
+In particular, without prior written permission from the copyright holder you
+may not:
+
+  * copy, modify, merge, publish, distribute, sublicense or sell any part of
+    this repository or works derived from it;
+  * manufacture, or have manufactured, any product based on the designs,
+    drawings, CAD models, PCB layouts or firmware in this repository;
+  * use the documents, data or analyses for commercial purposes.
+
+Third-party components bundled in this repository remain under their own
+licences. See THIRD_PARTY_NOTICES.md.
+
+THE REPOSITORY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. NOTHING IN IT HAS BEEN
+BUILT OR TESTED AS HARDWARE. THE DESIGNS ARE CONCEPTS, NOT FOR FABRICATION,
+AND MUST NOT BE USED TO BUILD OR OPERATE BATTERIES. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE REPOSITORY OR ITS USE.
+
+For permission requests, open an issue on the repository.
