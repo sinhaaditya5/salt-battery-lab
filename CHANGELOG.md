@@ -10,9 +10,11 @@ All notable changes to this lab are recorded here. The format follows [Keep a Ch
 - `scripts/fetch_assets.sh`: fetches MACE-MP weights and Freerouting, verified by SHA-256, in place of committing third-party binaries.
 - `scripts/check_repo.py`, `Makefile`, `pyproject.toml`, `requirements/ci.txt`, `.editorconfig`, `.gitattributes`.
 - `docs/ARCHITECTURE.md`, `docs/REPRODUCIBILITY.md`, `research/REFERENCES.md`.
+- `scripts/make_readme_assets.py` and `make assets`: build the README banner, the SM-48T turntable GIF and web-sized renders, charts, diagrams and drawings in `docs/assets/`.
 
 ### Changed
 - The original lab README moved to `docs/LAB_NOTEBOOK.md`.
+- README restructured to the PARC-Delta Lab layout: banner, overview, results-at-a-glance table, gallery, architecture, quickstart and pipeline, verdict by version, open questions and claims boundary.
 
 ### Removed
 - Third-party papers, datasheets, model weights and binaries are no longer committed. `research/REFERENCES.md` and `scripts/fetch_assets.sh` replace them.
